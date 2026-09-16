@@ -1,0 +1,83 @@
+{
+ "nombre": "DIA_DE_LA_MADRE_2026",
+ "rotulo": "DIA DE LA MADRE",
+ "prefijo_archivo": "refuerzo",
+ "excluir_sucursales": [
+  "DEVOTO"
+ ],
+ "redondeo": 10,
+ "excedente_a": [
+  "ATENEO GRAND SPLENDID",
+  "ATENEO JURAMENTO",
+  "ATENEO FLORIDA 340"
+ ],
+ "grupos": [
+  {
+   "nombre": "A",
+   "completar_a": 10,
+   "excepciones": {
+    "ATENEO GRAND SPLENDID": 30,
+    "PATIO BULLRICH": 3,
+    "EZEIZA": 3,
+    "TRELEW": 3,
+    "BAHIA BLANCA SHOPPING": 3,
+    "PALERMO PORTAL": 3
+   },
+   "isbns": [
+    9789500217446,
+    9789500211598,
+    9789500216203,
+    9789500216784,
+    9789500214193,
+    9789500215527,
+    9789500216616,
+    9789500216494,
+    9789500217866,
+    9789500216128,
+    9789500215466,
+    9789500212502,
+    9789500217750,
+    9789500217378,
+    9789500215909,
+    9789500217361,
+    9789500216470
+   ]
+  },
+  {
+   "nombre": "B",
+   "completar_a": 5,
+   "excepciones": {
+    "ATENEO GRAND SPLENDID": 20,
+    "PATIO BULLRICH": 2,
+    "EZEIZA": 2,
+    "TRELEW": 2,
+    "BAHIA BLANCA SHOPPING": 2,
+    "PALERMO PORTAL": 2
+   },
+   "isbns": [
+    9789500211871,
+    9789500211086,
+    9789500215619,
+    9789500216852,
+    9789500214285,
+    9789500213318,
+    9789500216050,
+    9789500216333,
+    9789500210669,
+    9789500212144,
+    9789500213394,
+    9789500217194,
+    9789500217279,
+    9789500213042,
+    9789500214902,
+    9789500214926,
+    9789500214988,
+    9789500216791,
+    9789500216609,
+    9788466243063,
+    9788466243292,
+    9789500216838
+   ]
+  }
+ ]
+}
