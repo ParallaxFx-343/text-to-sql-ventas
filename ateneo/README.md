@@ -76,6 +76,10 @@ Salidas en `./out`:
 
 - **`grupos`** — cada uno con su `completar_a` y sus `excepciones` por local.
   Una acción simple lleva un solo grupo.
+- **`excluir_sucursales` dentro de un grupo** (opcional) — deja un local afuera
+  de ese grupo nada más. Sirve cuando la misma acción trata distinto a un local
+  según el título: en la acción de agenda + autores de octubre 2026, Splendid
+  quedó fuera de la agenda pero entró a 30 en los títulos de autor.
 - **`redondeo`** (opcional) — redondea el pedido de cada título hacia arriba
   para que el depósito reciba números enteros. **Nunca pide más de lo que hay
   disponible**: si el redondeo se pasa del stock, el título queda en su

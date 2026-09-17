@@ -67,6 +67,9 @@ def calcular(sii, activas, regla):
     for grupo in regla['grupos']:
         base = grupo['completar_a']
         exc = grupo.get('excepciones', {})
+        # Un grupo puede dejar afuera locales que el resto de la accion si cubre.
+        fuera = set(grupo.get('excluir_sucursales', []))
+        destino = [c for c in activas if c not in fuera]
         for isbn in grupo['isbns']:
             isbn = int(isbn)
             if isbn not in sii.index:
@@ -80,7 +83,7 @@ def calcular(sii, activas, regla):
                 'deposito': int(fila.get('DEPOSITO', 0) or 0),
                 'disponible': int(fila.get('DISPONIBLE', 0) or 0),
             })
-            for suc in activas:
+            for suc in destino:
                 objetivo = exc.get(suc, base)
                 stock = fila[suc]
                 stock = 0 if pd.isna(stock) else int(stock)
