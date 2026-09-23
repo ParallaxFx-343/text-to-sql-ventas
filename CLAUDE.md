@@ -198,6 +198,21 @@ Columna 1 = ISBN como entero con formato de número `0`; columna 2 = cantidad;
 columna 3 = etiqueta de liquidación (ej. `LIQUIDACIONJULIO`).
 **El sistema no lee las líneas negativas.**
 
+## SII — trampas del export
+
+- **Trae una fila de totales al pie**, sin ID ni título. Hay que excluirla
+  antes de sumar cualquier columna: sumando todo, el disponible del depósito
+  al 22/09/2026 daba 1.268.404 en vez de 634.202. Usarla como cuadre:
+  DEPOSITO y DISPONIBLE de la suma de artículos coinciden exacto con esa fila.
+  La columna CADENA **no** cuadra contra ella (179.837 vs 194.382), así que
+  para stock en locales se suman las columnas de sucursal activas.
+- Hay filas con ISBN-10 terminado en X (texto, no número). Al convertir el
+  ISBN a número quedan en NaN; hoy todas tienen stock cero.
+- `DISPONIBLE` no es `DEPOSITO − FALLADOS − EMPENIADOS`: esa cuenta cierra
+  solo en un tercio de los artículos. El depósito puede tener stock físico
+  que no figura como disponible (Stickers Dinosaurios: 28 físicos, 2
+  disponibles). Para reponer, mirar siempre `DISPONIBLE`.
+
 ## Catálogo
 
 - **"TR" = tapa Rústica (blanda), NO tapa dura.** Verificado por precio: TR y
