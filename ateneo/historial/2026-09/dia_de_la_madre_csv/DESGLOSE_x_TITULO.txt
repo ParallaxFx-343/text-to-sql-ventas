@@ -1,0 +1,1625 @@
+﻿DIA DE LA MADRE 2026 - DESGLOSE POR TITULO
+PAEC unico - SII al 14/09/2026 - 61 sucursales - 5.101 unidades
+ROTULAR LA MERCADERIA COMO "DIA DE LA MADRE"
+
+Titulos en el mismo orden que el CSV de carga.
+Sucursales en orden alfabetico dentro de cada titulo.
+
+========================================================================
+ 1. CASA ABANDONADA, LA                                     100 u
+    ISBN 9789500217446   ID 743064   grupo A   en 27 sucursales
+========================================================================
+       1  ABASTO
+       5  ALTO COMAHUE
+       3  ALTO PALERMO
+       9  ATENEO GRAND SPLENDID
+       3  ATENEO TUCUMAN
+       2  BAHIA BLANCA SHOPPING
+       2  BARILOCHE
+       3  BORGES
+       2  COMODORO RIVADAVIA
+       9  JUJUY
+       2  MAR DEL PLATA LOS GALLEGOS
+       2  PALMAS DEL PILAR
+       3  PARANA
+       4  PASEO ALCORTA
+       1  PATIO BULLRICH
+       5  PATIO OLMOS
+       4  PLAZA OESTE
+       1  QUILMES CENTRO
+       2  REMEROS (NORDELTA)
+       3  RIO CUARTO
+       7  SALTA CENTRO
+       5  SAN JUSTO
+       1  SAN MIGUEL
+       8  SANTA FE Ribera Shopping
+       3  SOLAR DE LA ABADIA
+       6  TUCUMAN PORTAL
+       4  VILLA URQUIZA
+
+========================================================================
+ 2. AMANTES DE BUENOS AIRES                                 270 u
+    ISBN 9789500211598   ID 682010   grupo A   en 49 sucursales
+========================================================================
+       6  ABASTO
+       6  AEROPARQUE
+       9  ALTO COMAHUE
+       5  ALTO NOA SHOPPING - SALTA
+       7  ALTO ROSARIO
+       1  ATENEO FLORIDA 340
+       7  ATENEO FLORIDA 632
+      11  ATENEO GRAND SPLENDID
+       7  ATENEO JURAMENTO
+       8  ATENEO ROSARIO
+       6  ATENEO TUCUMAN
+       6  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       9  BARILOCHE
+       8  BORGES
+       5  CALLE 12
+       6  COMODORO RIVADAVIA
+       8  CORRIENTES SHOPPING
+       3  DOT BAIRES SHOPPING
+       2  EZEIZA
+       4  FLORES
+       5  JUJUY
+       8  LA PLATA
+       6  LOMAS DE ZAMORA
+       1  MAR DEL PLATA LOS GALLEGOS
+       7  MAR DEL PLATA PASEO ALDREY
+       3  MENDOZA CENTRO
+       7  MENDOZA PALMARES
+       4  MENDOZA SHOPPING
+       6  NEUQUEN PORTAL PATAGONIA
+       8  NUEVO CENTRO SHOPPING
+       2  PALERMO PORTAL
+       8  PALMAS DEL PILAR
+       4  PARANA
+       2  PATIO BULLRICH
+       6  PATIO OLMOS
+       8  PLAZA OESTE
+       5  QUILMES CENTRO
+       6  REMEROS (NORDELTA)
+       7  RESISTENCIA
+       5  RIO CUARTO
+       8  SAN JUSTO
+       1  SAN LUIS
+       9  SANTA FE Ribera Shopping
+       3  TORTUGAS OPEN MALL
+       1  TRELEW
+       7  TUCUMAN PORTAL
+       1  UNICENTER
+       7  USHUAIA
+
+========================================================================
+ 3. SEÑORA DE LAS INDIAS 2da. Edición                       330 u
+    ISBN 9789500216203   ID 728655   grupo A   en 54 sucursales
+========================================================================
+       7  ABASTO
+       7  AEROPARQUE
+       7  ALTO COMAHUE
+       8  ALTO NOA SHOPPING - SALTA
+       9  ALTO PALERMO
+       8  ALTO ROSARIO
+       4  ATENEO CORDOBA CENTRO
+       7  ATENEO FLORIDA 340
+       8  ATENEO FLORIDA 632
+      17  ATENEO GRAND SPLENDID
+       7  ATENEO JURAMENTO
+       1  ATENEO ROSARIO
+       6  AVELLANEDA
+       2  BAHIA BLANCA SHOPPING
+       8  BARILOCHE
+       8  BORGES
+       2  CABALLITO
+       7  CALLE 12
+       7  COMODORO RIVADAVIA
+       6  CORRIENTES SHOPPING
+       3  EZEIZA
+       8  FLORES
+       4  JUJUY
+       6  LA PLATA
+       6  LOMAS DE ZAMORA
+       5  MAR DEL PLATA LOS GALLEGOS
+       3  MAR DEL PLATA M. BENDU
+       9  MAR DEL PLATA PASEO ALDREY
+       5  MENDOZA CENTRO
+       6  MENDOZA PALMARES
+       5  MENDOZA SHOPPING
+       6  NEUQUEN PORTAL PATAGONIA
+       8  NUEVO CENTRO SHOPPING
+       2  PALERMO PORTAL
+       8  PALMAS DEL PILAR
+       7  PARANA
+       5  PASEO ALCORTA
+       2  PATIO BULLRICH
+       6  PATIO OLMOS
+       5  PLAZA OESTE
+       8  QUILMES CENTRO
+       8  REMEROS (NORDELTA)
+       9  RESISTENCIA
+       7  RIO CUARTO
+       5  ROSARIO PORTAL
+       8  SALTA CENTRO
+       1  SAN LUIS
+       8  SANTA FE Ribera Shopping
+       5  SOLAR DE LA ABADIA
+       4  TORTUGAS OPEN MALL
+       1  TRELEW
+       8  TUCUMAN PORTAL
+      10  UNICENTER
+       3  VILLA URQUIZA
+
+========================================================================
+ 4. MEDIANOCHE DEL ALMA, LA                                 220 u
+    ISBN 9789500216784   ID 735112   grupo A   en 46 sucursales
+========================================================================
+       4  AEROPARQUE
+       3  ALTO COMAHUE
+       5  ALTO NOA SHOPPING - SALTA
+       4  ALTO PALERMO
+       5  ALTO ROSARIO
+       6  ATENEO FLORIDA 340
+       5  ATENEO FLORIDA 632
+      15  ATENEO GRAND SPLENDID
+       7  ATENEO JURAMENTO
+       2  ATENEO ROSARIO
+       3  ATENEO TUCUMAN
+       2  AVELLANEDA
+       5  BORGES
+       5  CABALLITO
+       7  CALLE 12
+       6  COMODORO RIVADAVIA
+       5  CORRIENTES SHOPPING
+       4  FLORES
+       1  JUJUY
+       4  LOMAS DE ZAMORA
+       4  MAR DEL PLATA LOS GALLEGOS
+       6  MAR DEL PLATA PASEO ALDREY
+       1  MENDOZA CENTRO
+       5  MENDOZA PALMARES
+       7  MENDOZA SHOPPING
+       6  NEUQUEN PORTAL PATAGONIA
+       5  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       5  PALMAS DEL PILAR
+       2  PARANA
+       7  PASEO ALCORTA
+       3  PATIO OLMOS
+       6  PLAZA OESTE
+       6  QUILMES CENTRO
+       4  REMEROS (NORDELTA)
+       4  RESISTENCIA
+       2  RIO CUARTO
+       6  ROSARIO PORTAL
+       7  SAN JUSTO
+       4  SAN LUIS
+       3  SANTA FE Ribera Shopping
+       5  SOLAR DE LA ABADIA
+       7  TUCUMAN PORTAL
+       5  USHUAIA
+       5  VILLA CRESPO
+       6  VILLA URQUIZA
+
+========================================================================
+ 5. MEMORIA DEL MAL, LA                                     240 u
+    ISBN 9789500214193   ID 709895   grupo A   en 54 sucursales
+========================================================================
+       6  AEROPARQUE
+       5  ALTO COMAHUE
+       5  ALTO NOA SHOPPING - SALTA
+       2  ALTO PALERMO
+       6  ALTO ROSARIO
+       2  ATENEO CORDOBA CENTRO
+       4  ATENEO FLORIDA 340
+       5  ATENEO FLORIDA 632
+      16  ATENEO GRAND SPLENDID
+       1  ATENEO JURAMENTO
+       1  ATENEO LA PLATA
+       2  ATENEO ROSARIO
+       5  ATENEO TUCUMAN
+       5  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       5  BARILOCHE
+       5  BORGES
+       1  CABALLITO
+       5  COMODORO RIVADAVIA
+       5  CORRIENTES SHOPPING
+       6  DOT BAIRES SHOPPING
+       6  FLORES
+       6  JUJUY
+       6  LA PLATA
+       3  LOMAS DE ZAMORA
+       5  MAR DEL PLATA PASEO ALDREY
+       3  MENDOZA CENTRO
+       4  MENDOZA PALMARES
+       4  MENDOZA SHOPPING
+       6  NEUQUEN PORTAL PATAGONIA
+       5  NUEVO CENTRO SHOPPING
+       5  PALMAS DEL PILAR
+       6  PARANA
+       5  PASEO ALCORTA
+       1  PATIO BULLRICH
+       6  PATIO OLMOS
+       4  PLAZA OESTE
+       5  QUILMES CENTRO
+       5  REMEROS (NORDELTA)
+       3  RESISTENCIA
+       3  RIO CUARTO
+       2  ROSARIO PORTAL
+       1  SALTA CENTRO
+       4  SAN JUSTO
+       5  SAN LUIS
+       1  SAN MIGUEL
+      10  SANTA FE Ribera Shopping
+       5  SOLAR DE LA ABADIA
+       5  TORTUGAS OPEN MALL
+       5  TUCUMAN PORTAL
+       5  UNICENTER
+       3  USHUAIA
+       4  VILLA CRESPO
+       6  VILLA URQUIZA
+
+========================================================================
+ 6. SEMILLA DEL PECADO, LA                                  220 u
+    ISBN 9789500215527   ID 721548   grupo A   en 49 sucursales
+========================================================================
+       5  ALTO COMAHUE
+       5  ALTO NOA SHOPPING - SALTA
+       3  ALTO PALERMO
+       1  ATENEO CORDOBA CENTRO
+       3  ATENEO FLORIDA 340
+       6  ATENEO FLORIDA 632
+      13  ATENEO GRAND SPLENDID
+       7  ATENEO JURAMENTO
+       5  ATENEO ROSARIO
+       2  AVELLANEDA
+       5  BARILOCHE
+       5  BORGES
+       5  CABALLITO
+       1  COMODORO RIVADAVIA
+       5  CORRIENTES SHOPPING
+       4  DOT BAIRES SHOPPING
+       2  FLORES
+       5  JUJUY
+       1  LOMAS DE ZAMORA
+       4  MAR DEL PLATA LOS GALLEGOS
+       4  MAR DEL PLATA PASEO ALDREY
+       1  MENDOZA CENTRO
+       6  MENDOZA SHOPPING
+       5  NEUQUEN PORTAL PATAGONIA
+       5  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       5  PALMAS DEL PILAR
+       4  PARANA
+       5  PASEO ALCORTA
+       1  PATIO BULLRICH
+       8  PATIO OLMOS
+       7  PLAZA OESTE
+       4  QUILMES CENTRO
+       8  REMEROS (NORDELTA)
+       4  RESISTENCIA
+       6  RIO CUARTO
+       2  ROSARIO PORTAL
+       3  SALTA CENTRO
+       5  SAN JUSTO
+       5  SAN LUIS
+       1  SAN MIGUEL
+       9  SANTA FE Ribera Shopping
+       5  SOLAR DE LA ABADIA
+       5  TORTUGAS OPEN MALL
+       6  TUCUMAN PORTAL
+       6  UNICENTER
+       5  USHUAIA
+       1  VILLA CRESPO
+       6  VILLA URQUIZA
+
+========================================================================
+ 7. CASA DEL CÓCTEL ROJO, LA. LA SAGA DE LA FAMILIA CAMP    280 u
+    ISBN 9789500216616   ID 734148   grupo A   en 50 sucursales
+========================================================================
+       1  AEROPARQUE
+       7  ALTO COMAHUE
+       7  ALTO NOA SHOPPING - SALTA
+       9  ALTO PALERMO
+       6  ALTO ROSARIO
+       4  ATENEO CORDOBA CENTRO
+       8  ATENEO FLORIDA 632
+      21  ATENEO GRAND SPLENDID
+       9  ATENEO JURAMENTO
+       4  ATENEO LA PLATA
+       8  ATENEO ROSARIO
+       2  ATENEO TUCUMAN
+       6  AVELLANEDA
+       2  BAHIA BLANCA SHOPPING
+       2  BARILOCHE
+       8  BORGES
+       5  CABALLITO
+       7  CALLE 12
+       1  COMODORO RIVADAVIA
+       3  CORRIENTES SHOPPING
+       6  DOT BAIRES SHOPPING
+       2  EZEIZA
+       4  FLORES
+       4  JUJUY
+       5  LA PLATA
+       5  MAR DEL PLATA LOS GALLEGOS
+       4  MAR DEL PLATA PASEO ALDREY
+       4  MENDOZA PALMARES
+       5  MENDOZA SHOPPING
+       6  NUEVO CENTRO SHOPPING
+       2  PALERMO PORTAL
+       8  PALMAS DEL PILAR
+       9  PARANA
+       2  PASEO ALCORTA
+       2  PATIO BULLRICH
+       4  PATIO OLMOS
+       8  PLAZA OESTE
+       7  QUILMES CENTRO
+       6  REMEROS (NORDELTA)
+       2  RESISTENCIA
+       4  RIO CUARTO
+       8  SALTA CENTRO
+       6  SAN LUIS
+       2  SAN MIGUEL
+       9  SANTA FE Ribera Shopping
+       5  SOLAR DE LA ABADIA
+       7  TORTUGAS OPEN MALL
+       8  TUCUMAN PORTAL
+       8  UNICENTER
+       8  VILLA URQUIZA
+
+========================================================================
+ 8. DE GASTADORA A INVERSORA                                230 u
+    ISBN 9789500216494   ID 731832   grupo A   en 50 sucursales
+========================================================================
+       9  ABASTO
+       5  AEROPARQUE
+       4  ALTO COMAHUE
+       6  ALTO NOA SHOPPING - SALTA
+       4  ALTO PALERMO
+       4  ALTO ROSARIO
+       3  ATENEO CORDOBA CENTRO
+       1  ATENEO FLORIDA 340
+       7  ATENEO FLORIDA 632
+       7  ATENEO GRAND SPLENDID
+       5  ATENEO JURAMENTO
+       7  ATENEO ROSARIO
+       4  ATENEO TUCUMAN
+       4  AVELLANEDA
+       2  BAHIA BLANCA SHOPPING
+       2  BARILOCHE
+       6  BORGES
+       5  CABALLITO
+       3  COMODORO RIVADAVIA
+       9  CORRIENTES SHOPPING
+       6  DOT BAIRES SHOPPING
+       2  EZEIZA
+       5  FLORES
+       9  JUJUY
+       8  LA PLATA
+       3  MAR DEL PLATA LOS GALLEGOS
+       1  MENDOZA PALMARES
+       3  MENDOZA SHOPPING
+       1  NEUQUEN PORTAL PATAGONIA
+       2  NUEVO CENTRO SHOPPING
+       2  PALERMO PORTAL
+       9  PALMAS DEL PILAR
+       3  PASEO ALCORTA
+       2  PATIO BULLRICH
+       8  PLAZA OESTE
+       3  QUILMES CENTRO
+       4  RESISTENCIA
+       4  RIO CUARTO
+       7  ROSARIO PORTAL
+       8  SALTA CENTRO
+       6  SAN JUSTO
+       5  SAN LUIS
+       5  SANTA FE Ribera Shopping
+       6  SOLAR DE LA ABADIA
+       3  TORTUGAS OPEN MALL
+       2  TRELEW
+       4  TUCUMAN PORTAL
+       7  UNICENTER
+       1  USHUAIA
+       4  VILLA CRESPO
+
+========================================================================
+ 9. CONSTELACIONES FAMILIARES                               270 u
+    ISBN 9789500216128   ID 728113   grupo A   en 49 sucursales
+========================================================================
+       8  ABASTO
+       9  AEROPARQUE
+       9  ALTO COMAHUE
+       6  ALTO NOA SHOPPING - SALTA
+       7  ALTO PALERMO
+       6  ALTO ROSARIO
+       1  ATENEO FLORIDA 340
+       7  ATENEO FLORIDA 632
+      12  ATENEO GRAND SPLENDID
+       2  ATENEO JURAMENTO
+       3  ATENEO ROSARIO
+       1  ATENEO TUCUMAN
+       5  AVELLANEDA
+       2  BAHIA BLANCA SHOPPING
+       4  BARILOCHE
+       3  BORGES
+       6  CABALLITO
+       9  CALLE 12
+       9  CORRIENTES SHOPPING
+       2  DOT BAIRES SHOPPING
+       2  EZEIZA
+       6  FLORES
+       2  JUJUY
+       9  LA PLATA
+       5  MAR DEL PLATA LOS GALLEGOS
+       2  MAR DEL PLATA PASEO ALDREY
+       6  MENDOZA CENTRO
+       6  MENDOZA PALMARES
+       7  MENDOZA SHOPPING
+       4  NEUQUEN PORTAL PATAGONIA
+       6  PALMAS DEL PILAR
+       1  PARANA
+       7  PASEO ALCORTA
+       2  PATIO BULLRICH
+       6  PATIO OLMOS
+       7  PLAZA OESTE
+       5  QUILMES CENTRO
+       6  REMEROS (NORDELTA)
+       3  RESISTENCIA
+       9  RIO CUARTO
+       8  SALTA CENTRO
+       9  SAN JUSTO
+       9  SAN LUIS
+       8  SANTA FE Ribera Shopping
+       6  TORTUGAS OPEN MALL
+       4  TUCUMAN PORTAL
+       9  UNICENTER
+       2  USHUAIA
+       3  VILLA CRESPO
+
+========================================================================
+10. SERAS TAN FELIZ COMO INSISTAS                           130 u
+    ISBN 9789500215466   ID 719962   grupo A   en 33 sucursales
+========================================================================
+       3  ABASTO
+       6  ALTO COMAHUE
+       4  ALTO NOA SHOPPING - SALTA
+       3  ALTO ROSARIO
+       1  ATENEO CORDOBA CENTRO
+       1  ATENEO FLORIDA 340
+       7  ATENEO FLORIDA 632
+      15  ATENEO GRAND SPLENDID
+       1  ATENEO JURAMENTO
+       1  ATENEO TUCUMAN
+       3  BAHIA BLANCA SHOPPING
+       5  BARILOCHE
+       4  CABALLITO
+       9  CALLE 12
+       2  COMODORO RIVADAVIA
+       2  CORRIENTES SHOPPING
+       4  DOT BAIRES SHOPPING
+       1  JUJUY
+       1  LA PLATA
+       3  LOMAS DE ZAMORA
+       5  MAR DEL PLATA LOS GALLEGOS
+       7  MENDOZA PALMARES
+       3  MENDOZA SHOPPING
+       2  NUEVO CENTRO SHOPPING
+       2  PARANA
+       4  PASEO ALCORTA
+       1  PLAZA OESTE
+       3  QUILMES CENTRO
+       6  REMEROS (NORDELTA)
+       3  RESISTENCIA
+       6  SALTA CENTRO
+       5  SAN JUSTO
+       7  SANTA FE Ribera Shopping
+
+========================================================================
+11. ESTAS PARA MAS                                          220 u
+    ISBN 9789500212502   ID 691781   grupo A   en 46 sucursales
+========================================================================
+       1  ABASTO
+       7  AEROPARQUE
+       7  ALTO COMAHUE
+       4  ALTO NOA SHOPPING - SALTA
+       9  ALTO PALERMO
+       6  ALTO ROSARIO
+       7  ATENEO FLORIDA 340
+       6  ATENEO FLORIDA 632
+      20  ATENEO GRAND SPLENDID
+       4  ATENEO JURAMENTO
+       3  ATENEO ROSARIO
+       2  ATENEO TUCUMAN
+       5  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       4  BARILOCHE
+       8  BORGES
+       4  CABALLITO
+       4  CALLE 12
+       8  CORRIENTES SHOPPING
+       2  EZEIZA
+       8  JUJUY
+       7  LA PLATA
+       1  LOMAS DE ZAMORA
+       5  MAR DEL PLATA LOS GALLEGOS
+       5  MAR DEL PLATA PASEO ALDREY
+       7  MENDOZA PALMARES
+       5  MENDOZA SHOPPING
+       2  NEUQUEN PORTAL PATAGONIA
+       1  PALERMO PORTAL
+       8  PALMAS DEL PILAR
+       5  PARANA
+       2  PASEO ALCORTA
+       2  PATIO BULLRICH
+       2  PLAZA OESTE
+       5  REMEROS (NORDELTA)
+       1  RIO CUARTO
+       2  ROSARIO PORTAL
+       1  SALTA CENTRO
+       5  SAN JUSTO
+       8  SANTA FE Ribera Shopping
+       5  SOLAR DE LA ABADIA
+       7  TORTUGAS OPEN MALL
+       6  TUCUMAN PORTAL
+       5  UNICENTER
+       2  USHUAIA
+       1  VILLA CRESPO
+
+========================================================================
+12. ISIS                                                     30 u
+    ISBN 9789500217750   ID 745990   grupo A   en 11 sucursales
+========================================================================
+       5  ABASTO
+       1  ALTO COMAHUE
+       1  ALTO NOA SHOPPING - SALTA
+       2  ATENEO FLORIDA 340
+       3  ATENEO GRAND SPLENDID
+       3  ATENEO JURAMENTO
+       1  AVELLANEDA
+       4  BORGES
+       2  JUJUY
+       5  PALMAS DEL PILAR
+       3  REMEROS (NORDELTA)
+
+========================================================================
+13. AFRODITA                                                 60 u
+    ISBN 9789500217378   ID 741699   grupo A   en 19 sucursales
+========================================================================
+       5  ABASTO
+       1  AEROPARQUE
+       5  ALTO COMAHUE
+       2  ATENEO FLORIDA 340
+       3  ATENEO GRAND SPLENDID
+       3  ATENEO JURAMENTO
+       3  AVELLANEDA
+       3  BORGES
+       5  CABALLITO
+       2  CORRIENTES SHOPPING
+       1  JUJUY
+       2  NEUQUEN PORTAL PATAGONIA
+       3  NUEVO CENTRO SHOPPING
+       4  PALMAS DEL PILAR
+       4  REMEROS (NORDELTA)
+       6  SALTA CENTRO
+       1  SAN JUSTO
+       3  SAN LUIS
+       4  SOLAR DE LA ABADIA
+
+========================================================================
+14. VENDETE ANTES DE VENDER                                 120 u
+    ISBN 9789500215909   ID 725696   grupo A   en 37 sucursales
+========================================================================
+       6  AEROPARQUE
+       2  ALTO COMAHUE
+       3  ALTO NOA SHOPPING - SALTA
+       1  ALTO PALERMO
+       3  ALTO ROSARIO
+       5  ATENEO FLORIDA 632
+       6  ATENEO GRAND SPLENDID
+       4  ATENEO JURAMENTO
+       3  ATENEO TUCUMAN
+       2  BAHIA BLANCA SHOPPING
+       2  BARILOCHE
+       5  BORGES
+       2  EZEIZA
+       2  FLORES
+       3  JUJUY
+       3  LA PLATA
+       3  MAR DEL PLATA LOS GALLEGOS
+       4  MENDOZA PALMARES
+       1  MENDOZA SHOPPING
+       2  NEUQUEN PORTAL PATAGONIA
+       4  NUEVO CENTRO SHOPPING
+       6  PALMAS DEL PILAR
+       2  PARANA
+       7  PASEO ALCORTA
+       1  PATIO BULLRICH
+       5  PATIO OLMOS
+       3  PLAZA OESTE
+       3  REMEROS (NORDELTA)
+       1  RESISTENCIA
+       4  RIO CUARTO
+       2  SALTA CENTRO
+       6  SANTA FE Ribera Shopping
+       1  SOLAR DE LA ABADIA
+       4  TORTUGAS OPEN MALL
+       3  TUCUMAN PORTAL
+       5  USHUAIA
+       1  VILLA CRESPO
+
+========================================================================
+15. ¿COMO SE LO DIGO?                                        50 u
+    ISBN 9789500217361   ID 741691   grupo A   en 14 sucursales
+========================================================================
+       2  ALTO COMAHUE
+       2  ALTO NOA SHOPPING - SALTA
+       3  ATENEO FLORIDA 340
+       4  ATENEO FLORIDA 632
+       3  ATENEO GRAND SPLENDID
+       3  ATENEO JURAMENTO
+       5  AVELLANEDA
+       6  BORGES
+       2  CORRIENTES SHOPPING
+       6  DOT BAIRES SHOPPING
+       3  PLAZA OESTE
+       6  SAN LUIS
+       4  SANTA FE Ribera Shopping
+       1  TUCUMAN PORTAL
+
+========================================================================
+16. BIOPAUSIA                                                30 u
+    ISBN 9789500216470   ID 731828   grupo A   en 10 sucursales
+========================================================================
+       5  ALTO NOA SHOPPING - SALTA
+       1  ALTO ROSARIO
+       1  ATENEO FLORIDA 340
+       5  ATENEO FLORIDA 632
+      13  ATENEO GRAND SPLENDID
+       1  ATENEO JURAMENTO
+       1  BAHIA BLANCA SHOPPING
+       1  FLORES
+       1  PALMAS DEL PILAR
+       1  TUCUMAN PORTAL
+
+========================================================================
+17. UNA MUJER CON ALAS                                      160 u
+    ISBN 9789500211871   ID 685396   grupo B   en 56 sucursales
+========================================================================
+       3  ABASTO
+       3  AEROPARQUE
+       3  ALTO COMAHUE
+       2  ALTO NOA SHOPPING - SALTA
+       4  ALTO PALERMO
+       3  ALTO ROSARIO
+       3  ATENEO FLORIDA 340
+       2  ATENEO FLORIDA 632
+      15  ATENEO GRAND SPLENDID
+       3  ATENEO JURAMENTO
+       1  ATENEO LA PLATA
+       2  ATENEO ROSARIO
+       3  ATENEO TUCUMAN
+       2  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       3  BARILOCHE
+       3  BORGES
+       4  CABALLITO
+       3  CALLE 12
+       2  COMODORO RIVADAVIA
+       3  CORRIENTES SHOPPING
+       2  DOT BAIRES SHOPPING
+       1  EZEIZA
+       2  FLORES
+       2  JUJUY
+       3  LA PLATA
+       1  LOMAS DE ZAMORA
+       5  MAR DEL PLATA LOS GALLEGOS
+       2  MAR DEL PLATA M. BENDU
+       2  MAR DEL PLATA PASEO ALDREY
+       2  MENDOZA CENTRO
+       4  MENDOZA PALMARES
+       2  MENDOZA SHOPPING
+       3  NEUQUEN PORTAL PATAGONIA
+       4  PALMAS DEL PILAR
+       3  PARANA
+       3  PASEO ALCORTA
+       1  PATIO BULLRICH
+       2  PATIO OLMOS
+       3  PLAZA OESTE
+       2  QUILMES CENTRO
+       3  REMEROS (NORDELTA)
+       3  RESISTENCIA
+       4  RIO CUARTO
+       1  ROSARIO PORTAL
+       3  SALTA CENTRO
+       3  SAN JUSTO
+       4  SAN LUIS
+       4  SANTA FE Ribera Shopping
+       3  SOLAR DE LA ABADIA
+       4  TORTUGAS OPEN MALL
+       1  TRELEW
+       4  TUCUMAN PORTAL
+       4  UNICENTER
+       1  VILLA CRESPO
+       1  VILLA URQUIZA
+
+========================================================================
+18. HEDY                                                    174 u
+    ISBN 9789500211086   ID 677839   grupo B   en 56 sucursales
+========================================================================
+       4  ABASTO
+       1  AEROPARQUE
+       3  ALTO COMAHUE
+       4  ALTO NOA SHOPPING - SALTA
+       4  ALTO PALERMO
+       4  ALTO ROSARIO
+       3  ATENEO CORDOBA CENTRO
+       1  ATENEO FLORIDA 340
+       2  ATENEO FLORIDA 632
+       4  ATENEO GRAND SPLENDID
+       1  ATENEO JURAMENTO
+       1  ATENEO LA PLATA
+       3  ATENEO ROSARIO
+       4  ATENEO TUCUMAN
+       3  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       4  BARILOCHE
+       2  BORGES
+       3  CABALLITO
+       4  CALLE 12
+       2  COMODORO RIVADAVIA
+       4  CORRIENTES SHOPPING
+       4  DOT BAIRES SHOPPING
+       1  EZEIZA
+       4  FLORES
+       4  JUJUY
+       3  LA PLATA
+       4  LOMAS DE ZAMORA
+       5  MAR DEL PLATA LOS GALLEGOS
+       4  MAR DEL PLATA PASEO ALDREY
+       4  MENDOZA CENTRO
+       3  MENDOZA PALMARES
+       4  MENDOZA SHOPPING
+       4  NEUQUEN PORTAL PATAGONIA
+       2  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       4  PALMAS DEL PILAR
+       1  PARANA
+       4  PASEO ALCORTA
+       1  PATIO BULLRICH
+       4  PATIO OLMOS
+       4  PLAZA OESTE
+       2  QUILMES CENTRO
+       1  REMEROS (NORDELTA)
+       4  RESISTENCIA
+       4  RIO CUARTO
+       2  SALTA CENTRO
+       3  SAN JUSTO
+       4  SANTA FE Ribera Shopping
+       3  SOLAR DE LA ABADIA
+       4  TORTUGAS OPEN MALL
+       4  TUCUMAN PORTAL
+       4  UNICENTER
+       4  USHUAIA
+       4  VILLA CRESPO
+       4  VILLA URQUIZA
+
+========================================================================
+19. SANGRE QUE HEREDAMOS, LA                                110 u
+    ISBN 9789500215619   ID 722614   grupo B   en 43 sucursales
+========================================================================
+       3  ABASTO
+       4  AEROPARQUE
+       3  ALTO COMAHUE
+       2  ALTO NOA SHOPPING - SALTA
+       3  ALTO PALERMO
+       3  ATENEO FLORIDA 340
+       1  ATENEO FLORIDA 632
+      12  ATENEO GRAND SPLENDID
+       4  ATENEO JURAMENTO
+       1  ATENEO ROSARIO
+       1  AVELLANEDA
+       2  BAHIA BLANCA SHOPPING
+       1  BARILOCHE
+       3  BORGES
+       4  CABALLITO
+       3  CALLE 12
+       3  CORRIENTES SHOPPING
+       2  DOT BAIRES SHOPPING
+       1  EZEIZA
+       3  JUJUY
+       1  LOMAS DE ZAMORA
+       1  MAR DEL PLATA PASEO ALDREY
+       2  MENDOZA CENTRO
+       4  MENDOZA PALMARES
+       2  MENDOZA SHOPPING
+       1  PALERMO PORTAL
+       3  PALMAS DEL PILAR
+       1  PARANA
+       2  PASEO ALCORTA
+       1  PATIO BULLRICH
+       2  PLAZA OESTE
+       2  QUILMES CENTRO
+       2  REMEROS (NORDELTA)
+       2  RESISTENCIA
+       1  ROSARIO PORTAL
+       4  SALTA CENTRO
+       2  SAN JUSTO
+       1  SAN LUIS
+       4  SANTA FE Ribera Shopping
+       4  SOLAR DE LA ABADIA
+       3  TORTUGAS OPEN MALL
+       2  TUCUMAN PORTAL
+       4  UNICENTER
+
+========================================================================
+20. RUEGA VITA                                               30 u
+    ISBN 9789500216852   ID 737015   grupo B   en 14 sucursales
+========================================================================
+       2  AEROPARQUE
+       2  ALTO COMAHUE
+       1  ALTO NOA SHOPPING - SALTA
+       3  ALTO PALERMO
+       1  ATENEO GRAND SPLENDID
+       1  ATENEO JURAMENTO
+       1  EZEIZA
+       1  FLORES
+       2  MENDOZA PALMARES
+       1  PATIO BULLRICH
+       3  SALTA CENTRO
+       4  SANTA FE Ribera Shopping
+       4  TUCUMAN PORTAL
+       4  UNICENTER
+
+========================================================================
+21. DIEZ DIAS PARA NO MORIR                                 130 u
+    ISBN 9789500214285   ID 710536   grupo B   en 46 sucursales
+========================================================================
+       4  ALTO COMAHUE
+       3  ALTO NOA SHOPPING - SALTA
+       3  ALTO PALERMO
+       3  ALTO ROSARIO
+       3  ATENEO FLORIDA 632
+      12  ATENEO GRAND SPLENDID
+       3  ATENEO JURAMENTO
+       2  ATENEO ROSARIO
+       2  ATENEO TUCUMAN
+       3  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       3  BARILOCHE
+       3  BORGES
+       3  CABALLITO
+       1  COMODORO RIVADAVIA
+       1  CORRIENTES SHOPPING
+       3  DOT BAIRES SHOPPING
+       1  EZEIZA
+       1  FLORES
+       2  JUJUY
+       5  MAR DEL PLATA LOS GALLEGOS
+       2  MAR DEL PLATA M. BENDU
+       5  MAR DEL PLATA PASEO ALDREY
+       3  MENDOZA PALMARES
+       5  MENDOZA SHOPPING
+       1  NEUQUEN PORTAL PATAGONIA
+       3  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       4  PALMAS DEL PILAR
+       4  PARANA
+       2  PASEO ALCORTA
+       1  PATIO BULLRICH
+       1  PATIO OLMOS
+       4  PLAZA OESTE
+       2  QUILMES CENTRO
+       2  RESISTENCIA
+       2  RIO CUARTO
+       1  ROSARIO PORTAL
+       3  SALTA CENTRO
+       3  SAN JUSTO
+       1  SAN LUIS
+       2  SAN MIGUEL
+       5  SANTA FE Ribera Shopping
+       2  SOLAR DE LA ABADIA
+       5  TUCUMAN PORTAL
+       4  UNICENTER
+
+========================================================================
+22. AMAR CON EL ALMA                                        120 u
+    ISBN 9789500213318   ID 706234   grupo B   en 47 sucursales
+========================================================================
+       1  ABASTO
+       4  ALTO COMAHUE
+       2  ALTO NOA SHOPPING - SALTA
+       4  ALTO PALERMO
+       2  ALTO ROSARIO
+       2  ATENEO FLORIDA 340
+       2  ATENEO FLORIDA 632
+      12  ATENEO GRAND SPLENDID
+       4  ATENEO JURAMENTO
+       2  ATENEO ROSARIO
+       4  ATENEO TUCUMAN
+       2  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       2  BORGES
+       3  CABALLITO
+       2  COMODORO RIVADAVIA
+       3  CORRIENTES SHOPPING
+       3  DOT BAIRES SHOPPING
+       1  EZEIZA
+       3  JUJUY
+       2  LA PLATA
+       1  MAR DEL PLATA LOS GALLEGOS
+       2  MAR DEL PLATA M. BENDU
+       2  MAR DEL PLATA PASEO ALDREY
+       2  MENDOZA PALMARES
+       2  MENDOZA SHOPPING
+       3  NEUQUEN PORTAL PATAGONIA
+       2  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       4  PALMAS DEL PILAR
+       2  PARANA
+       2  PASEO ALCORTA
+       1  PATIO BULLRICH
+       2  PATIO OLMOS
+       3  PLAZA OESTE
+       2  QUILMES CENTRO
+       4  REMEROS (NORDELTA)
+       3  RESISTENCIA
+       4  RIO CUARTO
+       1  ROSARIO PORTAL
+       3  SALTA CENTRO
+       2  SAN JUSTO
+       2  SANTA FE Ribera Shopping
+       2  TORTUGAS OPEN MALL
+       1  TUCUMAN PORTAL
+       4  UNICENTER
+       2  VILLA CRESPO
+
+========================================================================
+23. BESOS DE CRISTAL                                         80 u
+    ISBN 9789500216050   ID 728112   grupo B   en 33 sucursales
+========================================================================
+       4  AEROPARQUE
+       1  ALTO COMAHUE
+       2  ALTO NOA SHOPPING - SALTA
+       3  ALTO PALERMO
+       1  ATENEO FLORIDA 340
+      13  ATENEO GRAND SPLENDID
+       1  ATENEO JURAMENTO
+       3  ATENEO ROSARIO
+       1  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       1  BARILOCHE
+       1  BORGES
+       2  CABALLITO
+       1  CALLE 12
+       3  CORRIENTES SHOPPING
+       1  DOT BAIRES SHOPPING
+       1  EZEIZA
+       4  LA PLATA
+       2  LOMAS DE ZAMORA
+       2  MAR DEL PLATA LOS GALLEGOS
+       4  MENDOZA PALMARES
+       2  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       4  PALMAS DEL PILAR
+       3  PASEO ALCORTA
+       1  PATIO BULLRICH
+       2  PLAZA OESTE
+       2  QUILMES CENTRO
+       2  REMEROS (NORDELTA)
+       3  SANTA FE Ribera Shopping
+       3  TUCUMAN PORTAL
+       4  UNICENTER
+       1  USHUAIA
+
+========================================================================
+24. NUEVO LABORATORIO DEL ALMA, EL.                         130 u
+    ISBN 9789500216333   ID 730437   grupo B   en 45 sucursales
+========================================================================
+       1  ABASTO
+       4  AEROPARQUE
+       3  ALTO NOA SHOPPING - SALTA
+       3  ALTO PALERMO
+       3  ALTO ROSARIO
+       1  ATENEO FLORIDA 340
+       1  ATENEO FLORIDA 632
+      10  ATENEO GRAND SPLENDID
+       5  ATENEO JURAMENTO
+       2  ATENEO ROSARIO
+       3  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       4  BORGES
+       3  CABALLITO
+       4  CALLE 12
+       4  CORRIENTES SHOPPING
+       3  DOT BAIRES SHOPPING
+       1  EZEIZA
+       3  LA PLATA
+       4  LOMAS DE ZAMORA
+       4  MAR DEL PLATA LOS GALLEGOS
+       3  MAR DEL PLATA PASEO ALDREY
+       3  MENDOZA CENTRO
+       4  MENDOZA PALMARES
+       3  MENDOZA SHOPPING
+       4  NEUQUEN PORTAL PATAGONIA
+       3  NUEVO CENTRO SHOPPING
+       4  PALMAS DEL PILAR
+       3  PARANA
+       3  PASEO ALCORTA
+       1  PATIO BULLRICH
+       3  PATIO OLMOS
+       4  PLAZA OESTE
+       1  QUILMES CENTRO
+       3  REMEROS (NORDELTA)
+       3  SALTA CENTRO
+       1  SAN JUSTO
+       1  SAN LUIS
+       3  SANTA FE Ribera Shopping
+       2  SOLAR DE LA ABADIA
+       1  TORTUGAS OPEN MALL
+       4  TUCUMAN PORTAL
+       3  UNICENTER
+       1  USHUAIA
+       2  VILLA CRESPO
+
+========================================================================
+25. FIN DEL AUTOODIO, EL                                    147 u
+    ISBN 9789500210669   ID 681371   grupo B   en 49 sucursales
+========================================================================
+       4  ABASTO
+       4  AEROPARQUE
+       3  ALTO COMAHUE
+       3  ALTO NOA SHOPPING - SALTA
+       1  ALTO PALERMO
+       2  ALTO ROSARIO
+       1  ATENEO FLORIDA 632
+      16  ATENEO GRAND SPLENDID
+       4  ATENEO TUCUMAN
+       4  AVELLANEDA
+       1  BARILOCHE
+       4  BORGES
+       2  CABALLITO
+       4  CALLE 12
+       3  CORRIENTES SHOPPING
+       3  DOT BAIRES SHOPPING
+       1  EZEIZA
+       3  FLORES
+       3  JUJUY
+       4  LA PLATA
+       4  MAR DEL PLATA LOS GALLEGOS
+       5  MAR DEL PLATA PASEO ALDREY
+       4  MENDOZA CENTRO
+       4  MENDOZA PALMARES
+       2  MENDOZA SHOPPING
+       2  NEUQUEN PORTAL PATAGONIA
+       2  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       4  PALMAS DEL PILAR
+       3  PARANA
+       4  PASEO ALCORTA
+       1  PATIO BULLRICH
+       1  PATIO OLMOS
+       3  PLAZA OESTE
+       1  QUILMES CENTRO
+       1  RESISTENCIA
+       3  RIO CUARTO
+       4  ROSARIO PORTAL
+       3  SALTA CENTRO
+       3  SAN JUSTO
+       2  SAN LUIS
+       4  SANTA FE Ribera Shopping
+       3  SOLAR DE LA ABADIA
+       2  TORTUGAS OPEN MALL
+       1  TRELEW
+       4  TUCUMAN PORTAL
+       4  UNICENTER
+       1  USHUAIA
+       1  VILLA CRESPO
+
+========================================================================
+26. NO SOY NADA SIN TU AMOR                                 200 u
+    ISBN 9789500212144   ID 687544   grupo B   en 58 sucursales
+========================================================================
+       4  ABASTO
+       4  AEROPARQUE
+       4  ALTO COMAHUE
+       3  ALTO NOA SHOPPING - SALTA
+       4  ALTO PALERMO
+       4  ALTO ROSARIO
+       2  ATENEO CORDOBA CENTRO
+       3  ATENEO FLORIDA 340
+       3  ATENEO FLORIDA 632
+      13  ATENEO GRAND SPLENDID
+       5  ATENEO JURAMENTO
+       1  ATENEO LA PLATA
+       4  ATENEO ROSARIO
+       4  ATENEO TUCUMAN
+       3  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       2  BARILOCHE
+       4  BORGES
+       4  CABALLITO
+       4  CALLE 12
+       3  COMODORO RIVADAVIA
+       4  CORRIENTES SHOPPING
+       4  DOT BAIRES SHOPPING
+       1  EZEIZA
+       4  FLORES
+       2  JUJUY
+       3  LA PLATA
+       4  LOMAS DE ZAMORA
+       4  MAR DEL PLATA LOS GALLEGOS
+       3  MAR DEL PLATA M. BENDU
+       5  MAR DEL PLATA PASEO ALDREY
+       4  MENDOZA CENTRO
+       4  MENDOZA PALMARES
+       4  MENDOZA SHOPPING
+       4  NEUQUEN PORTAL PATAGONIA
+       4  NUEVO CENTRO SHOPPING
+       4  PALMAS DEL PILAR
+       4  PARANA
+       3  PASEO ALCORTA
+       1  PATIO BULLRICH
+       4  PATIO OLMOS
+       4  PLAZA OESTE
+       4  QUILMES CENTRO
+       3  REMEROS (NORDELTA)
+       2  RESISTENCIA
+       4  RIO CUARTO
+       3  ROSARIO PORTAL
+       4  SALTA CENTRO
+       4  SAN JUSTO
+       2  SAN LUIS
+       1  SAN MIGUEL
+       3  SANTA FE Ribera Shopping
+       4  SOLAR DE LA ABADIA
+       2  TORTUGAS OPEN MALL
+       2  TRELEW
+       3  TUCUMAN PORTAL
+       5  UNICENTER
+       1  VILLA CRESPO
+
+========================================================================
+27. VIAJERAS                                                 60 u
+    ISBN 9789500213394   ID 703395   grupo B   en 24 sucursales
+========================================================================
+       1  ABASTO
+       3  ALTO PALERMO
+       1  ATENEO FLORIDA 340
+       2  ATENEO FLORIDA 632
+      14  ATENEO GRAND SPLENDID
+       2  ATENEO JURAMENTO
+       1  ATENEO ROSARIO
+       3  BARILOCHE
+       1  BORGES
+       1  CABALLITO
+       3  CORRIENTES SHOPPING
+       3  DOT BAIRES SHOPPING
+       1  FLORES
+       5  MAR DEL PLATA LOS GALLEGOS
+       1  MAR DEL PLATA PASEO ALDREY
+       1  MENDOZA PALMARES
+       2  NEUQUEN PORTAL PATAGONIA
+       3  PALMAS DEL PILAR
+       1  PASEO ALCORTA
+       2  PLAZA OESTE
+       4  REMEROS (NORDELTA)
+       1  ROSARIO PORTAL
+       2  SAN JUSTO
+       2  SANTA FE Ribera Shopping
+
+========================================================================
+28. ABUELAS                                                  40 u
+    ISBN 9789500217194   ID 740153   grupo B   en 18 sucursales
+========================================================================
+       2  ABASTO
+       2  AEROPARQUE
+       2  ALTO COMAHUE
+       2  ALTO PALERMO
+       1  ATENEO FLORIDA 340
+       3  ATENEO FLORIDA 632
+       1  ATENEO GRAND SPLENDID
+       1  ATENEO JURAMENTO
+       3  BORGES
+       3  CORRIENTES SHOPPING
+       4  DOT BAIRES SHOPPING
+       3  LOMAS DE ZAMORA
+       5  MAR DEL PLATA LOS GALLEGOS
+       1  PARANA
+       1  PATIO BULLRICH
+       3  PLAZA OESTE
+       2  REMEROS (NORDELTA)
+       1  UNICENTER
+
+========================================================================
+29. CON EL AMOR NO ALCANZA                                   30 u
+    ISBN 9789500217279   ID 740756   grupo B   en 17 sucursales
+========================================================================
+       1  ALTO COMAHUE
+       1  ALTO NOA SHOPPING - SALTA
+       1  ATENEO FLORIDA 340
+       2  ATENEO GRAND SPLENDID
+       2  ATENEO JURAMENTO
+       2  AVELLANEDA
+       1  BORGES
+       4  DOT BAIRES SHOPPING
+       1  FLORES
+       3  LOMAS DE ZAMORA
+       1  NUEVO CENTRO SHOPPING
+       1  PALMAS DEL PILAR
+       1  PATIO BULLRICH
+       2  PLAZA OESTE
+       2  QUILMES CENTRO
+       3  REMEROS (NORDELTA)
+       2  TORTUGAS OPEN MALL
+
+========================================================================
+30. AMOR REAL HUELE A TOSTADAS, EL                          170 u
+    ISBN 9789500213042   ID 698749   grupo B   en 55 sucursales
+========================================================================
+       4  ABASTO
+       5  AEROPARQUE
+       4  ALTO COMAHUE
+       2  ALTO NOA SHOPPING - SALTA
+       3  ALTO PALERMO
+       3  ALTO ROSARIO
+       1  ATENEO CORDOBA CENTRO
+       2  ATENEO FLORIDA 632
+      12  ATENEO GRAND SPLENDID
+       4  ATENEO JURAMENTO
+       4  ATENEO ROSARIO
+       2  ATENEO TUCUMAN
+       4  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       4  BARILOCHE
+       1  BORGES
+       1  CABALLITO
+       4  CALLE 12
+       3  COMODORO RIVADAVIA
+       4  CORRIENTES SHOPPING
+       4  DOT BAIRES SHOPPING
+       1  EZEIZA
+       4  FLORES
+       2  JUJUY
+       2  LA PLATA
+       3  LOMAS DE ZAMORA
+       3  MAR DEL PLATA LOS GALLEGOS
+       4  MAR DEL PLATA PASEO ALDREY
+       4  MENDOZA CENTRO
+       4  MENDOZA PALMARES
+       4  MENDOZA SHOPPING
+       5  NEUQUEN PORTAL PATAGONIA
+       3  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       4  PALMAS DEL PILAR
+       4  PARANA
+       4  PASEO ALCORTA
+       1  PATIO BULLRICH
+       2  PATIO OLMOS
+       4  PLAZA OESTE
+       1  QUILMES CENTRO
+       2  REMEROS (NORDELTA)
+       4  RESISTENCIA
+       3  RIO CUARTO
+       3  ROSARIO PORTAL
+       4  SALTA CENTRO
+       3  SAN JUSTO
+       2  SAN LUIS
+       4  SANTA FE Ribera Shopping
+       4  SOLAR DE LA ABADIA
+       2  TRELEW
+       2  TUCUMAN PORTAL
+       2  UNICENTER
+       2  VILLA CRESPO
+       1  VILLA URQUIZA
+
+========================================================================
+31. DESBLOQUEA TU PROXIMO NIVEL                              70 u
+    ISBN 9789500214902   ID 714035   grupo B   en 26 sucursales
+========================================================================
+       5  ALTO COMAHUE
+       2  ALTO NOA SHOPPING - SALTA
+       3  ALTO PALERMO
+       1  ATENEO FLORIDA 340
+       3  ATENEO FLORIDA 632
+       9  ATENEO GRAND SPLENDID
+       1  ATENEO JURAMENTO
+       2  BAHIA BLANCA SHOPPING
+       3  BARILOCHE
+       3  BORGES
+       2  COMODORO RIVADAVIA
+       2  CORRIENTES SHOPPING
+       1  EZEIZA
+       3  LA PLATA
+       3  MENDOZA PALMARES
+       4  PALMAS DEL PILAR
+       4  PARANA
+       2  PATIO OLMOS
+       3  PLAZA OESTE
+       1  QUILMES CENTRO
+       3  REMEROS (NORDELTA)
+       1  SALTA CENTRO
+       3  SANTA FE Ribera Shopping
+       1  SOLAR DE LA ABADIA
+       2  TUCUMAN PORTAL
+       3  USHUAIA
+
+========================================================================
+32. SANA QUIEN INSISTE                                      160 u
+    ISBN 9789500214926   ID 714588   grupo B   en 54 sucursales
+========================================================================
+       4  ABASTO
+       5  AEROPARQUE
+       5  ALTO COMAHUE
+       3  ALTO NOA SHOPPING - SALTA
+       3  ALTO PALERMO
+       3  ALTO ROSARIO
+       1  ATENEO FLORIDA 340
+       3  ATENEO FLORIDA 632
+       4  ATENEO GRAND SPLENDID
+       5  ATENEO JURAMENTO
+       2  ATENEO ROSARIO
+       3  ATENEO TUCUMAN
+       3  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       3  BARILOCHE
+       4  BORGES
+       1  CABALLITO
+       3  CALLE 12
+       3  COMODORO RIVADAVIA
+       3  CORRIENTES SHOPPING
+       3  DOT BAIRES SHOPPING
+       1  EZEIZA
+       3  FLORES
+       3  JUJUY
+       3  LA PLATA
+       2  MAR DEL PLATA LOS GALLEGOS
+       1  MAR DEL PLATA M. BENDU
+       4  MAR DEL PLATA PASEO ALDREY
+       3  MENDOZA CENTRO
+       4  MENDOZA PALMARES
+       4  MENDOZA SHOPPING
+       4  NEUQUEN PORTAL PATAGONIA
+       3  NUEVO CENTRO SHOPPING
+       2  PALERMO PORTAL
+       4  PALMAS DEL PILAR
+       4  PARANA
+       4  PASEO ALCORTA
+       1  PATIO BULLRICH
+       1  PATIO OLMOS
+       4  PLAZA OESTE
+       3  QUILMES CENTRO
+       3  RESISTENCIA
+       4  RIO CUARTO
+       2  ROSARIO PORTAL
+       3  SALTA CENTRO
+       4  SAN JUSTO
+       2  SANTA FE Ribera Shopping
+       3  SOLAR DE LA ABADIA
+       4  TORTUGAS OPEN MALL
+       1  TRELEW
+       4  TUCUMAN PORTAL
+       2  UNICENTER
+       3  USHUAIA
+       2  VILLA CRESPO
+
+========================================================================
+33. YA NO TE CREO                                           150 u
+    ISBN 9789500214988   ID 714589   grupo B   en 52 sucursales
+========================================================================
+       3  ABASTO
+       4  AEROPARQUE
+       3  ALTO COMAHUE
+       3  ALTO NOA SHOPPING - SALTA
+       3  ALTO PALERMO
+       3  ALTO ROSARIO
+       1  ATENEO FLORIDA 340
+       3  ATENEO FLORIDA 632
+      13  ATENEO GRAND SPLENDID
+       2  ATENEO JURAMENTO
+       2  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       3  BARILOCHE
+       3  BORGES
+       3  CABALLITO
+       3  CALLE 12
+       3  COMODORO RIVADAVIA
+       3  CORRIENTES SHOPPING
+       3  DOT BAIRES SHOPPING
+       1  EZEIZA
+       2  FLORES
+       1  JUJUY
+       3  LA PLATA
+       1  LOMAS DE ZAMORA
+       5  MAR DEL PLATA LOS GALLEGOS
+       2  MAR DEL PLATA M. BENDU
+       4  MAR DEL PLATA PASEO ALDREY
+       3  MENDOZA CENTRO
+       3  MENDOZA PALMARES
+       3  MENDOZA SHOPPING
+       4  NEUQUEN PORTAL PATAGONIA
+       2  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       4  PALMAS DEL PILAR
+       3  PARANA
+       3  PASEO ALCORTA
+       1  PATIO BULLRICH
+       3  PATIO OLMOS
+       4  PLAZA OESTE
+       1  QUILMES CENTRO
+       3  REMEROS (NORDELTA)
+       3  RESISTENCIA
+       3  RIO CUARTO
+       2  ROSARIO PORTAL
+       4  SALTA CENTRO
+       3  SAN JUSTO
+       1  SAN LUIS
+       4  SANTA FE Ribera Shopping
+       3  SOLAR DE LA ABADIA
+       2  TORTUGAS OPEN MALL
+       2  TUCUMAN PORTAL
+       4  UNICENTER
+
+========================================================================
+34. TODOS QUEREMOS UN BUEN AMOR                              90 u
+    ISBN 9789500216791   ID 735111   grupo B   en 33 sucursales
+========================================================================
+       3  ABASTO
+       4  ALTO COMAHUE
+       1  ALTO NOA SHOPPING - SALTA
+       3  ALTO PALERMO
+       1  ALTO ROSARIO
+       1  ATENEO FLORIDA 340
+       9  ATENEO GRAND SPLENDID
+       1  ATENEO JURAMENTO
+       3  ATENEO ROSARIO
+       1  BAHIA BLANCA SHOPPING
+       4  CABALLITO
+       3  CALLE 12
+       3  CORRIENTES SHOPPING
+       2  DOT BAIRES SHOPPING
+       1  EZEIZA
+       3  JUJUY
+       2  LA PLATA
+       4  MAR DEL PLATA LOS GALLEGOS
+       3  MENDOZA CENTRO
+       4  MENDOZA PALMARES
+       2  MENDOZA SHOPPING
+       2  NUEVO CENTRO SHOPPING
+       4  PALMAS DEL PILAR
+       1  PASEO ALCORTA
+       4  PLAZA OESTE
+       2  REMEROS (NORDELTA)
+       1  RESISTENCIA
+       2  RIO CUARTO
+       4  SALTA CENTRO
+       3  SAN JUSTO
+       2  SANTA FE Ribera Shopping
+       2  TORTUGAS OPEN MALL
+       5  UNICENTER
+
+========================================================================
+35. YOGA FUERA DE MAT                                       100 u
+    ISBN 9789500216609   ID 732724   grupo B   en 41 sucursales
+========================================================================
+       1  ABASTO
+       3  ALTO COMAHUE
+       1  ALTO NOA SHOPPING - SALTA
+       1  ALTO PALERMO
+       1  ALTO ROSARIO
+       1  ATENEO FLORIDA 340
+       3  ATENEO FLORIDA 632
+      13  ATENEO GRAND SPLENDID
+       1  ATENEO JURAMENTO
+       3  ATENEO ROSARIO
+       3  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       1  CABALLITO
+       3  CORRIENTES SHOPPING
+       1  EZEIZA
+       1  FLORES
+       4  LA PLATA
+       1  LOMAS DE ZAMORA
+       5  MAR DEL PLATA LOS GALLEGOS
+       3  MAR DEL PLATA PASEO ALDREY
+       3  MENDOZA PALMARES
+       4  MENDOZA SHOPPING
+       1  NUEVO CENTRO SHOPPING
+       4  PALMAS DEL PILAR
+       3  PASEO ALCORTA
+       1  PATIO BULLRICH
+       3  PATIO OLMOS
+       3  PLAZA OESTE
+       2  QUILMES CENTRO
+       2  REMEROS (NORDELTA)
+       1  RIO CUARTO
+       1  ROSARIO PORTAL
+       4  SALTA CENTRO
+       2  SAN JUSTO
+       1  SAN LUIS
+       3  SANTA FE Ribera Shopping
+       2  SOLAR DE LA ABADIA
+       3  TORTUGAS OPEN MALL
+       1  TRELEW
+       4  UNICENTER
+       1  VILLA CRESPO
+
+========================================================================
+36. ASTRO COACH                                              60 u
+    ISBN 9788466243063   ID 722861   grupo B   en 23 sucursales
+========================================================================
+       4  ALTO COMAHUE
+       3  ALTO ROSARIO
+       2  ATENEO FLORIDA 632
+       3  ATENEO GRAND SPLENDID
+       1  ATENEO JURAMENTO
+       3  AVELLANEDA
+       2  BORGES
+       3  DOT BAIRES SHOPPING
+       1  EZEIZA
+       4  FLORES
+       3  LA PLATA
+       3  MAR DEL PLATA PASEO ALDREY
+       3  MENDOZA CENTRO
+       2  MENDOZA PALMARES
+       4  MENDOZA SHOPPING
+       4  NEUQUEN PORTAL PATAGONIA
+       4  PALMAS DEL PILAR
+       1  PATIO BULLRICH
+       2  PLAZA OESTE
+       1  REMEROS (NORDELTA)
+       3  SALTA CENTRO
+       2  SOLAR DE LA ABADIA
+       2  TORTUGAS OPEN MALL
+
+========================================================================
+37. BRUJA MODERNA                                            70 u
+    ISBN 9788466243292   ID 722926   grupo B   en 23 sucursales
+========================================================================
+       4  ALTO COMAHUE
+       3  ALTO ROSARIO
+       4  ATENEO FLORIDA 632
+      11  ATENEO GRAND SPLENDID
+       2  AVELLANEDA
+       3  BARILOCHE
+       1  COMODORO RIVADAVIA
+       2  CORRIENTES SHOPPING
+       1  EZEIZA
+       3  FLORES
+       3  JUJUY
+       2  MAR DEL PLATA LOS GALLEGOS
+       2  MAR DEL PLATA M. BENDU
+       3  MAR DEL PLATA PASEO ALDREY
+       3  MENDOZA CENTRO
+       4  MENDOZA PALMARES
+       3  MENDOZA SHOPPING
+       4  PALMAS DEL PILAR
+       1  PATIO BULLRICH
+       2  REMEROS (NORDELTA)
+       3  SALTA CENTRO
+       4  SAN JUSTO
+       2  SANTA FE Ribera Shopping
+
+========================================================================
+38. REINA, LA                                                20 u
+    ISBN 9789500216838   ID 736772   grupo B   en 12 sucursales
+========================================================================
+       2  ATENEO FLORIDA 340
+       2  ATENEO GRAND SPLENDID
+       2  ATENEO JURAMENTO
+       2  AVELLANEDA
+       2  BAHIA BLANCA SHOPPING
+       1  BORGES
+       1  JUJUY
+       1  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       2  PALMAS DEL PILAR
+       2  PARANA
+       2  REMEROS (NORDELTA)
+
+========================================================================
+TOTAL                                                      5101 u  en 38 titulos
+========================================================================
+
+No entran (todos los locales ya completos): AMARANTIA. HAY UN NUEVO MODO DE HABITARTE

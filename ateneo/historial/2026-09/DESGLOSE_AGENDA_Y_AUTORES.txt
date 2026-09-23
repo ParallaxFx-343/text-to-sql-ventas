@@ -1,0 +1,590 @@
+﻿AGENDA_Y_AUTORES_OCT26 - SII procesado con refuerzo.py
+Grupo AGENDA (1 tit.): completar a 10 / excepciones: EZEIZA 5, TRELEW 5, PATIO BULLRICH 5, PALERMO PORTAL 5, BAHIA BLANCA SHOPPING 5, ATENEO JURAMENTO 40, ATENEO FLORIDA 340 40, ATENEO FLORIDA 632 40, ATENEO ROSARIO 40, ATENEO TUCUMAN 40, ATENEO LA PLATA 40, ATENEO CORDOBA CENTRO 40
+Grupo AUTORES (11 tit.): completar a 10 / excepciones: EZEIZA 5, TRELEW 5, PATIO BULLRICH 5, PALERMO PORTAL 5, BAHIA BLANCA SHOPPING 5, ATENEO GRAND SPLENDID 30
+
+========================================================================
+ 1. AGENDA GRAND SPLENDID                                   598 u
+    ISBN 9789500217217   ID 743071   grupo AGENDA   en 59 sucursales
+========================================================================
+       8  ABASTO
+       5  AEROPARQUE
+      10  ALTO COMAHUE
+       7  ALTO NOA SHOPPING - SALTA
+       7  ALTO PALERMO
+       6  ALTO ROSARIO
+      35  ATENEO CORDOBA CENTRO
+      30  ATENEO FLORIDA 340
+      37  ATENEO FLORIDA 632
+      31  ATENEO JURAMENTO
+      35  ATENEO LA PLATA
+      35  ATENEO ROSARIO
+      30  ATENEO TUCUMAN
+       7  AVELLANEDA
+       3  BAHIA BLANCA SHOPPING
+       8  BARILOCHE
+       7  BORGES
+       7  CABALLITO
+       7  CALLE 12
+       8  COMODORO RIVADAVIA
+       9  CORRIENTES SHOPPING
+       7  DOT BAIRES SHOPPING
+       2  EZEIZA
+       7  FLORES
+       9  JUJUY
+       9  LA PLATA
+       9  LOMAS DE ZAMORA
+       5  MAR DEL PLATA LOS GALLEGOS
+       5  MAR DEL PLATA M. BENDU
+       8  MAR DEL PLATA PASEO ALDREY
+       8  MENDOZA CENTRO
+       9  MENDOZA PALMARES
+       8  MENDOZA SHOPPING
+       9  NEUQUEN PORTAL PATAGONIA
+       8  NUEVO CENTRO SHOPPING
+       2  PALERMO PORTAL
+       7  PALMAS DEL PILAR
+       5  PASEO ALCORTA
+       3  PATIO BULLRICH
+       7  PATIO OLMOS
+       8  PLAZA OESTE
+       7  QUILMES CENTRO
+       8  REMEROS (NORDELTA)
+       8  RESISTENCIA
+       7  RIO CUARTO
+       7  ROSARIO PORTAL
+       8  SALTA CENTRO
+       8  SAN JUSTO
+       8  SAN LUIS
+      10  SAN MIGUEL
+      10  SANTA FE Ribera Shopping
+       7  SOLAR DE LA ABADIA
+       8  TORTUGAS OPEN MALL
+       5  TRELEW
+       9  TUCUMAN PORTAL
+       2  UNICENTER
+       3  USHUAIA
+       7  VILLA CRESPO
+       9  VILLA URQUIZA
+
+========================================================================
+ 2. ANSIEDAD                                                180 u
+    ISBN 9789500216593   ID 732723   grupo AUTORES   en 44 sucursales
+========================================================================
+       8  ABASTO
+       5  AEROPARQUE
+       2  ALTO COMAHUE
+       5  ALTO NOA SHOPPING - SALTA
+       1  ALTO PALERMO
+       5  ALTO ROSARIO
+       3  ATENEO CORDOBA CENTRO
+       3  ATENEO FLORIDA 340
+       5  ATENEO FLORIDA 632
+       6  ATENEO TUCUMAN
+       5  BARILOCHE
+       5  BORGES
+       7  CABALLITO
+       5  CALLE 12
+       1  COMODORO RIVADAVIA
+       5  CORRIENTES SHOPPING
+       3  DOT BAIRES SHOPPING
+       1  EZEIZA
+       5  FLORES
+       5  JUJUY
+       5  LA PLATA
+       6  LOMAS DE ZAMORA
+       5  MAR DEL PLATA LOS GALLEGOS
+       1  MAR DEL PLATA M. BENDU
+       1  MENDOZA CENTRO
+       7  MENDOZA PALMARES
+       1  MENDOZA SHOPPING
+       1  NEUQUEN PORTAL PATAGONIA
+       5  NUEVO CENTRO SHOPPING
+       5  PALMAS DEL PILAR
+       9  PARANA
+       5  PASEO ALCORTA
+       3  PATIO BULLRICH
+       4  PATIO OLMOS
+       5  QUILMES CENTRO
+       4  REMEROS (NORDELTA)
+       5  SALTA CENTRO
+       4  SAN LUIS
+       3  SANTA FE Ribera Shopping
+       5  SOLAR DE LA ABADIA
+       1  TRELEW
+       6  TUCUMAN PORTAL
+       3  USHUAIA
+       1  VILLA CRESPO
+
+========================================================================
+ 3. DECODIFICA TU VIDA                                      323 u
+    ISBN 9789500216272   ID 729375   grupo AUTORES   en 57 sucursales
+========================================================================
+       5  ABASTO
+       3  AEROPARQUE
+      10  ALTO COMAHUE
+       4  ALTO NOA SHOPPING - SALTA
+       8  ALTO PALERMO
+       6  ALTO ROSARIO
+       5  ATENEO FLORIDA 340
+       7  ATENEO FLORIDA 632
+      12  ATENEO GRAND SPLENDID
+       5  ATENEO JURAMENTO
+       3  ATENEO ROSARIO
+       7  ATENEO TUCUMAN
+       8  AVELLANEDA
+       4  BAHIA BLANCA SHOPPING
+       4  BARILOCHE
+       8  BORGES
+       8  CABALLITO
+       6  CALLE 12
+       6  COMODORO RIVADAVIA
+       8  CORRIENTES SHOPPING
+       4  DOT BAIRES SHOPPING
+       4  EZEIZA
+       7  FLORES
+       5  JUJUY
+       9  LA PLATA
+       4  LOMAS DE ZAMORA
+       8  MAR DEL PLATA LOS GALLEGOS
+       4  MAR DEL PLATA PASEO ALDREY
+       1  MENDOZA CENTRO
+       1  MENDOZA PALMARES
+       4  MENDOZA SHOPPING
+       8  NEUQUEN PORTAL PATAGONIA
+       4  NUEVO CENTRO SHOPPING
+       3  PALERMO PORTAL
+       8  PALMAS DEL PILAR
+       5  PARANA
+       8  PASEO ALCORTA
+       4  PATIO BULLRICH
+       9  PLAZA OESTE
+       4  QUILMES CENTRO
+       8  REMEROS (NORDELTA)
+       5  RESISTENCIA
+       7  RIO CUARTO
+       1  ROSARIO PORTAL
+       6  SALTA CENTRO
+       9  SAN JUSTO
+       7  SAN LUIS
+       2  SAN MIGUEL
+       6  SANTA FE Ribera Shopping
+       8  SOLAR DE LA ABADIA
+       8  TORTUGAS OPEN MALL
+       4  TRELEW
+       4  TUCUMAN PORTAL
+       4  UNICENTER
+       6  USHUAIA
+       2  VILLA CRESPO
+       5  VILLA URQUIZA
+
+========================================================================
+ 4. ROMPER EL CICLO                                         183 u
+    ISBN 9789500213349   ID 702716   grupo AUTORES   en 41 sucursales
+========================================================================
+       9  AEROPARQUE
+       5  ALTO COMAHUE
+       4  ALTO NOA SHOPPING - SALTA
+       2  ALTO PALERMO
+       2  ALTO ROSARIO
+       6  ATENEO FLORIDA 632
+       6  ATENEO GRAND SPLENDID
+       4  ATENEO ROSARIO
+       4  BAHIA BLANCA SHOPPING
+       2  BARILOCHE
+       7  CABALLITO
+       4  CALLE 12
+       5  COMODORO RIVADAVIA
+       6  CORRIENTES SHOPPING
+       4  DOT BAIRES SHOPPING
+       4  EZEIZA
+       6  FLORES
+       4  JUJUY
+       2  LA PLATA
+       2  LOMAS DE ZAMORA
+       1  MAR DEL PLATA LOS GALLEGOS
+       1  MAR DEL PLATA M. BENDU
+       5  MAR DEL PLATA PASEO ALDREY
+       6  MENDOZA SHOPPING
+       4  NEUQUEN PORTAL PATAGONIA
+       1  NUEVO CENTRO SHOPPING
+       4  PALMAS DEL PILAR
+       2  PARANA
+       4  PATIO BULLRICH
+       2  PATIO OLMOS
+       5  QUILMES CENTRO
+       7  REMEROS (NORDELTA)
+       5  RESISTENCIA
+       6  ROSARIO PORTAL
+       8  SALTA CENTRO
+       9  SAN JUSTO
+       9  SANTA FE Ribera Shopping
+       8  TUCUMAN PORTAL
+       1  UNICENTER
+       5  VILLA CRESPO
+       2  VILLA URQUIZA
+
+========================================================================
+ 5. ANTEOJOS DE INTI, LOS                                   302 u
+    ISBN 9789500214797   ID 713926   grupo AUTORES   en 56 sucursales
+========================================================================
+       5  ABASTO
+       8  AEROPARQUE
+      10  ALTO COMAHUE
+       7  ALTO NOA SHOPPING - SALTA
+       7  ALTO PALERMO
+       9  ALTO ROSARIO
+       2  ATENEO FLORIDA 340
+       3  ATENEO FLORIDA 632
+      26  ATENEO GRAND SPLENDID
+       6  ATENEO JURAMENTO
+       1  ATENEO LA PLATA
+       6  ATENEO ROSARIO
+       4  ATENEO TUCUMAN
+       7  AVELLANEDA
+       3  BAHIA BLANCA SHOPPING
+       4  BARILOCHE
+       6  BORGES
+       6  CABALLITO
+       4  CALLE 12
+       5  COMODORO RIVADAVIA
+       7  CORRIENTES SHOPPING
+       3  DOT BAIRES SHOPPING
+       4  EZEIZA
+       5  FLORES
+       3  JUJUY
+       5  LA PLATA
+       2  LOMAS DE ZAMORA
+       7  MAR DEL PLATA LOS GALLEGOS
+       3  MAR DEL PLATA M. BENDU
+       5  MAR DEL PLATA PASEO ALDREY
+       1  MENDOZA CENTRO
+       3  MENDOZA PALMARES
+       7  MENDOZA SHOPPING
+       3  NUEVO CENTRO SHOPPING
+       3  PALERMO PORTAL
+       8  PALMAS DEL PILAR
+       3  PARANA
+       8  PASEO ALCORTA
+       4  PATIO BULLRICH
+       5  PATIO OLMOS
+       6  PLAZA OESTE
+       8  QUILMES CENTRO
+       2  REMEROS (NORDELTA)
+       1  RESISTENCIA
+       6  RIO CUARTO
+       5  ROSARIO PORTAL
+       5  SALTA CENTRO
+       8  SAN JUSTO
+       8  SAN LUIS
+       5  SAN MIGUEL
+       9  SANTA FE Ribera Shopping
+       4  SOLAR DE LA ABADIA
+       6  TUCUMAN PORTAL
+       3  UNICENTER
+       5  USHUAIA
+       3  VILLA CRESPO
+
+========================================================================
+ 6. EMOCIONES DE INTI, LAS                                  117 u
+    ISBN 9789500213790   ID 706239   grupo AUTORES   en 28 sucursales
+========================================================================
+       3  ABASTO
+       2  ALTO COMAHUE
+       1  ALTO NOA SHOPPING - SALTA
+       2  ALTO PALERMO
+       4  ALTO ROSARIO
+       5  ATENEO FLORIDA 632
+      24  ATENEO GRAND SPLENDID
+       4  ATENEO ROSARIO
+       3  AVELLANEDA
+       3  BARILOCHE
+       1  BORGES
+       3  CABALLITO
+       5  CORRIENTES SHOPPING
+       1  DOT BAIRES SHOPPING
+       4  EZEIZA
+       3  LOMAS DE ZAMORA
+       3  MENDOZA SHOPPING
+       2  NUEVO CENTRO SHOPPING
+       2  PASEO ALCORTA
+       4  PATIO BULLRICH
+       8  PATIO OLMOS
+       2  PLAZA OESTE
+       7  SAN LUIS
+       1  SAN MIGUEL
+      10  SANTA FE Ribera Shopping
+       2  TORTUGAS OPEN MALL
+       6  TUCUMAN PORTAL
+       2  UNICENTER
+
+========================================================================
+ 7. ENOJO DE INTI, EL                                       239 u
+    ISBN 9789500215824   ID 725188   grupo AUTORES   en 47 sucursales
+========================================================================
+       6  ABASTO
+       6  AEROPARQUE
+       5  ALTO COMAHUE
+       5  ALTO NOA SHOPPING - SALTA
+       5  ATENEO FLORIDA 340
+       2  ATENEO FLORIDA 632
+      20  ATENEO GRAND SPLENDID
+       3  ATENEO JURAMENTO
+       4  ATENEO ROSARIO
+       4  ATENEO TUCUMAN
+       7  AVELLANEDA
+       2  BAHIA BLANCA SHOPPING
+       3  BARILOCHE
+       5  BORGES
+       6  CABALLITO
+       6  CALLE 12
+       5  COMODORO RIVADAVIA
+       4  CORRIENTES SHOPPING
+       4  DOT BAIRES SHOPPING
+       4  EZEIZA
+       3  FLORES
+       5  JUJUY
+       5  LA PLATA
+       3  LOMAS DE ZAMORA
+       3  MAR DEL PLATA PASEO ALDREY
+       4  MENDOZA CENTRO
+       2  MENDOZA PALMARES
+       6  MENDOZA SHOPPING
+       4  NUEVO CENTRO SHOPPING
+       2  PALMAS DEL PILAR
+       8  PASEO ALCORTA
+       3  PATIO BULLRICH
+       5  PATIO OLMOS
+       5  PLAZA OESTE
+       5  QUILMES CENTRO
+       2  RESISTENCIA
+       8  RIO CUARTO
+       6  ROSARIO PORTAL
+       5  SALTA CENTRO
+       5  SAN JUSTO
+       9  SAN LUIS
+       5  SAN MIGUEL
+       8  SANTA FE Ribera Shopping
+       6  TUCUMAN PORTAL
+       5  UNICENTER
+       5  VILLA CRESPO
+       6  VILLA URQUIZA
+
+========================================================================
+ 8. INTI Y EL CELULAR                                       236 u
+    ISBN 9789500216890   ID 737019   grupo AUTORES   en 45 sucursales
+========================================================================
+       3  ABASTO
+       7  AEROPARQUE
+       8  ALTO COMAHUE
+       8  ALTO NOA SHOPPING - SALTA
+       5  ALTO PALERMO
+       1  ALTO ROSARIO
+       6  ATENEO CORDOBA CENTRO
+       3  ATENEO FLORIDA 340
+      26  ATENEO GRAND SPLENDID
+       5  ATENEO ROSARIO
+       4  ATENEO TUCUMAN
+       7  AVELLANEDA
+       1  BAHIA BLANCA SHOPPING
+       8  BARILOCHE
+       5  BORGES
+       7  CABALLITO
+       5  CALLE 12
+       4  COMODORO RIVADAVIA
+       6  CORRIENTES SHOPPING
+       1  DOT BAIRES SHOPPING
+       2  EZEIZA
+       1  FLORES
+       4  LA PLATA
+       2  LOMAS DE ZAMORA
+       3  MAR DEL PLATA M. BENDU
+       2  MENDOZA CENTRO
+       5  MENDOZA PALMARES
+       7  MENDOZA SHOPPING
+       8  PALMAS DEL PILAR
+       7  PASEO ALCORTA
+       4  PATIO BULLRICH
+       5  PATIO OLMOS
+       5  PLAZA OESTE
+       1  QUILMES CENTRO
+       6  REMEROS (NORDELTA)
+       5  RESISTENCIA
+       6  RIO CUARTO
+       4  SAN JUSTO
+       8  SAN LUIS
+       1  SAN MIGUEL
+       8  SANTA FE Ribera Shopping
+       5  SOLAR DE LA ABADIA
+       6  TORTUGAS OPEN MALL
+       6  TUCUMAN PORTAL
+       5  UNICENTER
+
+========================================================================
+ 9. AGOTADOS                                                182 u
+    ISBN 9789500215855   ID 725690   grupo AUTORES   en 41 sucursales
+========================================================================
+       7  AEROPARQUE
+       5  ALTO COMAHUE
+       4  ALTO NOA SHOPPING - SALTA
+       4  ALTO PALERMO
+       8  ALTO ROSARIO
+       9  ATENEO FLORIDA 632
+      12  ATENEO GRAND SPLENDID
+       2  ATENEO JURAMENTO
+       6  ATENEO ROSARIO
+       5  AVELLANEDA
+       4  BAHIA BLANCA SHOPPING
+       9  BARILOCHE
+       1  BORGES
+       4  CABALLITO
+       4  CORRIENTES SHOPPING
+       5  DOT BAIRES SHOPPING
+       3  EZEIZA
+       5  FLORES
+       2  JUJUY
+       2  LOMAS DE ZAMORA
+       7  MAR DEL PLATA LOS GALLEGOS
+       1  MAR DEL PLATA PASEO ALDREY
+       1  MENDOZA CENTRO
+       5  MENDOZA SHOPPING
+       5  NEUQUEN PORTAL PATAGONIA
+       1  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       7  PALMAS DEL PILAR
+       1  PARANA
+       3  PATIO BULLRICH
+       3  PATIO OLMOS
+       5  PLAZA OESTE
+       7  REMEROS (NORDELTA)
+       3  SAN JUSTO
+       6  SAN LUIS
+       8  SANTA FE Ribera Shopping
+       2  SOLAR DE LA ABADIA
+       4  TORTUGAS OPEN MALL
+       2  TUCUMAN PORTAL
+       4  UNICENTER
+       5  USHUAIA
+
+========================================================================
+10. HABITOS.                                                178 u
+    ISBN 9789500214933   ID 714586   grupo AUTORES   en 40 sucursales
+========================================================================
+       4  ABASTO
+       9  AEROPARQUE
+       7  ALTO COMAHUE
+       5  ALTO NOA SHOPPING - SALTA
+       4  ALTO PALERMO
+       4  ALTO ROSARIO
+       3  ATENEO CORDOBA CENTRO
+       5  ATENEO FLORIDA 632
+       7  ATENEO GRAND SPLENDID
+       6  ATENEO ROSARIO
+       5  AVELLANEDA
+       4  BAHIA BLANCA SHOPPING
+       4  BARILOCHE
+       8  BORGES
+       4  CABALLITO
+       5  CALLE 12
+       1  DOT BAIRES SHOPPING
+       4  EZEIZA
+       2  LA PLATA
+       3  LOMAS DE ZAMORA
+       2  MAR DEL PLATA LOS GALLEGOS
+       2  MAR DEL PLATA M. BENDU
+       6  MAR DEL PLATA PASEO ALDREY
+       2  MENDOZA CENTRO
+       2  MENDOZA SHOPPING
+       2  NUEVO CENTRO SHOPPING
+       8  PALMAS DEL PILAR
+       6  PARANA
+       3  PASEO ALCORTA
+       3  PATIO BULLRICH
+       7  PLAZA OESTE
+       2  REMEROS (NORDELTA)
+       2  SALTA CENTRO
+      10  SAN JUSTO
+       4  SAN LUIS
+       9  SANTA FE Ribera Shopping
+       1  SOLAR DE LA ABADIA
+       4  TORTUGAS OPEN MALL
+       8  TUCUMAN PORTAL
+       1  USHUAIA
+
+========================================================================
+11. RESETEA TUS INTESTINOS (3ª EDICION)                      95 u
+    ISBN 9789500217514   ID 743062   grupo AUTORES   en 26 sucursales
+========================================================================
+       5  ABASTO
+       6  AEROPARQUE
+       1  ALTO NOA SHOPPING - SALTA
+       7  ALTO PALERMO
+       6  ATENEO FLORIDA 632
+       3  ATENEO GRAND SPLENDID
+       4  BAHIA BLANCA SHOPPING
+       2  BORGES
+       2  CABALLITO
+       1  EZEIZA
+       4  JUJUY
+       2  MAR DEL PLATA PASEO ALDREY
+       3  NUEVO CENTRO SHOPPING
+       1  PALERMO PORTAL
+       4  PALMAS DEL PILAR
+       7  PARANA
+       1  PATIO BULLRICH
+       2  PATIO OLMOS
+       4  PLAZA OESTE
+       3  QUILMES CENTRO
+       4  REMEROS (NORDELTA)
+       6  SALTA CENTRO
+       5  SAN JUSTO
+       7  SANTA FE Ribera Shopping
+       3  SOLAR DE LA ABADIA
+       2  TUCUMAN PORTAL
+
+========================================================================
+12. SIBO                                                    186 u
+    ISBN 9789500216654   ID 734145   grupo AUTORES   en 40 sucursales
+========================================================================
+       4  AEROPARQUE
+       5  ALTO COMAHUE
+       4  ALTO NOA SHOPPING - SALTA
+       7  ALTO PALERMO
+       4  ALTO ROSARIO
+       5  ATENEO CORDOBA CENTRO
+       4  ATENEO FLORIDA 632
+      12  ATENEO GRAND SPLENDID
+       2  ATENEO LA PLATA
+       6  ATENEO ROSARIO
+       6  AVELLANEDA
+       4  BAHIA BLANCA SHOPPING
+       3  BARILOCHE
+       3  CABALLITO
+       6  CALLE 12
+       6  CORRIENTES SHOPPING
+       6  DOT BAIRES SHOPPING
+       3  EZEIZA
+       2  FLORES
+       8  JUJUY
+       2  LA PLATA
+       5  LOMAS DE ZAMORA
+       6  MAR DEL PLATA LOS GALLEGOS
+       6  MAR DEL PLATA M. BENDU
+       1  MAR DEL PLATA PASEO ALDREY
+       2  MENDOZA CENTRO
+       1  NUEVO CENTRO SHOPPING
+       4  PALERMO PORTAL
+       9  PALMAS DEL PILAR
+       6  PARANA
+       3  PATIO BULLRICH
+       3  PATIO OLMOS
+       8  PLAZA OESTE
+       6  REMEROS (NORDELTA)
+       4  SAN JUSTO
+       9  SANTA FE Ribera Shopping
+       3  SOLAR DE LA ABADIA
+       1  TRELEW
+       2  TUCUMAN PORTAL
+       5  USHUAIA
+
+========================================================================
+TOTAL                                                      2819 u  en 12 titulos

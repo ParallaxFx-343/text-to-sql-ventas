@@ -9,12 +9,19 @@ liquidaciones, servicio de novedades). Se carga automáticamente en cada sesión
 
 | Sucursal | Nro. | Estado | Pendiente |
 |---|---|---|---|
-| **DEVOTO** | **56** (a confirmar) | Nueva — informada 08/09/2026 | Franco envía el Excel con los datos |
+| **DEVOTO** | **56** (a confirmar) | Nueva — informada 08/09/2026 | Franco envía el Excel con los datos (nunca llegó) |
 
 El número 56 lo dio Franco de memoria ("creo"). **Confirmar contra el maestro
 antes de usarlo en cualquier archivo de carga**, sobre todo en los CSV de
 reposición y en los TXT de PAEC, donde un número equivocado manda mercadería
 a otra boca.
+
+Estado al 23/09/2026: DEVOTO aparece como columna en el SII desde el
+11/09 (76 columnas de sucursal), pero con **0 unidades en los 1.230
+artículos** en todos los SII de septiembre. Franco decidió **"devoto no
+va"**: quedó afuera de todas las acciones de septiembre. Mientras siga en
+cero, excluirla y avisar. El SII no trae números de sucursal, así que no
+sirve para confirmar el 56.
 
 ### Regla: toda sucursal nueva necesita fecha de apertura
 
@@ -46,7 +53,8 @@ Cuadre correcto para interanuales: `mismas bocas + bocas nuevas = total`.
 
 ### Padrón
 
-El SII trae 75 columnas de sucursal. Se excluyen siempre estas **14**:
+El SII traía 75 columnas de sucursal; desde el 11/09/2026 trae **76** (se sumó
+DEVOTO, ver arriba). Se excluyen siempre estas **14**:
 
 ```
 CENTRAL                          FERIA ITINERANTE EDITORIAL
@@ -58,16 +66,13 @@ EXPERIENCIA GRAND SPLENDID       FERIA ITINERANTE REGION 4
 Futuro local Cordoba             FERIA YENNY ITINERANTES
 ```
 
-75 − 14 = **61 activas**. De esas, 60 se reparten en 4 grupos de 15 y
-**ATENEO GRAND SPLENDID queda fuera de los grupos** porque tiene circuito propio.
+76 − 14 = **62 activas** contando DEVOTO; **61 operativas** sin ella. De las 61,
+60 se reparten en 4 grupos de 15 y **ATENEO GRAND SPLENDID queda fuera de los
+grupos** porque tiene circuito propio. DEVOTO todavía no tiene grupo.
 
 El padrón completo, los 4 grupos y el orden de los TXT de PAEC están en
-`scratchpad/stock/config.json` (claves `orden_paec`, `grupos`, `excluir_siempre`).
-**Ese archivo vive en el scratchpad y se borra.** Si no está, regenerarlo desde
-el SII aplicando las exclusiones de arriba.
-
-Con DEVOTO el padrón pasaría a 62 activas, y hay que definir a qué grupo entra.
-**Verificar al recibir el Excel.**
+**`ateneo/config.json`** (commiteado; claves `orden_paec`, `grupos`,
+`excluir_siempre`, `notas_sucursales`).
 
 ### Fechas de apertura
 
@@ -114,6 +119,72 @@ Nombre: `reposicion_{SLUG}.csv` / `refuerzo_{SLUG}.csv` / `quiebre_{SLUG}.csv`.
 
 Orden de los locales: BENDU va entre MAR DEL PLATA LOS GALLEGOS y PASEO ALDREY,
 para que quede alineado con el orden de los TXT.
+
+### "Un solo PAEC" (formato pedido desde septiembre 2026)
+
+Cuando una acción va en **un solo PAEC**, el depósito prepara **por título**
+(agarra los 240 de un título y los separa por local), y Franco distribuye en
+pantalla local por local. Se entrega:
+
+1. **Un solo CSV** con todos los títulos: `ISBN;cantidad total`, sin
+   encabezado, CRLF. No un CSV por sucursal (lo pidió explícitamente dos veces).
+2. **TXT de desglose por título**: los títulos en el mismo orden que el CSV y,
+   dentro de cada título, las sucursales en **orden alfabético** con su
+   cantidad. Encabezado de cada bloque: total, ISBN, ID y cantidad de locales.
+3. Si hace falta, un Excel con la lista de títulos. Si la acción tiene rótulo
+   ("ROTULAR COMO DIA DE LA MADRE"), va arriba del txt.
+
+**Si el PAEC ya se cargó, sus cantidades son fijas.** Al redistribuir con un
+SII más nuevo hay que respetar el total por título que ya se cargó y avisar
+qué líneas cambiarían, sin aplicarlas.
+
+### Criterios de reposición que Franco fijó
+
+- **Redondeo** (Día de la Madre): el pedido de cada título va al múltiplo de
+  10 de arriba, y el excedente se reparte entre **ATENEO GRAND SPLENDID,
+  ATENEO JURAMENTO y ATENEO FLORIDA 340** ("pueden recibir un poquito más").
+  Nunca redondear por encima del disponible de depósito.
+- **"Reponer lo que vendieron"** (reposición del 21 al 25): se repone la
+  columna Ventas, salvo que el stock del local ya cubra **más de 3 veces** lo
+  vendido (≈ mes y medio de venta). Corte estricto: con 3,0 se repone.
+- **"Dejame solo lo que se pueda servir"**: afuera los títulos con disponible
+  en 0 y también los que el depósito no puede servir completos. Se aplicó en
+  la reposición del 21 al 25 y en el refuerzo de Canales del 23/09. En los
+  pedidos con cantidades cerradas (Canales), primero preguntar.
+- Cuando la cantidad pedida supera el disponible y Franco dice "dejalos así",
+  se cargan igual y se marcan (pasó con HEDY y FIN DEL AUTOODIO).
+- Pendiente de decidir: medir la cobertura **después** de reponer (que el
+  local no quede con más de 3 veces la venta), en vez de antes.
+
+### Nombres de locales en los pedidos
+
+- **Locales chicos** (van a 3 o a 5 cuando el resto va a 8 o a 10): EZEIZA,
+  TRELEW, PATIO BULLRICH, PALERMO PORTAL, BAHIA BLANCA SHOPPING.
+- "Ateneo Juramento, **Floridas**, Rosario, Tucumán, La Plata y Córdoba" = los
+  **7 ATENEO** del SII sin Grand Splendid (Florida 340 y 632).
+- "La Plata" a secas = **LA PLATA**, no ATENEO LA PLATA; "Rosario Portal" y
+  "Tucumán Portal" son locales distintos de los ATENEO.
+- Cuando un archivo trae nombres cortos, verificar el mapeo cruzando su
+  columna Stock contra el SII: la columna correcta coincide en 82-100% de
+  los títulos y la segunda no pasa del 36%.
+
+### Canales Alternativos
+
+CSV `refuerzo_CANALES_ALTERNATIVOS.csv` (o `reposicion_…` si viene de
+ranking con columna Pedido). Lo que no se sirve se informa con un cuadro HTML
+para pegar en el cuerpo del Outlook, **con estilos inline** (Outlook ignora
+`<style>`), con las columnas ISBN, título, pedido, disponible y motivo.
+
+### Sábanas de vendedores (`{VENDEDOR}_CONSOLIDADA_dd-mm-aaaa.xlsx`)
+
+Son siete: EGISTI, FUCITO, MARTIRENA, NAVARRO, PABLO, RODRIGUEZ y SALICE. Tienen
+una hoja "Resultado 1" con 22 columnas (CUENTA, CLIENTE, SUCURSAL,
+FECHAULTLIQ, CODIGO = ID de artículo, ISBN como texto, TITULO, ENTREGADA,
+VENTA, DEVOL, SALDO, PVP… NOMBRE_VENDEDOR). **No** son las `_SABANAS_`, que
+vienen con una hoja por cliente: esas se mandaron por error. Para filtrar por
+títulos se usa el **ISBN exacto**, porque las Vacas tienen otras ediciones con
+el mismo título y otro ISBN (9789500210041, 9789500213073, 9789878661735,
+9789500213080, 9789878816647).
 
 ### Archivos de pedido por cliente
 Nombre: `{VENDEDOR}_-_{CLIENTE}_-_{CUENTA}.xlsx`
@@ -222,6 +293,56 @@ columna 3 = etiqueta de liquidación (ej. `LIQUIDACIONJULIO`).
   prefijo `978`, pero **no siempre**: algunos son ISBN-10 viejos de verdad y
   ahí hay que descartar el dígito verificador y recalcularlo. Validar siempre
   el dígito verificador antes de dar por bueno un ISBN.
+
+## Entorno (contenedor en la nube)
+
+- **Para ver un Excel renderizado**: `apt-get install -y libreoffice-calc` (viene
+  solo el núcleo y sin él no abre ningún xlsx), después
+  `soffice -env:UserInstallation=file://$PWD/_lohome --headless --convert-to pdf archivo.xlsx`
+  y `pypdfium2` para pasar la página a PNG. En LibreOffice falta Calibri, así que
+  la letra sale distinta, y los miles aparecen con coma.
+- Si pdfplumber falla con `_cffi_backend`: `pip install --force-reinstall --no-cache-dir cffi`.
+- **No se pueden transcribir audios** (no hay whisper ni ffmpeg): pedirle a
+  Franco el texto.
+- `/design` (Claude Design) solo lo puede lanzar Franco. No edita Excel: arma
+  láminas que se exportan a PDF o PNG.
+- El scratchpad se borra. Lo que tenga que sobrevivir va al repo.
+
+## Estado al 23/09/2026
+
+Acciones de septiembre (archivos cargados en `ateneo/historial/2026-09/`):
+
+| Fecha | Acción | Títulos | Locales | Unidades |
+|---|---|---|---|---|
+| 11/09 | Promo 2x1 $28.500 | 11 | 33 | 255 |
+| 15/09 | Día de la Madre (PAEC único, redondeo a 10) | 38 | 61 | 5.101 |
+| 17/09 | Agenda + autores de octubre | 12 | 61 | 2.819 |
+| 17/09 | Canales · ranking | 56 | — | 243 |
+| 21/09 | Reposición 21 al 25 (6.201 vendidas → 4.004) | 170 | 20 | 4.004 |
+| 23/09 | Canales · refuerzo (126 pedidas → 101) | 43 | — | 101 |
+
+Total 12.523 u. y 247 títulos distintos. El faltante de depósito sumó 2.016
+u.: el 76% está en PRINCIPITO, GATITO ¿POR QUE ESTAS ENOJADO?, SAGA DE LOS
+ROMANOV y los dos STICKERS MAGICOS. Los Stickers no están agotados, sino en
+la cadena (711 y 377) y en consignación (1.212 y 1.008).
+
+Tablero del mes: `ateneo/historial/2026-09/Reposicion_Septiembre_2026_tablero.xlsx`
+(armado con `tablero.py` a partir de los `dash_*.json`). La versión web es
+el artifact "Reposición Septiembre 2026".
+
+**Reimpresiones de octubre** (16 títulos). La lista con ISBN e ID está en
+`ateneo/historial/2026-09/reimpresiones_octubre.csv`.
+
+Pendientes:
+- DEVOTO: número de sucursal y grupo (el Excel nunca llegó).
+- TAO TE CHING en Ateneo Córdoba: Franco ve 33 y el SII dice 20. Hay que ver
+  qué pantalla muestra 33; si incluye mercadería en tránsito, el SII no la ve
+  y se estaría reponiendo encima de envíos en viaje.
+- Situación x Vendedor 08/2026: la fila "Ejercicio 2026-27" está cargada a
+  mano y desactualizada; a GESUALDI (24135) le falta la fila en la hoja EM; el
+  BUSCARV de AD y AE llega hasta la fila 623 y deja afuera 8 clientes.
+- Servicio de Novedades de septiembre: faltan las cuotas, la fila de precios,
+  el cronograma y las reimpresiones.
 
 ## Regla general de trabajo
 

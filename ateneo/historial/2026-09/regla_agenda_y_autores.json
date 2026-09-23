@@ -1,0 +1,58 @@
+{
+ "nombre": "AGENDA_Y_AUTORES_OCT26",
+ "prefijo_archivo": "refuerzo",
+ "excluir_sucursales": [
+  "DEVOTO"
+ ],
+ "grupos": [
+  {
+   "nombre": "AGENDA",
+   "completar_a": 10,
+   "excluir_sucursales": [
+    "ATENEO GRAND SPLENDID"
+   ],
+   "excepciones": {
+    "EZEIZA": 5,
+    "TRELEW": 5,
+    "PATIO BULLRICH": 5,
+    "PALERMO PORTAL": 5,
+    "BAHIA BLANCA SHOPPING": 5,
+    "ATENEO JURAMENTO": 40,
+    "ATENEO FLORIDA 340": 40,
+    "ATENEO FLORIDA 632": 40,
+    "ATENEO ROSARIO": 40,
+    "ATENEO TUCUMAN": 40,
+    "ATENEO LA PLATA": 40,
+    "ATENEO CORDOBA CENTRO": 40
+   },
+   "isbns": [
+    9789500217217
+   ]
+  },
+  {
+   "nombre": "AUTORES",
+   "completar_a": 10,
+   "excepciones": {
+    "EZEIZA": 5,
+    "TRELEW": 5,
+    "PATIO BULLRICH": 5,
+    "PALERMO PORTAL": 5,
+    "BAHIA BLANCA SHOPPING": 5,
+    "ATENEO GRAND SPLENDID": 30
+   },
+   "isbns": [
+    9789500216593,
+    9789500216272,
+    9789500213349,
+    9789500214797,
+    9789500213790,
+    9789500215824,
+    9789500216890,
+    9789500215855,
+    9789500214933,
+    9789500217514,
+    9789500216654
+   ]
+  }
+ ]
+}
