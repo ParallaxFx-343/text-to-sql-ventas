@@ -283,18 +283,28 @@ Referencia: `cuspide/ej_agosto.xlsx` (54 filas, 51 DirEnt distintos) y
 En septiembre Castelar no pidió.
 
 ### Lista de precios mensual (LP)
-`LP_{MES}_26.xlsx`, hoja `Hoja 1`, una fila por artículo (1.556 en septiembre 2026)
-con: Nro. Lista, Descripción (`LP OCTUBRE 26 Editorial El Ateneo VLocal`),
-Moneda `PESO`, Vigencia Desde/Hasta **como texto** `dd/mm/aaaa`, Nro. Art.,
-Código/ISBN (texto), Título, Importe (formato `0.00`) y Activo `SI`.
-- El mes nuevo se arma sobre el anterior: cambian **solo** Descripción y
-  vigencia, más los precios que Franco indique. Controlar celda por celda
-  que no cambie nada más.
-- **El Nro. Lista lo genera el sistema al cargar**: no inventarlo; queda el
-  del mes anterior (4882 en septiembre).
-- TAROT: CARTAS DE ADIVINACION… (ID 740169, 9788466244893) = **$49.900**
-  desde la LP de septiembre actualizada. No confundir con TAROT MARSELLES
-  (ID 426496, $300).
+**Lo que se sube es `LP_{MES}_26_PARA_SUBIR.xlsx`**: hoja `Sheet`, **dos
+columnas sin encabezado: Nro. Art. (ID) e Importe**, desde la fila 1. El
+Nro. Lista, la descripción y la vigencia los pone el sistema al cargar.
+
+Cómo se arma (reconstruido de agosto 2026):
+1. Base: la LP completa del mes anterior, con las novedades ya agregadas
+   (`LP_JULIO_CON_NOVEDADES_AGOSTO_26.xlsx`, hoja `Hoja 1`, 10 columnas:
+   Nro. Lista, Descripción, Moneda, Vigencias, **Nro. Art.** (F), Código,
+   Título, **Importe** (I), Activo). Se mantiene el orden de filas.
+2. Se aplican los cambios de `CAMBIO_DE_PRECIOS_{MES}.xlsx` (hoja `CAMBIO
+   PRECIOS`: ISBN, I.D., título, autor, P.V.P., "Novedad/Cambio de precio").
+   En agosto hubo uno: OBESIDAD 740759, de 34.500 a 35.500.
+3. Lo que está en `LP_ARGENTINA_{MES}.xlsx` y falta en la lista se agrega
+   **al final** (agosto: COLLIVADINO 439030 a $77.500).
+4. Control: mismo orden que la base, sin IDs duplicados y solo cambian los
+   precios indicados. El artículo 734075 (IMPRESOS IMAGE GROUP) va a $0,05.
+
+Octubre 2026: sin cambios de precio. El único cambio fue TAROT: CARTAS DE
+ADIVINACION… (ID 740169), que pasó de $46.500 a **$49.900** y ya estaba cargado
+en `LP_SEPTIEMBRE_26_CON_NOVEDADES_Y_TAROT_ACTUALIZADO`. No confundir con
+TAROT MARSELLES (ID 426496, $300). Sin LP ARGENTINA de octubre no se
+controló el paso 3.
 
 ### Carga SILOMA
 Hoja `Hoja1`, datos desde la **fila 6** (filas 1-5 vacías).
