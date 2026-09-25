@@ -191,6 +191,13 @@ Nombre: `{VENDEDOR}_-_{CLIENTE}_-_{CUENTA}.xlsx`
 - **Hoja1**: ISBN + Cantidad, sin encabezado, datos desde la fila 7.
 - **Sheet1**: ISBN + Descripción + Cantidad, encabezado en fila 1, datos desde la fila 2.
 
+Los clientes mandan un Excel por sucursal y tipo (`PEDIDO_21653_AJAMIL_SUC._CALAFATE.xlsx`,
+`REPO_…`), con el encabezado en la fila 3, 4 o 5 según el archivo. "Mergear" =
+un solo archivo por cuenta, sumando por ISBN: `ateneo/pedido_cliente.py`.
+Traen ISBN con el verificador viejo (978 + ISBN-10 entero: El Príncipe
+`…286769` → `9789500286763`) y a veces el mismo título en dos ediciones
+(Resetea tus intestinos `…213653` y 3ª ed. `…217514`): corregir y avisar.
+
 ### Servicio de Novedades — planillas por vendedor
 
 Una planilla por vendedor. La grilla de arriba (títulos) y la tabla de clientes

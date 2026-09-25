@@ -105,6 +105,22 @@ por título son idénticas.
 
 ---
 
+## `pedido_cliente.py` — unir los pedidos de un cliente
+
+Junta los `PEDIDO_*` y `REPO_*` que manda un cliente (uno por sucursal) en un
+solo archivo `{VENDEDOR}_-_{CLIENTE}_-_{CUENTA}.xlsx` con Hoja1 (ISBN +
+cantidad desde la fila 7) y Sheet1 (ISBN + descripción + cantidad).
+
+```bash
+python ateneo/pedido_cliente.py PEDIDO_*.xlsx REPO_*.xlsx --vendedor X --sii SII.xls --salida ./out
+```
+
+Corrige el dígito verificador, avisa si un título viene con dos ISBN, frena si
+se mezclan cuentas, cuadra entrada contra salida y, con `--sii`, muestra ID y
+disponible. `--reemplazar VIEJO=NUEVO` aplica una decisión de edición.
+
+---
+
 ## `isbn.py` — validar y corregir ISBN
 
 Los listados llegan con los códigos en tres formas que no se distinguen a
