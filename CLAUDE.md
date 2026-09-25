@@ -197,6 +197,15 @@ un solo archivo por cuenta, sumando por ISBN: `ateneo/pedido_cliente.py`.
 Traen ISBN con el verificador viejo (978 + ISBN-10 entero: El Príncipe
 `…286769` → `9789500286763`) y a veces el mismo título en dos ediciones
 (Resetea tus intestinos `…213653` y 3ª ed. `…217514`): corregir y avisar.
+Si el mismo archivo llega dos veces, se toma una sola vez.
+
+Decisiones de Franco sobre Ajamil (25/09/2026):
+- Madryn y Ushuaia piden **Resetea edición aniversario** (`9789500213653`, ID
+  705123) **a propósito**: no pasarla a la 3ª edición.
+- El Diccionario Escolar viejo (`9789500253376`, ID 392616) está en 0: se
+  reemplaza por el **Nuevo Diccionario Escolar** (`9789500215770`, ID 728160).
+- Lo que no tiene stock se carga igual.
+- El vendedor de la cuenta 21653 no está confirmado.
 
 ### Servicio de Novedades — planillas por vendedor
 

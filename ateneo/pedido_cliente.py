@@ -95,14 +95,33 @@ def main():
     todas = []
     # Ordena por nombre real (sin el prefijo que agrega la subida): PEDIDO antes que REPO.
     lotes = [leer(ruta) for ruta in args.archivos]
+    vistos = {}
     for meta, lineas in sorted(lotes, key=lambda x: x[0]['archivo']):
+        # El mismo archivo subido dos veces se sumaria doble.
+        firma = [(l['isbn'], l['cantidad']) for l in lineas]
+        if meta['archivo'] in vistos:
+            if vistos[meta['archivo']] != firma:
+                raise SystemExit(f"*** {meta['archivo']} llego dos veces con contenido distinto")
+            print(f"{meta['archivo']} repetido con el mismo contenido: se toma una sola vez")
+            continue
+        vistos[meta['archivo']] = firma
         todas += lineas
+
+    sii = None
+    if args.sii:
+        sii = pd.read_excel(args.sii)
+        sii['ISBN'] = pd.to_numeric(sii['ISBN'], errors='coerce')
+        # dropna saca tambien la fila de totales del pie
+        sii = sii.dropna(subset=['ISBN']).set_index('ISBN')
 
     reemplazos = dict(r.split('=') for r in args.reemplazar)
     for l in todas:
         if l['isbn'] in reemplazos:
             l['metodo'] = f"reemplazado ({l['isbn']} -> {reemplazos[l['isbn']]})"
             l['isbn'] = reemplazos[l['isbn']]
+            # El titulo del cliente describe el ISBN viejo; se toma el del SII.
+            if sii is not None and int(l['isbn']) in sii.index:
+                l['titulo'] = str(sii.loc[int(l['isbn']), 'TITULO']).strip()
 
     # --- controles de consistencia ---
     cuentas = {l['cuenta'] for l in todas}
@@ -136,17 +155,21 @@ def main():
             print(f'  {t}: {", ".join(sorted(s))}')
 
     # --- union por ISBN, en orden de aparicion ---
+    # Con SII, la descripcion es la del sistema: distingue ediciones que el
+    # cliente escribe igual (Resetea 3a ed. vs. edicion aniversario).
+    def descripcion(l):
+        if sii is not None and int(l['isbn']) in sii.index:
+            return str(sii.loc[int(l['isbn']), 'TITULO']).strip()
+        return l['titulo']
+
     unido = OrderedDict()
     for l in todas:
-        u = unido.setdefault(l['isbn'], {'isbn': l['isbn'], 'titulo': l['titulo'],
+        u = unido.setdefault(l['isbn'], {'isbn': l['isbn'], 'titulo': descripcion(l),
                                           'cantidad': 0, 'detalle': []})
         u['cantidad'] += l['cantidad']
         u['detalle'].append(f"{l['sucursal']} {l['tipo_pedido']} {l['cantidad']}")
 
-    if args.sii:
-        sii = pd.read_excel(args.sii)
-        sii['ISBN'] = pd.to_numeric(sii['ISBN'], errors='coerce')
-        sii = sii.dropna(subset=['ISBN']).set_index('ISBN')
+    if sii is not None:
         print('\ncontra el SII:')
         for u in unido.values():
             n = int(u['isbn'])
