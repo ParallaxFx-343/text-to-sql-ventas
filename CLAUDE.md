@@ -16,9 +16,9 @@ antes de usarlo en cualquier archivo de carga**, sobre todo en los CSV de
 reposición y en los TXT de PAEC, donde un número equivocado manda mercadería
 a otra boca.
 
-Estado al 23/09/2026: DEVOTO aparece como columna en el SII desde el
-11/09 (76 columnas de sucursal), pero con **0 unidades en los 1.230
-artículos** en todos los SII de septiembre. Franco decidió **"devoto no
+Estado al 25/09/2026: DEVOTO aparece como columna en el SII desde el
+11/09 (76 columnas de sucursal), pero con **0 unidades** en todos los SII
+de septiembre (el último, del 25/09, tiene 1.227 artículos). Franco decidió **"devoto no
 va"**: quedó afuera de todas las acciones de septiembre. Mientras siga en
 cero, excluirla y avisar. El SII no trae números de sucursal, así que no
 sirve para confirmar el 56.
@@ -354,8 +354,15 @@ columna 3 = etiqueta de liquidación (ej. `LIQUIDACIONJULIO`).
 - `/design` (Claude Design) solo lo puede lanzar Franco. No edita Excel: arma
   láminas que se exportan a PDF o PNG.
 - El scratchpad se borra. Lo que tenga que sobrevivir va al repo.
+- **Cuando se reinicia el contenedor, la rama local vuelve al commit inicial**
+  (le faltan el `CLAUDE.md` y `ateneo/`). Al arrancar hay que hacer
+  `git fetch origin claude/buscar-isbn-d6x9cp` y
+  `git merge --ff-only origin/claude/buscar-isbn-d6x9cp`, y reinstalar
+  `pip install pandas openpyxl xlrd`.
+- Antes de afirmar si algo se pusheó o no, mirar `git status -sb` / el remoto.
+  El 25/09 un push que se dio por no hecho sí había salido.
 
-## Estado al 23/09/2026
+## Estado al 25/09/2026
 
 Acciones de septiembre (archivos cargados en `ateneo/historial/2026-09/`):
 
@@ -377,10 +384,22 @@ Tablero del mes: `ateneo/historial/2026-09/Reposicion_Septiembre_2026_tablero.xl
 (armado con `tablero.py` a partir de los `dash_*.json`). La versión web es
 el artifact "Reposición Septiembre 2026".
 
+Hecho el 25/09:
+
+| Qué | Resultado | Dónde |
+|---|---|---|
+| Pedidos de Ajamil (cuenta 21653, EGISTI) | 6 archivos (el PEDIDO de Madryn llegó dos veces) → 4 por sucursal: Calafate 26, Madryn 18, Trelew 4, Ushuaia 2 = 50 u | `ateneo/historial/2026-09/ajamil_21653_25-09/` |
+| LP de octubre para subir | 1.556 artículos, igual que la de septiembre; Tarot a $49.900 y las 12 novedades de octubre incluidas | `ateneo/historial/2026-10/LP_OCTUBRE_26_PARA_SUBIR.xlsx` |
+
+SII del 25/09 (07:00): DEPOSITO 638.003 y DISPONIBLE 627.438, que cuadran
+contra la fila de totales.
+
 **Reimpresiones de octubre** (16 títulos). La lista con ISBN e ID está en
 `ateneo/historial/2026-09/reimpresiones_octubre.csv`.
 
 Pendientes:
+- LP ARGENTINA de octubre: si llega, cruzarla contra la LP para ver si falta
+  algún título (en agosto faltaba COLLIVADINO).
 - DEVOTO: número de sucursal y grupo (el Excel nunca llegó).
 - TAO TE CHING en Ateneo Córdoba: Franco ve 33 y el SII dice 20. Hay que ver
   qué pantalla muestra 33; si incluye mercadería en tránsito, el SII no la ve
