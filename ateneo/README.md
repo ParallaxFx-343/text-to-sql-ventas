@@ -122,6 +122,22 @@ disponible. `--reemplazar VIEJO=NUEVO` aplica una decisión de edición.
 
 ---
 
+## `valida_novedades.py` — revisar el A PROCESAR del Servicio de Novedades
+
+```bash
+python ateneo/valida_novedades.py RODRIGUEZ_SERVICIO_NOVEDADES_OCTUBRE_26_-_A_PROCESAR.xlsx \
+    --maestro Maestro_clientes.xls \
+    --ids ateneo/historial/2026-10/novedades_octubre.csv ateneo/historial/2026-09/reimpresiones_octubre.csv
+```
+
+No corrige: lista los problemas con la celda exacta. Revisa los IDs (contra
+los del mes y entre hojas), que la hoja de proceso sea la planilla sin la
+razón social, cantidades vacías o con texto, tipocomer / DirTrans / lista,
+y contra el maestro: cliente existente y activo, DirEnt de entrega, vendedor
+y nombre. Probado metiéndole errores a propósito a una copia.
+
+---
+
 ## `isbn.py` — validar y corregir ISBN
 
 Los listados llegan con los códigos en tres formas que no se distinguen a

@@ -236,8 +236,12 @@ cuidado al escribir.
   más 2 (si el último cliente está en la 65, la cuota va en la 67).
 
 ### Servicio de Novedades — archivo "A PROCESAR" por vendedor
-`{VENDEDOR}_SERVICIO_NOVEDADES_{MES}_26_-_A_PROCESAR.xlsx`, dos hojas:
-- **Hoja2** (primera hoja, la que se procesa): fila 1 = encabezado, A
+`{VENDEDOR}_SERVICIO_NOVEDADES_{MES}_26_-_A_PROCESAR.xlsx`. **Revisarlo con
+`ateneo/valida_novedades.py`** (lista los problemas, no corrige: Franco los
+arregla a mano). La hoja que se procesa es la **primera** y tiene `IdCliente`
+en A1: en Sálice es Hoja2, en Rodríguez es Hoja3. Rodríguez además trae una
+Hoja2 auxiliar vieja (maestro contra clientes) que no se procesa.
+- **Hoja de proceso**: fila 1 = encabezado, A
   IdCliente, B DirEnt, C tipocomer `Q`, D DirTrans `2`, E Trans Retira `2`,
   F Observacion (vacía), G Lista Precio (**4902 en octubre 2026**), H vacía,
   **I en adelante un ID por columna**. Una fila por cliente.
@@ -250,7 +254,12 @@ cuidado al escribir.
 - Controlar también que cada DirEnt sea una dirección `ENTR` activa en el
   maestro de clientes.
 - En Sálice octubre 2026 las cuotas quedaron en la fila 29, con el último
-  cliente en la 26 (+3, no +2): falta confirmar la regla con Franco.
+  cliente en la 26 (+3, no +2); en Rodríguez, en la 34 con el último en la 32
+  (+2). Falta confirmar la regla con Franco.
+- Clientes reemplazados: Campanella (23941, baja 06/01/2025) → Ávila Laura
+  Sabina (24051), mismo local "Libros y Papeles del Shopping" de Río Cuarto.
+- Revisados en octubre 2026: Sálice (celda vacía en Rayuela Salta; 24146 no
+  está en el maestro del 21/09) y Rodríguez (sin problemas, 27 clientes).
 
 ### Servicio de Novedades — planilla de Cuotas
 
