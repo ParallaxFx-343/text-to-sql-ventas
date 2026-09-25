@@ -196,7 +196,7 @@ Los clientes mandan un Excel por sucursal y tipo (`PEDIDO_21653_AJAMIL_SUC._CALA
 **"Mergear" = PEDIDO + REPO de la MISMA sucursal** (Madryn pedido + Madryn
 repo), un archivo por sucursal, sumando por ISBN. **Las sucursales no se
 juntan entre sí** (Franco lo corrigió el 25/09). Nombre:
-`{VENDEDOR}_-_AJAMIL_SUC._{SUCURSAL}_-_21653.xlsx`. Script: `ateneo/pedido_cliente.py`.
+`EGISTI_-_AJAMIL_SUC._{SUCURSAL}_-_21653.xlsx`. Script: `ateneo/pedido_cliente.py`.
 Traen ISBN con el verificador viejo (978 + ISBN-10 entero: El Príncipe
 `…286769` → `9789500286763`) y a veces el mismo título en dos ediciones
 (Resetea tus intestinos `…213653` y 3ª ed. `…217514`): corregir y avisar.
@@ -208,7 +208,7 @@ Decisiones de Franco sobre Ajamil (25/09/2026):
 - El Diccionario Escolar viejo (`9789500253376`, ID 392616) está en 0: se
   reemplaza por el **Nuevo Diccionario Escolar** (`9789500215770`, ID 728160).
 - Lo que no tiene stock se carga igual.
-- El vendedor de la cuenta 21653 no está confirmado.
+- Vendedor de la cuenta 21653 (Ajamil): **EGISTI**.
 
 ### Servicio de Novedades — planillas por vendedor
 
