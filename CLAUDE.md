@@ -235,6 +235,23 @@ cuidado al escribir.
 - La fila de cuotas se calcula, no se asume: es siempre última fila con cliente
   más 2 (si el último cliente está en la 65, la cuota va en la 67).
 
+### Servicio de Novedades — archivo "A PROCESAR" por vendedor
+`{VENDEDOR}_SERVICIO_NOVEDADES_{MES}_26_-_A_PROCESAR.xlsx`, dos hojas:
+- **Hoja2** (primera hoja, la que se procesa): fila 1 = encabezado, A
+  IdCliente, B DirEnt, C tipocomer `Q`, D DirTrans `2`, E Trans Retira `2`,
+  F Observacion (vacía), G Lista Precio (**4902 en octubre 2026**), H vacía,
+  **I en adelante un ID por columna**. Una fila por cliente.
+- **Hoja1**: la planilla del vendedor (formato de arriba) con RAZON SOCIAL en
+  B, así que todo corre una columna (IDs desde la J, clientes desde la fila 6).
+  Hoja2 tiene que ser Hoja1 sin la columna B, celda por celda.
+- **Ninguna cantidad puede quedar vacía**: poner 0. Una celda vacía hace que
+  la macro tire "No coinciden los tipos" y no genere el pedido (Rayuela
+  Salta 22449, Sálice octubre 2026: faltaba LA VACA Y LA ESPINACA).
+- Controlar también que cada DirEnt sea una dirección `ENTR` activa en el
+  maestro de clientes.
+- En Sálice octubre 2026 las cuotas quedaron en la fila 29, con el último
+  cliente en la 26 (+3, no +2): falta confirmar la regla con Franco.
+
 ### Servicio de Novedades — planilla de Cuotas
 
 Archivo aparte, un vendedor por fila:
