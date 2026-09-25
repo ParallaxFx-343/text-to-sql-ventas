@@ -282,6 +282,20 @@ Referencia: `cuspide/ej_agosto.xlsx` (54 filas, 51 DirEnt distintos) y
 `CUSPIDE_SEPTIEMBRE_26_A_PROCESAR.xlsx` (91 filas, novedades + ampliación).
 En septiembre Castelar no pidió.
 
+### Lista de precios mensual (LP)
+`LP_{MES}_26.xlsx`, hoja `Hoja 1`, una fila por artículo (1.556 en septiembre 2026)
+con: Nro. Lista, Descripción (`LP OCTUBRE 26 Editorial El Ateneo VLocal`),
+Moneda `PESO`, Vigencia Desde/Hasta **como texto** `dd/mm/aaaa`, Nro. Art.,
+Código/ISBN (texto), Título, Importe (formato `0.00`) y Activo `SI`.
+- El mes nuevo se arma sobre el anterior: cambian **solo** Descripción y
+  vigencia, más los precios que Franco indique. Controlar celda por celda
+  que no cambie nada más.
+- **El Nro. Lista lo genera el sistema al cargar**: no inventarlo; queda el
+  del mes anterior (4882 en septiembre).
+- TAROT: CARTAS DE ADIVINACION… (ID 740169, 9788466244893) = **$49.900**
+  desde la LP de septiembre actualizada. No confundir con TAROT MARSELLES
+  (ID 426496, $300).
+
 ### Carga SILOMA
 Hoja `Hoja1`, datos desde la **fila 6** (filas 1-5 vacías).
 Columna 1 = ISBN como entero con formato de número `0`; columna 2 = cantidad;
