@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Une los pedidos de un cliente (PEDIDO_* y REPO_*) en un solo archivo de carga.
+"""Une los pedidos de un cliente (PEDIDO_* y REPO_*) respetando sucursales.
 
 Los clientes mandan un Excel por sucursal y por tipo de pedido, con el
 nombre `{PEDIDO|REPO}_{CUENTA}_{CLIENTE}_SUC._{SUCURSAL}.xlsx` y una hoja
 Hoja1 cuyo encabezado (Isbn, Cod., Titulo, Autor, Editorial, Cantidad, Tipo)
 no esta siempre en la misma fila.
 
-Salida, segun la convencion de CLAUDE.md ("Archivos de pedido por cliente"):
-    {VENDEDOR}_-_{CLIENTE}_-_{CUENTA}.xlsx
+Se une el PEDIDO con el REPO de la MISMA sucursal (Madryn pedido + Madryn
+repo); las sucursales no se juntan entre si. Un archivo por sucursal, segun
+la convencion de CLAUDE.md ("Archivos de pedido por cliente"):
+    {VENDEDOR}_-_{CLIENTE}_SUC._{SUCURSAL}_-_{CUENTA}.xlsx
       Hoja1   ISBN + Cantidad, sin encabezado, datos desde la fila 7
       Sheet1  ISBN + Descripcion + Cantidad, encabezado en fila 1
 
@@ -17,7 +19,7 @@ Controles:
   - todas las lineas de la misma cuenta y del mismo tipo (no mezclar
     consignacion con firme)
   - el mismo titulo con dos ISBN distintos (otra edicion)
-  - cuadre: suma de los archivos de entrada = suma del archivo unido
+  - cuadre: por sucursal y total, entrada = archivos escritos
   - con --sii, que cada ISBN exista y cuanto hay disponible
 
 Uso:
@@ -162,15 +164,20 @@ def main():
             return str(sii.loc[int(l['isbn']), 'TITULO']).strip()
         return l['titulo']
 
-    unido = OrderedDict()
-    for l in todas:
-        u = unido.setdefault(l['isbn'], {'isbn': l['isbn'], 'titulo': descripcion(l),
-                                          'cantidad': 0, 'detalle': []})
-        u['cantidad'] += l['cantidad']
-        u['detalle'].append(f"{l['sucursal']} {l['tipo_pedido']} {l['cantidad']}")
+    def unir(lineas):
+        unido = OrderedDict()
+        for l in lineas:
+            u = unido.setdefault(l['isbn'], {'isbn': l['isbn'], 'titulo': descripcion(l),
+                                              'cantidad': 0, 'detalle': []})
+            u['cantidad'] += l['cantidad']
+            u['detalle'].append(f"{l['tipo_pedido']} {l['cantidad']}")
+        return unido
 
+    # El disponible se mira contra la demanda de todas las sucursales juntas,
+    # porque el deposito sirve todos los archivos del mismo stock.
+    unido = unir(todas)
     if sii is not None:
-        print('\ncontra el SII:')
+        print('\ncontra el SII (demanda de todas las sucursales):')
         for u in unido.values():
             n = int(u['isbn'])
             if n not in sii.index:
@@ -182,14 +189,32 @@ def main():
             print(f"  {marca} {u['isbn']}  ID {int(f['ID ARTICULO']):<7} pide {u['cantidad']:>3}  "
                   f"disp {disp:>6}  {str(f['TITULO']).strip()[:40]}")
 
-    entrada = sum(l['cantidad'] for l in todas)
-    salida_total = sum(u['cantidad'] for u in unido.values())
-    print(f'\ncuadre: entrada {entrada} = unido {salida_total} '
-          f'{"OK" if entrada == salida_total else "*** NO CUADRA ***"}  '
-          f'({len(todas)} lineas -> {len(unido)} ISBN)')
-
-    # --- archivo de carga ---
+    # --- un archivo por sucursal: PEDIDO + REPO de esa sucursal ---
     cliente, cuenta = clientes.pop(), cuentas.pop()
+    destino = Path(args.salida)
+    destino.mkdir(parents=True, exist_ok=True)
+    escrito = 0
+    for suc in sorted({l['sucursal'] for l in todas}):
+        propias = [l for l in todas if l['sucursal'] == suc]
+        u_suc = unir(propias)
+        archivo = destino / f'{args.vendedor.upper()}_-_{cliente}_SUC._{suc}_-_{cuenta}.xlsx'
+        escribir(u_suc, archivo)
+        entra = sum(l['cantidad'] for l in propias)
+        sale = sum(u['cantidad'] for u in u_suc.values())
+        escrito += sale
+        tipos_suc = ' + '.join(sorted({l['tipo_pedido'] for l in propias}))
+        print(f'\n{suc} ({tipos_suc}): {len(propias)} lineas -> {len(u_suc)} ISBN, '
+              f'{sale} u  {"OK" if entra == sale else "*** NO CUADRA ***"}   {archivo.name}')
+        for u in u_suc.values():
+            print(f"  {u['isbn']:<15}{u['cantidad']:>4}  {u['titulo'][:44]:<46}{' + '.join(u['detalle'])}")
+
+    entrada = sum(l['cantidad'] for l in todas)
+    print(f'\ncuadre: entrada {entrada} = archivos {escrito} '
+          f'{"OK" if entrada == escrito else "*** NO CUADRA ***"}')
+
+
+def escribir(unido, archivo):
+    """Archivo de carga: Hoja1 desde la fila 7 y Sheet1 con encabezado."""
     wb = Workbook()
     h1 = wb.active
     h1.title = 'Hoja1'
@@ -204,16 +229,7 @@ def main():
     for ws in (h1, s1):
         ws.column_dimensions['A'].width = 16
     s1.column_dimensions['B'].width = 46
-
-    destino = Path(args.salida)
-    destino.mkdir(parents=True, exist_ok=True)
-    archivo = destino / f'{args.vendedor.upper()}_-_{cliente}_-_{cuenta}.xlsx'
     wb.save(archivo)
-
-    print(f'\n{"ISBN":<15}{"CANT":>5}  {"TITULO":<42}DETALLE')
-    for u in unido.values():
-        print(f"{u['isbn']:<15}{u['cantidad']:>5}  {u['titulo'][:40]:<42}{' + '.join(u['detalle'])}")
-    print(f'\nescrito {archivo}')
 
 
 if __name__ == '__main__':

@@ -107,9 +107,10 @@ por título son idénticas.
 
 ## `pedido_cliente.py` — unir los pedidos de un cliente
 
-Junta los `PEDIDO_*` y `REPO_*` que manda un cliente (uno por sucursal) en un
-solo archivo `{VENDEDOR}_-_{CLIENTE}_-_{CUENTA}.xlsx` con Hoja1 (ISBN +
-cantidad desde la fila 7) y Sheet1 (ISBN + descripción + cantidad).
+Junta el `PEDIDO_*` y el `REPO_*` de **cada sucursal** del cliente (no mezcla
+sucursales) en un archivo `{VENDEDOR}_-_{CLIENTE}_SUC._{SUCURSAL}_-_{CUENTA}.xlsx`
+con Hoja1 (ISBN + cantidad desde la fila 7) y Sheet1 (ISBN + descripción +
+cantidad).
 
 ```bash
 python ateneo/pedido_cliente.py PEDIDO_*.xlsx REPO_*.xlsx --vendedor X --sii SII.xls --salida ./out
