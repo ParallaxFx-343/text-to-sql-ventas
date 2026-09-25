@@ -282,6 +282,20 @@ Referencia: `cuspide/ej_agosto.xlsx` (54 filas, 51 DirEnt distintos) y
 `CUSPIDE_SEPTIEMBRE_26_A_PROCESAR.xlsx` (91 filas, novedades + ampliación).
 En septiembre Castelar no pidió.
 
+### Maestro de clientes (`{fecha}_Maestro_clientes.xls`, viene zipeado)
+Hoja "Informe Stock x ISBN", una fila por **dirección** (9.931 filas, 4.831
+clientes al 21/09/2026): IDCLIENTE, NOMBRE, **NROSECUENCIA**, **TIPO
+DIRECCION** (`FACT` facturación, `ENTR` entrega, `INHA` inhabilitada),
+dirección, VENDEDOR, FECHABAJA, DESCUENTOS, COND_IVA…
+- El `DirEnt` de los archivos de carga es la **NROSECUENCIA** de una
+  dirección `ENTR` del cliente (Cúspide 10842: la secuencia 2, Gral.
+  Rodríguez, está `INHA`, por eso entrega en Ascasubi).
+- Anomalías del maestro: 10831 (Librería Santa Fe) tiene tres direcciones
+  con tipo `ENT` en vez de `ENTR`, y 8 direcciones no tienen tipo.
+- **"No coinciden los tipos"** es el error 13 de VBA (*type mismatch*): lo
+  tira la macro de carga cuando una celda trae texto donde espera número
+  (o un `#N/A`, o un espacio). No es un mensaje del maestro.
+
 ### Lista de precios mensual (LP)
 **Lo que se sube es `LP_{MES}_26_PARA_SUBIR.xlsx`**: hoja `Sheet`, **dos
 columnas sin encabezado: Nro. Art. (ID) e Importe**, desde la fila 1. El
