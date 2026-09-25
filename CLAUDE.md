@@ -394,7 +394,9 @@ Hecho el 25/09:
 SII del 25/09 (07:00): DEPOSITO 638.003 y DISPONIBLE 627.438, que cuadran
 contra la fila de totales.
 
-**Reimpresiones de octubre** (16 títulos). La lista con ISBN e ID está en
+**Novedades de octubre** (12, IDs 751232-751243, todavía sin alta en el SII):
+`ateneo/historial/2026-10/novedades_octubre.csv`, en el orden de la planilla
+de Novedades. **Reimpresiones de octubre** (16 títulos). La lista con ISBN e ID está en
 `ateneo/historial/2026-09/reimpresiones_octubre.csv`.
 
 Pendientes:
