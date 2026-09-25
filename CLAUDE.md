@@ -304,7 +304,11 @@ Octubre 2026: sin cambios de precio. El único cambio fue TAROT: CARTAS DE
 ADIVINACION… (ID 740169), que pasó de $46.500 a **$49.900** y ya estaba cargado
 en `LP_SEPTIEMBRE_26_CON_NOVEDADES_Y_TAROT_ACTUALIZADO`. No confundir con
 TAROT MARSELLES (ID 426496, $300). Sin LP ARGENTINA de octubre no se
-controló el paso 3.
+controló el paso 3, pero Franco confirmó que están todas las novedades: las
+12 de octubre (IDs 751232 a 751243) ya venían en la LP de septiembre,
+todavía sin alta en el SII.
+Pista para detectar novedades: los IDs de la LP que el SII todavía no tiene
+son las del mes que viene; las del mes en curso ya tienen stock en el SII.
 
 ### Carga SILOMA
 Hoja `Hoja1`, datos desde la **fila 6** (filas 1-5 vacías).
