@@ -293,7 +293,7 @@ Fila 1 = encabezado; de la columna I en adelante, **un ID de artículo por colum
 | D | DirTrans | `1` |
 | E | Trans Retira | `1` |
 | F | NRO PEDIDO | uno distinto por fila |
-| G | Lista Precio | 4862 en agosto, **4882 en septiembre** |
+| G | Lista Precio | 4862 en agosto, 4882 en septiembre, **4902 en octubre** |
 | H | — | vacía |
 | I en adelante | cantidades | por ID de artículo |
 
@@ -307,6 +307,24 @@ excepción en el depósito central de **Ascasubi 3220**. Para esos:
 Referencia: `cuspide/ej_agosto.xlsx` (54 filas, 51 DirEnt distintos) y
 `CUSPIDE_SEPTIEMBRE_26_A_PROCESAR.xlsx` (91 filas, novedades + ampliación).
 En septiembre Castelar no pidió.
+
+**Octubre 2026** (`El_Ateneo_-_OCTUBRE_26_CUSPIDE_GRILLA_NOVEDADES_Y_AMPLIACIONES_-_A_PROCESAR.xlsx`):
+la hoja de carga es `Hoja1` (54 filas, 151 artículos, 4.084 u, lista 4902) y
+es la **transpuesta** de la hoja `El Ateneo - Ampliación locales`: en la
+grilla, fila 2 = nro. de sucursal, fila 3 = orden, fila 4 = ISBN / ID /
+"Autor y Titulo" / nombre del local, artículos desde la fila 5. La columna
+c de Hoja1 es la fila c−4 de la grilla. DirTrans / Trans Retira van en 1 o
+en 2 según el local, no siempre en 1.
+- Redirigidas a 149 en octubre: **Luján = 39, Gral. Rodríguez = 140,
+  Berazategui = 144** (en la grilla figura el número propio; en Hoja1, 149 y
+  el pedido como texto `1455333 LUJAN`). El 149 propio es Ascasubi.
+- **ORA-00001 unique constraint (DATOS.ARTICULO) en
+  INSERTAR_DET_PEDIDO_NOVEDAD** = el mismo artículo dos veces en un pedido.
+  Pasó porque la grilla tenía LA VACA EN SU HAMACA (2 ed) 714679 en dos
+  filas (97 y 101) y MITOLOGIA GRIEGA Y ROMANA 647011 en dos (95 y 112):
+  fallan las filas con cantidad en las dos columnas. Antes de procesar:
+  **ningún ID repetido y ninguna columna sin ID** (MIS EXCAVADORAS vino sin
+  ID: es 750395).
 
 ### Maestro de clientes (`{fecha}_Maestro_clientes.xls`, viene zipeado)
 Hoja "Informe Stock x ISBN", una fila por **dirección** (9.931 filas, 4.831
