@@ -191,6 +191,22 @@ Nombre: `{VENDEDOR}_-_{CLIENTE}_-_{CUENTA}.xlsx`
 - **Hoja1**: ISBN + Cantidad, sin encabezado, datos desde la fila 7.
 - **Sheet1**: ISBN + Descripción + Cantidad, encabezado en fila 1, datos desde la fila 2.
 
+**Ampliaciones para SILOMA** (Servicio de Novedades): este mismo formato pero
+**solo con la Hoja1, sin la Sheet1** (Franco, 01/10/2026). Un archivo por
+cliente: `MARTIRENA_-_ALE_CATALIN_-_22156.xlsx`. Script:
+`ateneo/ampliaciones.py` (lee .xls/.xlsx/.ods, descarta filas de relleno,
+valida y cuadra). **Se carga todo lo pedido aunque no haya stock**: el sistema
+avisa las líneas no satisfechas y eso es tema del depósito. Las ampliaciones
+llegan como `AMPLIACION - {CLIENTE} {CUENTA} {dd-mm-aaaa} EL ATENEO.xls` con
+encabezados que varían (con o sin CUENTA/CLIENTE/CODIGO/PVP/SALDO; si no hay
+columna ISBN, CODIGO trae el ISBN). El wetransfer del vendedor trae también
+su grilla de novedades, que no va.
+- Martirena octubre 2026: 39 clientes, 545 líneas, 1.201 u
+  (`ateneo/historial/2026-10/ampliaciones_martirena/`). Fray Mocho (21896)
+  se tomó del archivo que Franco mandó aparte (5 líneas, 49 u), no del zip
+  (1 línea). Kessler venía marcado "HECHO" y entró igual. En Bahía, HISTORIA
+  DE LAS ELECCIONES vino con 9789500206174 (no existe) → 9789500209052.
+
 Los clientes mandan un Excel por sucursal y tipo (`PEDIDO_21653_AJAMIL_SUC._CALAFATE.xlsx`,
 `REPO_…`), con el encabezado en la fila 3, 4 o 5 según el archivo.
 **"Mergear" = PEDIDO + REPO de la MISMA sucursal** (Madryn pedido + Madryn

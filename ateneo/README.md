@@ -122,6 +122,23 @@ disponible. `--reemplazar VIEJO=NUEVO` aplica una decisión de edición.
 
 ---
 
+## `ampliaciones.py` — ampliaciones de un vendedor para SILOMA
+
+```bash
+python ateneo/ampliaciones.py CARPETA_DEL_ZIP --vendedor MARTIRENA --salida ./out \
+    --sii SII.xls --lp LP_SEPTIEMBRE.xlsx --maestro Maestro_clientes.xls \
+    --extra "AMPLIACION - FRAY MOCHO SA 21896 ....xls" --reemplazar VIEJO=NUEVO
+```
+
+Un `{VENDEDOR}_-_{CLIENTE}_-_{CUENTA}.xlsx` por cliente, solo Hoja1 (ISBN +
+cantidad desde la fila 7). Lee .xls, .xlsx y .ods, descarta filas de relleno,
+controla cantidades, ISBN, ID contra el sistema, cuenta y cliente contra el
+maestro, informa lo que supera el disponible (se carga igual) y cuadra
+releyendo los archivos escritos. `--extra` reemplaza el archivo de la misma
+cuenta; `--excluir CUENTA` deja uno afuera.
+
+---
+
 ## `valida_novedades.py` — revisar el A PROCESAR del Servicio de Novedades
 
 ```bash
