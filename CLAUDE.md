@@ -23,6 +23,15 @@ va"**: quedó afuera de todas las acciones de septiembre. Mientras siga en
 cero, excluirla y avisar. El SII no trae números de sucursal, así que no
 sirve para confirmar el 56.
 
+**05/10/2026: primer pedido explícito para DEVOTO**: repo de los 5 Libros
+Sorpresa, 8 de cada uno (`historial/2026-10/reposicion_DEVOTO_libros_sorpresa.csv`).
+Cuando el pedido nombra a DEVOTO, va; la exclusión es solo para acciones
+generales mientras siga sin stock.
+
+Libros Sorpresa (EAN internos 290, **no están en el SII de la Editorial**):
+Histórica 2909907514208, Romántica 2909907514222, Contemporánea
+2909907514246, Misterio 2909907514260, Bío 2909907514307.
+
 ### Regla: toda sucursal nueva necesita fecha de apertura
 
 Cuando se da de alta una sucursal hay que registrar su **fecha de apertura**
