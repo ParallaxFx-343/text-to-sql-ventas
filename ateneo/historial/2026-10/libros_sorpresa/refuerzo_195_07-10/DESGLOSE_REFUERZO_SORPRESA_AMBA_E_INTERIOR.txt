@@ -1,0 +1,241 @@
+﻿REFUERZO LIBROS SORPRESA - AMBA E INTERIOR - DESGLOSE POR TITULO
+195 de cada titulo. Stock: SII 07/10 07:00. Venta: 01/10 al 06/10.
+AMBA: titulos con menos de 3 dias en el local, se repone lo vendido.
+Grand Splendid, Neuquen Portal Patagonia y Ushuaia (nunca recibieron): carga inicial de 8.
+Interior: primero los de menos de 3 dias (reponer lo vendido); lo que sobra, por venta.
+Bio: todo en AMBA, nivelando el stock entre locales.
+6 titulos | 59 locales (31 AMBA, 28 interior) | 1170 unidades
+
+==================================================================
+1. LIBRO SORPRESA MISTERIO                             195 u
+   EAN 2909907514260   ID 751426   en 31 locales
+==================================================================
+     11  ALTO COMAHUE
+      6  ALTO NOA SHOPPING - SALTA
+      8  ALTO PALERMO
+      4  ATENEO CORDOBA CENTRO
+      8  ATENEO GRAND SPLENDID
+      6  ATENEO TUCUMAN
+      6  AVELLANEDA
+      6  BAHIA BLANCA SHOPPING
+      6  BARILOCHE
+      8  CABALLITO
+      6  COMODORO RIVADAVIA
+      8  DOT BAIRES SHOPPING
+      3  MAR DEL PLATA M. BENDU
+      6  MENDOZA PALMARES
+      6  MENDOZA SHOPPING
+      8  NEUQUEN PORTAL PATAGONIA
+      6  NUEVO CENTRO SHOPPING
+      4  PALERMO PORTAL
+      5  PALMAS DEL PILAR
+      3  PARANA
+      6  PATIO OLMOS
+      8  PLAZA OESTE
+      6  SAN JUSTO
+      5  SAN LUIS
+      3  SANTA FE Ribera Shopping
+      7  TORTUGAS OPEN MALL
+      3  TRELEW
+      5  TUCUMAN PORTAL
+     15  UNICENTER
+      8  USHUAIA
+      5  VILLA CRESPO
+
+==================================================================
+2. LIBRO SORPRESA EROTICA                              195 u
+   EAN 2909907514284   ID 751428   en 34 locales
+==================================================================
+      8  ABASTO
+      6  ALTO COMAHUE
+     11  ALTO NOA SHOPPING - SALTA
+      8  ALTO PALERMO
+      1  ALTO ROSARIO
+      1  ATENEO CORDOBA CENTRO
+      8  ATENEO GRAND SPLENDID
+      1  ATENEO ROSARIO
+     11  ATENEO TUCUMAN
+      7  AVELLANEDA
+      1  BAHIA BLANCA SHOPPING
+      2  BARILOCHE
+      7  CABALLITO
+      8  COMODORO RIVADAVIA
+      8  DOT BAIRES SHOPPING
+      3  EZEIZA
+      1  JUJUY
+      1  LA PLATA
+      1  MAR DEL PLATA M. BENDU
+      2  MAR DEL PLATA PASEO ALDREY
+      1  MENDOZA CENTRO
+      1  MENDOZA PALMARES
+     11  MENDOZA SHOPPING
+      8  NEUQUEN PORTAL PATAGONIA
+     10  NUEVO CENTRO SHOPPING
+     11  PARANA
+     11  PATIO OLMOS
+      8  PLAZA OESTE
+      7  SAN LUIS
+      1  SANTA FE Ribera Shopping
+      8  TORTUGAS OPEN MALL
+      1  TRELEW
+     13  UNICENTER
+      8  USHUAIA
+
+==================================================================
+3. LIBRO SORPRESA ROMANTICA                            195 u
+   EAN 2909907514222   ID 751422   en 47 locales
+==================================================================
+      3  ABASTO
+      1  AEROPARQUE
+     15  ALTO COMAHUE
+      5  ALTO NOA SHOPPING - SALTA
+      8  ALTO PALERMO
+      2  ALTO ROSARIO
+      1  ATENEO CORDOBA CENTRO
+      8  ATENEO GRAND SPLENDID
+      3  ATENEO LA PLATA
+      5  ATENEO ROSARIO
+      5  ATENEO TUCUMAN
+      3  AVELLANEDA
+      5  BAHIA BLANCA SHOPPING
+      5  BARILOCHE
+      3  BORGES
+      3  CABALLITO
+      3  CALLE 12
+      4  COMODORO RIVADAVIA
+      3  DOT BAIRES SHOPPING
+      1  EZEIZA
+      2  FLORES
+      4  JUJUY
+      1  LA PLATA
+      3  LOMAS DE ZAMORA
+      3  MAR DEL PLATA LOS GALLEGOS
+      3  MAR DEL PLATA M. BENDU
+      6  MAR DEL PLATA PASEO ALDREY
+      4  MENDOZA CENTRO
+      7  MENDOZA PALMARES
+      4  MENDOZA SHOPPING
+      8  NEUQUEN PORTAL PATAGONIA
+      4  NUEVO CENTRO SHOPPING
+      3  PALMAS DEL PILAR
+      4  PARANA
+      2  PASEO ALCORTA
+      7  PATIO OLMOS
+      5  PLAZA OESTE
+      1  RIO CUARTO
+      3  SAN JUSTO
+      3  SAN LUIS
+      2  SAN MIGUEL
+      3  SANTA FE Ribera Shopping
+      3  TRELEW
+      4  TUCUMAN PORTAL
+      9  UNICENTER
+      8  USHUAIA
+      3  VILLA URQUIZA
+
+==================================================================
+4. LIBRO SORPRESA CONTEMPORANEA                        195 u
+   EAN 2909907514246   ID 751424   en 29 locales
+==================================================================
+     14  ALTO NOA SHOPPING - SALTA
+      2  ATENEO CORDOBA CENTRO
+      8  ATENEO GRAND SPLENDID
+      2  ATENEO ROSARIO
+      5  ATENEO TUCUMAN
+      6  AVELLANEDA
+      5  BAHIA BLANCA SHOPPING
+      5  BARILOCHE
+      6  CABALLITO
+      7  COMODORO RIVADAVIA
+      7  DOT BAIRES SHOPPING
+      5  MAR DEL PLATA M. BENDU
+      5  MAR DEL PLATA PASEO ALDREY
+      4  MENDOZA CENTRO
+      2  MENDOZA PALMARES
+      5  MENDOZA SHOPPING
+      8  NEUQUEN PORTAL PATAGONIA
+     22  NUEVO CENTRO SHOPPING
+     17  PARANA
+     17  PATIO OLMOS
+      8  PLAZA OESTE
+      2  RIO CUARTO
+      7  SAN JUSTO
+      2  SAN LUIS
+      2  SANTA FE Ribera Shopping
+      6  TORTUGAS OPEN MALL
+      4  TRELEW
+      4  TUCUMAN PORTAL
+      8  USHUAIA
+
+==================================================================
+5. LIBRO SORPRESA HISTORICA                            195 u
+   EAN 2909907514208   ID 751420   en 28 locales
+==================================================================
+      3  AEROPARQUE
+      7  ALTO COMAHUE
+     13  ALTO NOA SHOPPING - SALTA
+      3  ATENEO CORDOBA CENTRO
+      8  ATENEO GRAND SPLENDID
+     11  ATENEO ROSARIO
+     15  ATENEO TUCUMAN
+      3  BAHIA BLANCA SHOPPING
+      9  BARILOCHE
+      1  COMODORO RIVADAVIA
+      3  MAR DEL PLATA PASEO ALDREY
+      3  MENDOZA CENTRO
+      4  MENDOZA PALMARES
+      7  MENDOZA SHOPPING
+      8  NEUQUEN PORTAL PATAGONIA
+     13  NUEVO CENTRO SHOPPING
+      4  PALERMO PORTAL
+      9  PARANA
+     18  PATIO OLMOS
+     10  PLAZA OESTE
+      5  RESISTENCIA
+      2  RIO CUARTO
+      6  SAN JUSTO
+      5  SAN LUIS
+      5  TRELEW
+      2  TUCUMAN PORTAL
+     10  UNICENTER
+      8  USHUAIA
+
+==================================================================
+6. LIBRO SORPRESA BIO                                  195 u
+   EAN 2909907514307   ID 751430   en 32 locales
+==================================================================
+      5  ABASTO
+      5  AEROPARQUE
+      6  ALTO PALERMO
+      5  ATENEO FLORIDA 340
+      5  ATENEO FLORIDA 632
+     12  ATENEO GRAND SPLENDID
+      3  ATENEO JURAMENTO
+      6  ATENEO LA PLATA
+      5  AVELLANEDA
+      5  BORGES
+      5  CABALLITO
+      5  CALLE 12
+      4  DEVOTO
+      5  DOT BAIRES SHOPPING
+      8  EZEIZA
+      5  FLORES
+      6  LOMAS DE ZAMORA
+      8  NEUQUEN PORTAL PATAGONIA
+      9  PALERMO PORTAL
+      5  PALMAS DEL PILAR
+      5  PASEO ALCORTA
+      8  PATIO BULLRICH
+      8  PLAZA OESTE
+      4  QUILMES CENTRO
+      5  REMEROS (NORDELTA)
+      6  SAN JUSTO
+      5  SAN MIGUEL
+      6  SOLAR DE LA ABADIA
+      7  TORTUGAS OPEN MALL
+      8  USHUAIA
+      8  VILLA CRESPO
+      8  VILLA URQUIZA
+
+==================================================================
+TOTAL                                                 1170 u

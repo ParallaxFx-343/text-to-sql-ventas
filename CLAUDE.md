@@ -62,6 +62,16 @@ alcanza para **menos de 3 días** al ritmo del local desde su primera venta, y
 se **repone lo vendido** del 01 al 06/10. Grand Splendid (nunca recibió): 8 de
 cada uno. Archivos y script en `libros_sorpresa/repo_amba_07-10/`.
 
+**Refuerzo ampliado a 195 de cada título (07/10/2026)**, reemplaza al de 334 u
+(que había rebotado por el tipo de pedido): 1.170 u, 59 locales
+(`libros_sorpresa/refuerzo_195_07-10/`). Llegaron 195 de cada uno por O/C
+224-45127/28/29 (Printing Books, Arcangel Maggio, Talleres Trama). Reglas:
+AMBA igual que antes; carga inicial de 8 para Grand Splendid, Neuquén Portal
+Patagonia y Ushuaia; interior: primero los de menos de 3 días (reponer lo
+vendido; Misterio no alcanzó y se recortó en proporción) y lo que sobra, en
+proporción a la venta de cada local; **Bío todo a AMBA "donde se necesite"**,
+nivelando el stock de los locales (quedaron en 12-13 cada uno).
+
 **Los Sorpresa no son libros de la Editorial en el sistema**: en el SII están
 con IDEDITOR 111111 "CONCEPTOS CONTABLES", sección CODIGOS INTERNOS, grupo
 CONCEPTOS DE FACTURACION (los títulos de la Editorial son IDEDITOR 44,
