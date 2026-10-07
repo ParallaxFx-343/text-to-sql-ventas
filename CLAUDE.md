@@ -28,9 +28,30 @@ Sorpresa, 8 de cada uno (`historial/2026-10/reposicion_DEVOTO_libros_sorpresa.cs
 Cuando el pedido nombra a DEVOTO, va; la exclusión es solo para acciones
 generales mientras siga sin stock.
 
-Libros Sorpresa (EAN internos 290, **no están en el SII de la Editorial**):
-Histórica 2909907514208, Romántica 2909907514222, Contemporánea
-2909907514246, Misterio 2909907514260, Bío 2909907514307.
+Libros Sorpresa (EAN internos 290, **no están en el SII de la Editorial**),
+**seis** títulos a $12.000, lanzados el 01/10/2026:
+
+| Título | EAN | ID |
+|---|---|---|
+| Histórica | 2909907514208 | 751420 |
+| Romántica | 2909907514222 | 751422 |
+| Contemporánea | 2909907514246 | 751424 |
+| Misterio | 2909907514260 | 751426 |
+| Erótica | 2909907514284 | 751428 |
+| Bío | 2909907514307 | 751430 |
+
+Ventas 01/10 al 07/10 (07 parcial), solo locales físicos: 976 u netas,
+$11.712.000, 56 de 62 locales. Misterio 268, Erótica 215, Bío solo 25.
+Pico el sábado 03/10 (351 u). Sin venta: Grand Splendid, Neuquén Portal
+Patagonia, Rosario Portal, Salta Centro, Ushuaia y Devoto. Tablero y script:
+`ateneo/historial/2026-10/libros_sorpresa/`.
+
+**Los reportes de ventas traen el número de sucursal**: el "Detalle Venta
+Artículo" lo pone entre paréntesis (`ABASTO  (30)`) y "Ventas Proveedor
+Agrupadas" en `Código Sucursal`. Sirven para confirmar el número de DEVOTO
+cuando aparezca con ventas (al 07/10 todavía no figura en ninguno de los dos).
+"Ventas Proveedor Agrupadas" mezcla canales online (Tienda Nube, Mercado
+Libre, Call Center en la columna Canal); para locales físicos, Canal vacío.
 
 ### Regla: toda sucursal nueva necesita fecha de apertura
 
@@ -437,6 +458,9 @@ columna 3 = etiqueta de liquidación (ej. `LIQUIDACIONJULIO`).
 - `/design` (Claude Design) solo lo puede lanzar Franco. No edita Excel: arma
   láminas que se exportan a PDF o PNG.
 - El scratchpad se borra. Lo que tenga que sobrevivir va al repo.
+- Python sobre archivos subidos: correr con `python3 -P` desde otra carpeta.
+  `-I` no sirve porque deja afuera `~/.local`, donde está dateutil, y pandas
+  no importa. Para pasar PDF a PNG hacen falta `pip install pypdfium2 pillow`.
 - **Cuando se reinicia el contenedor, la rama local vuelve al commit inicial**
   (le faltan el `CLAUDE.md` y `ateneo/`). Al arrancar hay que hacer
   `git fetch origin claude/buscar-isbn-d6x9cp` y
