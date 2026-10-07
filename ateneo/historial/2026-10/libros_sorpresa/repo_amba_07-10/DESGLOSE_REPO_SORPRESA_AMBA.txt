@@ -1,0 +1,95 @@
+﻿REPO LIBROS SORPRESA - AMBA - DESGLOSE POR TITULO
+Stock: SII 07/10 07:00. Venta: 01/10 al 06/10 (el 07/10 es parcial y no se usa).
+Regla: por titulo en cada local, entra si el stock le alcanza para menos de 3 dias
+al ritmo de venta del local desde su primera venta; se repone lo vendido en el periodo.
+ATENEO GRAND SPLENDID (nunca recibio): 8 de cada uno.
+6 titulos | 23 locales | 334 unidades
+
+==================================================================
+1. LIBRO SORPRESA MISTERIO                              88 u
+   EAN 2909907514260   ID 751426   en 12 locales
+==================================================================
+      8  ALTO PALERMO
+      8  ATENEO GRAND SPLENDID
+      6  AVELLANEDA
+      8  CABALLITO
+      8  DOT BAIRES SHOPPING
+      4  PALERMO PORTAL
+      5  PALMAS DEL PILAR
+      8  PLAZA OESTE
+      6  SAN JUSTO
+      7  TORTUGAS OPEN MALL
+     15  UNICENTER
+      5  VILLA CRESPO
+
+==================================================================
+2. LIBRO SORPRESA EROTICA                               78 u
+   EAN 2909907514284   ID 751428   en 10 locales
+==================================================================
+      8  ABASTO
+      8  ALTO PALERMO
+      8  ATENEO GRAND SPLENDID
+      7  AVELLANEDA
+      7  CABALLITO
+      8  DOT BAIRES SHOPPING
+      3  EZEIZA
+      8  PLAZA OESTE
+      8  TORTUGAS OPEN MALL
+     13  UNICENTER
+
+==================================================================
+3. LIBRO SORPRESA ROMANTICA                             71 u
+   EAN 2909907514222   ID 751422   en 20 locales
+==================================================================
+      3  ABASTO
+      1  AEROPARQUE
+      8  ALTO PALERMO
+      8  ATENEO GRAND SPLENDID
+      3  ATENEO LA PLATA
+      3  AVELLANEDA
+      3  BORGES
+      3  CABALLITO
+      3  CALLE 12
+      3  DOT BAIRES SHOPPING
+      1  EZEIZA
+      2  FLORES
+      3  LOMAS DE ZAMORA
+      3  PALMAS DEL PILAR
+      2  PASEO ALCORTA
+      5  PLAZA OESTE
+      3  SAN JUSTO
+      2  SAN MIGUEL
+      9  UNICENTER
+      3  VILLA URQUIZA
+
+==================================================================
+4. LIBRO SORPRESA CONTEMPORANEA                         48 u
+   EAN 2909907514246   ID 751424   en 7 locales
+==================================================================
+      8  ATENEO GRAND SPLENDID
+      6  AVELLANEDA
+      6  CABALLITO
+      7  DOT BAIRES SHOPPING
+      8  PLAZA OESTE
+      7  SAN JUSTO
+      6  TORTUGAS OPEN MALL
+
+==================================================================
+5. LIBRO SORPRESA HISTORICA                             41 u
+   EAN 2909907514208   ID 751420   en 6 locales
+==================================================================
+      3  AEROPARQUE
+      8  ATENEO GRAND SPLENDID
+      4  PALERMO PORTAL
+     10  PLAZA OESTE
+      6  SAN JUSTO
+     10  UNICENTER
+
+==================================================================
+6. LIBRO SORPRESA BIO                                    8 u
+   EAN 2909907514307   ID 751430   en 1 locales
+==================================================================
+      8  ATENEO GRAND SPLENDID
+
+==================================================================
+TOTAL                                                  334 u

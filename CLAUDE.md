@@ -55,6 +55,20 @@ Rosario Portal (29) y Salta Centro (27) tienen stock y no vendieron; Devoto
 tiene 8 de cada uno de los seis. **Del depósito de Sorpresa no informar nada**:
 Franco avisó que ese stock se va a liberar (07/10).
 
+**Repo Sorpresa AMBA (07/10/2026)**, un solo PAEC: 6 títulos, 23 locales,
+334 u (Misterio 88, Erótica 78, Romántica 71, Contemporánea 48, Histórica 41,
+Bío 8). Regla de Franco: **por título en cada local**, entra si el stock le
+alcanza para **menos de 3 días** al ritmo del local desde su primera venta, y
+se **repone lo vendido** del 01 al 06/10. Grand Splendid (nunca recibió): 8 de
+cada uno. Archivos y script en `libros_sorpresa/repo_amba_07-10/`.
+
+**AMBA para Franco** = CABA (Abasto, Aeroparque, Alto Palermo, los 4 ATENEO
+porteños, Borges, Caballito, Dot, Flores, Palermo Portal, Paseo Alcorta, Patio
+Bullrich, Solar de la Abadía, Villa Crespo, Villa Urquiza, Devoto) + conurbano
+(Avellaneda, Ezeiza, Lomas, Palmas del Pilar, Plaza Oeste, Quilmes Centro,
+Remeros, San Justo, San Miguel, Tortugas, Unicenter) **+ Ateneo La Plata y
+Calle 12**. **LA PLATA (a secas) no va.** San Miguel es el de Buenos Aires.
+
 **Los reportes de ventas traen el número de sucursal**: el "Detalle Venta
 Artículo" lo pone entre paréntesis (`ABASTO  (30)`) y "Ventas Proveedor
 Agrupadas" en `Código Sucursal`. Sirven para confirmar el número de DEVOTO
