@@ -518,6 +518,45 @@ columna 3 = etiqueta de liquidación (ej. `LIQUIDACIONJULIO`).
 - Antes de afirmar si algo se pusheó o no, mirar `git status -sb` / el remoto.
   El 25/09 un push que se dio por no hecho sí había salido.
 
+## Estado al 07/10/2026
+
+Hecho entre el 25/09 y el 07/10 (todo en `ateneo/historial/2026-10/`):
+
+| Fecha | Qué | Resultado |
+|---|---|---|
+| 25/09 | Revisión A PROCESAR Sálice y Rodríguez | Sálice: celda vacía en Rayuela Salta (era el "No coinciden los tipos"); Rodríguez sin problemas |
+| 30/09 | Cúspide A PROCESAR octubre (ORA-00001) | IDs repetidos en la grilla (Vaca en su hamaca 2 ed, Mitología) y Mis excavadoras sin ID |
+| 01/10 | Ampliaciones Martirena para SILOMA | 39 clientes, 545 líneas, 1.201 u (`ampliaciones.py`) |
+| 05/10 | Repo Libros Sorpresa a Devoto | 5 títulos x 8 |
+| 07/10 | Tablero de Libros Sorpresa | ventas por local y día, stock y días de cobertura (`libros_sorpresa/`) |
+| 07/10 | Refuerzo Sorpresa 195 de cada uno | 1.170 u, 59 locales, PAEC + TXT por título + TXT por sucursal |
+| 05-07/10 | Liquidaciones "rotas" (liq_cons .xls BIFF2 y .ods) | pasadas a .xlsx con `arreglar_planilla.py` |
+
+Herramientas en `ateneo/`: `refuerzo.py`, `isbn.py`, `pedido_cliente.py`,
+`valida_novedades.py`, `ampliaciones.py`, `arreglar_planilla.py`; los scripts
+de cada acción quedan junto a sus archivos en `historial/`.
+
+Liquidaciones que llegan rotas (`arreglar_planilla.py`): el `liq_cons….xls`
+de clientes es **BIFF2 (Excel 2.1) suelto**, no está dañado pero Excel lo
+bloquea; el `Liquidacion-….ods` traía la hoja con salto de línea en el nombre
+(>31 caracteres) y totales `oooc:=SUM(...)` sin valor. En los dos se copian
+los datos tal cual y se cruzan los ISBN contra el SII.
+
+Pendientes al 07/10:
+- **Cargar el refuerzo Sorpresa** con el tipo de pedido de los códigos
+  internos (con el de siempre rebota). Confirmar que entró.
+- DEVOTO: confirmar el número (56?) cuando aparezca en un "Detalle Venta
+  Artículo" o en "Ventas Agrupadas" con ventas; al 07/10 no figura.
+- Sorpresa: Rosario Portal (29) y Salta Centro (27) tienen stock y no
+  vendieron nada; preguntar si están exhibidos.
+- Servicio de Novedades: confirmar si las cuotas van en último cliente +2
+  (Rodríguez) o +3 (Sálice). Revisar los A PROCESAR de los demás vendedores
+  con `valida_novedades.py`. Francisco Carranza (23771, Rodríguez) activo y
+  fuera de la planilla: ¿a propósito? 24146 (Sálice) no estaba en el maestro
+  del 21/09.
+- LP ARGENTINA de octubre para cruzar contra la LP.
+- Los de abajo (25/09) siguen abiertos.
+
 ## Estado al 25/09/2026
 
 Acciones de septiembre (archivos cargados en `ateneo/historial/2026-09/`):

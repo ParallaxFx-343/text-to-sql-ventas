@@ -155,6 +155,19 @@ y nombre. Probado metiéndole errores a propósito a una copia.
 
 ---
 
+## `arreglar_planilla.py` — liquidaciones que no abren
+
+```bash
+python -P ateneo/arreglar_planilla.py liq_cons0000-....xls salida.xlsx
+python -P ateneo/arreglar_planilla.py Liquidacion-....ods salida.xlsx
+```
+
+Lee .xls viejos (BIFF2, que Excel bloquea) y .ods con nombres de hoja o
+fórmulas que Excel no acepta, y escribe un .xlsx con los mismos datos.
+Imprime un cuadre releyendo el resultado.
+
+---
+
 ## `isbn.py` — validar y corregir ISBN
 
 Los listados llegan con los códigos en tres formas que no se distinguen a
