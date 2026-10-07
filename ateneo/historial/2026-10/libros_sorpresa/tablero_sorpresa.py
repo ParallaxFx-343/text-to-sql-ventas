@@ -1,11 +1,13 @@
 """Tablero de ventas de los Libros Sorpresa por local (solo locales fisicos).
 
-Uso: python -P tablero_sorpresa.py DETALLE.xlsx AGRUPADAS.xlsx config.json SALIDA.xlsx
+Uso: python -P tablero_sorpresa.py DETALLE.xlsx AGRUPADAS.xlsx config.json SALIDA.xlsx [SII.xlsx]
 - DETALLE: "Detalle Venta Articulo" (una fila por venta: Sucursal "NOMBRE  (nro)",
   Fecha, Articulo, Titulo, Cantidad, Bruto, Total, ISBN)
 - AGRUPADAS: "Ventas Proveedor Agrupadas Articulo" (solo para cuadrar y para
   saber que locales vendieron Editorial pero no Sorpresa)
 - config.json: padron de locales fisicos (orden_paec)
+- SII (opcional): stock por local, para "cuanto le queda" y "le alcanza" (dias).
+  Del deposito no se muestra nada (Franco: el stock de deposito se va a liberar).
 """
 import json
 import sys
@@ -23,6 +25,7 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter as L
 
 f_det, f_agr, f_cfg, salida = sys.argv[1:5]
+f_sii = sys.argv[5] if len(sys.argv) > 5 else None
 padron = set(json.load(open(f_cfg, encoding='utf-8'))['orden_paec']) | {'DEVOTO'}
 
 # ---------- datos ----------
@@ -78,6 +81,29 @@ mt = det.pivot_table(index=['nro', 'local'], columns='titulo', values='Cantidad'
                      aggfunc='sum', fill_value=0).reindex(columns=tit_cols, fill_value=0)
 mt['Total'] = mt.sum(axis=1)
 mt = mt.loc[mat.index]
+
+# ---------- stock en locales (SII) ----------
+stock = None
+if f_sii:
+    sii = pd.read_excel(f_sii)
+    cols_s = list(sii.columns)
+    suc_s = [c for c in cols_s[cols_s.index('CLASIFIC') + 1:] if c in padron]
+    assert len(suc_s) == len(padron), f'faltan locales en el SII: {padron - set(suc_s)}'
+    s = sii[sii.TITULO.astype(str).str.startswith('LIBRO SORPRESA')].copy()
+    s['titulo'] = s.TITULO.str.replace('LIBRO SORPRESA ', '', regex=False).str.strip().map(NOMBRES)
+    assert s.titulo.notna().all() and s.titulo.is_unique and len(s) == len(NOMBRES)
+    stock = s.set_index('titulo')[suc_s].fillna(0).astype(int).T   # local x titulo
+    stock = stock.reindex(columns=list(por_tit.index))
+    stock['Total'] = stock.sum(axis=1)
+    loc_de = {loc: (n, loc) for n, loc in mat.index}
+    mat['Stock'] = [int(stock.loc[loc, 'Total']) for _, loc in mat.index]
+    mat['Alcanza'] = [round(r.Stock / r.Ritmo, 1) if r.Ritmo else None for _, r in mat.iterrows()]
+    import re as _re
+    m_fecha = _re.search(r'(20\d{2})(\d{2})(\d{2})(\d{2})(\d{2})', f_sii.split('/')[-1])
+    fecha_sii = f'{m_fecha.group(3)}/{m_fecha.group(2)} {m_fecha.group(4)}:{m_fecha.group(5)}' if m_fecha else 'SII'
+    llenos = [x for x in sorted(det.dia.unique())[:-1]]          # sin el dia parcial
+    vend_d = det[det.dia.isin(llenos)].groupby('titulo').Cantidad.sum() / len(llenos)
+    alcanza_tit = {t: (stock[t].sum() / vend_d[t]) for t in por_tit.index if vend_d.get(t, 0) > 0}
 
 con_venta = set(det.local)
 sin_venta = sorted(padron - con_venta)
@@ -158,7 +184,9 @@ kpis = [
     ('Facturación', '$ ' + f'{tot_ars:,}'.replace(',', '.'), f'a $ {int(det.Total.sum() / tot_u):,} c/u'.replace(',', '.')),
     ('Locales con venta', f'{n_locales} de {n_padron}', f'{len(sin_venta)} sin venta (ver hoja)'),
     ('Mejor día', f'{etq[mejor]}', f'{int(por_dia[mejor])} u · {por_dia[mejor] / tot_u:.0%} del total'),
-    ('Promedio por local', f'{tot_u / n_locales:.1f}'.replace('.', ','), 'unidades en el período'),
+    (('Le queda en los locales', f'{int(stock.Total.sum()):,}'.replace(',', '.') + ' u',
+      f'SII {fecha_sii} · ver hoja Le quedan x título') if stock is not None else
+     ('Promedio por local', f'{tot_u / n_locales:.1f}'.replace('.', ','), 'unidades en el período')),
 ]
 for k, (lab, val, nota) in enumerate(kpis):
     c0 = 1 + k * 3 + (k > 0) * 0
@@ -224,11 +252,27 @@ lineas = [
     '. Con tan pocos días todavía no se puede hablar de tendencia.',
     'Los locales no arrancaron todos juntos: ' + ', '.join(
         f'{int(n)} el {x:%d/%m}' for x, n in arranque.items()) +
-    '. Para comparar locales que arrancaron en días distintos, usar la columna "Ritmo" de la hoja Local x día.',
-    f'Sin ninguna venta de Sorpresa: {", ".join(s.title() for s in sin_venta)}. Todos menos Devoto sí '
-    'vendieron otros títulos de la Editorial según Ventas Agrupadas, así que conviene confirmar si les llegaron. '
-    'A Devoto la repo se le pasó recién el 05/10.',
+    '. Para comparar locales que arrancaron en días distintos, usar la columna "Vendió por día" de la hoja Local x día.',
 ]
+if stock is None:
+    lineas.append(
+        f'Sin ninguna venta de Sorpresa: {", ".join(s.title() for s in sin_venta)}. Todos menos Devoto sí '
+        'vendieron otros títulos de la Editorial según Ventas Agrupadas, así que conviene confirmar si les llegaron. '
+        'A Devoto la repo se le pasó recién el 05/10.')
+else:
+    cero = [s for s in sin_venta if stock.loc[s, 'Total'] == 0]
+    con = [s for s in sin_venta if stock.loc[s, 'Total'] > 0]
+    orden = sorted(alcanza_tit.items(), key=lambda x: x[1])
+    lineas.append(
+        f'Lo que le queda a la cadena (SII {fecha_sii}), al ritmo promedio de la primera semana, alcanza para: '
+        + ', '.join(f'{t} {d:.1f} días'.replace('.', ',') for t, d in orden[:3])
+        + f'; {orden[-1][0]}, en cambio, tiene para {orden[-1][1]:.0f} días. El sábado se vendió '
+        + f'{por_dia[mejor] / por_dia[[x for x in dias if x != ult]].mean():.1f}'.replace('.', ',')
+        + ' veces el promedio diario, así que un fin de semana consume bastante más que eso.')
+    lineas.append(
+        'Sin ninguna venta: ' + ', '.join(s.title() for s in cero) + ' no tienen stock de Sorpresa (no les llegó); '
+        + ', '.join(f'{s.title()} ({int(stock.loc[s, "Total"])} u)' for s in con)
+        + ' sí tienen stock y no vendieron' + (' (a Devoto la repo se le pasó el 05/10)' if 'DEVOTO' in con else '') + '.')
 for i, t in enumerate(lineas):
     tb.merge_cells(start_row=r0 + 1 + i, start_column=1, end_row=r0 + 1 + i, end_column=16)
     c = tb.cell(r0 + 1 + i, 1, '•  ' + t)
@@ -240,30 +284,42 @@ for i, t in enumerate(lineas):
 ld = wb.create_sheet('Local x día', 1)
 ld.freeze_panes = 'C3'
 ld['A1'] = (f'Unidades por local y por día · ordenado por total · el {ult:%d/%m} es parcial · '
-            f'Ritmo = unidades por día desde su primera venta hasta el {ult_completo:%d/%m}')
+            f'"Vendió por día" = unidades por día desde su primera venta hasta el {ult_completo:%d/%m}'
+            + (f' · "Le quedan" = stock del local en el SII del {fecha_sii} · "Le alcanza" = le quedan / vendió por día; '
+               'en rojo, 3 días o menos' if stock is not None else ''))
 ld['A1'].font = Font(italic=True, size=9, color=TINTA2)
 cols = ['Nro', 'Local'] + [etq[x] + ('*' if x == ult else '') for x in dias] + \
-       ['Total', 'Primera venta', 'Ritmo u/día', 'Devol.']
+       ['Total', 'Primera venta', 'Vendió por día'] + \
+       (['Le quedan', 'Le alcanza (días)'] if stock is not None else []) + ['Devol.']
+extra = 2 if stock is not None else 0
 cab(ld, 2, cols)
 for i, ((n, loc), row) in enumerate(mat.iterrows(), start=3):
-    vals = [n, loc] + [int(row[x]) for x in dias] + [int(row.Total), row['Primera venta'],
-                                                     row.Ritmo, int(row['Devol.'])]
+    vals = [n, loc] + [int(row[x]) for x in dias] + [int(row.Total), row['Primera venta'], row.Ritmo] + \
+           ([int(row.Stock), row.Alcanza] if stock is not None else []) + [int(row['Devol.'])]
     for j, v in enumerate(vals, start=1):
         c = ld.cell(i, j, v); c.border = caja
         c.alignment = Alignment(horizontal='left' if j == 2 else 'center')
     ld.cell(i, 3 + len(dias)).font = Font(bold=True)
     ld.cell(i, 4 + len(dias)).number_format = 'DD/MM'
     ld.cell(i, 5 + len(dias)).number_format = '0.0'
+    if stock is not None:
+        ld.cell(i, 7 + len(dias)).number_format = '0.0'
     if row['Devol.'] == 0:
-        ld.cell(i, 6 + len(dias)).value = None
+        ld.cell(i, 6 + len(dias) + extra).value = None
 uf = 2 + len(mat)
 tr = uf + 1
 ld.cell(tr, 2, 'TOTAL').font = Font(bold=True)
-for j in range(3, 4 + len(dias)):
+for j in list(range(3, 4 + len(dias))) + ([6 + len(dias)] if stock is not None else []):
     c = ld.cell(tr, j, f'=SUM({L(j)}3:{L(j)}{uf})')
     c.font = Font(bold=True); c.border = caja; c.alignment = Alignment(horizontal='center')
 calor(ld, f'C3:{L(2 + len(dias))}{uf}')
-for c, w in zip(range(1, len(cols) + 1), [6, 30] + [10] * len(dias) + [8, 10, 9, 7]):
+if stock is not None:
+    from openpyxl.formatting.rule import CellIsRule
+    col_alc = L(7 + len(dias))
+    ld.conditional_formatting.add(f'{col_alc}3:{col_alc}{uf}', CellIsRule(
+        operator='lessThanOrEqual', formula=['3'], fill=PatternFill('solid', fgColor='F8D7D7'),
+        font=Font(bold=True, color='9C1C1C')))
+for c, w in zip(range(1, len(cols) + 1), [6, 30] + [10] * len(dias) + [8, 10, 9] + [9, 10] * (extra // 2) + [7]):
     ld.column_dimensions[L(c)].width = w
 
 # ---------- hoja Local x titulo ----------
@@ -288,18 +344,70 @@ for c, w in zip(range(1, len(tit_cols) + 4), [6, 30] + [13] * len(tit_cols) + [8
 
 # ---------- hoja Sin venta ----------
 sv = wb.create_sheet('Sin venta', 3)
-cab(sv, 1, ['Local físico', '¿Tiene ventas de otros títulos de la Editorial en Ventas Agrupadas?'])
+cab(sv, 1, ['Local físico', '¿Tiene ventas de otros títulos de la Editorial en Ventas Agrupadas?']
+    + ([f'Le quedan Sorpresa ({fecha_sii})'] if stock is not None else []))
 for i, s in enumerate(sin_venta, start=2):
     sv.cell(i, 1, s).border = caja
     txt = 'Sí' if s in otra_editorial else 'No'
     if s == 'DEVOTO':
         txt += ' (la repo de Sorpresa se pasó el 05/10)'
     sv.cell(i, 2, txt).border = caja
+    if stock is not None:
+        c = sv.cell(i, 3, int(stock.loc[s, 'Total'])); c.border = caja
+        c.alignment = Alignment(horizontal='center')
 sv.column_dimensions['A'].width = 30
 sv.column_dimensions['B'].width = 55
+sv.column_dimensions['C'].width = 22
+
+# ---------- hoja Stock x titulo ----------
+if stock is not None:
+    sk = wb.create_sheet('Le quedan x título', 3)
+    sk.freeze_panes = 'C3'
+    sk['A1'] = (f'Stock de cada local en el SII del {fecha_sii}, por título · mismo orden que Local x día; '
+                'al final los locales sin venta · abajo, el total de la cadena y para cuántos días alcanza')
+    sk['A1'].font = Font(italic=True, size=9, color=TINTA2)
+    cab(sk, 2, ['Nro', 'Local'] + tit_cols + ['Total'])
+    filas = [(n, loc) for n, loc in mat.index] + [('', s) for s in sin_venta]
+    for i, (n, loc) in enumerate(filas, start=3):
+        for j, v in enumerate([n, loc] + [int(stock.loc[loc, t]) for t in tit_cols]
+                              + [int(stock.loc[loc, 'Total'])], start=1):
+            c = sk.cell(i, j, v); c.border = caja
+            c.alignment = Alignment(horizontal='left' if j == 2 else 'center')
+        sk.cell(i, 3 + len(tit_cols)).font = Font(bold=True)
+    uf3 = 2 + len(filas)
+    calor(sk, f'C3:{L(2 + len(tit_cols))}{uf3}')
+    dias_llenos = [x for x in dias if x != ult]
+    vend = det[det.dia.isin(dias_llenos)].groupby('titulo').Cantidad.sum()
+    resumen = [('Le queda en la cadena', [int(stock[t].sum()) for t in tit_cols] + [int(stock.Total.sum())], '#,##0'),
+               (f'Vendido {dias_llenos[0]:%d/%m} al {dias_llenos[-1]:%d/%m}',
+                [int(vend.get(t, 0)) for t in tit_cols] + [int(vend.sum())], '#,##0'),
+               ('Vendido por día (promedio)', [round(vend.get(t, 0) / len(dias_llenos), 1) for t in tit_cols]
+                + [round(vend.sum() / len(dias_llenos), 1)], '0.0'),
+               ('Le alcanza (días)', [round(stock[t].sum() / (vend.get(t, 0) / len(dias_llenos)), 1)
+                                      if vend.get(t, 0) else None for t in tit_cols]
+                + [round(stock.Total.sum() / (vend.sum() / len(dias_llenos)), 1)], '0.0')]
+    for k, (lab, vals, fmt) in enumerate(resumen):
+        r = uf3 + 2 + k
+        sk.cell(r, 2, lab).font = Font(bold=True)
+        for j, v in enumerate(vals, start=3):
+            c = sk.cell(r, j, v); c.font = Font(bold=True); c.border = caja
+            c.number_format = fmt; c.alignment = Alignment(horizontal='center')
+    from openpyxl.formatting.rule import CellIsRule
+    sk.conditional_formatting.add(f'C{uf3 + 5}:{L(3 + len(tit_cols))}{uf3 + 5}', CellIsRule(
+        operator='lessThanOrEqual', formula=['3'], fill=PatternFill('solid', fgColor='F8D7D7'),
+        font=Font(bold=True, color='9C1C1C')))
+    for c, w in zip(range(1, len(tit_cols) + 4), [6, 30] + [13] * len(tit_cols) + [8]):
+        sk.column_dimensions[L(c)].width = w
+    sk.column_dimensions['B'].width = 30
+    sk.page_setup.orientation = 'landscape'
+    sk.sheet_properties.pageSetUpPr.fitToPage = True
+    sk.page_setup.fitToWidth = 1
+    sk.page_setup.fitToHeight = 0
+    cob_tit = dict(zip(tit_cols, resumen[3][1][:-1]))
+    cob_tot = resumen[3][1][-1]
 
 # ---------- hoja Devoluciones ----------
-dv = wb.create_sheet('Devoluciones', 4)
+dv = wb.create_sheet('Devoluciones', 5)
 cab(dv, 1, ['Local', 'Fecha', 'Título', 'Cantidad', 'Total $'])
 for i, r in enumerate(devol.sort_values(['Fecha', 'local']).itertuples(), start=2):
     for j, v in enumerate([r.local, r.Fecha, r.titulo, int(r.Cantidad), int(r.Total)], start=1):
@@ -329,6 +437,9 @@ for ws, alto in ((tb, 1), (ld, 0), (lt, 0)):
     ws.page_setup.fitToWidth = 1
     ws.page_setup.fitToHeight = alto
 tb.print_area = 'A1:P50'
+for nombre in ('Local x día', 'Local x título', 'Le quedan x título'):
+    if nombre in wb.sheetnames:
+        wb[nombre].print_title_rows = '2:2'     # encabezado en cada pagina impresa
 wb.save(salida)
 print(f'{tot_u} u | $ {tot_ars:,} | {n_locales} locales de {n_padron} | {len(dias)} dias | '
       f'devol {len(devol)} | sin venta {sin_venta} | cuadre agrupadas OK ({len(cuadre)} celdas)')

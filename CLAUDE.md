@@ -44,7 +44,16 @@ Ventas 01/10 al 07/10 (07 parcial), solo locales físicos: 976 u netas,
 $11.712.000, 56 de 62 locales. Misterio 268, Erótica 215, Bío solo 25.
 Pico el sábado 03/10 (351 u). Sin venta: Grand Splendid, Neuquén Portal
 Patagonia, Rosario Portal, Salta Centro, Ushuaia y Devoto. Tablero y script:
-`ateneo/historial/2026-10/libros_sorpresa/`.
+`ateneo/historial/2026-10/libros_sorpresa/` (con el SII como 5.º argumento
+agrega "vendió por día", "le quedan" y "le alcanza (días)" por local y por título).
+
+Stock en locales al SII del 07/10 07:00: 1.501 u (Bío 431, Contemporánea 306,
+Histórica 283, Erótica 234, Misterio 183, Romántica 64). Al ritmo de la primera
+semana alcanza para: Romántica 2,5 días, Misterio 4,1, Erótica 6,5, Bío 103.
+Grand Splendid, Neuquén Portal Patagonia y Ushuaia tienen 0 (no les llegó);
+Rosario Portal (29) y Salta Centro (27) tienen stock y no vendieron; Devoto
+tiene 8 de cada uno de los seis. **Del depósito de Sorpresa no informar nada**:
+Franco avisó que ese stock se va a liberar (07/10).
 
 **Los reportes de ventas traen el número de sucursal**: el "Detalle Venta
 Artículo" lo pone entre paréntesis (`ABASTO  (30)`) y "Ventas Proveedor
