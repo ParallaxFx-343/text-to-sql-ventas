@@ -62,6 +62,15 @@ alcanza para **menos de 3 días** al ritmo del local desde su primera venta, y
 se **repone lo vendido** del 01 al 06/10. Grand Splendid (nunca recibió): 8 de
 cada uno. Archivos y script en `libros_sorpresa/repo_amba_07-10/`.
 
+**Los Sorpresa no son libros de la Editorial en el sistema**: en el SII están
+con IDEDITOR 111111 "CONCEPTOS CONTABLES", sección CODIGOS INTERNOS, grupo
+CONCEPTOS DE FACTURACION (los títulos de la Editorial son IDEDITOR 44,
+sección LIBROS, y casi todos en consignación). Al importar el PAEC con el tipo
+de pedido de siempre, el 07/10 rechazó las 6 líneas con "El artículo ingresado
+posee una forma comercial diferente a la especificada en 'Tipo de Pedido'".
+El archivo estaba bien: hay que cargarlo con el tipo de pedido de esos códigos
+(el que se usó para la repo de Devoto del 05/10, que sí entró).
+
 **AMBA para Franco** = CABA (Abasto, Aeroparque, Alto Palermo, los 4 ATENEO
 porteños, Borges, Caballito, Dot, Flores, Palermo Portal, Paseo Alcorta, Patio
 Bullrich, Solar de la Abadía, Villa Crespo, Villa Urquiza, Devoto) + conurbano
