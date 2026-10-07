@@ -14,7 +14,10 @@ Reglas:
 4. Bio: todo a AMBA (salvo las cargas iniciales del interior), nivelando el
    stock: cada unidad va al local de AMBA que tiene menos Bio; si empatan,
    primero el que mas Sorpresa vende.
+5. Ajustes a mano de Franco (07/10): Historica a Tortugas Open Mall (tenia 5),
+   sacando de Patio Olmos, que recibia 18.
 Redondeo: metodo del mayor resto, asi cada titulo suma exacto.
+Dos TXT: por titulo y por sucursal (Franco carga por sucursal); en los dos, primero AMBA y despues interior.
 
 Uso: python -P repo_sorpresa_ampliado.py DETALLE.xlsx SII.xlsx config.json amba.txt SALIDA_DIR
 """
@@ -27,6 +30,7 @@ import pandas as pd
 f_det, f_sii, f_cfg, f_amba, out = sys.argv[1:6]
 out = Path(out)
 TOPE, CORTE, INICIAL = 195, 3, 8
+AJUSTES = [('HISTORICA', 'PATIO OLMOS', -5), ('HISTORICA', 'TORTUGAS OPEN MALL', +5)]
 SIN_RECIBIR = ['ATENEO GRAND SPLENDID', 'NEUQUEN PORTAL PATAGONIA', 'USHUAIA']
 AMBA = open(f_amba, encoding='utf-8').read().split('\n')
 padron = json.load(open(f_cfg, encoding='utf-8'))['orden_paec'] + ['DEVOTO']
@@ -128,8 +132,13 @@ for art in arts:
             if q:
                 filas.append((loc, art, q, 'INTERIOR', 'reparto por venta'))
 
+art_de = {t: a for a, (_, t) in arts.items()}
+for tit, loc, q in AJUSTES:
+    filas.append((loc, art_de[tit], q, 'AMBA' if loc in AMBA else 'INTERIOR', 'ajuste Franco'))
 rep = pd.DataFrame(filas, columns=['local', 'art', 'cant', 'zona', 'motivo'])
 por_local = rep.groupby(['local', 'art', 'zona']).cant.sum().reset_index()
+assert (por_local.cant >= 0).all(), por_local[por_local.cant < 0]
+por_local = por_local[por_local.cant > 0]
 tot = rep.groupby('art').cant.sum()
 assert (tot == TOPE).all(), tot.to_dict()
 orden = ['MISTERIO', 'EROTICA', 'ROMANTICA', 'CONTEMPORANEA', 'HISTORICA', 'BIO']
@@ -144,16 +153,43 @@ L = ['REFUERZO LIBROS SORPRESA - AMBA E INTERIOR - DESGLOSE POR TITULO',
      'Grand Splendid, Neuquen Portal Patagonia y Ushuaia (nunca recibieron): carga inicial de 8.',
      'Interior: primero los de menos de 3 dias (reponer lo vendido); lo que sobra, por venta.',
      'Bio: todo en AMBA, nivelando el stock entre locales.',
+     'Ajuste: Historica +5 a Tortugas Open Mall, -5 a Patio Olmos.',
+     'En cada titulo: primero AMBA, despues interior (cada grupo en orden alfabetico).',
      f'{len(arts)} titulos | {por_local.local.nunique()} locales '
      f'({por_local[por_local.zona == "AMBA"].local.nunique()} AMBA, '
      f'{por_local[por_local.zona == "INTERIOR"].local.nunique()} interior) | {int(tot.sum())} unidades', '']
 for k, a in enumerate(arts_ord, 1):
-    b = por_local[por_local.art == a].sort_values('local')
+    b = por_local[por_local.art == a]
     L += ['=' * 66, f'{k}. LIBRO SORPRESA {arts[a][1]:<34}{int(tot[a]):>6} u',
           f'   EAN {arts[a][0]}   ID {a}   en {len(b)} locales', '=' * 66]
-    L += [f'   {int(r.cant):>4}  {r.local}' for r in b.itertuples()] + ['']
+    for zona in ('AMBA', 'INTERIOR'):
+        z = b[b.zona == zona].sort_values('local')
+        if len(z):
+            L += [f'   -- {zona}: {int(z.cant.sum())} u en {len(z)} locales']
+            L += [f'   {int(r.cant):>4}  {r.local}' for r in z.itertuples()]
+    L += ['']
 L += ['=' * 66, f'{"TOTAL":<52}{int(tot.sum()):>6} u']
 (out / 'DESGLOSE_REFUERZO_SORPRESA_AMBA_E_INTERIOR.txt').write_text('\n'.join(L) + '\n', encoding='utf-8-sig')
+
+# --- desglose por sucursal (asi carga Franco): primero AMBA, despues interior ---
+cab = L[:L.index('') + 1]
+cab = [c for c in cab if not c.startswith('En cada titulo')] 
+cab[0] = 'REFUERZO LIBROS SORPRESA - AMBA E INTERIOR - DESGLOSE POR SUCURSAL'
+cab.insert(-2, 'Primero AMBA, despues interior; cada grupo en orden alfabetico. Titulos en el orden del CSV.')
+S_ = list(cab)
+for zona in ('AMBA', 'INTERIOR'):
+    z = por_local[por_local.zona == zona]
+    S_ += ['#' * 66, f'# {zona}: {z.local.nunique()} locales, {int(z.cant.sum())} u', '#' * 66, '']
+    for loc in sorted(z.local.unique()):
+        b = z[z.local == loc]
+        S_ += ['=' * 66, f'{loc:<56}{int(b.cant.sum()):>6} u', '=' * 66]
+        for a in arts_ord:
+            q = b[b.art == a].cant.sum()
+            if q:
+                S_ += [f'   {int(q):>4}  LIBRO SORPRESA {arts[a][1]:<15} EAN {arts[a][0]}  ID {a}']
+        S_ += ['']
+S_ += ['=' * 66, f'{"TOTAL":<56}{int(por_local.cant.sum()):>6} u']
+(out / 'DESGLOSE_x_SUCURSAL_REFUERZO_SORPRESA.txt').write_text('\n'.join(S_) + '\n', encoding='utf-8-sig')
 rep.assign(ean=rep.art.map(lambda a: arts[a][0]), titulo=rep.art.map(lambda a: arts[a][1]),
            stock_07_10=[stock[(l, a)] for l, a in zip(rep.local, rep.art)]) \
    .to_csv(out / 'detalle_refuerzo.csv', sep=';', index=False, encoding='utf-8-sig')

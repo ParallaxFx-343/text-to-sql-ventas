@@ -70,7 +70,14 @@ AMBA igual que antes; carga inicial de 8 para Grand Splendid, Neuquén Portal
 Patagonia y Ushuaia; interior: primero los de menos de 3 días (reponer lo
 vendido; Misterio no alcanzó y se recortó en proporción) y lo que sobra, en
 proporción a la venta de cada local; **Bío todo a AMBA "donde se necesite"**,
-nivelando el stock de los locales (quedaron en 12-13 cada uno).
+nivelando el stock de los locales (quedaron en 12-13 cada uno). Ajuste a mano
+de Franco: Histórica +5 a Tortugas Open Mall (tenía 5), sacados de Patio Olmos
+(recibía 18).
+
+**Para cargar, Franco va por sucursal**: además del TXT por título (para el
+depósito) entregar el **TXT por sucursal**, con **primero AMBA y después el
+interior**, cada grupo en orden alfabético, y los títulos en el orden del CSV
+(`DESGLOSE_x_SUCURSAL_…txt`).
 
 **Los Sorpresa no son libros de la Editorial en el sistema**: en el SII están
 con IDEDITOR 111111 "CONCEPTOS CONTABLES", sección CODIGOS INTERNOS, grupo
