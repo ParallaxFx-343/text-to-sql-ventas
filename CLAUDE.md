@@ -75,9 +75,10 @@ de Franco: Histórica +5 a Tortugas Open Mall (tenía 5), sacados de Patio Olmos
 (recibía 18).
 
 **Pedidos del refuerzo** (TXT por sucursal anotado por Franco, 13/10):
-`25-277602` (Abasto) a `25-277659` (Ushuaia), uno por local en el orden del
-TXT; **PLAZA OESTE (47 u) quedó sin número** (la numeración es correlativa y
-no tiene hueco: ¿se cargó?). El tablero de ventas incorpora el refuerzo con
+`25-277602` (Abasto) a `25-277660` (Ushuaia), uno por local en el orden del
+TXT. En el TXT Plaza Oeste había quedado sin número; Franco dijo que fue un
+error al anotar y corrió todo uno: **Plaza Oeste = 25-277623**, y de Quilmes
+(277624) a Ushuaia (277660) cada número va uno más arriba de lo anotado. El tablero de ventas incorpora el refuerzo con
 el 6.º argumento (`tablero_sorpresa.py … SII.xlsx DESGLOSE_…_con_pedidos.txt`):
 hoja "Refuerzo 07-10" y columnas "Con refuerzo" / "Le alcanza c/ refuerzo"
 (stock SII 07/10 + refuerzo, sin descontar ventas posteriores). Con refuerzo

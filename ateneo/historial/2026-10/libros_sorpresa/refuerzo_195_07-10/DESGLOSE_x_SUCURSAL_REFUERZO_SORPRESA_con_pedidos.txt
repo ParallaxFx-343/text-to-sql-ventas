@@ -154,7 +154,7 @@ PATIO BULLRICH                                               8 u     25 277622
       8  LIBRO SORPRESA BIO             EAN 2909907514307  ID 751430
 
 ==================================================================
-PLAZA OESTE                                                 47 u
+PLAZA OESTE                                                 47 u      25-277623
 ==================================================================
       8  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       8  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -164,17 +164,17 @@ PLAZA OESTE                                                 47 u
       8  LIBRO SORPRESA BIO             EAN 2909907514307  ID 751430
 
 ==================================================================
-QUILMES CENTRO                                               4 u      25 277623
+QUILMES CENTRO                                               4 u      25-277624
 ==================================================================
       4  LIBRO SORPRESA BIO             EAN 2909907514307  ID 751430
 
 ==================================================================
-REMEROS (NORDELTA)                                           5 u      25 277624
+REMEROS (NORDELTA)                                           5 u      25-277625
 ==================================================================
       5  LIBRO SORPRESA BIO             EAN 2909907514307  ID 751430
 
 ==================================================================
-SAN JUSTO                                                   28 u       25 277625
+SAN JUSTO                                                   28 u       25-277626
 ==================================================================
       6  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       3  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
@@ -183,18 +183,18 @@ SAN JUSTO                                                   28 u       25 277625
       6  LIBRO SORPRESA BIO             EAN 2909907514307  ID 751430
 
 ==================================================================
-SAN MIGUEL                                                   7 u      25 277626
+SAN MIGUEL                                                   7 u      25-277627
 ==================================================================
       2  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
       5  LIBRO SORPRESA BIO             EAN 2909907514307  ID 751430
 
 ==================================================================
-SOLAR DE LA ABADIA                                           6 u      25 277627
+SOLAR DE LA ABADIA                                           6 u      25-277628
 ==================================================================
       6  LIBRO SORPRESA BIO             EAN 2909907514307  ID 751430
 
 ==================================================================
-TORTUGAS OPEN MALL                                          33 u       25 277628
+TORTUGAS OPEN MALL                                          33 u       25-277629
 ==================================================================
       7  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       8  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -203,7 +203,7 @@ TORTUGAS OPEN MALL                                          33 u       25 277628
       7  LIBRO SORPRESA BIO             EAN 2909907514307  ID 751430
 
 ==================================================================
-UNICENTER                                                   47 u       25 277629
+UNICENTER                                                   47 u       25-277630
 ==================================================================
      15  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
      13  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -211,13 +211,13 @@ UNICENTER                                                   47 u       25 277629
      10  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-VILLA CRESPO                                                13 u       25 277630
+VILLA CRESPO                                                13 u       25-277631
 ==================================================================
       5  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       8  LIBRO SORPRESA BIO             EAN 2909907514307  ID 751430
 
 ==================================================================
-VILLA URQUIZA                                               11 u       25 277631
+VILLA URQUIZA                                               11 u       25-277632
 ==================================================================
       3  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
       8  LIBRO SORPRESA BIO             EAN 2909907514307  ID 751430
@@ -227,7 +227,7 @@ VILLA URQUIZA                                               11 u       25 277631
 ##################################################################
 
 ==================================================================
-ALTO COMAHUE                                                39 u      25 277632
+ALTO COMAHUE                                                39 u      25-277633
 ==================================================================
      11  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       6  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -235,7 +235,7 @@ ALTO COMAHUE                                                39 u      25 277632
       7  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-ALTO NOA SHOPPING - SALTA                                   49 u      25 277633
+ALTO NOA SHOPPING - SALTA                                   49 u      25-277634
 ==================================================================
       6  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
      11  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -244,13 +244,13 @@ ALTO NOA SHOPPING - SALTA                                   49 u      25 277633
      13  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-ALTO ROSARIO                                                 3 u     25 277634
+ALTO ROSARIO                                                 3 u     25-277635
 ==================================================================
       1  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
       2  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
 
 ==================================================================
-ATENEO CORDOBA CENTRO                                       11 u      25 277635
+ATENEO CORDOBA CENTRO                                       11 u      25-277636
 ==================================================================
       4  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       1  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -259,7 +259,7 @@ ATENEO CORDOBA CENTRO                                       11 u      25 277635
       3  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-ATENEO ROSARIO                                              19 u      25 277636
+ATENEO ROSARIO                                              19 u      25-277637
 ==================================================================
       1  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
       5  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
@@ -267,7 +267,7 @@ ATENEO ROSARIO                                              19 u      25 277636
      11  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-ATENEO TUCUMAN                                              42 u      25 277637
+ATENEO TUCUMAN                                              42 u      25-277638
 ==================================================================
       6  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
      11  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -276,7 +276,7 @@ ATENEO TUCUMAN                                              42 u      25 277637
      15  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-BAHIA BLANCA SHOPPING                                       20 u      25 277638
+BAHIA BLANCA SHOPPING                                       20 u      25-277639
 ==================================================================
       6  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       1  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -285,7 +285,7 @@ BAHIA BLANCA SHOPPING                                       20 u      25 277638
       3  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-BARILOCHE                                                   27 u       25 277639
+BARILOCHE                                                   27 u       25-277640
 ==================================================================
       6  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       2  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -294,7 +294,7 @@ BARILOCHE                                                   27 u       25 277639
       9  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-COMODORO RIVADAVIA                                          26 u       25 277640
+COMODORO RIVADAVIA                                          26 u       25-277641
 ==================================================================
       6  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       8  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -303,24 +303,24 @@ COMODORO RIVADAVIA                                          26 u       25 277640
       1  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-JUJUY                                                        5 u       25 277641
+JUJUY                                                        5 u       25-277642
 ==================================================================
       1  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
       4  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
 
 ==================================================================
-LA PLATA                                                     2 u       25 277642
+LA PLATA                                                     2 u       25-277643
 ================================================================== 
       1  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
       1  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
 
 ==================================================================
-MAR DEL PLATA LOS GALLEGOS                                   3 u    25 277643
+MAR DEL PLATA LOS GALLEGOS                                   3 u    25-277644
 ==================================================================
       3  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
 
 ==================================================================
-MAR DEL PLATA M. BENDU                                      12 u      25 277644
+MAR DEL PLATA M. BENDU                                      12 u      25-277645
 ==================================================================
       3  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       1  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -328,7 +328,7 @@ MAR DEL PLATA M. BENDU                                      12 u      25 277644
       5  LIBRO SORPRESA CONTEMPORANEA   EAN 2909907514246  ID 751424
 
 ==================================================================
-MAR DEL PLATA PASEO ALDREY                                  16 u      25 277645
+MAR DEL PLATA PASEO ALDREY                                  16 u      25-277646
 ==================================================================
       2  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
       6  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
@@ -336,7 +336,7 @@ MAR DEL PLATA PASEO ALDREY                                  16 u      25 277645
       3  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-MENDOZA CENTRO                                              12 u       25 277646
+MENDOZA CENTRO                                              12 u       25-277647
 ==================================================================
       1  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
       4  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
@@ -344,7 +344,7 @@ MENDOZA CENTRO                                              12 u       25 277646
       3  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-MENDOZA PALMARES                                            20 u      25 277647
+MENDOZA PALMARES                                            20 u      25-277648
 ==================================================================
       6  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       1  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -353,7 +353,7 @@ MENDOZA PALMARES                                            20 u      25 277647
       4  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-MENDOZA SHOPPING                                            33 u      25 277648
+MENDOZA SHOPPING                                            33 u      25-277649
 ==================================================================
       6  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
      11  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -362,7 +362,7 @@ MENDOZA SHOPPING                                            33 u      25 277648
       7  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-NEUQUEN PORTAL PATAGONIA                                    48 u      25 277649
+NEUQUEN PORTAL PATAGONIA                                    48 u      25-277650
 ==================================================================
       8  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       8  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -372,7 +372,7 @@ NEUQUEN PORTAL PATAGONIA                                    48 u      25 277649
       8  LIBRO SORPRESA BIO             EAN 2909907514307  ID 751430
 
 ==================================================================
-NUEVO CENTRO SHOPPING                                       55 u        25 277650
+NUEVO CENTRO SHOPPING                                       55 u        25-277651
 ==================================================================
       6  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
      10  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -381,7 +381,7 @@ NUEVO CENTRO SHOPPING                                       55 u        25 27765
      13  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-PARANA                                                      44 u         25 277651
+PARANA                                                      44 u         25-277652
 ================================================================== 
       3  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
      11  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -390,7 +390,7 @@ PARANA                                                      44 u         25 2776
       9  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-PATIO OLMOS                                                 54 u        25 277652
+PATIO OLMOS                                                 54 u        25-277653
 ==================================================================
       6  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
      11  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -399,19 +399,19 @@ PATIO OLMOS                                                 54 u        25 27765
      13  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-RESISTENCIA                                                  5 u      25 277653
+RESISTENCIA                                                  5 u      25-277654
 ==================================================================
       5  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-RIO CUARTO                                                   5 u      25 277654
+RIO CUARTO                                                   5 u      25-277655
 ==================================================================
       1  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
       2  LIBRO SORPRESA CONTEMPORANEA   EAN 2909907514246  ID 751424
       2  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-SAN LUIS                                                    22 u      25 277655
+SAN LUIS                                                    22 u      25-277656
 ==================================================================
       5  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       7  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -420,7 +420,7 @@ SAN LUIS                                                    22 u      25 277655
       5  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-SANTA FE Ribera Shopping                                     9 u       25 277656
+SANTA FE Ribera Shopping                                     9 u       25-277657
 ==================================================================
       3  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       1  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -428,7 +428,7 @@ SANTA FE Ribera Shopping                                     9 u       25 277656
       2  LIBRO SORPRESA CONTEMPORANEA   EAN 2909907514246  ID 751424
 
 ==================================================================
-TRELEW                                                      16 u        25 277657
+TRELEW                                                      16 u        25-277658
 ==================================================================
       3  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       1  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
@@ -437,7 +437,7 @@ TRELEW                                                      16 u        25 27765
       5  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-TUCUMAN PORTAL                                              15 u    25 277658
+TUCUMAN PORTAL                                              15 u    25-277659
 ==================================================================
       5  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       4  LIBRO SORPRESA ROMANTICA       EAN 2909907514222  ID 751422
@@ -445,7 +445,7 @@ TUCUMAN PORTAL                                              15 u    25 277658
       2  LIBRO SORPRESA HISTORICA       EAN 2909907514208  ID 751420
 
 ==================================================================
-USHUAIA                                                     48 u     25 277659
+USHUAIA                                                     48 u     25-277660
 ==================================================================
       8  LIBRO SORPRESA MISTERIO        EAN 2909907514260  ID 751426
       8  LIBRO SORPRESA EROTICA         EAN 2909907514284  ID 751428
