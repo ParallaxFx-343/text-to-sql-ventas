@@ -84,6 +84,23 @@ hoja "Refuerzo 07-10" y columnas "Con refuerzo" / "Le alcanza c/ refuerzo"
 (stock SII 07/10 + refuerzo, sin descontar ventas posteriores). Con refuerzo
 la cadena queda en 2.671 u: Misterio 8,5 días, Romántica 10,3, Erótica 12,0.
 
+**Actualización al 13/10** (Detalle y Agrupadas crudos del 13/10 + SII 13/10 07:02):
+2.133 u del 01 al 13/10 (13 parcial), 61 de 62 locales (solo Devoto sin venta);
+01-06/10 972 u vs 07-12/10 1.157 u (+19%); sábados 351 y 319. Stock en locales
+988 u (Romántica 19, Misterio 61): Romántica 0,8 días, Misterio 1,4.
+**El refuerzo llegó a medias**: comparando SII 13/10 contra SII 07/10 menos lo
+vendido entre los dos, entraron ~418 u; completo en 16 locales, nada en 40,
+parcial en 3; **faltan llegar ~752 u**. Además entró mercadería que no es del
+refuerzo en Grand Splendid (+178), Neuquén (+23), Alto Comahue (+15, Contemporánea
+que no estaba en el refuerzo) y Plaza Oeste (+8): hubo otro envío.
+- Los exports crudos traen un styles.xml que openpyxl rechaza: se leen con
+  calamine (`pip install python-calamine`). `normalizar_ventas.py` deja el
+  Detalle solo con Sorpresa (verificado: 01-06/10 idéntico fila por fila a la
+  versión que limpiaba Franco).
+- `tablero_sorpresa.py … SII_NUEVO REFUERZO.txt SII_BASE`: con el 7.º argumento
+  estima "Entró" / "Falta llegar" por local y título. Franco pidió **sacar la
+  hoja Devoluciones** (13/10); las unidades siguen netas.
+
 **Para cargar, Franco va por sucursal**: además del TXT por título (para el
 depósito) entregar el **TXT por sucursal**, con **primero AMBA y después el
 interior**, cada grupo en orden alfabético, y los títulos en el orden del CSV
