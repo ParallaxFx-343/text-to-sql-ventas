@@ -74,6 +74,15 @@ nivelando el stock de los locales (quedaron en 12-13 cada uno). Ajuste a mano
 de Franco: Histórica +5 a Tortugas Open Mall (tenía 5), sacados de Patio Olmos
 (recibía 18).
 
+**Pedidos del refuerzo** (TXT por sucursal anotado por Franco, 13/10):
+`25-277602` (Abasto) a `25-277659` (Ushuaia), uno por local en el orden del
+TXT; **PLAZA OESTE (47 u) quedó sin número** (la numeración es correlativa y
+no tiene hueco: ¿se cargó?). El tablero de ventas incorpora el refuerzo con
+el 6.º argumento (`tablero_sorpresa.py … SII.xlsx DESGLOSE_…_con_pedidos.txt`):
+hoja "Refuerzo 07-10" y columnas "Con refuerzo" / "Le alcanza c/ refuerzo"
+(stock SII 07/10 + refuerzo, sin descontar ventas posteriores). Con refuerzo
+la cadena queda en 2.671 u: Misterio 8,5 días, Romántica 10,3, Erótica 12,0.
+
 **Para cargar, Franco va por sucursal**: además del TXT por título (para el
 depósito) entregar el **TXT por sucursal**, con **primero AMBA y después el
 interior**, cada grupo en orden alfabético, y los títulos en el orden del CSV
