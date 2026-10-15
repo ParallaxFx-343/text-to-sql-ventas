@@ -1,0 +1,66 @@
+﻿REPO 15/10 + HALLOWEEN - NROS DE PAEC
+Orden de carga: el de los TXT de PAEC (Devoto al final).
+
+ 1. ABASTO                           23 u   4 tít.   PAEC: ______________
+ 2. AEROPARQUE                       59 u   9 tít.   PAEC: ______________
+ 3. ALTO COMAHUE                     52 u   9 tít.   PAEC: ______________
+ 4. ALTO NOA SHOPPING - SALTA        32 u   7 tít.   PAEC: ______________
+ 5. ALTO PALERMO                     54 u  10 tít.   PAEC: ______________
+ 6. ALTO ROSARIO                     35 u   8 tít.   PAEC: ______________
+ 7. ATENEO CORDOBA CENTRO            29 u   6 tít.   PAEC: ______________
+ 8. ATENEO FLORIDA 340               29 u   6 tít.   PAEC: ______________
+ 9. ATENEO FLORIDA 632               55 u   9 tít.   PAEC: ______________
+10. ATENEO GRAND SPLENDID            16 u   4 tít.   PAEC: ______________
+11. ATENEO LA PLATA                  27 u   6 tít.   PAEC: ______________
+12. ATENEO ROSARIO                   36 u   8 tít.   PAEC: ______________
+13. ATENEO TUCUMAN                   30 u   7 tít.   PAEC: ______________
+14. AVELLANEDA                       44 u   7 tít.   PAEC: ______________
+15. BAHIA BLANCA SHOPPING             7 u   6 tít.   PAEC: ______________
+16. BARILOCHE                        44 u   9 tít.   PAEC: ______________
+17. BORGES                           57 u  10 tít.   PAEC: ______________
+18. CABALLITO                        55 u   8 tít.   PAEC: ______________
+19. CALLE 12                         36 u   8 tít.   PAEC: ______________
+20. COMODORO RIVADAVIA               36 u   8 tít.   PAEC: ______________
+21. CORRIENTES SHOPPING              40 u   7 tít.   PAEC: ______________
+22. DOT BAIRES SHOPPING              41 u   7 tít.   PAEC: ______________
+23. EZEIZA                           15 u   8 tít.   PAEC: ______________
+24. FLORES                          156 u  41 tít.   PAEC: ______________
+25. JUJUY                            40 u   8 tít.   PAEC: ______________
+26. LA PLATA                         35 u   8 tít.   PAEC: ______________
+27. LOMAS DE ZAMORA                  38 u   8 tít.   PAEC: ______________
+28. MAR DEL PLATA LOS GALLEGOS       40 u   9 tít.   PAEC: ______________
+29. MAR DEL PLATA M. BENDU           27 u   6 tít.   PAEC: ______________
+30. MAR DEL PLATA PASEO ALDREY      391 u  42 tít.   PAEC: ______________
+31. MENDOZA CENTRO                   44 u   9 tít.   PAEC: ______________
+32. MENDOZA PALMARES                286 u  43 tít.   PAEC: ______________
+33. MENDOZA SHOPPING                 35 u   7 tít.   PAEC: ______________
+34. NEUQUEN PORTAL PATAGONIA         44 u   9 tít.   PAEC: ______________
+35. NUEVO CENTRO SHOPPING            38 u   7 tít.   PAEC: ______________
+36. PALERMO PORTAL                    7 u   5 tít.   PAEC: ______________
+37. PALMAS DEL PILAR                 51 u   9 tít.   PAEC: ______________
+38. PARANA                           55 u   9 tít.   PAEC: ______________
+39. PASEO ALCORTA                    49 u   7 tít.   PAEC: ______________
+40. PATIO BULLRICH                   16 u   8 tít.   PAEC: ______________
+41. PATIO OLMOS                      34 u   5 tít.   PAEC: ______________
+42. PLAZA OESTE                      58 u   8 tít.   PAEC: ______________
+43. QUILMES CENTRO                   39 u   8 tít.   PAEC: ______________
+44. REMEROS (NORDELTA)               48 u   9 tít.   PAEC: ______________
+45. RESISTENCIA                      39 u   8 tít.   PAEC: ______________
+46. RIO CUARTO                       42 u  10 tít.   PAEC: ______________
+47. ROSARIO PORTAL                   35 u   7 tít.   PAEC: ______________
+48. SALTA CENTRO                     46 u   9 tít.   PAEC: ______________
+49. SAN JUSTO                        52 u   9 tít.   PAEC: ______________
+50. SAN LUIS                         41 u   8 tít.   PAEC: ______________
+51. SAN MIGUEL                       32 u   9 tít.   PAEC: ______________
+52. SANTA FE Ribera Shopping        477 u  45 tít.   PAEC: ______________
+53. SOLAR DE LA ABADIA              305 u  42 tít.   PAEC: ______________
+54. TORTUGAS OPEN MALL               38 u   7 tít.   PAEC: ______________
+55. TRELEW                            5 u   3 tít.   PAEC: ______________
+56. TUCUMAN PORTAL                   64 u   9 tít.   PAEC: ______________
+57. UNICENTER                        57 u   9 tít.   PAEC: ______________
+58. USHUAIA                          26 u   6 tít.   PAEC: ______________
+59. VILLA CRESPO                     32 u   8 tít.   PAEC: ______________
+60. VILLA URQUIZA                    27 u   6 tít.   PAEC: ______________
+61. DEVOTO                           41 u   6 tít.   PAEC: ______________
+
+61 sucursales | 3742 u
