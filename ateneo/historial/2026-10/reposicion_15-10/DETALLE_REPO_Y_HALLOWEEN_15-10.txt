@@ -1,0 +1,951 @@
+﻿REPOSICION 15/10 + SUGERIDO HALLOWEEN - UN PAEC POR SUCURSAL
+Repo (Solar de la Abadía, Flores, MdP Paseo Aldrey, Mendoza Palmares, Santa Fe): cantidad = "Ventas", sin Libros Sorpresa.
+Halloween (13 títulos): completar a 10; Trelew, Ezeiza, Patio Bullrich, Bahía Blanca y Palermo Portal a 3; sin Ateneo Juramento.
+   Se descuenta lo que ya va en camino: repo del 14/10 (todavía no figura en el SII) y la repo de hoy.
+Marcas: [H] = Halloween · [R+H] = repo + Halloween en la misma línea · [SIN STOCK] = disponible 0 · [DISP x PARA y] = no alcanza para todos.
+Stock y disponible: SII 15/10 07:01. Orden de las sucursales: el de los TXT de PAEC (Devoto al final).
+
+==============================================================================
+ABASTO                                                23 u  4 títulos
+   reposicion_ABASTO.csv | repo 0 u | halloween 23 u
+==============================================================================
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      4  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+
+==============================================================================
+AEROPARQUE                                            59 u  9 títulos
+   reposicion_AEROPARQUE.csv | repo 0 u | halloween 59 u
+==============================================================================
+      9  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      9  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      9  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      7  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      7  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500217446  CASA ABANDONADA, LA                        [H]  
+      5  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      1  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.    [H]  
+
+==============================================================================
+ALTO COMAHUE                                          52 u  9 títulos
+   reposicion_ALTO_COMAHUE.csv | repo 0 u | halloween 52 u
+==============================================================================
+      8  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      7  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      6  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.    [H]  
+      5  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      3  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+
+==============================================================================
+ALTO NOA SHOPPING - SALTA                             32 u  7 títulos
+   reposicion_ALTO_NOA_SHOPPING_SALTA.csv | repo 0 u | halloween 32 u
+==============================================================================
+      6  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      4  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      1  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+ALTO PALERMO                                          54 u  10 títulos
+   reposicion_ALTO_PALERMO.csv | repo 0 u | halloween 54 u
+==============================================================================
+     10  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      8  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      7  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      7  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      4  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      4  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      3  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      1  9789500217446  CASA ABANDONADA, LA                        [H]  
+      1  9789500217675  CUMPLE DE 15                               [H]  
+
+==============================================================================
+ALTO ROSARIO                                          35 u  8 títulos
+   reposicion_ALTO_ROSARIO.csv | repo 0 u | halloween 35 u
+==============================================================================
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      3  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      3  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      2  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      1  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+ATENEO CORDOBA CENTRO                                 29 u  6 títulos
+   reposicion_ATENEO_CORDOBA_CENTRO.csv | repo 0 u | halloween 29 u
+==============================================================================
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      5  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      2  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+
+==============================================================================
+ATENEO FLORIDA 340                                    29 u  6 títulos
+   reposicion_ATENEO_FLORIDA_340.csv | repo 0 u | halloween 29 u
+==============================================================================
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      6  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      3  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      1  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+
+==============================================================================
+ATENEO FLORIDA 632                                    55 u  9 títulos
+   reposicion_ATENEO_FLORIDA_632.csv | repo 0 u | halloween 55 u
+==============================================================================
+      9  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      8  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      8  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      6  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      3  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      1  9789500217446  CASA ABANDONADA, LA                        [H]  
+
+==============================================================================
+ATENEO GRAND SPLENDID                                 16 u  4 títulos
+   reposicion_ATENEO_GRAND_SPLENDID.csv | repo 0 u | halloween 16 u
+==============================================================================
+      8  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      4  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      3  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      1  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+
+==============================================================================
+ATENEO LA PLATA                                       27 u  6 títulos
+   reposicion_ATENEO_LA_PLATA.csv | repo 0 u | halloween 27 u
+==============================================================================
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      2  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      2  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+ATENEO ROSARIO                                        36 u  8 títulos
+   reposicion_ATENEO_ROSARIO.csv | repo 0 u | halloween 36 u
+==============================================================================
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      4  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      2  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      2  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+ATENEO TUCUMAN                                        30 u  7 títulos
+   reposicion_ATENEO_TUCUMAN.csv | repo 0 u | halloween 30 u
+==============================================================================
+      7  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      4  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      4  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      4  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      3  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      1  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+
+==============================================================================
+AVELLANEDA                                            44 u  7 títulos
+   reposicion_AVELLANEDA.csv | repo 0 u | halloween 44 u
+==============================================================================
+     10  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      8  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      4  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+
+==============================================================================
+BAHIA BLANCA SHOPPING                                  7 u  6 títulos
+   reposicion_BAHIA_BLANCA_SHOPPING.csv | repo 0 u | halloween 7 u
+==============================================================================
+      2  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      1  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      1  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      1  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      1  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      1  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+
+==============================================================================
+BARILOCHE                                             44 u  9 títulos
+   reposicion_BARILOCHE.csv | repo 0 u | halloween 44 u
+==============================================================================
+      7  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      5  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      4  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      1  9789500217446  CASA ABANDONADA, LA                        [H]  
+
+==============================================================================
+BORGES                                                57 u  10 títulos
+   reposicion_BORGES.csv | repo 0 u | halloween 57 u
+==============================================================================
+      8  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      8  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      8  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      7  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      7  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      4  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      2  9789500217446  CASA ABANDONADA, LA                        [H]  
+      2  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.    [H]  
+
+==============================================================================
+CABALLITO                                             55 u  8 títulos
+   reposicion_CABALLITO.csv | repo 0 u | halloween 55 u
+==============================================================================
+      9  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      9  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      8  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      5  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+
+==============================================================================
+CALLE 12                                              36 u  8 títulos
+   reposicion_CALLE_12.csv | repo 0 u | halloween 36 u
+==============================================================================
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      4  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      4  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      2  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      1  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+
+==============================================================================
+COMODORO RIVADAVIA                                    36 u  8 títulos
+   reposicion_COMODORO_RIVADAVIA.csv | repo 0 u | halloween 36 u
+==============================================================================
+      8  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      4  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      4  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      1  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      1  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+CORRIENTES SHOPPING                                   40 u  7 títulos
+   reposicion_CORRIENTES_SHOPPING.csv | repo 0 u | halloween 40 u
+==============================================================================
+      7  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      7  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      6  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      3  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+
+==============================================================================
+DOT BAIRES SHOPPING                                   41 u  7 títulos
+   reposicion_DOT_BAIRES_SHOPPING.csv | repo 0 u | halloween 41 u
+==============================================================================
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      8  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      7  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      4  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      1  9789500217675  CUMPLE DE 15                               [H]  
+
+==============================================================================
+EZEIZA                                                15 u  8 títulos
+   reposicion_EZEIZA.csv | repo 0 u | halloween 15 u
+==============================================================================
+      2  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      2  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      2  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      2  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      2  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      2  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      2  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      1  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+
+==============================================================================
+FLORES                                               156 u  41 títulos
+   reposicion_FLORES.csv | repo 127 u | halloween 29 u
+==============================================================================
+     17  9789500218160  PROMESA DE SANGRE                               
+     11  9789500218146  ROZAS                                             [SIN STOCK]
+      7  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      6  9789500209861  SAGA DE LOS BONAPARTE, LA                         [SIN STOCK]
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500217866  AMARANTIA                                       
+      5  9789500215398  CUENTOS DE AMOR PROPIO                          
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      4  9789500216470  BIOPAUSIA                                       
+      4  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES         
+      4  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA               
+      4  9789500218153  LIDERAZGO CON PROPOSITO                         
+      4  9789500215015  MEDITACIONES                                      [SIN STOCK]
+      4  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL            
+      3  9789500213233  BITACORA ASTROLOGICA                            
+      3  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?                    
+      3  9789500213264  DOLOR DE ESTAR VIVO, EL                         
+      3  9789500217644  ENREDOS DEL CORAZON                             
+      3  9789500217552  MIS AUTOS DE CARRERA                            
+      3  9789500215411  NATURALISTAS                                    
+      3  9789500215770  NUEVO DICCIONARIO ESCOLAR DE LA LENGUA ESP      
+      3  9789500286763  PRINCIPE, EL                                      [SIN STOCK]
+      3  9789500215466  SERAS TAN FELIZ COMO INSISTAS                   
+      3  9789500217033  STICKERS MAGICOS: GRANJA                          [SIN STOCK]
+      3  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO                
+      2  9789500216814  AMIGOS DE LA GRANJA                             
+      2  9789500218207  BIOPAUSIA. 2DA. EDICION ESPECIAL (TAPA DUR      
+      2  9789500217736  COMO RAJAR A TU JEFE                            
+      2  9789500298780  CONSTITUCION NACIONAL                           
+      2  9789500218016  EDAD QUE ELEGIMOS, LA                           
+      2  9789500216173  EGRESADOS                                       
+      2  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL         
+      2  9789500216630  MIS AMIGOS LOS CARPINCHOS                       
+      2  9789500217545  MIS EXCAVADORAS                                 
+      2  9789500217484  PEQUEÑO UNICORNIO QUE PERDIO SU MAGIA, EL       
+      2  9789500218047  PRINCIPITO, EL                                  
+      2  9789500212724  QUE SEA MUTUO O NO SEA NADA                     
+      2  9789500215886  ¡ACA ESTOY! BALLENITA                           
+      1  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+
+==============================================================================
+JUJUY                                                 40 u  8 títulos
+   reposicion_JUJUY.csv | repo 0 u | halloween 40 u
+==============================================================================
+      7  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      7  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      5  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      3  9789500217446  CASA ABANDONADA, LA                        [H]  
+      3  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      3  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+
+==============================================================================
+LA PLATA                                              35 u  8 títulos
+   reposicion_LA_PLATA.csv | repo 0 u | halloween 35 u
+==============================================================================
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      2  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      2  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      2  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+
+==============================================================================
+LOMAS DE ZAMORA                                       38 u  8 títulos
+   reposicion_LOMAS_DE_ZAMORA.csv | repo 0 u | halloween 38 u
+==============================================================================
+      6  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      5  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      4  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      1  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+MAR DEL PLATA LOS GALLEGOS                            40 u  9 títulos
+   reposicion_MAR_DEL_PLATA_LOS_GALLEGOS.csv | repo 0 u | halloween 40 u
+==============================================================================
+      7  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      5  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      4  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      3  9789500217675  CUMPLE DE 15                               [H]  
+      3  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      1  9789500217446  CASA ABANDONADA, LA                        [H]  
+
+==============================================================================
+MAR DEL PLATA M. BENDU                                27 u  6 títulos
+   reposicion_MAR_DEL_PLATA_M_BENDU.csv | repo 0 u | halloween 27 u
+==============================================================================
+      7  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      6  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      2  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      1  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+
+==============================================================================
+MAR DEL PLATA PASEO ALDREY                           391 u  42 títulos
+   reposicion_MAR_DEL_PLATA_PASEO_ALDREY.csv | repo 350 u | halloween 41 u
+==============================================================================
+     24  9789500218047  PRINCIPITO, EL                                  
+     22  9789500218023  TAO TE CHING.  (ED. POCKET)                     
+     21  9789500217026  STICKERS MAGICOS DINOSAURIOS                      [SIN STOCK]
+     17  9789500217033  STICKERS MAGICOS: GRANJA                          [SIN STOCK]
+     15  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL            
+     14  9789500217859  VENDER ES PODER                                 
+     13  9789500217484  PEQUEÑO UNICORNIO QUE PERDIO SU MAGIA, EL       
+     11  9789500218160  PROMESA DE SANGRE                               
+     11  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO                
+     10  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA               
+     10  9789500286763  PRINCIPE, EL                                      [SIN STOCK]
+     10  9789500218146  ROZAS                                             [SIN STOCK]
+     10  9789500217767  SUPERCUENTOS DE GOL                             
+      9  9789500212953  BRILLA                                          
+      9  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      9  9789500213400  TU AMIGO INVISIBLE                              
+      8  9789500210157  CUENTOS CORTOS PARA SOÑAR                       
+      8  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?                   [SIN STOCK]
+      8  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES         
+      8  9789500218153  LIDERAZGO CON PROPOSITO                         
+      8  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      8  9789500217552  MIS AUTOS DE CARRERA                            
+      7  9789500217309  AQUI ESTOY! DINOSAURITO                         
+      7  9789500215398  CUENTOS DE AMOR PROPIO                          
+      7  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.         
+      7  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      7  9789500217675  CUMPLE DE 15                                    
+      7  9789500213264  DOLOR DE ESTAR VIVO, EL                         
+      7  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS                  
+      7  9789500212724  QUE SEA MUTUO O NO SEA NADA                     
+      7  9789500208536  SAGA DE LOS ROMANOV, LA                           [SIN STOCK]
+      7  9789500215992  SOBRE LA VIDA FELIZ                             
+      6  9789500213233  BITACORA ASTROLOGICA                            
+      6  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?                    
+      6  9789500216173  EGRESADOS                                       
+      6  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      6  9789500217545  MIS EXCAVADORAS                                 
+      6  9789500215411  NATURALISTAS                                    
+      6  9789500209861  SAGA DE LOS BONAPARTE, LA                         [SIN STOCK]
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500217682  ANIMALES SALVAJES                               
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+
+==============================================================================
+MENDOZA CENTRO                                        44 u  9 títulos
+   reposicion_MENDOZA_CENTRO.csv | repo 0 u | halloween 44 u
+==============================================================================
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      8  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      5  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      1  9789500217446  CASA ABANDONADA, LA                        [H]  
+      1  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+MENDOZA PALMARES                                     286 u  43 títulos
+   reposicion_MENDOZA_PALMARES.csv | repo 244 u | halloween 42 u
+==============================================================================
+     12  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?                    
+     11  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS                  
+     10  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA               
+     10  9789500215015  MEDITACIONES                                      [SIN STOCK]
+     10  9789500217033  STICKERS MAGICOS: GRANJA                          [SIN STOCK]
+      9  9789500216135  CUENTOS DE AMOR PROPIO 2                        
+      9  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?                   [SIN STOCK]
+      9  9789500218146  ROZAS                                             [SIN STOCK]
+      9  9789500217026  STICKERS MAGICOS DINOSAURIOS                      [SIN STOCK]
+      8  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES         
+      8  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL         
+      8  9789500218047  PRINCIPITO, EL                                  
+      8  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      7  9789500216869  FINANZAS                                        
+      7  9789500218153  LIDERAZGO CON PROPOSITO                         
+      7  9789500216388  METAMORFOSIS, LA                                  [SIN STOCK]
+      7  9789500218160  PROMESA DE SANGRE                               
+      7  9789500215909  VENDETE ANTES DE VENDER                         
+      6  9789500215398  CUENTOS DE AMOR PROPIO                          
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500218016  EDAD QUE ELEGIMOS, LA                           
+      6  9789500216951  EXPLOREMOS LA CASA                              
+      6  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      6  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL            
+      6  9789500217484  PEQUEÑO UNICORNIO QUE PERDIO SU MAGIA, EL       
+      6  9789500217460  VACA VA A SER HERMANA, LA                       
+      6  9789500215893  ¡ACA ESTOY! VAQUITA                             
+      6  9789500217361  ¿COMO SE LO DIGO?                               
+      5  9789500216678  100 HISTORIAS DE LA BIBLIA                      
+      5  9789500217866  AMARANTIA                                       
+      5  9789500216470  BIOPAUSIA                                       
+      5  9789500217507  MANUAL DE VIDA                                  
+      5  9789500209861  SAGA DE LOS BONAPARTE, LA                         [SIN STOCK]
+      5  9789500208536  SAGA DE LOS ROMANOV, LA                           [SIN STOCK]
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500217767  SUPERCUENTOS DE GOL                             
+      5  9789500213400  TU AMIGO INVISIBLE                              
+      4  9789500216814  AMIGOS DE LA GRANJA                             
+      4  9789500216807  AMIGOS DEL BOSQUE                               
+      4  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      4  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      3  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+MENDOZA SHOPPING                                      35 u  7 títulos
+   reposicion_MENDOZA_SHOPPING.csv | repo 0 u | halloween 35 u
+==============================================================================
+      8  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      3  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      1  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+NEUQUEN PORTAL PATAGONIA                              44 u  9 títulos
+   reposicion_NEUQUEN_PORTAL_PATAGONIA.csv | repo 0 u | halloween 44 u
+==============================================================================
+      8  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      8  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      4  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      2  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      2  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.    [H]  
+      2  9789500217675  CUMPLE DE 15                               [H]  
+
+==============================================================================
+NUEVO CENTRO SHOPPING                                 38 u  7 títulos
+   reposicion_NUEVO_CENTRO_SHOPPING.csv | repo 0 u | halloween 38 u
+==============================================================================
+      8  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      3  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      2  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+
+==============================================================================
+PALERMO PORTAL                                         7 u  5 títulos
+   reposicion_PALERMO_PORTAL.csv | repo 0 u | halloween 7 u
+==============================================================================
+      2  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      2  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      1  9789500217446  CASA ABANDONADA, LA                        [H]  
+      1  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      1  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+
+==============================================================================
+PALMAS DEL PILAR                                      51 u  9 títulos
+   reposicion_PALMAS_DEL_PILAR.csv | repo 0 u | halloween 51 u
+==============================================================================
+      9  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      9  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      8  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      4  9789500217446  CASA ABANDONADA, LA                        [H]  
+      2  9789500217675  CUMPLE DE 15                               [H]  
+      1  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+
+==============================================================================
+PARANA                                                55 u  9 títulos
+   reposicion_PARANA.csv | repo 0 u | halloween 55 u
+==============================================================================
+     10  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      9  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      9  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      3  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.    [H]  
+      3  9789500217675  CUMPLE DE 15                               [H]  
+      3  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+
+==============================================================================
+PASEO ALCORTA                                         49 u  7 títulos
+   reposicion_PASEO_ALCORTA.csv | repo 0 u | halloween 49 u
+==============================================================================
+      9  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      9  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      8  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      6  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      4  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+PATIO BULLRICH                                        16 u  8 títulos
+   reposicion_PATIO_BULLRICH.csv | repo 0 u | halloween 16 u
+==============================================================================
+      2  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      2  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      2  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      2  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      2  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      2  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      2  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      2  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+
+==============================================================================
+PATIO OLMOS                                           34 u  5 títulos
+   reposicion_PATIO_OLMOS.csv | repo 0 u | halloween 34 u
+==============================================================================
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      7  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+
+==============================================================================
+PLAZA OESTE                                           58 u  8 títulos
+   reposicion_PLAZA_OESTE.csv | repo 0 u | halloween 58 u
+==============================================================================
+      9  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      9  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      9  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+
+==============================================================================
+QUILMES CENTRO                                        39 u  8 títulos
+   reposicion_QUILMES_CENTRO.csv | repo 0 u | halloween 39 u
+==============================================================================
+      8  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      8  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      6  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      3  9789500218344  EMPAPELADO AMARILLO, EL // THE YELLOW WALL [H]  
+      3  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      1  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+
+==============================================================================
+REMEROS (NORDELTA)                                    48 u  9 títulos
+   reposicion_REMEROS_NORDELTA.csv | repo 0 u | halloween 48 u
+==============================================================================
+      8  9789500217446  CASA ABANDONADA, LA                        [H]  
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      2  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      2  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+RESISTENCIA                                           39 u  8 títulos
+   reposicion_RESISTENCIA.csv | repo 0 u | halloween 39 u
+==============================================================================
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      3  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.    [H]  
+      3  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      2  9789500218344  EMPAPELADO AMARILLO, EL // THE YELLOW WALL [H]  
+
+==============================================================================
+RIO CUARTO                                            42 u  10 títulos
+   reposicion_RIO_CUARTO.csv | repo 0 u | halloween 42 u
+==============================================================================
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      3  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      2  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.    [H]  
+      2  9789500218344  EMPAPELADO AMARILLO, EL // THE YELLOW WALL [H]  
+      2  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      1  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+
+==============================================================================
+ROSARIO PORTAL                                        35 u  7 títulos
+   reposicion_ROSARIO_PORTAL.csv | repo 0 u | halloween 35 u
+==============================================================================
+      8  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      2  9789500218344  EMPAPELADO AMARILLO, EL // THE YELLOW WALL [H]  
+      1  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+
+==============================================================================
+SALTA CENTRO                                          46 u  9 títulos
+   reposicion_SALTA_CENTRO.csv | repo 0 u | halloween 46 u
+==============================================================================
+      8  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      8  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.    [H]  
+      5  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      2  9789500218344  EMPAPELADO AMARILLO, EL // THE YELLOW WALL [H]  
+      1  9789500217446  CASA ABANDONADA, LA                        [H]  
+
+==============================================================================
+SAN JUSTO                                             52 u  9 títulos
+   reposicion_SAN_JUSTO.csv | repo 0 u | halloween 52 u
+==============================================================================
+      9  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      8  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      8  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      7  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      6  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      1  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      1  9789500218344  EMPAPELADO AMARILLO, EL // THE YELLOW WALL [H]  
+
+==============================================================================
+SAN LUIS                                              41 u  8 títulos
+   reposicion_SAN_LUIS.csv | repo 0 u | halloween 41 u
+==============================================================================
+     10  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      4  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      3  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      1  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+
+==============================================================================
+SAN MIGUEL                                            32 u  9 títulos
+   reposicion_SAN_MIGUEL.csv | repo 0 u | halloween 32 u
+==============================================================================
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      4  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      4  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      3  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      2  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      1  9789500217446  CASA ABANDONADA, LA                        [H]  
+      1  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+
+==============================================================================
+SANTA FE Ribera Shopping                             477 u  45 títulos
+   reposicion_SANTA_FE_R_S.csv | repo 411 u | halloween 66 u
+==============================================================================
+     51  9789500218047  PRINCIPITO, EL                                  
+     42  9789500218023  TAO TE CHING.  (ED. POCKET)                     
+     35  9789500218160  PROMESA DE SANGRE                               
+     22  9789500217026  STICKERS MAGICOS DINOSAURIOS                      [SIN STOCK]
+     16  9789500217859  VENDER ES PODER                                 
+     13  9789500213264  DOLOR DE ESTAR VIVO, EL                         
+     13  9789500217033  STICKERS MAGICOS: GRANJA                          [SIN STOCK]
+     12  9789500212601  DUEÑA DE TU DINERO                              
+     12  9789500218153  LIDERAZGO CON PROPOSITO                         
+     12  9789500218146  ROZAS                                             [SIN STOCK]
+     12  9789500217767  SUPERCUENTOS DE GOL                             
+     11  9789500215398  CUENTOS DE AMOR PROPIO                          
+     11  9789500209861  SAGA DE LOS BONAPARTE, LA                         [SIN STOCK]
+     10  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES         
+      9  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      9  9789500215015  MEDITACIONES                                      [SIN STOCK]
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      9  9789500215411  NATURALISTAS                                    
+      9  9789500212724  QUE SEA MUTUO O NO SEA NADA                     
+      9  9789500208536  SAGA DE LOS ROMANOV, LA                           [SIN STOCK]
+      9  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      8  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      8  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?                    
+      8  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?                   [SIN STOCK]
+      8  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA               
+      8  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      8  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO                
+      7  9789500217446  CASA ABANDONADA, LA                        [H]  
+      7  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      6  9789500217866  AMARANTIA                                       
+      6  9789500212953  BRILLA                                          
+      6  9789500298780  CONSTITUCION NACIONAL                           
+      6  9789500216708  MAGIA DE IVY, LA                                
+      6  9789500214193  MEMORIA DEL MAL, LA                             
+      6  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL            
+      5  9789500217811  CARPINCHOS MAGICOS                              
+      5  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      5  9789500217736  COMO RAJAR A TU JEFE                            
+      5  9789500213486  CUENTOS CORTOS PARA PINTAR 2                    
+      5  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.         
+      5  9789500218016  EDAD QUE ELEGIMOS, LA                           
+      5  9789500215053  IMPERFECTOS                                     
+      5  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL         
+      2  9789500217675  CUMPLE DE 15                               [H]  
+      2  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+
+==============================================================================
+SOLAR DE LA ABADIA                                   305 u  42 títulos
+   reposicion_SOLAR_DE_LA_ABADIA.csv | repo 267 u | halloween 38 u
+==============================================================================
+     22  9789500218160  PROMESA DE SANGRE                               
+     18  9789500218047  PRINCIPITO, EL                                  
+     18  9789500218023  TAO TE CHING.  (ED. POCKET)                     
+     16  9789500217729  LEGION SECRETA DEL SUR, LA                      
+     14  9789500218146  ROZAS                                             [SIN STOCK]
+     13  9789500217460  VACA VA A SER HERMANA, LA                       
+     11  9789500216616  CASA DEL COCTEL ROJO, LA                        
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      8  9789500209861  SAGA DE LOS BONAPARTE, LA                         [SIN STOCK]
+      8  9789500216203  SEÑORA DE LAS INDIAS                            
+      8  9789500216265  VACA DE LA AMISTAD NOS HABLA, LA                
+      7  9789500217309  AQUI ESTOY! DINOSAURITO                         
+      7  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      7  9789500286763  PRINCIPE, EL                                      [SIN STOCK]
+      7  9789500213073  VACA SE EMPACA, LA                              
+      6  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.         
+      6  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA               
+      6  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      6  9789500217767  SUPERCUENTOS DE GOL                             
+      6  9789500210041  VACA Y LA ESPINACA, LA                          
+      6  9789500217859  VENDER ES PODER                                 
+      6  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO                
+      6  9789500215893  ¡ACA ESTOY! VAQUITA                             
+      5  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL         
+      5  9789500215411  NATURALISTAS                                    
+      5  9789500216852  RUEGA VITA                                      
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500217026  STICKERS MAGICOS DINOSAURIOS                      [SIN STOCK]
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      4  9789500217866  AMARANTIA                                       
+      4  9789500217613  BANDERAS DEL MUNDO                                [SIN STOCK]
+      4  9789500213233  BITACORA ASTROLOGICA                            
+      4  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?                    
+      4  9789500213264  DOLOR DE ESTAR VIVO, EL                         
+      4  9789500212601  DUEÑA DE TU DINERO                              
+      4  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?                   [SIN STOCK]
+      4  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL            
+      4  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS                  
+      4  9789500211277  SEXO SENTIDO                                    
+      4  9789500217033  STICKERS MAGICOS: GRANJA                          [SIN STOCK]
+      4  9789500215886  ¡ACA ESTOY! BALLENITA                           
+
+==============================================================================
+TORTUGAS OPEN MALL                                    38 u  7 títulos
+   reposicion_TORTUGAS_OPEN_MALL.csv | repo 0 u | halloween 38 u
+==============================================================================
+     10  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      6  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      4  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      4  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      2  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+
+==============================================================================
+TRELEW                                                 5 u  3 títulos
+   reposicion_TRELEW.csv | repo 0 u | halloween 5 u
+==============================================================================
+      3  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      1  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      1  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+
+==============================================================================
+TUCUMAN PORTAL                                        64 u  9 títulos
+   reposicion_TUCUMAN_PORTAL.csv | repo 0 u | halloween 64 u
+==============================================================================
+     10  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+     10  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      9  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      9  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      6  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      1  9789500218344  EMPAPELADO AMARILLO, EL // THE YELLOW WALL [H]  
+
+==============================================================================
+UNICENTER                                             57 u  9 títulos
+   reposicion_UNICENTER.csv | repo 0 u | halloween 57 u
+==============================================================================
+      9  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+      9  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      8  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      8  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      6  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      3  9789500217446  CASA ABANDONADA, LA                        [H]  
+      2  9789500217675  CUMPLE DE 15                               [H]  
+
+==============================================================================
+USHUAIA                                               26 u  6 títulos
+   reposicion_USHUAIA.csv | repo 0 u | halloween 26 u
+==============================================================================
+      7  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      6  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      4  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      3  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      1  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+
+==============================================================================
+VILLA CRESPO                                          32 u  8 títulos
+   reposicion_VILLA_CRESPO.csv | repo 0 u | halloween 32 u
+==============================================================================
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      3  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      1  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      1  9789500218344  EMPAPELADO AMARILLO, EL // THE YELLOW WALL [H]  
+
+==============================================================================
+VILLA URQUIZA                                         27 u  6 títulos
+   reposicion_VILLA_URQUIZA.csv | repo 0 u | halloween 27 u
+==============================================================================
+      7  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      5  9789500214803  CUENTOS DE TERRORRAN                       [H]  
+      5  9789500215510  MINICUENTOS DE SUSTO                       [H]  
+      5  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      3  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      2  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+
+==============================================================================
+DEVOTO                                                41 u  6 títulos
+   reposicion_DEVOTO.csv | repo 0 u | halloween 41 u
+==============================================================================
+     10  9789500216395  EXTRAÑO CASO DEL DR. JEKYLL Y MR. HYDE, EL [H]  
+     10  9789500209366  MEJORES CUENTOS DE TERROR, LOS             [H]  
+      7  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERAS  [H]  
+      7  9789500213196  TEO Y ANA INVESTIGAN EL TERROR             [H]  
+      5  9789500216692  CHICAS MUERTAS NO HABLAN, LAS              [H]  
+      2  9789500215619  SANGRE QUE HEREDAMOS, LA                   [H]  
+
+==============================================================================
+TOTAL 61 sucursales | 637 líneas | 3742 u (repo 1399 + halloween 2343)

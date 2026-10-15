@@ -545,6 +545,22 @@ columna 3 = etiqueta de liquidación (ej. `LIQUIDACIONJULIO`).
 - Antes de afirmar si algo se pusheó o no, mirar `git status -sb` / el remoto.
   El 25/09 un push que se dio por no hecho sí había salido.
 
+## Repos por sucursal (14 y 15/10/2026)
+
+Planilla "Ranking de Ventas" con un bloque por sucursal (nombre en C, encabezado
+Orden/Ventas/Título/ISBN/Stock): **enviar la cantidad exacta de "Ventas", un
+PAEC por sucursal** (`reposicion_{SUC}.csv`). Decisiones de Franco: **sacar los
+Libros Sorpresa** (van con otro tipo de pedido y el refuerzo todavía no llegó
+entero) y **cargar igual los sin stock** (marcados en el TXT). Validar el mapeo
+de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
+`historial/2026-10/reposicion_14-10/` y `reposicion_15-10/`.
+- 14/10: 11 sucursales, 387 líneas, 3.105 u; PAEC 25-88251 a 25-88261.
+- 15/10: 5 sucursales + **Sugerido Halloween** (13 títulos, a la derecha de la
+  planilla, columnas I-M): completar a 10, chicos a 3, sin Juramento, con
+  Grand Splendid y Devoto. Todo junto, un PAEC por sucursal (61). Halloween =
+  objetivo − (stock SII 15/10 + repo 14/10 en camino + repo 15/10). 637 líneas,
+  3.742 u (repo 1.399 + Halloween 2.343).
+
 ## Estado al 07/10/2026
 
 Hecho entre el 25/09 y el 07/10 (todo en `ateneo/historial/2026-10/`):
