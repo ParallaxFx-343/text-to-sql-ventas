@@ -74,6 +74,25 @@ filas3=[[int(x.CODIGO),str(x.isbn),x.titulo,int(x.clientes),int(x.ent),int(x.ven
 u3,t3=hoja(ws3,'Entregados y liquidados por título · ordenado por entregados',cols3,filas3,[8,15,44,9,11,11,10,13,10,9,12,26],
            {5:'#,##0',6:'#,##0',7:'0.0%',8:'0.00%',9:'#,##0',10:'#,##0'},[5,6,9,10])
 ws3.cell(t3,7,f'=F{t3}/E{t3}').number_format='0.0%'; ws3.cell(t3,7).font=Font(bold=True)
+# Cliente x titulo (sucursales sumadas), mismo orden de clientes que "Por cliente"
+ct=s.groupby(['CUENTA','CODIGO']).agg(isbn=('ISBN','first'),titulo=('TITULO','first'),ent=('ENTREGADA','sum'),ven=('VENTA','sum'),
+    dev=('DEVOL','sum'),saldo=('SALDO','sum')).reset_index()
+ct['ord']=ct.CUENTA.map({k:i for i,k in enumerate(c.CUENTA)})
+ct=ct.merge(c[['CUENTA','cliente','vendedor']],on='CUENTA').sort_values(['ord','ent','ven','titulo'],ascending=[True,False,False,True])
+ct['pct']=ct.ven/ct.ent
+ws4=wb.create_sheet('Cliente x título')
+cols4=['Cuenta','Cliente','Vendedor','ID','ISBN','Título','Entregados','Liquidados','% liquidado','Devueltos','Saldo']
+filas4=[[x.CUENTA,x.cliente,x.vendedor,int(x.CODIGO),str(x.isbn),x.titulo,int(x.ent),int(x.ven),x.pct,int(x.dev),int(x.saldo)] for x in ct.itertuples()]
+u4,t4=hoja(ws4,'Detalle por cliente y título · clientes en el orden de "Por cliente" (por entregados); dentro de cada uno, títulos por entregados',
+           cols4,filas4,[8,40,22,8,15,42,11,11,10,10,9],{7:'#,##0',8:'#,##0',9:'0.0%',10:'#,##0',11:'#,##0'},[7,8,10,11])
+ws4.cell(t4,9,f'=H{t4}/G{t4}').number_format='0.0%'; ws4.cell(t4,9).font=Font(bold=True)
+gris=PatternFill('solid',fgColor='F2F2F2')
+prev=None; band=False
+for i,x in enumerate(ct.itertuples(),4):
+    if x.CUENTA!=prev: band=not band; prev=x.CUENTA
+    if band:
+        for j in range(1,12): ws4.cell(i,j).fill=gris
+print('cliente x titulo filas', len(ct))
 print(t.head(5)[['titulo','clientes','ent','ven','pct','cli_sin']].to_string(index=False)); print('...'); print(t.sort_values('pct').head(5)[['titulo','ent','ven','pct']].to_string(index=False))
 wb.save(fout)
 print(len(c),'clientes | ent',tot_e,'ven',tot_v,f'{tot_v/tot_e:.1%}','| sin liquidar',len(sin),int(sin.ent.sum()))
