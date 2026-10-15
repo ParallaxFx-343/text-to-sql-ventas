@@ -3,7 +3,7 @@ from openpyxl import load_workbook
 f, cfg = sys.argv[1:3]
 pad=json.load(open(cfg))['orden_paec']+['DEVOTO']
 ws=load_workbook(f).worksheets[0]
-rows=list(ws.iter_rows(values_only=True))
+rows=[r[:5] for r in ws.iter_rows(values_only=True)]   # solo A-E: a la derecha puede venir otra tabla
 blocks=[]; cur=None
 for i,r in enumerate(rows,1):
     if r[0] is None and r[2] and all(x is None for k,x in enumerate(r) if k!=2):
