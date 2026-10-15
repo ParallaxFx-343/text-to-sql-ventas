@@ -61,6 +61,20 @@ cols2=['Cuenta','Cliente','Vendedor','Suc.','Títulos entregados','Entregados','
 filas2=[[x.CUENTA,x.cliente,x.vendedor,x.sucursales,x.titulos,int(x.ent),int(x.dev),int(x.saldo),x.fliq.to_pydatetime() if pd.notna(x.fliq) else 'nunca'] for x in sin.itertuples()]
 hoja(ws2,'Clientes que no liquidaron ningún ejemplar de estos títulos · ordenado por entregados',cols2,filas2,[8,44,24,6,10,11,10,9,12],
      {6:'#,##0',7:'#,##0',8:'#,##0',9:'DD/MM/YYYY'},[6,7,8])
+# Por titulo
+t=s.groupby('CODIGO').agg(isbn=('ISBN','first'),titulo=('TITULO','first'),clientes=('CUENTA','nunique'),ent=('ENTREGADA','sum'),
+    ven=('VENTA','sum'),dev=('DEVOL','sum'),saldo=('SALDO','sum'),
+    cli_sin=('CUENTA',lambda x: x[s.loc[x.index].groupby(x).VENTA.transform('sum')==0].nunique())).reset_index()
+ped=l.groupby('IDARTICULO').NROPEDIDOYENNY.apply(lambda x:' / '.join(str(v) for v in sorted(set(x))))
+t['ped']=t.CODIGO.map(ped); t['pct']=t.ven/t.ent; t['part']=t.ven/t.ven.sum()
+t=t.sort_values(['ent','ven'],ascending=False)
+ws3=wb.create_sheet('Por título')
+cols3=['ID','ISBN','Título','Clientes','Entregados','Liquidados','% liquidado','Participación en lo liquidado','Devueltos','Saldo','Clientes sin venta del título','Pedido Yenny']
+filas3=[[int(x.CODIGO),str(x.isbn),x.titulo,int(x.clientes),int(x.ent),int(x.ven),x.pct,x.part,int(x.dev),int(x.saldo),int(x.cli_sin),x.ped] for x in t.itertuples()]
+u3,t3=hoja(ws3,'Entregados y liquidados por título · ordenado por entregados',cols3,filas3,[8,15,44,9,11,11,10,13,10,9,12,26],
+           {5:'#,##0',6:'#,##0',7:'0.0%',8:'0.00%',9:'#,##0',10:'#,##0'},[5,6,9,10])
+ws3.cell(t3,7,f'=F{t3}/E{t3}').number_format='0.0%'; ws3.cell(t3,7).font=Font(bold=True)
+print(t.head(5)[['titulo','clientes','ent','ven','pct','cli_sin']].to_string(index=False)); print('...'); print(t.sort_values('pct').head(5)[['titulo','ent','ven','pct']].to_string(index=False))
 wb.save(fout)
 print(len(c),'clientes | ent',tot_e,'ven',tot_v,f'{tot_v/tot_e:.1%}','| sin liquidar',len(sin),int(sin.ent.sum()))
 print(sin[['CUENTA','cliente','vendedor','titulos','ent','dev','saldo','fliq']].to_string(index=False))
