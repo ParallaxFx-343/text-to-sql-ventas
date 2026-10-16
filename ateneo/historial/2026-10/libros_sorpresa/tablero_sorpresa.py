@@ -3,7 +3,7 @@
 Uso: python -P tablero_sorpresa.py DETALLE.xlsx AGRUPADAS.xlsx config.json SALIDA.xlsx [SII [REFUERZO.txt [SII_BASE]]]
 - DETALLE: "Detalle Venta Articulo" (una fila por venta: Sucursal "NOMBRE  (nro)",
   Fecha, Articulo, Titulo, Cantidad, Bruto, Total, ISBN)
-- AGRUPADAS: "Ventas Proveedor Agrupadas Articulo" (solo para cuadrar y para
+- AGRUPADAS: "Ventas Proveedor Agrupadas Articulo" ("-" si no se tiene; entonces no hay cuadre) (solo para cuadrar y para
   saber que locales vendieron Editorial pero no Sorpresa)
 - config.json: padron de locales fisicos (orden_paec)
 - SII (opcional): stock por local, para "cuanto le queda" y "le alcanza" (dias).
@@ -51,17 +51,20 @@ det['titulo'] = det.Titulo.str.replace('LIBRO SORPRESA ', '', regex=False).str.s
 assert det.titulo.notna().all(), 'hay un Libro Sorpresa nuevo sin nombre en NOMBRES'
 det['dia'] = det.Fecha.dt.date
 
-agr = pd.read_excel(f_agr, dtype={'Código / ISBN': str})
-agr = agr[agr.Canal.isna() | (agr.Canal.astype(str).str.strip() == '')]   # sin canales online
-agr = agr[agr['Nombre Sucursal'].isin(padron)]
-sor = agr[agr.TITULO.astype(str).str.contains('LIBRO SORPRESA')]
+agr = None
+cuadre = []
+if f_agr != '-':
+    agr = pd.read_excel(f_agr, dtype={'Código / ISBN': str})
+    agr = agr[agr.Canal.isna() | (agr.Canal.astype(str).str.strip() == '')]   # sin canales online
+    agr = agr[agr['Nombre Sucursal'].isin(padron)]
+    sor = agr[agr.TITULO.astype(str).str.contains('LIBRO SORPRESA')]
 
-# cuadre por dos caminos: detalle vs agrupadas, local x articulo
-a = sor.groupby(['Código Sucursal', 'ID ARTICULO']).Cantidad.sum()
-d = det.groupby(['nro', 'Articulo']).Cantidad.sum()
-a.index.names = d.index.names = ['s', 'a']
-cuadre = pd.concat([a, d], axis=1).fillna(0)
-assert (cuadre.iloc[:, 0] == cuadre.iloc[:, 1]).all(), 'detalle y agrupadas no cuadran'
+    # cuadre por dos caminos: detalle vs agrupadas, local x articulo
+    a = sor.groupby(['Código Sucursal', 'ID ARTICULO']).Cantidad.sum()
+    d = det.groupby(['nro', 'Articulo']).Cantidad.sum()
+    a.index.names = d.index.names = ['s', 'a']
+    cuadre = pd.concat([a, d], axis=1).fillna(0)
+    assert (cuadre.iloc[:, 0] == cuadre.iloc[:, 1]).all(), 'detalle y agrupadas no cuadran'
 
 dias = sorted(det.dia.unique())
 ult = dias[-1]                                      # dia parcial (export a la mañana)
@@ -177,7 +180,7 @@ if f_ref:
 
 con_venta = set(det.local)
 sin_venta = sorted(padron - con_venta)
-otra_editorial = set(agr['Nombre Sucursal'])       # vendieron Editorial en el periodo
+otra_editorial = set(agr['Nombre Sucursal']) if agr is not None else None   # vendieron Editorial en el periodo
 n_locales = len(con_venta)
 n_padron = len(padron)
 
@@ -243,8 +246,8 @@ tb['A1'] = 'Libros Sorpresa · ventas por local'
 tb['A1'].font = Font(name='Calibri', bold=True, size=20, color=TINTA)
 tb.merge_cells('A2:P2')
 tb['A2'] = (f'Solo locales físicos · del {dias[0]:%d/%m} al {ult:%d/%m/%Y} · '
-            f'el {ult:%d/%m} es parcial (el reporte se sacó ese mismo día a la mañana) · '
-            f'fuente: Detalle Venta Artículo, cuadrado contra Ventas Proveedor Agrupadas')
+            f'el {ult:%d/%m} es parcial (el reporte se sacó ese mismo día) · '
+            + ('fuente: Detalle Venta Artículo, cuadrado contra Ventas Proveedor Agrupadas' if agr is not None else 'fuente: Detalle Venta Artículo (sin Ventas Agrupadas para cuadrar)'))
 tb['A2'].font = Font(size=10, color=TINTA2)
 tb.row_dimensions[1].height = 30
 
@@ -483,7 +486,7 @@ cab(sv, 1, ['Local físico', '¿Tiene ventas de otros títulos de la Editorial e
     + (['Refuerzo 07/10', 'Falta llegar', 'Con lo que falta'] if ref is not None else []))
 for i, s in enumerate(sin_venta, start=2):
     sv.cell(i, 1, s).border = caja
-    txt = 'Sí' if s in otra_editorial else 'No'
+    txt = ('Sí' if s in otra_editorial else 'No') if otra_editorial is not None else 's/d (no se pasó Ventas Agrupadas)'
     if s == 'DEVOTO':
         txt += ' (la repo de Sorpresa se pasó el 05/10)'
     sv.cell(i, 2, txt).border = caja
@@ -635,7 +638,7 @@ if ref is not None:
     print(f'refuerzo {int(ref.Total.sum())} u | {len(ref)} locales | por titulo {ref.drop(columns="Total").sum().to_dict()} '
           f'| sin nro de pedido: {sin_pedido}')
 print(f'{tot_u} u | $ {tot_ars:,} | {n_locales} locales de {n_padron} | {len(dias)} dias | '
-      f'devol {len(devol)} | sin venta {sin_venta} | cuadre agrupadas OK ({len(cuadre)} celdas)')
+      f'devol {len(devol)} | sin venta {sin_venta} | ' + (f'cuadre agrupadas OK ({len(cuadre)} celdas)' if agr is not None else 'SIN cuadre (no hay agrupadas)'))
 print('por dia', {etq[x]: int(v) for x, v in por_dia.items()})
 print('por titulo', por_tit.to_dict())
 for t in lineas: print(' -', t)

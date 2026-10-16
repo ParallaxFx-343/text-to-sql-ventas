@@ -101,6 +101,14 @@ que no estaba en el refuerzo) y Plaza Oeste (+8): hubo otro envío.
   estima "Entró" / "Falta llegar" por local y título. Franco pidió **sacar la
   hoja Devoluciones** (13/10); las unidades siguen netas.
 
+**Actualización al 16/10** (Detalle crudo 16/10, SII 16/10 07:01, sin Agrupadas: el
+script acepta "-" y no cuadra; en su lugar, 01-12/10 idéntico al export del 13/10):
+**2.493 u hasta el 15/10** (2.609 con el 16 parcial), 61 de 62 locales, Devoto sin
+venta. El Detalle no trae ventas online de Sorpresa. Refuerzo: entraron ~1.030 de
+1.170 u; faltan ~140 u (Patio Olmos 54, Comodoro 26, Abasto 16, MdP Aldrey 16,
+Ushuaia 9, Borges 8, Devoto 4, Juramento 3, Ateneo La Plata 3, San Luis 1).
+El mail de seguimiento pide la venta total los viernes (16, 23 y 30/10).
+
 **Para cargar, Franco va por sucursal**: además del TXT por título (para el
 depósito) entregar el **TXT por sucursal**, con **primero AMBA y después el
 interior**, cada grupo en orden alfabético, y los títulos en el orden del CSV
