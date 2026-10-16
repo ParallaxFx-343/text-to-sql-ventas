@@ -9,7 +9,7 @@ liquidaciones, servicio de novedades). Se carga automáticamente en cada sesión
 
 | Sucursal | Nro. | Estado | Pendiente |
 |---|---|---|---|
-| **DEVOTO** | **56** (a confirmar) | Nueva — informada 08/09/2026 | Franco envía el Excel con los datos (nunca llegó) |
+| **DEVOTO** | **56** (a confirmar) | Nueva — informada 08/09/2026. **Todavía no abrió** (16/10): inaugura el **jueves 22/10/2026** según Franco ("si no me equivoco") | Confirmar fecha de apertura y número de sucursal (el Excel nunca llegó) |
 
 El número 56 lo dio Franco de memoria ("creo"). **Confirmar contra el maestro
 antes de usarlo en cualquier archivo de carga**, sobre todo en los CSV de
@@ -113,7 +113,10 @@ no (Tucumán Portal Misterio, Caballito Contemporánea) son +1 en Agrupadas, ven
 del 16 entre un export y otro. El script ahora tolera hasta 10 u de más en
 Agrupadas (export posterior) y lo aclara en el subtítulo. **DEVOTO no aparece en
 ningún reporte de ventas del 01 al 16/10 (ni Detalle ni Agrupadas, ni el código
-56), aunque el SII le da 2.398 libros en stock.**
+56), aunque el SII le da 2.398 libros en stock.** Explicación (Franco, 16/10):
+**Devoto todavía no inauguró; abre el jueves 22/10** (a confirmar). El stock es
+el armado del local. En los tableros, "sin venta" de Devoto no es una alerta
+hasta esa fecha; después de abrir, su número de sucursal sale del Detalle.
 
 **Para cargar, Franco va por sucursal**: además del TXT por título (para el
 depósito) entregar el **TXT por sucursal**, con **primero AMBA y después el
@@ -215,6 +218,7 @@ Aperturas posteriores al 01/07/2025, según el maestro de sucursales
 | SAN MIGUEL | 23/07/2026 | YENNY |
 | FERIA ITINERANTE EDITORIAL | 27/07/2026 | EL ATENEO |
 | FERIA ITINERANTE N 1 - REGION 3 | 31/07/2026 | YENNY |
+| DEVOTO | 22/10/2026 (a confirmar, dato de Franco del 16/10) | — |
 
 Estas son las 8 que dieron **dato fantasma** en el interanual de julio 26/25
 (AT25 = unidades Editorial que el export les atribuía en julio 2025, cuando
