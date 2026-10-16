@@ -53,6 +53,7 @@ det['dia'] = det.Fecha.dt.date
 
 agr = None
 cuadre = []
+extra_agr = 0
 if f_agr != '-':
     agr = pd.read_excel(f_agr, dtype={'Código / ISBN': str})
     agr = agr[agr.Canal.isna() | (agr.Canal.astype(str).str.strip() == '')]   # sin canales online
@@ -64,7 +65,11 @@ if f_agr != '-':
     d = det.groupby(['nro', 'Articulo']).Cantidad.sum()
     a.index.names = d.index.names = ['s', 'a']
     cuadre = pd.concat([a, d], axis=1).fillna(0)
-    assert (cuadre.iloc[:, 0] == cuadre.iloc[:, 1]).all(), 'detalle y agrupadas no cuadran'
+    dif_c = cuadre[cuadre.iloc[:, 0] != cuadre.iloc[:, 1]]
+    # tolerancia: Agrupadas sacado despues que el Detalle puede traer ventas extra del dia parcial
+    assert (dif_c.iloc[:, 0] >= dif_c.iloc[:, 1]).all() and (dif_c.iloc[:, 0] - dif_c.iloc[:, 1]).sum() <= 10, \
+        f'detalle y agrupadas no cuadran:\n{dif_c}'
+    extra_agr = int((dif_c.iloc[:, 0] - dif_c.iloc[:, 1]).sum())
 
 dias = sorted(det.dia.unique())
 ult = dias[-1]                                      # dia parcial (export a la mañana)
@@ -247,7 +252,9 @@ tb['A1'].font = Font(name='Calibri', bold=True, size=20, color=TINTA)
 tb.merge_cells('A2:P2')
 tb['A2'] = (f'Solo locales físicos · del {dias[0]:%d/%m} al {ult:%d/%m/%Y} · '
             f'el {ult:%d/%m} es parcial (el reporte se sacó ese mismo día) · '
-            + ('fuente: Detalle Venta Artículo, cuadrado contra Ventas Proveedor Agrupadas' if agr is not None else 'fuente: Detalle Venta Artículo (sin Ventas Agrupadas para cuadrar)'))
+            + (('fuente: Detalle Venta Artículo, cuadrado contra Ventas Proveedor Agrupadas'
+               + (f' (Agrupadas trae {extra_agr} u más: se sacó después, son ventas del {ult:%d/%m})' if extra_agr else ''))
+              if agr is not None else 'fuente: Detalle Venta Artículo (sin Ventas Agrupadas para cuadrar)'))
 tb['A2'].font = Font(size=10, color=TINTA2)
 tb.row_dimensions[1].height = 30
 

@@ -108,6 +108,12 @@ venta. El Detalle no trae ventas online de Sorpresa. Refuerzo: entraron ~1.030 d
 1.170 u; faltan ~140 u (Patio Olmos 54, Comodoro 26, Abasto 16, MdP Aldrey 16,
 Ushuaia 9, Borges 8, Devoto 4, Juramento 3, Ateneo La Plata 3, San Luis 1).
 El mail de seguimiento pide la venta total los viernes (16, 23 y 30/10).
+Después llegó Agrupadas (16/10 16:55): cuadra en 349 de 351 celdas; las 2 que
+no (Tucumán Portal Misterio, Caballito Contemporánea) son +1 en Agrupadas, ventas
+del 16 entre un export y otro. El script ahora tolera hasta 10 u de más en
+Agrupadas (export posterior) y lo aclara en el subtítulo. **DEVOTO no aparece en
+ningún reporte de ventas del 01 al 16/10 (ni Detalle ni Agrupadas, ni el código
+56), aunque el SII le da 2.398 libros en stock.**
 
 **Para cargar, Franco va por sucursal**: además del TXT por título (para el
 depósito) entregar el **TXT por sucursal**, con **primero AMBA y después el
