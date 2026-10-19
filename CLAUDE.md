@@ -579,6 +579,19 @@ de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
   objetivo − (stock SII 15/10 + repo 14/10 en camino + repo 15/10). 637 líneas,
   3.742 u (repo 1.399 + Halloween 2.343).
 
+## Recomposición de fondo (19/10/2026, para el lunes antes de las 11)
+
+Lista "Recomposición a uno" (516 filas, 514 títulos; GATITO TITO y RANA LILIANA
+repetidos): **1 ejemplar a cada local que tiene 0** en el SII, excluyendo Ezeiza,
+Patio Bullrich, Trelew, Devoto y Juramento (57 locales destino, Grand Splendid
+incluido). **Fuera: los 29 títulos de la hoja "Libro sorpresa"** del Listado Final
+Libro Sorpresa Octubre 2026 (son los libros que van dentro de los Sorpresa) y las
+**38 filas ocultas** de la lista (filas 4-40 y 59: casi todas sin stock; Franco no
+contestó, se sacaron y se listaron en `NO_VAN_filas_ocultas.txt`). SII 19/10:
+307 títulos, 56 locales (Ateneo La Plata no necesitaba nada), 951 u, todo con
+disponible. Se entregó en los dos formatos (PAEC único + TXT por título y por
+sucursal, y CSV por sucursal). `historial/2026-10/recomposicion_19-10/`.
+
 ## Estado al 07/10/2026
 
 Hecho entre el 25/09 y el 07/10 (todo en `ateneo/historial/2026-10/`):

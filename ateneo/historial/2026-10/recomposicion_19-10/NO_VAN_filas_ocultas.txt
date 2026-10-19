@@ -1,0 +1,41 @@
+﻿FILAS OCULTAS DE LA LISTA (NO SE MANDARON) - por si hay que sumarlas
+SII 19/10: locales en 0 (de los 57) y disponible
+
+fila   4  9789500286763  PRINCIPE, EL                                  locales en 0:   2  disp 0
+fila   5  9789500208536  SAGA DE LOS ROMANOV, LA                       locales en 0:  31  disp 0
+fila   6  9789500210515  TEO Y ANA INVESTIGAN EL MUNDO                 locales en 0:   1  disp 0
+fila   7  9789500215176  LETRAS                                        locales en 0:  12  disp 0
+fila   8  9789500215015  MEDITACIONES                                  locales en 0:   5  disp 0
+fila   9  9789500216036  ANIMALES CON SUPERPODERES                     locales en 0:  17  disp 0
+fila  10  9789500215350  APRENDO A LEER LAS LETRAS                     locales en 0:  29  disp 0
+fila  11  9789500215367  APRENDO A LEER LAS SILABAS                    locales en 0:  33  disp 0
+fila  12  9789500299732  TRUMP Y LA CAIDA DE LOS CLINTON               locales en 0:   5  disp 1835
+fila  13  9789500216043  JUEGO Y APRENDO! DINOSAURIOS                  locales en 0:   2  disp 0
+fila  14  9789500218146  ROZAS                                         locales en 0:   1  disp 0
+fila  15  9789500216371  ARTE DE LA GUERRA, EL                         locales en 0:   1  disp 0
+fila  16  9789500216388  METAMORFOSIS, LA                              locales en 0:  24  disp 0
+fila  17  9789500216449  APRENDO A LEER LAS PALABRAS                   locales en 0:   8  disp 0
+fila  18  9789500217613  BANDERAS DEL MUNDO con Poster, Mapas y Stick  locales en 0:  22  disp 0
+fila  19  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?               locales en 0:  15  disp 0
+fila  20  9789500217026  STICKERS MAGICOS DINOSAURIOS                  locales en 0:   4  disp 0
+fila  21  9789500217033  STICKERS MAGICOS GRANJA                       locales en 0:  17  disp 0
+fila  22  9789500209892  ASESINAS POR EL PUÑAL O EL VENENO             locales en 0:   6  disp 720
+fila  23  9789500211086  HEDY                                          locales en 0:   1  disp 3
+fila  24  9789500209809  PODEMOS QUERERNOS MAS                         locales en 0:   2  disp 1005
+fila  25  9789500209618  SABER SER                                     locales en 0:   6  disp 1230
+fila  26  9789500213622  TEO Y ANA INVESTIGAN LA ARGENTINA + 4 ROMPEC  locales en 0:   4  disp 3
+fila  27  9789500209861  SAGA DE LOS BONAPARTE, LA                     locales en 0:   1  disp 0
+fila  28  9789500216234  SUPER UNICORNIOS. FIESTA DE FLORES con Stick  locales en 0:   1  disp 3
+fila  29  9789500210195  MAL DE MUCHAS                                 locales en 0:   3  disp 1139
+fila  30  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?                  locales en 0:   0  disp 0
+fila  31  9789500215053  IMPERFECTOS                                   locales en 0:   0  disp 26
+fila  32  9789500209311  MEJORES CUENTOS DE VAMPIROS, LOS              locales en 0:   3  disp 32
+fila  33  9789500216814  AMIGOS DE LA GRANJA                           locales en 0:   4  disp 39
+fila  34  9789500212557  BENEDIT A CONTRAPELO                          locales en 0:   6  disp 47
+fila  35  9789500218016  EDAD QUE ELEGIMOS, LA. LO QUE TU CUERPO NECE  locales en 0:   0  disp 29
+fila  36  9789500212793  HUERTA: CALENDARIO ILUSTRADO                  locales en 0:   2  disp 77
+fila  37  9789500213233  BITACORA ASTROLOGICA                          locales en 0:   0  disp 60
+fila  38  9789500216593  ANSIEDAD                                      locales en 0:   1  disp 78
+fila  39  9789500217873  CIUDADES AZULES                               locales en 0:   0  disp 93
+fila  40  9789500213172  ESTAS PARA MAS (DIARIO)                       locales en 0:   6  disp 95
+fila  59  9789500212007  MUJERES FARO                                  locales en 0:   4  disp 219
