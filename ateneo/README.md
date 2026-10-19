@@ -191,3 +191,18 @@ lista de precios, confirma que el ISBN resuelto exista y trae el título.
 Casos reales que detectó: `9500253399` → `9789500253390` (Diccionario
 Español-Inglés), `9500286769` → `9789500286763` (El Príncipe), y dos ISBN-13
 con el verificador en 3 en vez de 0.
+
+---
+
+## `factura_xlsx.py` — factura PDF a Excel
+
+```bash
+python -P ateneo/factura_xlsx.py FACTURA_0770_....pdf salida.xlsx
+```
+
+Lee las facturas de GRUPO ILHSA (pdfplumber; si falla con `_cffi_backend`,
+`pip install --force-reinstall --no-cache-dir cffi`) y arma una hoja con la
+cabecera (factura, fecha, cliente, CUIT, vendedor, nota, lista, CAE) y una fila
+por línea: ISBN, título, cantidad, precio, IVA, % dto, descuento, importe neto.
+Controla cada línea (cantidad × precio − descuento = neto), los subtotales de
+cada página y el TOTAL de la factura.
