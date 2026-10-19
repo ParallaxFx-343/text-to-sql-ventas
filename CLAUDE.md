@@ -416,6 +416,15 @@ Archivo aparte, un vendedor por fila:
 | 21 | Cronograma |
 | 23 | ML 45% |
 
+Novedades de **noviembre 2026** (cargadas el 19/10 en `Cuotas_novedades_OCTUBRE_2026.xlsx`,
+que traía octubre entero; Franco eligió "mes nuevo"): 9 títulos en C-K con título,
+ISBN, tirada y cronograma (fecha de ingreso). Se vaciaron IDs (fila 5), cuotas por
+vendedor (6-16), las columnas sobrantes L-N y las reimpresiones O-AD (las pasa
+después). Ninguno de los 9 está todavía en el SII (sin ID). Las "Observaciones"
+(imprenta: Arcángel Maggio, Printing Books, Latingráfica, La Ley; Sobre ruedas =
+coedición importada de China) no tienen fila en la planilla y no se cargaron.
+`historial/2026-10/cuotas_noviembre/` (`cuotas_nov.py`).
+
 ### Cúspide — archivo "A PROCESAR"
 
 Hoja `Hoja3`. **Una fila por PEDIDO, no por sucursal**: una misma sucursal puede
