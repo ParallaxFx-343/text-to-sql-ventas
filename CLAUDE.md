@@ -610,9 +610,11 @@ Concepto, Fecha, **Paec** y Cant. Unid. Franco/jefa: completarla con cada PAEC
 (`historial/2026-10/cadena_stock/`, `movimientos.py` junta todo desde los archivos
 de cada acción; `cargar_cadena.py` inserta debajo de cada sucursal). Nombres de la
 hoja: QUILMES, REMEROS, BENDÚ, LOS GALLEGOS, MAR DEL PLATA SHOP (= Paseo Aldrey).
-DEVOTO se agregó al final (no tiene grupo). **Faltan los PAEC** de: Promo 2x1,
-Día de la Madre, Agenda + autores, Repo 21-25, Canales, Devoto 05/10,
-Recomposición 19/10 y Repo 20/10. "Achiques" (devoluciones RACH) solo trae junio.
+DEVOTO se agregó al final (no tiene grupo). PAEC de septiembre (mails a Yamina,
+`paecs_septiembre.py`): Promo 2x1 25-87951…87990 por local, Día de la Madre
+25-88006, Agenda + autores 25-88034, Repo 21-25 25-88085. **Faltan los PAEC** de:
+Canales (17/09, 23/09 y los de octubre), Devoto 05/10, Recomposición 19/10 y
+Repo 20/10; y las 2 repos de Canales anteriores al 11/09 no están cargadas. "Achiques" (devoluciones RACH) solo trae junio.
 **De ahora en más, cada acción nueva se carga en esta hoja.** Las repos con la
 planilla "Ranking de Ventas" también sacan los 29 títulos de la lista
 "Libro sorpresa" (20/10).
