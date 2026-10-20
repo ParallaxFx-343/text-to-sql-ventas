@@ -1,0 +1,68 @@
+﻿REPO 15/10 + HALLOWEEN - NROS DE PAEC
+Orden de carga: el de los TXT de PAEC (Devoto al final).
+
+ 1. ABASTO                           23 u   4 tít.   PAEC: 25 88265______________
+ 2. AEROPARQUE                       59 u   9 tít.   PAEC: 25 88266______________
+ 3. ALTO COMAHUE                     52 u   9 tít.   PAEC: 25 88267______________
+ 4. ALTO NOA SHOPPING - SALTA        32 u   7 tít.   PAEC: 25 88268______________
+ 5. ALTO PALERMO                     54 u  10 tít.   PAEC: 25 88269______________
+ 6. ALTO ROSARIO                     35 u   8 tít.   PAEC: 25 88270______________
+ 7. ATENEO CORDOBA CENTRO            29 u   6 tít.   PAEC: 25 88271______________
+ 8. ATENEO FLORIDA 340               29 u   6 tít.   PAEC: 25 88273______________
+ 9. ATENEO FLORIDA 632               55 u   9 tít.   PAEC: 25 88274______________
+10. ATENEO GRAND SPLENDID            16 u   4 tít.   PAEC: 25 88275______________
+11. ATENEO LA PLATA                  27 u   6 tít.   PAEC: 25 88277______________
+12. ATENEO ROSARIO                   36 u   8 tít.   PAEC: 25 88278______________
+13. ATENEO TUCUMAN                   30 u   7 tít.   PAEC: 25 88279______________
+14. AVELLANEDA                       44 u   7 tít.   PAEC: 25 88280______________
+15. BAHIA BLANCA SHOPPING             7 u   6 tít.   PAEC: 25 88281______________
+16. BARILOCHE                        44 u   9 tít.   PAEC: 25 88282______________
+17. BORGES                           57 u  10 tít.   PAEC: 25 88283______________
+18. CABALLITO                        55 u   8 tít.   PAEC: 25 88285______________
+19. CALLE 12                         36 u   8 tít.   PAEC: 25 88286______________
+20. COMODORO RIVADAVIA               36 u   8 tít.   PAEC: 25 88287______________
+21. CORRIENTES SHOPPING              40 u   7 tít.   PAEC: 25 88288______________
+
+DEVOTO 25 88289 
+22. DOT BAIRES SHOPPING              41 u   7 tít.   PAEC: 25 88290______________
+23. EZEIZA                           15 u   8 tít.   PAEC: 25 88291______________
+24. FLORES                          156 u  41 tít.   PAEC: 25 88292______________
+25. JUJUY                            40 u   8 tít.   PAEC: 25 88293______________
+26. LA PLATA                         35 u   8 tít.   PAEC: 25 88294______________
+27. LOMAS DE ZAMORA                  38 u   8 tít.   PAEC: 25 88295______________
+28. MAR DEL PLATA LOS GALLEGOS       40 u   9 tít.   PAEC: 25 88296______________
+29. MAR DEL PLATA M. BENDU           27 u   6 tít.   PAEC: 25 88297______________
+30. MAR DEL PLATA PASEO ALDREY      391 u  42 tít.   PAEC: 25 88298______________
+31. MENDOZA CENTRO                   44 u   9 tít.   PAEC: 25 88299______________
+32. MENDOZA PALMARES                286 u  43 tít.   PAEC: 25 88300______________
+33. MENDOZA SHOPPING                 35 u   7 tít.   PAEC: 25 88301______________
+34. NEUQUEN PORTAL PATAGONIA         44 u   9 tít.   PAEC: 25 88303______________
+35. NUEVO CENTRO SHOPPING            38 u   7 tít.   PAEC: 25 88304______________
+36. PALERMO PORTAL                    7 u   5 tít.   PAEC: 25 88305______________
+37. PALMAS DEL PILAR                 51 u   9 tít.   PAEC: 25 88306______________
+38. PARANA                           55 u   9 tít.   PAEC: 25 88307______________
+39. PASEO ALCORTA                    49 u   7 tít.   PAEC: 25 88308______________
+40. PATIO BULLRICH                   16 u   8 tít.   PAEC: 25 88309______________
+41. PATIO OLMOS                      34 u   5 tít.   PAEC: 25 88310______________
+42. PLAZA OESTE                      58 u   8 tít.   PAEC: 25 88312______________
+43. QUILMES CENTRO                   39 u   8 tít.   PAEC: 25 88313______________
+44. REMEROS (NORDELTA)               48 u   9 tít.   PAEC: 25 88314______________
+45. RESISTENCIA                      39 u   8 tít.   PAEC: 25 88315______________
+46. RIO CUARTO                       42 u  10 tít.   PAEC: 25 88316______________
+47. ROSARIO PORTAL                   35 u   7 tít.   PAEC: 25 88317______________
+48. SALTA CENTRO                     46 u   9 tít.   PAEC: 25 88318______________
+49. SAN JUSTO                        52 u   9 tít.   PAEC: 25 88319______________
+50. SAN LUIS                         41 u   8 tít.   PAEC: 25 88320______________
+51. SAN MIGUEL                       32 u   9 tít.   PAEC: 25 88322______________
+52. SANTA FE Ribera Shopping        477 u  45 tít.   PAEC: 25 88321______________
+53. SOLAR DE LA ABADIA              305 u  42 tít.   PAEC: 25 88323______________
+54. TORTUGAS OPEN MALL               38 u   7 tít.   PAEC: 25 88324______________
+55. TRELEW                            5 u   3 tít.   PAEC: 25 88325______________
+56. TUCUMAN PORTAL                   64 u   9 tít.   PAEC: 25 88326______________
+57. UNICENTER                        57 u   9 tít.   PAEC: 25 88327______________
+58. USHUAIA                          26 u   6 tít.   PAEC: 25 88328______________
+59. VILLA CRESPO                     32 u   8 tít.   PAEC: 25 88329______________
+60. VILLA URQUIZA                    27 u   6 tít.   PAEC: 25 88330______________
+61. DEVOTO                           41 u   6 tít.   PAEC: ______________
+
+61 sucursales | 3742 u

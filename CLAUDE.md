@@ -601,6 +601,22 @@ contestó, se sacaron y se listaron en `NO_VAN_filas_ocultas.txt`). SII 19/10:
 disponible. Se entregó en los dos formatos (PAEC único + TXT por título y por
 sucursal, y CSV por sucursal). `historial/2026-10/recomposicion_19-10/`.
 
+## Planilla de seguimiento "Cadena Stock 26.27" (obligatoria, 20/10/2026)
+
+Hoja **"Reposición x local"**: por grupo y sucursal, una fila por movimiento con
+Concepto, Fecha, **Paec** y Cant. Unid. Franco/jefa: completarla con cada PAEC
+"no es opcional, no queda para después". Estaba cargada hasta fines de agosto
+(Repo 50 más vendidos Grupo 4). El 20/10 se agregaron 377 movimientos de sep-oct
+(`historial/2026-10/cadena_stock/`, `movimientos.py` junta todo desde los archivos
+de cada acción; `cargar_cadena.py` inserta debajo de cada sucursal). Nombres de la
+hoja: QUILMES, REMEROS, BENDÚ, LOS GALLEGOS, MAR DEL PLATA SHOP (= Paseo Aldrey).
+DEVOTO se agregó al final (no tiene grupo). **Faltan los PAEC** de: Promo 2x1,
+Día de la Madre, Agenda + autores, Repo 21-25, Canales, Devoto 05/10,
+Recomposición 19/10 y Repo 20/10. "Achiques" (devoluciones RACH) solo trae junio.
+**De ahora en más, cada acción nueva se carga en esta hoja.** Las repos con la
+planilla "Ranking de Ventas" también sacan los 29 títulos de la lista
+"Libro sorpresa" (20/10).
+
 ## Estado al 07/10/2026
 
 Hecho entre el 25/09 y el 07/10 (todo en `ateneo/historial/2026-10/`):
