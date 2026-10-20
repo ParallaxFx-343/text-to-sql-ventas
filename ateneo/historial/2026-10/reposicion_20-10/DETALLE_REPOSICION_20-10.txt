@@ -1,0 +1,367 @@
+﻿REPOSICION 20/10 - UN PAEC POR SUCURSAL
+Cantidad = columna "Ventas" de la planilla (enviar la cantidad exacta).
+Sin Libros Sorpresa ni los 29 títulos de la lista "Libro sorpresa" (van a ser sorpresa). Los títulos sin disponible van igual y van marcados con [SIN STOCK].
+Con [DISP x PARA y EN TOTAL]: hay disponible pero no alcanza para lo que piden todas las sucursales juntas.
+Disponible según SII 13/10 07:02. Orden de las sucursales: el de los TXT de PAEC.
+
+========================================================================
+ATENEO CORDOBA CENTRO                                  201 u  35 títulos
+   archivo reposicion_ATENEO_CORDOBA_CENTRO.csv | sacados 5 Libros Sorpresa (41 u) | sin stock 6 (33 u)
+========================================================================
+     24  9789500218047  PRINCIPITO, EL                              
+     23  9789500218023  TAO TE CHING.  (ED. POCKET)                 
+      8  9789500218160  PROMESA DE SANGRE                           
+      7  9789500211598  AMANTES DE BUENOS AIRES                     
+      7  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?               [SIN STOCK]
+      7  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES     
+      7  9789500214193  MEMORIA DEL MAL, LA                         
+      7  9789500208536  SAGA DE LOS ROMANOV, LA                       [SIN STOCK]
+      6  9789500216814  AMIGOS DE LA GRANJA                         
+      6  9789500215015  MEDITACIONES                                  [SIN STOCK]
+      6  9789500217545  MIS EXCAVADORAS                             
+      6  9789500215527  SEMILLA DEL PECADO, LA                      
+      5  9789500218153  LIDERAZGO CON PROPOSITO                     
+      5  9789500213349  ROMPER EL CICLO                             
+      5  9789500218146  ROZAS                                         [SIN STOCK]
+      5  9789500209861  SAGA DE LOS BONAPARTE, LA                     [SIN STOCK]
+      5  9789500216203  SEÑORA DE LAS INDIAS                        
+      4  9789500212601  DUEÑA DE TU DINERO                          
+      4  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA           
+      4  9789500217729  LEGION SECRETA DEL SUR, LA                  
+      4  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL     
+      4  9789500216708  MAGIA DE IVY, LA                            
+      4  9789500217507  MANUAL DE VIDA                              
+      4  9789500215466  SERAS TAN FELIZ COMO INSISTAS               
+      4  9789500217859  VENDER ES PODER                             
+      3  9789500215367  APRENDO A LEER LAS SILABAS                    [SIN STOCK]
+      3  9789500212953  BRILLA                                      
+      3  9789500217446  CASA ABANDONADA, LA                         
+      3  9789500212489  CUENTOS CORTOS PARA SOÑAR 5                 
+      3  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.     
+      3  9789500218016  EDAD QUE ELEGIMOS, LA                       
+      3  9789500217644  ENREDOS DEL CORAZON                         
+      3  9789500212502  ESTAS PARA MAS                              
+      3  9789500215053  IMPERFECTOS                                 
+      3  9789500216784  MEDIANOCHE DEL ALMA, LA                     
+
+========================================================================
+ATENEO FLORIDA 632                                     148 u  35 títulos
+   archivo reposicion_ATENEO_FLORIDA_632.csv | sacados 5 Libros Sorpresa (28 u) | sin stock 6 (33 u)
+========================================================================
+     10  9789500218146  ROZAS                                         [SIN STOCK]
+      8  9789500218016  EDAD QUE ELEGIMOS, LA                       
+      8  9789500218160  PROMESA DE SANGRE                           
+      7  9789500208536  SAGA DE LOS ROMANOV, LA                       [SIN STOCK]
+      7  9789500218023  TAO TE CHING.  (ED. POCKET)                 
+      6  9789500217729  LEGION SECRETA DEL SUR, LA                  
+      5  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES     
+      5  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA           
+      5  9789500218153  LIDERAZGO CON PROPOSITO                     
+      5  9789500218047  PRINCIPITO, EL                              
+      5  9789500209861  SAGA DE LOS BONAPARTE, LA                     [SIN STOCK]
+      4  9789500217736  COMO RAJAR A TU JEFE                        
+      4  9789500216135  CUENTOS DE AMOR PROPIO 2                    
+      4  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?               [SIN STOCK]
+      4  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL     
+      4  9789500217545  MIS EXCAVADORAS                             
+      4  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL        
+      4  9789500215466  SERAS TAN FELIZ COMO INSISTAS               
+      4  9789500217033  STICKERS MAGICOS: GRANJA                      [SIN STOCK]
+      3  9789500217866  AMARANTIA                                   
+      3  9789500217682  ANIMALES SALVAJES                           
+      3  9789500213233  BITACORA ASTROLOGICA                        
+      3  9789500217446  CASA ABANDONADA, LA                         
+      3  9789500217675  CUMPLE DE 15                                
+      3  9789500218276  DECODIFICA TUS VINCULOS                     
+      3  9789500213790  EMOCIONES DE INTI, LAS                      
+      3  9789500214193  MEMORIA DEL MAL, LA                         
+      3  9789500217484  PEQUEÑO UNICORNIO QUE PERDIO SU MAGIA, EL   
+      3  9789500286763  PRINCIPE, EL                                  [SIN STOCK]
+      3  9789500218030  TIRANIA DEL DIAGNOSTICO, LA                 
+      3  9789500214117  VACA SE EMPACA, LA - 2DA EDICION TR         
+      3  9789500217859  VENDER ES PODER                             
+      2  9789500299558  AGATHA                                      
+      2  9789500299572  AGATHA Y LA OSCURIDAD                       
+      2  9789500217293  ARCHIVO DE SHERLOCK HOLMES, EL (ED. POCKET) 
+
+========================================================================
+ATENEO LA PLATA                                        204 u  34 títulos
+   archivo reposicion_ATENEO_LA_PLATA.csv | sacados 5 Libros Sorpresa (38 u) y 1 títulos de la lista sorpresa (4 u: QUE SEA MUTUO O NO SEA NADA 4) | sin stock 7 (44 u)
+========================================================================
+     24  9789500218160  PROMESA DE SANGRE                           
+     12  9789500218146  ROZAS                                         [SIN STOCK]
+     11  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA           
+     10  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES     
+      8  9789500209113  RANA LILIANA, LA                            
+      7  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?               [SIN STOCK]
+      7  9789500218047  PRINCIPITO, EL                              
+      7  9789500217767  SUPERCUENTOS DE GOL                         
+      6  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL        
+      6  9789500216777  PEQUEÑOS PASOS: MIS ANIMALES                
+      6  9789500286763  PRINCIPE, EL                                  [SIN STOCK]
+      5  9789500215893  ¡ACA ESTOY! VAQUITA                         
+      5  9789500217866  AMARANTIA                                   
+      5  9789500216616  CASA DEL COCTEL ROJO, LA                    
+      5  9789500215398  CUENTOS DE AMOR PROPIO                      
+      5  9789500217675  CUMPLE DE 15                                
+      5  9789500215015  MEDITACIONES                                  [SIN STOCK]
+      5  9789500216388  METAMORFOSIS, LA                              [SIN STOCK]
+      5  9789500208536  SAGA DE LOS ROMANOV, LA                       [SIN STOCK]
+      4  9789500216814  AMIGOS DE LA GRANJA                         
+      4  9789500216470  BIOPAUSIA                                   
+      4  9789500216012  CUENTOS CORTOS PARA EL RECREO               
+      4  9789500212489  CUENTOS CORTOS PARA SOÑAR 5                 
+      4  9789500218276  DECODIFICA TUS VINCULOS                     
+      4  9789500253390  DICCIONARIO ESPAÑOL-INGLES ENGLISH-SPANISH  
+      4  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL     
+      4  9789500218153  LIDERAZGO CON PROPOSITO                     
+      4  9789500217507  MANUAL DE VIDA                              
+      4  9789500215411  NATURALISTAS                                
+      4  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS              
+      4  9789500215527  SEMILLA DEL PECADO, LA                      
+      4  9789500215466  SERAS TAN FELIZ COMO INSISTAS               
+      4  9789500213417  SOMOS DIFERENTES                            
+      4  9789500217033  STICKERS MAGICOS: GRANJA                      [SIN STOCK]
+
+========================================================================
+BARILOCHE                                              316 u  35 títulos
+   archivo reposicion_BARILOCHE.csv | sacados 5 Libros Sorpresa (55 u) | sin stock 8 (72 u)
+========================================================================
+     30  9789500218047  PRINCIPITO, EL                              
+     22  9789500218023  TAO TE CHING.  (ED. POCKET)                 
+     21  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?               [SIN STOCK]
+     17  9789500218160  PROMESA DE SANGRE                           
+     15  9789500213790  EMOCIONES DE INTI, LAS                      
+     13  9789500217026  STICKERS MAGICOS DINOSAURIOS                  [SIN STOCK]
+     11  9789500218153  LIDERAZGO CON PROPOSITO                     
+     11  9789500216708  MAGIA DE IVY, LA                            
+     11  9789500216265  VACA DE LA AMISTAD NOS HABLA, LA            
+      9  9789500212953  BRILLA                                      
+      9  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?                  [SIN STOCK]
+      9  9789500213400  TU AMIGO INVISIBLE                          
+      8  9789500216449  APRENDO A LEER LAS PALABRAS                   [SIN STOCK]
+      8  9789500216173  EGRESADOS                                   
+      8  9789500215411  NATURALISTAS                                
+      8  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO            
+      7  9789500216784  MEDIANOCHE DEL ALMA, LA                     
+      7  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL        
+      7  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS              
+      6  9789500216814  AMIGOS DE LA GRANJA                         
+      6  9789500217361  ¿COMO SE LO DIGO?                           
+      6  9789500217675  CUMPLE DE 15                                
+      6  9789500212601  DUEÑA DE TU DINERO                          
+      6  9789500209861  SAGA DE LOS BONAPARTE, LA                     [SIN STOCK]
+      5  9789500215893  ¡ACA ESTOY! VAQUITA                         
+      5  9789500215350  APRENDO A LEER LAS LETRAS                     [SIN STOCK]
+      5  9789500213233  BITACORA ASTROLOGICA                        
+      5  9789500213486  CUENTOS CORTOS PARA PINTAR 2                
+      5  9789500209120  GATITO TITO, EL                             
+      5  9789500215053  IMPERFECTOS                                 
+      5  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL     
+      5  9789500215015  MEDITACIONES                                  [SIN STOCK]
+      5  9789500217552  MIS AUTOS DE CARRERA                        
+      5  9789500217484  PEQUEÑO UNICORNIO QUE PERDIO SU MAGIA, EL   
+      5  9789500286763  PRINCIPE, EL                                  [SIN STOCK]
+
+========================================================================
+BORGES                                                 146 u  34 títulos
+   archivo reposicion_BORGES.csv | sacados 5 Libros Sorpresa (29 u) y 1 títulos de la lista sorpresa (3 u: SEXO SENTIDO 3) | sin stock 8 (45 u)
+========================================================================
+     11  9789500217033  STICKERS MAGICOS: GRANJA                      [SIN STOCK]
+      9  9789500217026  STICKERS MAGICOS DINOSAURIOS                  [SIN STOCK]
+      8  9789500217552  MIS AUTOS DE CARRERA                        
+      7  9789500217545  MIS EXCAVADORAS                             
+      7  9789500218146  ROZAS                                         [SIN STOCK]
+      6  9789500217484  PEQUEÑO UNICORNIO QUE PERDIO SU MAGIA, EL   
+      5  9789500217866  AMARANTIA                                   
+      5  9789500217811  CARPINCHOS MAGICOS                          
+      5  9789500215015  MEDITACIONES                                  [SIN STOCK]
+      5  9789500218047  PRINCIPITO, EL                              
+      5  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO            
+      5  9789500215343  VOY AL BAÑO - TR                            
+      4  9789500217361  ¿COMO SE LO DIGO?                           
+      4  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?                  [SIN STOCK]
+      4  9789500218153  LIDERAZGO CON PROPOSITO                     
+      4  9789500217224  VACA NO SE CALLA, LA                        
+      3  9789500215893  ¡ACA ESTOY! VAQUITA                         
+      3  9789500216814  AMIGOS DE LA GRANJA                         
+      3  9789500216449  APRENDO A LEER LAS PALABRAS                   [SIN STOCK]
+      3  9789500212953  BRILLA                                      
+      3  9789500217804  CARPINCHOS AVENTUREROS                      
+      3  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.     
+      3  9789500216951  EXPLOREMOS LA CASA                          
+      3  9789500215053  IMPERFECTOS                                 
+      3  9789500217477  PEQUEÑO DRAGON QUE PERDIO SU FUEGO, EL      
+      3  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL        
+      3  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS              
+      3  9789500286763  PRINCIPE, EL                                  [SIN STOCK]
+      3  9789500208536  SAGA DE LOS ROMANOV, LA                       [SIN STOCK]
+      3  9789500215527  SEMILLA DEL PECADO, LA                      
+      3  9789500215466  SERAS TAN FELIZ COMO INSISTAS               
+      3  9789500218269  SOBREPESO                                   
+      2  9789500217194  ABUELAS                                     
+      2  9789500217682  ANIMALES SALVAJES                           
+
+========================================================================
+LOMAS DE ZAMORA                                        169 u  35 títulos
+   archivo reposicion_LOMAS_DE_ZAMORA.csv | sacados 5 Libros Sorpresa (33 u) | sin stock 8 (41 u)
+========================================================================
+     14  9789500218160  PROMESA DE SANGRE                           
+      8  9789500212953  BRILLA                                      
+      8  9789500298780  CONSTITUCION NACIONAL                       
+      8  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?               [SIN STOCK]
+      8  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL     
+      8  9789500218047  PRINCIPITO, EL                              
+      6  9789500216807  AMIGOS DEL BOSQUE                           
+      6  9789500286763  PRINCIPE, EL                                  [SIN STOCK]
+      6  9789500218146  ROZAS                                         [SIN STOCK]
+      6  9789500217033  STICKERS MAGICOS: GRANJA                      [SIN STOCK]
+      5  9789500215893  ¡ACA ESTOY! VAQUITA                         
+      5  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS              
+      4  9789500216814  AMIGOS DE LA GRANJA                         
+      4  9789500216470  BIOPAUSIA                                   
+      4  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?                  [SIN STOCK]
+      4  9789500212601  DUEÑA DE TU DINERO                          
+      4  9789500215053  IMPERFECTOS                                 
+      4  9789500215015  MEDITACIONES                                  [SIN STOCK]
+      4  9789500217477  PEQUEÑO DRAGON QUE PERDIO SU FUEGO, EL      
+      4  9789500217484  PEQUEÑO UNICORNIO QUE PERDIO SU MAGIA, EL   
+      4  9789500216760  PEQUEÑOS PASOS: MI MUNDO                    
+      4  9789500216777  PEQUEÑOS PASOS: MIS ANIMALES                
+      4  9789500217026  STICKERS MAGICOS DINOSAURIOS                  [SIN STOCK]
+      4  9789500213073  VACA SE EMPACA, LA                          
+      3  9789500217309  AQUI ESTOY! DINOSAURITO                     
+      3  9789500217613  BANDERAS DEL MUNDO                            [SIN STOCK]
+      3  9789500212731  CUENTOS CORTOS PARA PINTAR                  
+      3  9789500210157  CUENTOS CORTOS PARA SOÑAR                   
+      3  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.     
+      3  9789500218276  DECODIFICA TUS VINCULOS                     
+      3  9789500253390  DICCIONARIO ESPAÑOL-INGLES ENGLISH-SPANISH  
+      3  9789500213790  EMOCIONES DE INTI, LAS                      
+      3  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES     
+      3  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA           
+      3  9789500218153  LIDERAZGO CON PROPOSITO                     
+
+========================================================================
+MAR DEL PLATA LOS GALLEGOS                             165 u  35 títulos
+   archivo reposicion_MAR_DEL_PLATA_LOS_GALLEGOS.csv | sacados 5 Libros Sorpresa (30 u) | sin stock 7 (45 u)
+========================================================================
+     15  9789500218146  ROZAS                                         [SIN STOCK]
+     12  9789500218047  PRINCIPITO, EL                              
+     12  9789500218160  PROMESA DE SANGRE                           
+      9  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?                  [SIN STOCK]
+      6  9789500216050  BESOS DE CRISTAL                            
+      6  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA           
+      6  9789500217033  STICKERS MAGICOS: GRANJA                      [SIN STOCK]
+      5  9789500217866  AMARANTIA                                   
+      5  9789500218016  EDAD QUE ELEGIMOS, LA                       
+      5  9789500217026  STICKERS MAGICOS DINOSAURIOS                  [SIN STOCK]
+      4  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.     
+      4  9789500217675  CUMPLE DE 15                                
+      4  9789500209120  GATITO TITO, EL                             
+      4  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES     
+      4  9789500218153  LIDERAZGO CON PROPOSITO                     
+      4  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL        
+      4  9789500209861  SAGA DE LOS BONAPARTE, LA                     [SIN STOCK]
+      4  9789500218290  SUPERCUENTOS DE MIEDO                       
+      4  9789500217767  SUPERCUENTOS DE GOL                         
+      3  9789500216807  AMIGOS DEL BOSQUE                           
+      3  9789500217682  ANIMALES SALVAJES                           
+      3  9789500217309  AQUI ESTOY! DINOSAURITO                     
+      3  9789500218207  BIOPAUSIA. 2DA. EDICION ESPECIAL (TAPA DURA)
+      3  9789500217811  CARPINCHOS MAGICOS                          
+      3  9789500211925  CUENTOS CORTOS PARA SOÑAR 4                 
+      3  9789500218276  DECODIFICA TUS VINCULOS                     
+      3  9789500216173  EGRESADOS                                   
+      3  9789500217347  ESTUDIO EN ESCARLATA                        
+      3  9789500216869  FINANZAS                                    
+      3  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?               [SIN STOCK]
+      3  9789500215411  NATURALISTAS                                
+      3  9789500286763  PRINCIPE, EL                                  [SIN STOCK]
+      3  9789500209113  RANA LILIANA, LA                            
+      3  9789500217514  RESETEA TUS INTESTINOS (3ª EDICION)         
+      3  9789500210027  SAKURA                                      
+
+========================================================================
+NEUQUEN PORTAL PATAGONIA                               396 u  36 títulos
+   archivo reposicion_NEUQUEN_PORTAL_PATAGONIA.csv | sacados 4 Libros Sorpresa (64 u) | sin stock 8 (113 u)
+========================================================================
+     23  9789500217026  STICKERS MAGICOS DINOSAURIOS                  [SIN STOCK]
+     22  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?               [SIN STOCK]
+     16  9789500286763  PRINCIPE, EL                                  [SIN STOCK]
+     15  9789500216623  FIESTA DE LOS CARPINCHOS, LA                
+     15  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL     
+     14  9789500216517  BENJAMIN EN EL JARDIN                       
+     14  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?                  [SIN STOCK]
+     13  9789500218153  LIDERAZGO CON PROPOSITO                     
+     13  9789500217545  MIS EXCAVADORAS                             
+     13  9789500218047  PRINCIPITO, EL                              
+     12  9789500215770  NUEVO DICCIONARIO ESCOLAR DE LA LENGUA ESPAÑ
+     12  9789500216524  RENATA EN LA GRANJA                         
+     11  9789500216449  APRENDO A LEER LAS PALABRAS                   [SIN STOCK]
+     11  9789500217804  CARPINCHOS AVENTUREROS                      
+     11  9789500216708  MAGIA DE IVY, LA                            
+     10  9789500209120  GATITO TITO, EL                             
+     10  9789500215015  MEDITACIONES                                  [SIN STOCK]
+     10  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS              
+     10  9789500218160  PROMESA DE SANGRE                           
+      9  9789500215893  ¡ACA ESTOY! VAQUITA                         
+      9  9789500216814  AMIGOS DE LA GRANJA                         
+      9  9789500215398  CUENTOS DE AMOR PROPIO                      
+      9  9789500218351  DESPIERTA                                   
+      9  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA           
+      9  9789500217033  STICKERS MAGICOS: GRANJA                      [SIN STOCK]
+      9  9789500218023  TAO TE CHING.  (ED. POCKET)                 
+      8  9789500216685  BIBLIA DE LOS NIÑOS, LA                     
+      8  9789500298780  CONSTITUCION NACIONAL                       
+      8  9789500213790  EMOCIONES DE INTI, LAS                      
+      8  9789500210362  MI PLANTA DE NARANJA LIMA - EDICION ESCOLAR 
+      8  9789500218146  ROZAS                                         [SIN STOCK]
+      8  9789500218269  SOBREPESO                                   
+      8  9789500217767  SUPERCUENTOS DE GOL                         
+      8  9789500217859  VENDER ES PODER                             
+      7  9789500209144  BUHO HUGO, EL                               
+      7  9789500217811  CARPINCHOS MAGICOS                          
+
+========================================================================
+PALMAS DEL PILAR                                       186 u  35 títulos
+   archivo reposicion_PALMAS_DEL_PILAR.csv | sacados 5 Libros Sorpresa (37 u) | sin stock 4 (23 u)
+========================================================================
+     20  9789500218023  TAO TE CHING.  (ED. POCKET)                 
+     12  9789500218047  PRINCIPITO, EL                              
+     11  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA           
+     10  9789500218146  ROZAS                                         [SIN STOCK]
+      8  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL        
+      7  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES     
+      7  9789500218153  LIDERAZGO CON PROPOSITO                     
+      7  9789500218160  PROMESA DE SANGRE                           
+      6  9789500217866  AMARANTIA                                   
+      6  9789500217675  CUMPLE DE 15                                
+      5  9789500298780  CONSTITUCION NACIONAL                       
+      5  9789500216173  EGRESADOS                                   
+      5  9789500217026  STICKERS MAGICOS DINOSAURIOS                  [SIN STOCK]
+      5  9788466244893  TAROT: CARTAS DE ADIVINACION, SABIDURIA Y AU
+      4  9789500218207  BIOPAUSIA. 2DA. EDICION ESPECIAL (TAPA DURA)
+      4  9789500218016  EDAD QUE ELEGIMOS, LA                       
+      4  9789500216623  FIESTA DE LOS CARPINCHOS, LA                
+      4  9789500215015  MEDITACIONES                                  [SIN STOCK]
+      4  9789500217545  MIS EXCAVADORAS                             
+      4  9789500286763  PRINCIPE, EL                                  [SIN STOCK]
+      4  9789500217767  SUPERCUENTOS DE GOL                         
+      4  9789500215909  VENDETE ANTES DE VENDER                     
+      4  9789500213394  VIAJERAS                                    
+      3  9789500217682  ANIMALES SALVAJES                           
+      3  9789500216685  BIBLIA DE LOS NIÑOS, LA                     
+      3  9789500216470  BIOPAUSIA                                   
+      3  9789500215398  CUENTOS DE AMOR PROPIO                      
+      3  9789500216135  CUENTOS DE AMOR PROPIO 2                    
+      3  9789500218276  DECODIFICA TUS VINCULOS                     
+      3  9789500213790  EMOCIONES DE INTI, LAS                      
+      3  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL     
+      3  9789500217552  MIS AUTOS DE CARRERA                        
+      3  9789500215770  NUEVO DICCIONARIO ESCOLAR DE LA LENGUA ESPAÑ
+      3  9789500216289  POR QUE TE QUEDAS?                          
+      3  9789500210874  PREGUNTON, EL                               
+
+========================================================================
+TOTAL 9 sucursales | 314 líneas | 1931 u (de esas, 449 sin stock) | Sorpresa sacados: 355 u
