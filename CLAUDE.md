@@ -582,6 +582,7 @@ entero) y **cargar igual los sin stock** (marcados en el TXT). Validar el mapeo
 de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
 `historial/2026-10/reposicion_14-10/` y `reposicion_15-10/`.
 - 14/10: 11 sucursales, 387 líneas, 3.105 u; PAEC 25-88251 a 25-88261.
+- 20/10: 9 sucursales, 314 líneas, 1.931 u; PAEC 25-88410 a 25-88418.
 - 15/10: 5 sucursales + **Sugerido Halloween** (13 títulos, a la derecha de la
   planilla, columnas I-M): completar a 10, chicos a 3, sin Juramento, con
   Grand Splendid y Devoto. Todo junto, un PAEC por sucursal (61). Halloween =
@@ -617,7 +618,8 @@ DEVOTO se agregó al final (no tiene grupo). PAEC de septiembre (mails a Yamina,
 25-88068 (22 u) y 25-88083 (10 u); los del 01, 09 y 21/09 con las unidades pedidas
 en el mail (`2026-09/canales_refuerzo_*.csv`). El 20/10 Franco pidió **sacar** lo que no cargó él: Devoto 05/10 (lo cargó otro) y
 Canales 23/09, 09, 14 y 19/10 (no encuentra el PAEC); `sacar_sin_paec.py`.
-Solo falta el PAEC de la Repo 20/10.
+Repo 20/10: 25-88410…88418 (9 locales, 1.931 u). **Al 20/10 sep-oct queda completo,
+todas las filas con PAEC.**
 Recomposición 19/10: 25-88348…88406 (56 locales; en el mail Ateneo Rosario decía
 "22 88358", es 25-88358). "Achiques" (devoluciones RACH) solo trae junio.
 **De ahora en más, cada acción nueva se carga en esta hoja.** Las repos con la
