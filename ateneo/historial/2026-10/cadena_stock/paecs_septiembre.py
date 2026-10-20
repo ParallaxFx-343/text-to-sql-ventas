@@ -1,5 +1,5 @@
 """Completa la columna Paec de las acciones de septiembre en la planilla Cadena Stock.
-Fuente: mails de Franco a Yamina (11, 15 y 17/09) y PAECS_PROMO_2X1_11-09.txt."""
+Fuente: mails de Franco a Yamina (11, 15, 17 y 22/09) y PAECS_PROMO_2X1_11-09.txt."""
 import os, re, sys, openpyxl
 AQUI = os.path.dirname(os.path.abspath(__file__))
 XLSX = os.path.join(AQUI, 'Cadena_Stock_26.27_ACTUALIZADO.xlsx')
@@ -14,7 +14,8 @@ for l in open(TXT, encoding='utf-8'):
     if m:
         p2x1[ALIAS.get(m[1], m[1])] = '25-' + m[2]
 assert len(p2x1) == 33, len(p2x1)
-FIJOS = {'Refuerzo Día de la Madre': '25-88006', 'Agenda + autores de octubre': '25-88034'}
+FIJOS = {'Refuerzo Día de la Madre': '25-88006', 'Agenda + autores de octubre': '25-88034',
+         'Repo 21 al 25/09': '25-88085'}
 wb = openpyxl.load_workbook(XLSX)
 ws = wb['Reposición x local']
 cur = None; n = {}; usados = set()
@@ -23,10 +24,10 @@ for row in ws.iter_rows(min_row=2):
     if a and not str(a).startswith('GRUPO'):
         cur = a
     if b == 'Promo 2x1 $28.500':
-        assert d.value is None and cur in p2x1, cur
+        assert d.value in (None, p2x1.get(cur)) and cur in p2x1, cur
         d.value = p2x1[cur]; usados.add(cur)
     elif b in FIJOS:
-        assert d.value is None, (cur, b)
+        assert d.value in (None, FIJOS[b]), (cur, b)
         d.value = FIJOS[b]
     else:
         continue
