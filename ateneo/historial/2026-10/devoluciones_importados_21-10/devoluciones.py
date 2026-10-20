@@ -1,5 +1,6 @@
-"""Candidatos a devolución de 4 importados (Gatito, Dino, Stickers Dinosaurios, Stickers Granja)
-a partir de la Sabana consolidada de Importados. Uso: python -P devoluciones.py SABANA.xlsx SALIDA.xlsx
+"""Candidatos a devolución de Gatito, Dino, Stickers Dinosaurios, Stickers Granja y Banderas del mundo
+a partir de la Sabana consolidada de Importados. Uso: python -P devoluciones.py SALIDA.xlsx SABANA.xlsx [SABANA2.xlsx ...]
+(la de importados y la de BANDERAS DEL MUNDO, que es nacional y viene aparte)
 Agrupa por cuenta + sucursal (cada punto de entrega es una devolución distinta).
 Criterio: Prioridad alta = stock >= 20 y liquidó menos del 25 % de lo entregado;
 Pedir = stock >= 10 y < 25 %; Revisar = stock >= 10 sin ninguna liquidación (venta 0 puede ser falta de
@@ -7,9 +8,11 @@ liquidar) o con 25-50 %; el resto, No."""
 import sys, pandas as pd
 from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
-fin, fout = sys.argv[1:3]
-T = {747643: 'Gatito', 747645: 'Dino', 747646: 'Stickers Dinosaurios', 747647: 'Stickers Granja'}
-df = pd.read_excel(fin, sheet_name=0)
+fout, fins = sys.argv[1], sys.argv[2:]
+T = {747643: 'Gatito', 747645: 'Dino', 747646: 'Stickers Dinosaurios', 747647: 'Stickers Granja', 744138: 'Banderas del mundo'}
+df = pd.concat([pd.read_excel(f, sheet_name=0).dropna(subset=['CODIGO']) for f in fins], ignore_index=True)
+for c in ['CUENTA', 'CODIGO', 'ISBN', 'ENTREGADA', 'VENTA', 'DEVOL', 'AJUSTE', 'TRANSF', 'SALDO']:
+    df[c] = df[c].astype('int64')
 s = df[df.CODIGO.isin(T)].copy()
 assert (s.ENTREGADA - s.VENTA - s.DEVOL + s.AJUSTE + s.TRANSF == s.SALDO).all()
 s['Título'] = s.CODIGO.map(T)
