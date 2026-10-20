@@ -310,6 +310,17 @@ títulos se usa el **ISBN exacto**, porque las Vacas tienen otras ediciones con
 el mismo título y otro ISBN (9789500210041, 9789500213073, 9789878661735,
 9789500213080, 9789878816647).
 
+### Sábanas consolidadas: ENTREGADA y VENTA son solo de los envíos abiertos (21/10/2026)
+
+Verificado contra los movimientos de consignación (`5_titulos_movimientos_historico.xlsx`,
+5 títulos, 1.100 cliente×título): la sábana cuenta en ENTREGADA/VENTA **solo los envíos que
+todavía tienen saldo** (98% exacto); un remito liquidado entero desaparece. SALDO sí es el stock
+real. Por eso **el % liquidado de la sábana no sirve**: Cúspide daba 2% (518 entregadas, 3
+vendidas) y en movimientos es **51%** (1.132 enviadas, 581 liquidadas; el resto 36%). Para
+rotación usar movimientos (envíos, liquidaciones, devoluciones, transferencias).
+Devoluciones a pedir (Gatito, Dino, Stickers x2, Banderas): `historial/2026-10/devoluciones_importados_21-10/`
+(`devoluciones_mov.py`). El informe de Importados por cliente del 15/10 usó ENTREGADA/VENTA de la sábana.
+
 ### Archivos de pedido por cliente
 Nombre: `{VENDEDOR}_-_{CLIENTE}_-_{CUENTA}.xlsx`
 - **Hoja1**: ISBN + Cantidad, sin encabezado, datos desde la fila 7.
