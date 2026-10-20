@@ -615,8 +615,9 @@ DEVOTO se agregó al final (no tiene grupo). PAEC de septiembre (mails a Yamina,
 25-88006, Agenda + autores 25-88034, Repo 21-25 25-88085. Canales (mails con Damián Winnik, `canales_septiembre.py`):
 01/09 25-87894 (31 u), 09/09 25-87940 (25 u), ranking 17/09 25-88029, 21/09
 25-88068 (22 u) y 25-88083 (10 u); los del 01, 09 y 21/09 con las unidades pedidas
-en el mail (`2026-09/canales_refuerzo_*.csv`). **Faltan los PAEC** de: Canales
-23/09 (101 u, no aparece en los mails) y los de octubre, Devoto 05/10 y Repo 20/10.
+en el mail (`2026-09/canales_refuerzo_*.csv`). El 20/10 Franco pidió **sacar** lo que no cargó él: Devoto 05/10 (lo cargó otro) y
+Canales 23/09, 09, 14 y 19/10 (no encuentra el PAEC); `sacar_sin_paec.py`.
+Solo falta el PAEC de la Repo 20/10.
 Recomposición 19/10: 25-88348…88406 (56 locales; en el mail Ateneo Rosario decía
 "22 88358", es 25-88358). "Achiques" (devoluciones RACH) solo trae junio.
 **De ahora en más, cada acción nueva se carga en esta hoja.** Las repos con la
