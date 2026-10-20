@@ -616,8 +616,9 @@ DEVOTO se agregó al final (no tiene grupo). PAEC de septiembre (mails a Yamina,
 01/09 25-87894 (31 u), 09/09 25-87940 (25 u), ranking 17/09 25-88029, 21/09
 25-88068 (22 u) y 25-88083 (10 u); los del 01, 09 y 21/09 con las unidades pedidas
 en el mail (`2026-09/canales_refuerzo_*.csv`). **Faltan los PAEC** de: Canales
-23/09 (101 u, no aparece en los mails) y los de octubre, Devoto 05/10,
-Recomposición 19/10 y Repo 20/10. "Achiques" (devoluciones RACH) solo trae junio.
+23/09 (101 u, no aparece en los mails) y los de octubre, Devoto 05/10 y Repo 20/10.
+Recomposición 19/10: 25-88348…88406 (56 locales; en el mail Ateneo Rosario decía
+"22 88358", es 25-88358). "Achiques" (devoluciones RACH) solo trae junio.
 **De ahora en más, cada acción nueva se carga en esta hoja.** Las repos con la
 planilla "Ranking de Ventas" también sacan los 29 títulos de la lista
 "Libro sorpresa" (20/10).
