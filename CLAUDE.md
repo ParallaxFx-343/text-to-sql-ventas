@@ -594,6 +594,8 @@ de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
 `historial/2026-10/reposicion_14-10/` y `reposicion_15-10/`.
 - 14/10: 11 sucursales, 387 líneas, 3.105 u; PAEC 25-88251 a 25-88261.
 - 20/10: 9 sucursales, 314 líneas, 1.931 u; PAEC 25-88410 a 25-88418.
+- 21/10: **regla nueva en la planilla**: puestos 1-10 = Ventas exactas; 11-40 = completar a 10 con el
+  Stock de la planilla (Franco: lo que está en camino no se descuenta). 7 sucursales, 158 líneas, 1.192 u.
 - 15/10: 5 sucursales + **Sugerido Halloween** (13 títulos, a la derecha de la
   planilla, columnas I-M): completar a 10, chicos a 3, sin Juramento, con
   Grand Splendid y Devoto. Todo junto, un PAEC por sucursal (61). Halloween =
@@ -633,7 +635,14 @@ Repo 20/10: 25-88410…88418 (9 locales, 1.931 u). **Al 20/10 sep-oct queda comp
 todas las filas con PAEC.**
 Recomposición 19/10: 25-88348…88406 (56 locales; en el mail Ateneo Rosario decía
 "22 88358", es 25-88358). "Achiques" (devoluciones RACH) solo trae junio.
-**De ahora en más, cada acción nueva se carga en esta hoja.** Las repos con la
+**De ahora en más, cada acción nueva se carga en esta hoja.**
+**21/10: Yamina exige usar SU archivo `Cadena. Stock 26.27.xlsx`** (en `cadena_stock/`), con la hoja
+"Reposición x local" rediseñada: Sucursal | Fecha | Paec | Cant. Unid. (sin Concepto, sin títulos de grupo,
+grupos separados por una fila vacía). **No cambiar el diseño ni agregar columnas.** Se le pasó todo el
+historial (`historial_a_planilla_yamina.py`, 785 filas: un movimiento por fila, nombre solo en la primera,
+filas insertadas con el formato de la sucursal; DEVOTO agregada al final). Las acciones nuevas se cargan con
+`cargar_planilla_yamina.py` (agrega al final del bloque, no duplica fecha+unidades, completa el PAEC después,
+no pisa un PAEC distinto). Nuestra versión con Concepto (`Cadena_Stock_26.27_ACTUALIZADO.xlsx`) queda de respaldo. Las repos con la
 planilla "Ranking de Ventas" también sacan los 29 títulos de la lista
 "Libro sorpresa" (20/10).
 
