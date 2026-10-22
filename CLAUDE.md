@@ -435,6 +435,12 @@ después). Ninguno de los 9 está todavía en el SII (sin ID). Las "Observacione
 (imprenta: Arcángel Maggio, Printing Books, Latingráfica, La Ley; Sobre ruedas =
 coedición importada de China) no tienen fila en la planilla y no se cargaron.
 `historial/2026-10/cuotas_noviembre/` (`cuotas_nov.py`).
+**Cuotas por vendedor noviembre (22/10)**: se escriben en cada grilla en la fila con formato `0` y bordes
+debajo de los clientes (rótulo del vendedor en I: Egisti 67, Fucito 55-58 = generales/Cúspide/Queleer/Santa Fe,
+Queleer 20, Santa Fe GRILLA 13, Martirena 60, Navarro 52, Rodríguez 34; **sin rótulo: Houndakjian 29 (+2) y
+Sálice 29 (+3)**); Cúspide en la columna "Cuotas" (BG) de las filas de novedades. **Importados (Sobre ruedas
+x2) en 0** para las 51 cuentas de la solapa "Clientes a no enviar importados" de la sábana (no grisar: no tocar
+colores). `historial/2026-10/cuotas_vendedores_noviembre/cuotas_vendedores.py`.
 
 ### Cúspide — archivo "A PROCESAR"
 
