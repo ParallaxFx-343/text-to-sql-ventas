@@ -1,0 +1,169 @@
+﻿REPOSICION 22/10 - UN PAEC POR SUCURSAL
+Puestos 1 a 10: la cantidad exacta de "Ventas". Puestos 11 a 40: lo necesario para completar el stock a 10 (10 - Stock de la planilla).
+Sin Libros Sorpresa ni los 29 títulos de la lista "Libro sorpresa". Los títulos sin disponible van igual, marcados [SIN STOCK].
+Con [DISP x PARA y EN TOTAL]: hay disponible pero no alcanza para lo que piden todas las sucursales juntas.
+Disponible según SII 19/10 07:01. Orden de las sucursales: el de los TXT de PAEC.
+
+========================================================================
+MENDOZA SHOPPING                                       198 u  29 títulos  (puestos 1-10: 77 u; 11-40: 121 u)
+   archivo reposicion_MENDOZA_SHOPPING.csv | sacados 5 Libros Sorpresa (67 u) y 1 de la lista sorpresa (QUE SEA MUTUO O NO SEA NADA 0) | 5 puestos 11-40 ya tienen 10 o más | sin stock 6 (29 u)
+========================================================================
+     23  9789500218047  PRINCIPITO, EL                           #1  vendió 23   
+     15  9789500218023  TAO TE CHING.  (ED. POCKET)              #3  vendió 15   
+     12  9789500218160  PROMESA DE SANGRE                        #7  vendió 12   
+      9  9789500212953  BRILLA                                   #8  vendió 9    
+      9  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.  #9  vendió 9    
+      9  9789500217675  CUMPLE DE 15                             #10 vendió 9    
+      8  9789500212601  DUEÑA DE TU DINERO                       #11 stock 2 -> 10
+      3  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES  #12 stock 7 -> 10
+      5  9789500215411  NATURALISTAS                             #14 stock 5 -> 10
+      8  9789500213264  DOLOR DE ESTAR VIVO, EL                  #16 stock 2 -> 10
+      6  9789500215015  MEDITACIONES                             #19 stock 4 -> 10  [SIN STOCK]
+      2  9789500218146  ROZAS                                    #20 stock 8 -> 10  [SIN STOCK]
+      5  9789500209861  SAGA DE LOS BONAPARTE, LA                #21 stock 5 -> 10  [SIN STOCK]
+      1  9789500218276  DECODIFICA TUS VINCULOS                  #22 stock 9 -> 10
+      2  9789500217644  ENREDOS DEL CORAZON                      #23 stock 8 -> 10
+      7  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #24 stock 3 -> 10  [SIN STOCK]
+      2  9789500217026  STICKERS MAGICOS DINOSAURIOS             #27 stock 8 -> 10  [SIN STOCK]
+      5  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO         #28 stock 5 -> 10
+      4  9789500213233  BITACORA ASTROLOGICA                     #30 stock 6 -> 10
+      2  9789500298780  CONSTITUCION NACIONAL                    #31 stock 8 -> 10
+      8  9789500216074  CUENTOS DE AMOR PROPIO - TD              #32 stock 2 -> 10
+      4  9789500216173  EGRESADOS                                #33 stock 6 -> 10
+      4  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL  #34 stock 6 -> 10
+      9  9789500210362  MI PLANTA DE NARANJA LIMA - EDICION ESCO #35 stock 1 -> 10
+      5  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS           #36 stock 5 -> 10
+      7  9789500217033  STICKERS MAGICOS: GRANJA                 #37 stock 3 -> 10  [SIN STOCK]
+      4  9789500215893  ¡ACA ESTOY! VAQUITA                      #38 stock 6 -> 10
+     10  9789500211857  COLORES                                  #39 stock 0 -> 10
+     10  9789500216012  CUENTOS CORTOS PARA EL RECREO            #40 stock 0 -> 10
+
+========================================================================
+PALERMO PORTAL                                         133 u  25 títulos  (puestos 1-10: 41 u; 11-40: 92 u)
+   archivo reposicion_PALERMO_PORTAL.csv | sacados 5 Libros Sorpresa (39 u) y 1 de la lista sorpresa (QUE SEA MUTUO O NO SEA NADA 0) | 9 puestos 11-40 ya tienen 10 o más | sin stock 7 (46 u)
+========================================================================
+      8  9789500218146  ROZAS                                    #3  vendió 8      [SIN STOCK]
+      7  9789500217033  STICKERS MAGICOS: GRANJA                 #4  vendió 7      [SIN STOCK]
+      6  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #5  vendió 6      [SIN STOCK]
+      5  9789500213233  BITACORA ASTROLOGICA                     #6  vendió 5    
+      5  9789500212601  DUEÑA DE TU DINERO                       #7  vendió 5    
+      5  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #8  vendió 5      [SIN STOCK]
+      5  9789500215015  MEDITACIONES                             #10 vendió 5      [SIN STOCK]
+      2  9789500215411  NATURALISTAS                             #11 stock 8 -> 10
+      7  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS           #12 stock 3 -> 10
+      4  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO         #14 stock 6 -> 10
+     10  9789500217613  BANDERAS DEL MUNDO                       #15 stock 0 -> 10  [SIN STOCK]
+      5  9789500218207  BIOPAUSIA. 2DA. EDICION ESPECIAL (TAPA D #16 stock 5 -> 10
+      5  9789500298780  CONSTITUCION NACIONAL                    #17 stock 5 -> 10
+      4  9789500213264  DOLOR DE ESTAR VIVO, EL                  #19 stock 6 -> 10
+      5  9789500209120  GATITO TITO, EL                          #20 stock 5 -> 10
+      6  9789500217729  LEGION SECRETA DEL SUR, LA               #21 stock 4 -> 10
+      5  9789500286763  PRINCIPE, EL                             #24 stock 5 -> 10  [SIN STOCK]
+      8  9789500214537  400 PREGUNTAS Y RESPUESTAS SOBRE FUTBOL  #29 stock 2 -> 10
+      6  9789500211598  AMANTES DE BUENOS AIRES                  #30 stock 4 -> 10
+      2  9789500218252  AUTOESTIMA                               #31 stock 8 -> 10
+      8  9789500217521  AVENTURAS DE SHERLOCK HOLMES, LAS (ED. P #32 stock 2 -> 10
+      2  9789500217736  COMO RAJAR A TU JEFE                     #33 stock 8 -> 10
+      5  9789500217255  FILOSOFIA EN 3 MINUTOS: FELICIDAD        #35 stock 5 -> 10
+      1  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL  #36 stock 9 -> 10
+      7  9789500209250  RETRATO DE DORIAN GRAY, EL               #40 stock 3 -> 10
+
+========================================================================
+REMEROS (NORDELTA)                                     154 u  26 títulos  (puestos 1-10: 67 u; 11-40: 87 u)
+   archivo reposicion_REMEROS_NORDELTA.csv | sacados 6 Libros Sorpresa (38 u) | 8 puestos 11-40 ya tienen 10 o más | sin stock 7 (46 u)
+========================================================================
+     14  9789500218160  PROMESA DE SANGRE                        #1  vendió 14   
+     10  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES  #2  vendió 10   
+      8  9789500217033  STICKERS MAGICOS: GRANJA                 #3  vendió 8      [SIN STOCK]
+      8  9789500218023  TAO TE CHING.  (ED. POCKET)              #4  vendió 8    
+      7  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA        #5  vendió 7    
+      7  9789500217729  LEGION SECRETA DEL SUR, LA               #6  vendió 7    
+      7  9789500217026  STICKERS MAGICOS DINOSAURIOS             #9  vendió 7      [SIN STOCK]
+      6  9789500217613  BANDERAS DEL MUNDO                       #10 vendió 6      [SIN STOCK]
+      5  9789500216654  SIBO                                     #11 stock 5 -> 10
+      7  9789500216265  VACA DE LA AMISTAD NOS HABLA, LA         #12 stock 3 -> 10
+      6  9789500216623  FIESTA DE LOS CARPINCHOS, LA             #14 stock 4 -> 10
+      2  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL  #15 stock 8 -> 10
+      7  9789500216517  BENJAMIN EN EL JARDIN                    #19 stock 3 -> 10
+      1  9789500216869  FINANZAS                                 #21 stock 9 -> 10
+      1  9789500218283  INTI SE COME LAS UÑAS                    #22 stock 9 -> 10
+      4  9789500216524  RENATA EN LA GRANJA                      #24 stock 6 -> 10
+      6  9789500215893  ¡ACA ESTOY! VAQUITA                      #25 stock 4 -> 10
+      3  9789500215855  AGOTADOS                                 #26 stock 7 -> 10
+      5  9789500215350  APRENDO A LEER LAS LETRAS                #27 stock 5 -> 10  [SIN STOCK]
+      9  9789500215367  APRENDO A LEER LAS SILABAS               #28 stock 1 -> 10  [SIN STOCK]
+      3  9789500217644  ENREDOS DEL CORAZON                      #32 stock 7 -> 10
+      4  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #33 stock 6 -> 10  [SIN STOCK]
+      5  9789500214933  HABITOS.                                 #34 stock 5 -> 10
+      7  9789500215015  MEDITACIONES                             #37 stock 3 -> 10  [SIN STOCK]
+      5  9789500215411  NATURALISTAS                             #39 stock 5 -> 10
+      7  9789500215770  NUEVO DICCIONARIO ESCOLAR DE LA LENGUA E #40 stock 3 -> 10
+
+========================================================================
+SAN MIGUEL                                              84 u  17 títulos  (puestos 1-10: 39 u; 11-40: 45 u)
+   archivo reposicion_SAN_MIGUEL.csv | sacados 6 Libros Sorpresa (39 u) | 17 puestos 11-40 ya tienen 10 o más | sin stock 6 (36 u)
+========================================================================
+      9  9789500218146  ROZAS                                    #1  vendió 9      [SIN STOCK]
+      6  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #4  vendió 6      [SIN STOCK]
+      6  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #5  vendió 6      [SIN STOCK]
+      6  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES  #6  vendió 6    
+      6  9789500215015  MEDITACIONES                             #9  vendió 6      [SIN STOCK]
+      6  9789500208536  SAGA DE LOS ROMANOV, LA                  #10 vendió 6      [SIN STOCK]
+      3  9789500216593  ANSIEDAD                                 #11 stock 7 -> 10
+      9  9789500253390  DICCIONARIO ESPAÑOL-INGLES ENGLISH-SPANI #13 stock 1 -> 10
+      2  9789500217507  MANUAL DE VIDA                           #20 stock 8 -> 10
+      1  9789500215411  NATURALISTAS                             #21 stock 9 -> 10
+      4  9789500216517  BENJAMIN EN EL JARDIN                    #24 stock 6 -> 10
+      1  9789500212953  BRILLA                                   #26 stock 9 -> 10
+      8  9789500212731  CUENTOS CORTOS PARA PINTAR               #27 stock 2 -> 10
+      4  9789500216708  MAGIA DE IVY, LA                         #30 stock 6 -> 10
+      3  9789500209861  SAGA DE LOS BONAPARTE, LA                #32 stock 7 -> 10  [SIN STOCK]
+      8  9789500215220  CHAU, TETA                               #38 stock 2 -> 10
+      2  9789500212601  DUEÑA DE TU DINERO                       #39 stock 8 -> 10
+
+========================================================================
+VILLA CRESPO                                           129 u  19 títulos  (puestos 1-10: 72 u; 11-40: 57 u)
+   archivo reposicion_VILLA_CRESPO.csv | sacados 5 Libros Sorpresa (45 u) | 16 puestos 11-40 ya tienen 10 o más | sin stock 4 (40 u)
+========================================================================
+     24  9789500218023  TAO TE CHING.  (ED. POCKET)              #1  vendió 24   
+     15  9789500217033  STICKERS MAGICOS: GRANJA                 #2  vendió 15     [SIN STOCK]
+      8  9789500217026  STICKERS MAGICOS DINOSAURIOS             #6  vendió 8      [SIN STOCK]
+      7  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #7  vendió 7      [SIN STOCK]
+      6  9789500211598  AMANTES DE BUENOS AIRES                  #8  vendió 6    
+      6  9789500216814  AMIGOS DE LA GRANJA                      #9  vendió 6    
+      6  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL     #10 vendió 6    
+      7  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO         #17 stock 3 -> 10
+     10  9789500217613  BANDERAS DEL MUNDO                       #18 stock 0 -> 10  [SIN STOCK]
+      9  9789500215220  CHAU, TETA                               #19 stock 1 -> 10
+     10  9789500214056  MINICUENTOS DE PRIMAVERA                 #21 stock 0 -> 10
+      1  9789500216258  PASEO POR LA GRANJA                      #22 stock 9 -> 10
+      7  9788466243292  BRUJA MODERNA                            #27 stock 3 -> 10
+      1  9789500216692  CHICAS MUERTAS NO HABLAN, LAS            #28 stock 9 -> 10
+      3  9789500212601  DUEÑA DE TU DINERO                       #31 stock 7 -> 10
+      1  9789500212427  MEDIADORA : EN CUERPO Y ALMAS, LA        #35 stock 9 -> 10
+      1  9789500217408  MIRA Y DESCUBRE: EL ESPACIO              #36 stock 9 -> 10
+      1  9789500216203  SEÑORA DE LAS INDIAS                     #38 stock 9 -> 10
+      6  9789500215886  ¡ACA ESTOY! BALLENITA                    #40 stock 4 -> 10
+
+========================================================================
+VILLA URQUIZA                                          143 u  15 títulos  (puestos 1-10: 117 u; 11-40: 26 u)
+   archivo reposicion_VILLA_URQUIZA.csv | sacados 5 Libros Sorpresa (46 u) | 20 puestos 11-40 ya tienen 10 o más | sin stock 3 (37 u)
+========================================================================
+     30  9789500218160  PROMESA DE SANGRE                        #1  vendió 30   
+     15  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #2  vendió 15     [SIN STOCK]
+     14  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES  #3  vendió 14   
+     14  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA        #4  vendió 14   
+     13  9789500218047  PRINCIPITO, EL                           #5  vendió 13   
+     12  9789500217026  STICKERS MAGICOS DINOSAURIOS             #6  vendió 12     [SIN STOCK]
+     11  9789500218016  EDAD QUE ELEGIMOS, LA                    #7  vendió 11   
+      8  9789500216814  AMIGOS DE LA GRANJA                      #8  vendió 8    
+      1  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.  #15 stock 9 -> 10
+      2  9789500215893  ¡ACA ESTOY! VAQUITA                      #23 stock 8 -> 10
+      7  9789500215220  CHAU, TETA                               #26 stock 3 -> 10
+      1  9789500215466  SERAS TAN FELIZ COMO INSISTAS            #32 stock 9 -> 10
+     10  9789500217033  STICKERS MAGICOS: GRANJA                 #33 stock 0 -> 10  [SIN STOCK]
+      4  9789500213332  NACE UN PAPA                             #39 stock 6 -> 10
+      1  9789500216760  PEQUEÑOS PASOS: MI MUNDO                 #40 stock 9 -> 10
+
+========================================================================
+TOTAL 6 sucursales | 131 líneas | 841 u (de esas, 234 sin stock) | Sorpresa sacados: 274 u
