@@ -155,7 +155,7 @@
  },
  "_doc": "Padron y grupos de El Ateneo. excluir_siempre se aplica sobre las columnas de sucursal del SII (que arrancan en el indice 21). orden_paec es el orden de los TXT de PAEC.",
  "notas_sucursales": {
-  "DEVOTO": "Alta 09/2026. Aparece en el SII desde el 11/09/2026 (el padron paso de 75 a 76 columnas). Sin stock en ningun articulo al 14/09. No integra ningun grupo todavia. Numero de sucursal sin confirmar (Franco dijo 56 de memoria). Excluida por decision en la promo de septiembre y en el Dia de la Madre 2026.",
+  "DEVOTO": "Alta 09/2026. Aparece en el SII desde el 11/09/2026 (el padron paso de 75 a 76 columnas). Sin stock en ningun articulo al 14/09. No integra ningun grupo todavia. Numero de sucursal 56 (confirmado por Franco el 22/10/2026). Inaugura el 22/10/2026 (a confirmar). Excluida por decision en la promo de septiembre y en el Dia de la Madre 2026.",
   "ATENEO GRAND SPLENDID": "Circuito propio: esta en orden_paec pero fuera de los 4 grupos."
  }
 }

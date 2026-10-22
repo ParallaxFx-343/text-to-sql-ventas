@@ -9,12 +9,9 @@ liquidaciones, servicio de novedades). Se carga automáticamente en cada sesión
 
 | Sucursal | Nro. | Estado | Pendiente |
 |---|---|---|---|
-| **DEVOTO** | **56** (a confirmar) | Nueva — informada 08/09/2026. **Todavía no abrió** (16/10): inaugura el **jueves 22/10/2026** según Franco ("si no me equivoco") | Confirmar fecha de apertura y número de sucursal (el Excel nunca llegó) |
+| **DEVOTO** | **56 — CONFIRMADO por Franco (22/10/2026)** | Nueva — informada 08/09/2026. Inaugura el **jueves 22/10/2026** según Franco | Confirmar la fecha de apertura con el primer Detalle de ventas; todavía no tiene grupo |
 
-El número 56 lo dio Franco de memoria ("creo"). **Confirmar contra el maestro
-antes de usarlo en cualquier archivo de carga**, sobre todo en los CSV de
-reposición y en los TXT de PAEC, donde un número equivocado manda mercadería
-a otra boca.
+**El número 56 quedó confirmado por Franco el 22/10/2026** (antes lo había dado de memoria).
 
 Estado al 25/09/2026: DEVOTO aparece como columna en el SII desde el
 11/09 (76 columnas de sucursal), pero con **0 unidades** en todos los SII
@@ -218,7 +215,7 @@ Aperturas posteriores al 01/07/2025, según el maestro de sucursales
 | SAN MIGUEL | 23/07/2026 | YENNY |
 | FERIA ITINERANTE EDITORIAL | 27/07/2026 | EL ATENEO |
 | FERIA ITINERANTE N 1 - REGION 3 | 31/07/2026 | YENNY |
-| DEVOTO | 22/10/2026 (a confirmar, dato de Franco del 16/10) | — |
+| DEVOTO (56) | 22/10/2026 (a confirmar, dato de Franco del 16/10) | — |
 
 Estas son las 8 que dieron **dato fantasma** en el interanual de julio 26/25
 (AT25 = unidades Editorial que el export les atribuía en julio 2025, cuando
@@ -686,7 +683,7 @@ Pendientes al 22/10:
 - Toppano (22487, Sálice): Franco le pone a mano el 0 de Sobre ruedas (era la 24146 de la lista).
 - Informe de Importados por cliente del 15/10: rehacer con movimientos (usó ENTREGADA/VENTA de la sábana).
 - Libros Sorpresa: venta total los viernes 23 y 30/10.
-- DEVOTO abría el 22/10: confirmar número de sucursal en el próximo Detalle de ventas.
+- DEVOTO: número **56 confirmado** (22/10). Falta la fecha de apertura real (primer Detalle con ventas) y el grupo.
 
 ## Estado al 07/10/2026
 
