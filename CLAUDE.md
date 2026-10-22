@@ -441,6 +441,8 @@ Queleer 20, Santa Fe GRILLA 13, Martirena 60, Navarro 52, Rodríguez 34; **sin r
 Sálice 29 (+3)**); Cúspide en la columna "Cuotas" (BG) de las filas de novedades. **Importados (Sobre ruedas
 x2) en 0** para las 51 cuentas de la solapa "Clientes a no enviar importados" de la sábana (no grisar: no tocar
 colores). `historial/2026-10/cuotas_vendedores_noviembre/cuotas_vendedores.py`.
+Franco (22/10): si el nombre no coincide, **manda la grilla** (la cuenta 24000 queda en 0). 24146
+(González Nicolasa Irene, Sálice) corresponde a **Toppano 22487** en la grilla: lo corrige Franco a mano.
 
 ### Cúspide — archivo "A PROCESAR"
 
