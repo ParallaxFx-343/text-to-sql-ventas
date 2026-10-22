@@ -658,6 +658,36 @@ no pisa un PAEC distinto). Nuestra versión con Concepto (`Cadena_Stock_26.27_AC
 planilla "Ranking de Ventas" también sacan los 29 títulos de la lista
 "Libro sorpresa" (20/10).
 
+## Estado al 22/10/2026 (antes de compactar)
+
+**Cómo arrancar una repo "Ranking de Ventas"** (regla vigente desde el 21/10, dice arriba de la planilla):
+puestos 1-10 = Ventas exactas; 11-40 = completar a 10 con el Stock de la planilla; sin Libros Sorpresa
+(EAN 290) ni los 29 títulos de la hoja "Libro sorpresa" de `ateneo/ref/Listado_Final_Libro_Sorpresa_Octubre_2026.xlsx`;
+sin stock van igual marcados; un PAEC por sucursal. Scripts: `historial/2026-10/reposicion_22-10/repo2210_parse.py`
+(planilla → blocks.pkl, solo columnas A-E), `repo2210_check.py SII config` (mapea el nombre por la columna Stock),
+`repo2210_out.py BLOCKS SII config SALIDA excluir.xlsx 'SII dd/mm'` (CSV + DETALLE + TXT de PAEC `NOMBRE: `).
+Después: `cadena_stock/cargar_planilla_yamina.py` con fecha + DETALLE (y con el TXT de PAEC cuando Franco los pasa).
+El último SII que hubo fue el del **19/10 07:01** (no está en el repo: pedir uno nuevo si hace falta disponible).
+
+Hecho del 20 al 22/10:
+| Fecha | Qué | Dónde |
+|---|---|---|
+| 20/10 | Repo 9 suc. 1.931 u (PAEC 25-88410/18) y planilla Cadena Stock completa sep-oct | `reposicion_20-10/`, `cadena_stock/` |
+| 21/10 | Repo 7 suc. 1.192 u (PAEC 25-88427/33); planilla de Yamina con historial completo | `reposicion_21-10/`, `cadena_stock/Cadena. Stock 26.27.xlsx` |
+| 21/10 | Canales refuerzo 6 títulos 33 u (**PAEC pendiente**, cargar en el bloque CANALES de la planilla de Yamina) | `canales_refuerzo_21-10.csv` |
+| 21/10 | Reimpresiones nov normalizadas (fecha, cantidad, ISBN, título) | `cuotas_noviembre/Reimpresiones_noviembre.xlsx` |
+| 21/10 | Devoluciones importados: con movimientos reales (la sábana engaña); Cúspide liquida 51% | `devoluciones_importados_21-10/Devoluciones_candidatos_v2.xlsx` |
+| 22/10 | Repo 6 suc. 841 u (PAEC 25-88443/48) | `reposicion_22-10/` |
+| 22/10 | Cuotas de noviembre en las 10 grillas + Sobre ruedas en 0 a 51 cuentas de baja rotación | `cuotas_vendedores_noviembre/` |
+| 22/10 | Sábanas Martirena/Navarro/Pablo/Rodríguez/Sálice solo con las 6 reimpresiones nov (Egisti y Fucito no) | `sabanas_reimpresiones_noviembre/` |
+
+Pendientes al 22/10:
+- PAEC de Canales 21/10 → planilla de Yamina.
+- Toppano (22487, Sálice): Franco le pone a mano el 0 de Sobre ruedas (era la 24146 de la lista).
+- Informe de Importados por cliente del 15/10: rehacer con movimientos (usó ENTREGADA/VENTA de la sábana).
+- Libros Sorpresa: venta total los viernes 23 y 30/10.
+- DEVOTO abría el 22/10: confirmar número de sucursal en el próximo Detalle de ventas.
+
 ## Estado al 07/10/2026
 
 Hecho entre el 25/09 y el 07/10 (todo en `ateneo/historial/2026-10/`):
