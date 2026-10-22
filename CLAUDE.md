@@ -598,7 +598,8 @@ de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
   Stock de la planilla (Franco: lo que está en camino no se descuenta). 7 sucursales, 158 líneas, 1.192 u;
   PAEC 25-88427 a 25-88433 (Corrientes vino como "22 488429", es 25-88429).
 - 22/10: misma regla. 6 sucursales (Villa Crespo, Remeros, Palermo Portal, Villa Urquiza, San Miguel,
-  Mendoza Shopping), 131 líneas, 841 u. Palermo Portal es local chico pero la planilla dice completar a 10.
+  Mendoza Shopping), 131 líneas, 841 u; PAEC 25-88443 a 25-88448. Palermo Portal (local chico) quedó en 10
+  por decisión de Franco.
 - 15/10: 5 sucursales + **Sugerido Halloween** (13 títulos, a la derecha de la
   planilla, columnas I-M): completar a 10, chicos a 3, sin Juramento, con
   Grand Splendid y Devoto. Todo junto, un PAEC por sucursal (61). Halloween =
