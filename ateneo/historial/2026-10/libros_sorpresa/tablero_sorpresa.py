@@ -1,6 +1,6 @@
 """Tablero de ventas de los Libros Sorpresa por local (solo locales fisicos).
 
-Uso: python -P tablero_sorpresa.py DETALLE.xlsx AGRUPADAS.xlsx config.json SALIDA.xlsx [SII [REFUERZO.txt [SII_BASE]]]
+Uso: [EXPORT=aaaa-mm-dd] python -P tablero_sorpresa.py DETALLE.xlsx AGRUPADAS.xlsx config.json SALIDA.xlsx [SII [REFUERZO.txt [SII_BASE]]]
 - DETALLE: "Detalle Venta Articulo" (una fila por venta: Sucursal "NOMBRE  (nro)",
   Fecha, Articulo, Titulo, Cantidad, Bruto, Total, ISBN)
 - AGRUPADAS: "Ventas Proveedor Agrupadas Articulo" ("-" si no se tiene; entonces no hay cuadre) (solo para cuadrar y para
@@ -72,7 +72,11 @@ if f_agr != '-':
     extra_agr = int((dif_c.iloc[:, 0] - dif_c.iloc[:, 1]).sum())
 
 dias = sorted(det.dia.unique())
-ult = dias[-1]                                      # dia parcial (export a la mañana)
+ult = dias[-1]                                      # ultimo dia con ventas
+# EXPORT=aaaa-mm-dd (fecha en que se saco el Detalle): si es posterior al ultimo dia, ese dia esta completo.
+import os as _os
+_exp = _os.environ.get('EXPORT')
+parcial = ult if (not _exp or pd.Timestamp(_exp).date() <= ult) else None   # dia parcial (export a la mañana) o ninguno
 hasta = max(det.Fecha)                              # para el subtitulo
 DIAS_ES = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom']
 etq = {x: f'{DIAS_ES[x.weekday()]} {x:%d/%m}' for x in dias}
@@ -85,7 +89,7 @@ mat = det.pivot_table(index=['nro', 'local'], columns='dia', values='Cantidad',
                       aggfunc='sum', fill_value=0).reindex(columns=dias, fill_value=0)
 mat['Total'] = mat.sum(axis=1)
 primera = det[det.Cantidad > 0].groupby(['nro', 'local']).dia.min()
-ult_completo = dias[-2]
+ult_completo = dias[-2] if parcial is not None else dias[-1]
 def ritmo(row):
     p = primera[row.name]
     n = (ult_completo - p).days + 1
@@ -129,7 +133,7 @@ if f_sii:
     import re as _re
     m_fecha = _re.search(r'(20\d{2})(\d{2})(\d{2})(\d{2})(\d{2})', f_sii.split('/')[-1])
     fecha_sii = f'{m_fecha.group(3)}/{m_fecha.group(2)} {m_fecha.group(4)}:{m_fecha.group(5)}' if m_fecha else 'SII'
-    llenos = [x for x in sorted(det.dia.unique())[:-1]]          # sin el dia parcial
+    llenos = [x for x in sorted(det.dia.unique()) if x != parcial]   # sin el dia parcial
     vend_d = det[det.dia.isin(llenos)].groupby('titulo').Cantidad.sum() / len(llenos)
     alcanza_tit = {t: (stock[t].sum() / vend_d[t]) for t in por_tit.index if vend_d.get(t, 0) > 0}
 
@@ -217,7 +221,7 @@ rs['A1'] = 'Unidades por día'
 rs['A1'].font = Font(bold=True, size=12)
 cab(rs, 2, ['Día', 'Unidades'])
 for i, x in enumerate(dias, start=3):
-    rs.cell(i, 1, etq[x] + (' (parcial)' if x == ult else ''))
+    rs.cell(i, 1, etq[x] + (' (parcial)' if x == parcial else ''))
     rs.cell(i, 2, int(por_dia[x]))
 fd = 2 + len(dias)
 rs['D1'] = 'Unidades por título'
@@ -251,14 +255,14 @@ tb['A1'] = 'Libros Sorpresa · ventas por local'
 tb['A1'].font = Font(name='Calibri', bold=True, size=20, color=TINTA)
 tb.merge_cells('A2:P2')
 tb['A2'] = (f'Solo locales físicos · del {dias[0]:%d/%m} al {ult:%d/%m/%Y} · '
-            f'el {ult:%d/%m} es parcial (el reporte se sacó ese mismo día) · '
+            + (f'el {ult:%d/%m} es parcial (el reporte se sacó ese mismo día) · ' if parcial is not None else f'datos completos hasta el {ult:%d/%m} · ')
             + (('fuente: Detalle Venta Artículo, cuadrado contra Ventas Proveedor Agrupadas'
-               + (f' (Agrupadas trae {extra_agr} u más: se sacó después, son ventas del {ult:%d/%m})' if extra_agr else ''))
+               + (f' (Agrupadas trae {extra_agr} u más: se sacó después, son ventas del {(ult if parcial is not None else pd.Timestamp(_exp).date()):%d/%m})' if extra_agr else ''))
               if agr is not None else 'fuente: Detalle Venta Artículo (sin Ventas Agrupadas para cuadrar)'))
 tb['A2'].font = Font(size=10, color=TINTA2)
 tb.row_dimensions[1].height = 30
 
-mejor = por_dia[por_dia.index != ult].idxmax()
+mejor = por_dia[por_dia.index != parcial].idxmax()
 kpis = [
     ('Unidades netas', f'{tot_u:,}'.replace(',', '.'), f'{len(devol)} devoluciones ya restadas'),
     ('Facturación', '$ ' + f'{tot_ars:,}'.replace(',', '.'), f'a $ {int(det.Total.sum() / tot_u):,} c/u'.replace(',', '.')),
@@ -306,9 +310,10 @@ def barras(titulo, cats, vals, horizontal=False, ancho=15, alto=7.5):
 
 c1 = barras('Unidades por día', Reference(rs, min_col=1, min_row=3, max_row=fd),
             Reference(rs, min_col=2, min_row=3, max_row=fd))
-p = DataPoint(idx=len(dias) - 1)                    # el dia parcial en gris
-p.graphicalProperties = GraphicalProperties(solidFill=GRIS)
-c1.series[0].dPt.append(p)
+if parcial is not None:
+    p = DataPoint(idx=len(dias) - 1)                # el dia parcial en gris
+    p.graphicalProperties = GraphicalProperties(solidFill=GRIS)
+    c1.series[0].dPt.append(p)
 tb.add_chart(c1, 'A8')
 c2 = barras('Unidades por título', Reference(rs, min_col=4, min_row=3, max_row=ft),
             Reference(rs, min_col=5, min_row=3, max_row=ft))
@@ -339,9 +344,9 @@ lineas = [
     f'({int(lideres.iloc[1])} u) son los más vendidos; Bío quedó muy abajo ({int(bio)} u, vendido en '
     f'{det[(det.titulo == "Bío") & (det.Cantidad > 0)].local.nunique()} de {n_locales} locales).',
     (f'El pico fue el {etq[mejor]} con {int(por_dia[mejor])} u ({por_dia[mejor] / tot_u:.0%} de todo lo vendido); '
-     'después: ' + ', '.join(f'{etq[x]} {int(por_dia[x])} u' for x in dias if mejor < x < ult) +
+     'después: ' + ', '.join(f'{etq[x]} {int(por_dia[x])} u' for x in dias if mejor < x and x != parcial) +
      '. Con tan pocos días todavía no se puede hablar de tendencia.') if len(dias) - 1 < 10 else
-    dos_semanas([x for x in dias if x != ult]),
+    dos_semanas([x for x in dias if x != parcial]),
     'Los locales no arrancaron todos juntos: ' + ', '.join(
         f'{int(n)} el {x:%d/%m}' for x, n in arranque.items()) +
     '. Para comparar locales que arrancaron en días distintos, usar la columna "Vendió por día" de la hoja Local x día.',
@@ -410,14 +415,14 @@ for i, t in enumerate(lineas):
 # ---------- hoja Local x dia ----------
 ld = wb.create_sheet('Local x día', 1)
 ld.freeze_panes = 'C3'
-ld['A1'] = (f'Unidades por local y por día · ordenado por total · el {ult:%d/%m} es parcial · '
+ld['A1'] = (f'Unidades por local y por día · ordenado por total · ' + (f'el {ult:%d/%m} es parcial · ' if parcial is not None else '') +
             f'"Vendió por día" = unidades por día desde su primera venta hasta el {ult_completo:%d/%m}'
             + (f' · "Le quedan" = stock del local en el SII del {fecha_sii} · "Le alcanza" = le quedan / vendió por día; '
                'en rojo, 3 días o menos' if stock is not None else '')
             + (' · "Refuerzo 07/10" = lo cargado ese día; "Falta llegar" = la parte que todavía no figura en el SII; '
                '"Con lo que falta" = le quedan + falta llegar' if ref is not None else ''))
 ld['A1'].font = Font(italic=True, size=9, color=TINTA2)
-cols = ['Nro', 'Local'] + [etq[x] + ('*' if x == ult else '') for x in dias] + \
+cols = ['Nro', 'Local'] + [etq[x] + ('*' if x == parcial else '') for x in dias] + \
        ['Total', 'Primera venta', 'Vendió por día'] + \
        (['Le quedan', 'Le alcanza (días)'] if stock is not None else []) + \
        (['Refuerzo 07/10', 'Falta llegar', 'Con lo que falta', 'Le alcanza con eso (días)']
@@ -528,7 +533,7 @@ if stock is not None:
         sk.cell(i, 3 + len(tit_cols)).font = Font(bold=True)
     uf3 = 2 + len(filas)
     calor(sk, f'C3:{L(2 + len(tit_cols))}{uf3}')
-    dias_llenos = [x for x in dias if x != ult]
+    dias_llenos = [x for x in dias if x != parcial]
     vend = det[det.dia.isin(dias_llenos)].groupby('titulo').Cantidad.sum()
     resumen = [('Le queda en la cadena', [int(stock[t].sum()) for t in tit_cols] + [int(stock.Total.sum())], '#,##0'),
                (f'Vendido {dias_llenos[0]:%d/%m} al {dias_llenos[-1]:%d/%m}',

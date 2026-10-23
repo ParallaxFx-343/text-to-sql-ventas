@@ -9,7 +9,7 @@ liquidaciones, servicio de novedades). Se carga automáticamente en cada sesión
 
 | Sucursal | Nro. | Estado | Pendiente |
 |---|---|---|---|
-| **DEVOTO** | **56 — CONFIRMADO por Franco (22/10/2026)** | Nueva — informada 08/09/2026. Inaugura el **jueves 22/10/2026** según Franco | Confirmar la fecha de apertura con el primer Detalle de ventas; todavía no tiene grupo |
+| **DEVOTO** | **56 — CONFIRMADO por Franco (22/10/2026)** | Nueva — informada 08/09/2026. Inaugura el **jueves 22/10/2026** según Franco | Abrió el 22/10 (13 u en el Detalle); todavía no tiene grupo |
 
 **El número 56 quedó confirmado por Franco el 22/10/2026** (antes lo había dado de memoria).
 
@@ -115,6 +115,15 @@ ningún reporte de ventas del 01 al 16/10 (ni Detalle ni Agrupadas, ni el códig
 el armado del local. En los tableros, "sin venta" de Devoto no es una alerta
 hasta esa fecha; después de abrir, su número de sucursal sale del Detalle.
 
+**Actualización al 23/10** (Detalle 23/10 11:10 con datos hasta el 22/10 completo, Agrupadas, SII 23/10 07:01;
+`EXPORT=2026-10-23` le dice al tablero que el último día no es parcial): **3.162 u del 01 al 22/10**
+(2.493 hasta el 15/10 + 669 del 16 al 22), 62 de 62 locales, cuadre Agrupadas OK (361 celdas).
+**DEVOTO aparece como `DEVOTO (56)`: primera venta el 22/10 (13 u)** → abrió el 22/10 y el número 56 lo
+confirma el sistema. La venta cayó a 35-54 u/día del 19 al 22/10 **por falta de stock**: en locales quedan
+747 u (Misterio 11, Romántica 15, Erótica 48, Histórica 78, Contemporánea 103, Bío 492). Refuerzo: entraron
+1.140 de 1.170, faltan 30. Otras entradas fuera del refuerzo: Grand Splendid +178, Neuquén +71, Alto Comahue +21,
+Tucumán Portal +10, Plaza Oeste +8, Comodoro +3.
+
 **Para cargar, Franco va por sucursal**: además del TXT por título (para el
 depósito) entregar el **TXT por sucursal**, con **primero AMBA y después el
 interior**, cada grupo en orden alfabético, y los títulos en el orden del CSV
@@ -215,7 +224,7 @@ Aperturas posteriores al 01/07/2025, según el maestro de sucursales
 | SAN MIGUEL | 23/07/2026 | YENNY |
 | FERIA ITINERANTE EDITORIAL | 27/07/2026 | EL ATENEO |
 | FERIA ITINERANTE N 1 - REGION 3 | 31/07/2026 | YENNY |
-| DEVOTO (56) | 22/10/2026 (a confirmar, dato de Franco del 16/10) | — |
+| DEVOTO (56) | 22/10/2026 (primera venta en el Detalle) | — |
 
 Estas son las 8 que dieron **dato fantasma** en el interanual de julio 26/25
 (AT25 = unidades Editorial que el export les atribuía en julio 2025, cuando
@@ -683,7 +692,8 @@ Pendientes al 22/10:
 - Toppano (22487, Sálice): Franco le pone a mano el 0 de Sobre ruedas (era la 24146 de la lista).
 - Informe de Importados por cliente del 15/10: rehacer con movimientos (usó ENTREGADA/VENTA de la sábana).
 - Libros Sorpresa: venta total los viernes 23 y 30/10.
-- DEVOTO: número **56 confirmado** (22/10). Falta la fecha de apertura real (primer Detalle con ventas) y el grupo.
+- DEVOTO: 56 y apertura 22/10 confirmados (Detalle del 23/10). Falta el grupo.
+- Libros Sorpresa: viernes 23/10 entregado (3.162 u al 22/10); falta el del 30/10.
 
 ## Estado al 07/10/2026
 
