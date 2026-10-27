@@ -616,8 +616,10 @@ de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
   por decisión de Franco.
 - 27/10: misma regla. 11 sucursales del interior (Mendoza Centro, Paraná, Bahía Blanca = BAHIA BLANCA SHOPPING,
   Ateneo Tucumán, Río Cuarto, Jujuy, San Luis, Resistencia, Trelew, Salta Centro, Bendú), 278 líneas, 1.888 u;
-  sin SII (`repo2710_out.py … -`: las cantidades salen de la planilla, no se marca disponible; el nombre se mapea
-  con `repo2710_map.py`). Trelew y Bahía Blanca Shopping (locales chicos) quedaron en 10, como Palermo el 22/10.
+  primero sin SII (`repo2710_out.py … -`, nombre mapeado con `repo2710_map.py`) y después con el **SII 27/10 07:01**
+  (mapeo por Stock 98-100%, CSV sin cambios): **435 u sin disponible en 14 títulos** (Gatito 72, Rozas 57, El Príncipe 54,
+  Stickers Dinosaurios 44, Bonaparte 41, Imperfectos 35, Stickers Granja 34, Dino 27…); no alcanza: Bitácora
+  astrológica (33 pedidas, 13 disp.), Teo y Ana (10/3), Hedy (6/3). Trelew y Bahía Blanca Shopping (locales chicos) quedaron en 10, como Palermo el 22/10.
   Cargado en la planilla de Yamina sin PAEC. `historial/2026-10/reposicion_27-10/`.
 - 15/10: 5 sucursales + **Sugerido Halloween** (13 títulos, a la derecha de la
   planilla, columnas I-M): completar a 10, chicos a 3, sin Juramento, con
@@ -678,7 +680,7 @@ sin stock van igual marcados; un PAEC por sucursal. Scripts: `historial/2026-10/
 (planilla → blocks.pkl, solo columnas A-E), `repo2210_check.py SII config` (mapea el nombre por la columna Stock),
 `repo2210_out.py BLOCKS SII config SALIDA excluir.xlsx 'SII dd/mm'` (CSV + DETALLE + TXT de PAEC `NOMBRE: `).
 Después: `cadena_stock/cargar_planilla_yamina.py` con fecha + DETALLE (y con el TXT de PAEC cuando Franco los pasa).
-El último SII que hubo fue el del **19/10 07:01** (no está en el repo: pedir uno nuevo si hace falta disponible).
+El último SII que hubo fue el del **27/10 07:01** (no está en el repo: pedir uno nuevo si hace falta disponible).
 
 Hecho del 20 al 22/10:
 | Fecha | Qué | Dónde |
