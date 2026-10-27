@@ -593,7 +593,7 @@ columna 3 = etiqueta de liquidación (ej. `LIQUIDACIONJULIO`).
   (le faltan el `CLAUDE.md` y `ateneo/`). Al arrancar hay que hacer
   `git fetch origin claude/buscar-isbn-d6x9cp` y
   `git merge --ff-only origin/claude/buscar-isbn-d6x9cp`, y reinstalar
-  `pip install pandas openpyxl xlrd`.
+  `python3 -m pip install pandas openpyxl xlrd python-calamine` (con `pip` a secas se instala en otro Python).
 - Antes de afirmar si algo se pusheó o no, mirar `git status -sb` / el remoto.
   El 25/09 un push que se dio por no hecho sí había salido.
 
@@ -614,6 +614,11 @@ de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
 - 22/10: misma regla. 6 sucursales (Villa Crespo, Remeros, Palermo Portal, Villa Urquiza, San Miguel,
   Mendoza Shopping), 131 líneas, 841 u; PAEC 25-88443 a 25-88448. Palermo Portal (local chico) quedó en 10
   por decisión de Franco.
+- 27/10: misma regla. 11 sucursales del interior (Mendoza Centro, Paraná, Bahía Blanca = BAHIA BLANCA SHOPPING,
+  Ateneo Tucumán, Río Cuarto, Jujuy, San Luis, Resistencia, Trelew, Salta Centro, Bendú), 278 líneas, 1.888 u;
+  sin SII (`repo2710_out.py … -`: las cantidades salen de la planilla, no se marca disponible; el nombre se mapea
+  con `repo2710_map.py`). Trelew y Bahía Blanca Shopping (locales chicos) quedaron en 10, como Palermo el 22/10.
+  Cargado en la planilla de Yamina sin PAEC. `historial/2026-10/reposicion_27-10/`.
 - 15/10: 5 sucursales + **Sugerido Halloween** (13 títulos, a la derecha de la
   planilla, columnas I-M): completar a 10, chicos a 3, sin Juramento, con
   Grand Splendid y Devoto. Todo junto, un PAEC por sucursal (61). Halloween =
