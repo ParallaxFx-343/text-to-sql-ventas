@@ -620,7 +620,8 @@ de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
   (mapeo por Stock 98-100%, CSV sin cambios): **435 u sin disponible en 14 títulos** (Gatito 72, Rozas 57, El Príncipe 54,
   Stickers Dinosaurios 44, Bonaparte 41, Imperfectos 35, Stickers Granja 34, Dino 27…); no alcanza: Bitácora
   astrológica (33 pedidas, 13 disp.), Teo y Ana (10/3), Hedy (6/3). Trelew y Bahía Blanca Shopping (locales chicos) quedaron en 10, como Palermo el 22/10.
-  Cargado en la planilla de Yamina sin PAEC. `historial/2026-10/reposicion_27-10/`.
+  PAEC 25-88496 a 25-88507 (**sin 88505**: San Luis vino como 88506; preguntado a Franco), cargados en la planilla de Yamina.
+  `historial/2026-10/reposicion_27-10/`.
 - 15/10: 5 sucursales + **Sugerido Halloween** (13 títulos, a la derecha de la
   planilla, columnas I-M): completar a 10, chicos a 3, sin Juramento, con
   Grand Splendid y Devoto. Todo junto, un PAEC por sucursal (61). Halloween =
