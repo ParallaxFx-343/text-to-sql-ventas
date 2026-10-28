@@ -635,6 +635,15 @@ de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
   objetivo − (stock SII 15/10 + repo 14/10 en camino + repo 15/10). 637 líneas,
   3.742 u (repo 1.399 + Halloween 2.343).
 
+## Religiosos visita del Papa (28/10/2026, un solo PAEC)
+
+Exhibición de noviembre: 5 títulos (Volver a creer, Biblia de los niños, Virgen de Luján madre de todos y su versión (P),
+100 historias de la Biblia). Completar a 10; a 5 Patio Bullrich, Bahía Blanca Shopping, Trelew, Ezeiza y Palermo Portal;
+sin Juramento; con Grand Splendid y Devoto (61 locales). SII 27/10 07:01, sin descontar lo que está en camino (repo 27/10
+lleva 20 u de estos títulos). **1.544 u** (Virgen 495 y 489, 100 historias 288, Biblia 246, Volver a creer 26), todo con
+disponible. PAEC único + TXT por título + TXT por sucursal. `historial/2026-10/religiosos_papa_28-10/` (`religiosos.py`).
+Falta: PAEC → planilla de Yamina (una fila por sucursal con el mismo PAEC, como Día de la Madre).
+
 ## Recomposición de fondo (19/10/2026, para el lunes antes de las 11)
 
 Lista "Recomposición a uno" (516 filas, 514 títulos; GATITO TITO y RANA LILIANA
