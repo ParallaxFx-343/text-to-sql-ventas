@@ -539,6 +539,13 @@ TAROT MARSELLES (ID 426496, $300). Sin LP ARGENTINA de octubre no se
 controló el paso 3, pero Franco confirmó que están todas las novedades: las
 12 de octubre (IDs 751232 a 751243) ya venían en la LP de septiembre,
 todavía sin alta en el SII.
+**Noviembre 2026** (`historial/2026-10/lp_noviembre/`, `lp_noviembre.py`): base `LP_OCTUBRE_26_CON_NOVEDADES`
+(1.564: la de octubre + 9 novedades 751244/45 y 753348-354, sin PINOCHO 619973; ya traía 6 de la promo a $12.000 y
+Vaca va a ser hermana a $30.900). CAMBIO: 230 líneas = 196 "Cambio de precio" (194 suben, mediana +4,4%; 2 bajan a
+$12.000: 60 Inventos y Guerras de influencia), 33 "Promo Nov-Dic 2026" a $12.000, 1 "Venta en firme" (El espejo
+opaco $16.000 → $25.000). LP Argentina (844, 4 repetidos) coincide con el resultado; le faltaban a la base 2 de
+$1.100 y $790 sin stock (589472 y 589489, agregados al final). Resultado 1.566. La LP Argentina tiene la columna
+"Novedad/Cambio de precio" con marcas que ya estaban aplicadas en la base (las 9 novedades, 14 promo a $18.900).
 Pista para detectar novedades: los IDs de la LP que el SII todavía no tiene
 son las del mes que viene; las del mes en curso ya tienen stock en el SII.
 
