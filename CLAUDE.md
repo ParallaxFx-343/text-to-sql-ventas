@@ -437,7 +437,10 @@ Novedades de **noviembre 2026** (cargadas el 19/10 en `Cuotas_novedades_OCTUBRE_
 que traía octubre entero; Franco eligió "mes nuevo"): 9 títulos en C-K con título,
 ISBN, tirada y cronograma (fecha de ingreso). Se vaciaron IDs (fila 5), cuotas por
 vendedor (6-16), las columnas sobrantes L-N y las reimpresiones O-AD (las pasa
-después). Ninguno de los 9 está todavía en el SII (sin ID). Las "Observaciones"
+después). Ninguno de los 9 está todavía en el SII (al 28/10 tampoco), pero **los IDs salen de la LP** (28/10, igual en la LP
+de octubre con novedades y en la LP Argentina de noviembre), en el orden de la planilla: Brigid 753348, Aventureras
+753349, La esclava de Qurtuba 753352, Cada niño un mundo 753351, Alicia 753353, Un cuento de Navidad 753354, El Kybalion
+753350, Sobre ruedas al rescate 751244, Sobre ruedas en la granja 751245. Las "Observaciones"
 (imprenta: Arcángel Maggio, Printing Books, Latingráfica, La Ley; Sobre ruedas =
 coedición importada de China) no tienen fila en la planilla y no se cargaron.
 `historial/2026-10/cuotas_noviembre/` (`cuotas_nov.py`).
@@ -627,7 +630,7 @@ de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
   (mapeo por Stock 98-100%, CSV sin cambios): **435 u sin disponible en 14 títulos** (Gatito 72, Rozas 57, El Príncipe 54,
   Stickers Dinosaurios 44, Bonaparte 41, Imperfectos 35, Stickers Granja 34, Dino 27…); no alcanza: Bitácora
   astrológica (33 pedidas, 13 disp.), Teo y Ana (10/3), Hedy (6/3). Trelew y Bahía Blanca Shopping (locales chicos) quedaron en 10, como Palermo el 22/10.
-  PAEC 25-88496 a 25-88507 (**sin 88505**: San Luis vino como 88506; preguntado a Franco), cargados en la planilla de Yamina.
+  PAEC 25-88496 a 25-88507 (el 88505 era otro pedido, confirmado por Franco 28/10), cargados en la planilla de Yamina.
   `historial/2026-10/reposicion_27-10/`.
 - 15/10: 5 sucursales + **Sugerido Halloween** (13 títulos, a la derecha de la
   planilla, columnas I-M): completar a 10, chicos a 3, sin Juramento, con
