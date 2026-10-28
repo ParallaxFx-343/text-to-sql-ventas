@@ -440,7 +440,9 @@ vendedor (6-16), las columnas sobrantes L-N y las reimpresiones O-AD (las pasa
 después). Ninguno de los 9 está todavía en el SII (al 28/10 tampoco), pero **los IDs salen de la LP** (28/10, igual en la LP
 de octubre con novedades y en la LP Argentina de noviembre), en el orden de la planilla: Brigid 753348, Aventureras
 753349, La esclava de Qurtuba 753352, Cada niño un mundo 753351, Alicia 753353, Un cuento de Navidad 753354, El Kybalion
-753350, Sobre ruedas al rescate 751244, Sobre ruedas en la granja 751245. Las "Observaciones"
+753350, Sobre ruedas al rescate 751244, Sobre ruedas en la granja 751245. Reimpresiones de noviembre (6, con ID en el SII 28/10 y en la LP): Vender es poder
+747596, Tu amigo invisible 702980, Cuentos cortos de Navidad 737018, Meditaciones 715419, Ansiedad 732723, La vaca no se
+calla TR 707948 (orden de `Reimpresiones_noviembre.xlsx`). Las "Observaciones"
 (imprenta: Arcángel Maggio, Printing Books, Latingráfica, La Ley; Sobre ruedas =
 coedición importada de China) no tienen fila en la planilla y no se cargaron.
 `historial/2026-10/cuotas_noviembre/` (`cuotas_nov.py`).
