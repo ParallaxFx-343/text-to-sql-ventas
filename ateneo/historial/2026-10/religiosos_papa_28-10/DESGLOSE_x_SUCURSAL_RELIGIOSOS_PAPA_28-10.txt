@@ -1,10 +1,10 @@
 ﻿EXHIBICION LIBROS RELIGIOSOS - VISITA DEL PAPA (NOVIEMBRE 2026) - UN SOLO PAEC - POR SUCURSAL (primero AMBA, después interior)
 Completar a 10 en todos los locales; a 5 en Patio Bullrich, Bahía Blanca Shopping, Trelew, Ezeiza y Palermo Portal. Ateneo Juramento no va.
-Stock en locales y disponible: SII 27/10 07:01. 5 títulos | 61 locales | 1544 unidades.
+Stock en locales y disponible: SII 28/10 07:00. 5 títulos | 61 locales | 1523 unidades.
 Disponible: alcanza para todo.
 
 ########################################################################
-# AMBA: 30 locales, 741 u
+# AMBA: 30 locales, 732 u
 ########################################################################
 
 ========================================================================
@@ -16,11 +16,10 @@ ABASTO                                                        27 u
       6  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 4)
 
 ========================================================================
-AEROPARQUE                                                    37 u
+AEROPARQUE                                                    27 u
 ========================================================================
-      9  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 1)
       9  9789500210560  VIRGEN DE LUJAN MADRE DE TODOS           (tiene 1)
-     10  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 0)
+      9  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 1)
       9  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 1)
 
 ========================================================================
@@ -60,12 +59,12 @@ ATENEO LA PLATA                                               14 u
       5  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 5)
 
 ========================================================================
-AVELLANEDA                                                    29 u
+AVELLANEDA                                                    31 u
 ========================================================================
       5  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 5)
       9  9789500210560  VIRGEN DE LUJAN MADRE DE TODOS           (tiene 1)
       9  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 1)
-      6  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 4)
+      8  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 2)
 
 ========================================================================
 BORGES                                                        31 u
@@ -140,10 +139,9 @@ PALERMO PORTAL                                                 5 u   (local chic
       1  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 4)
 
 ========================================================================
-PALMAS DEL PILAR                                              29 u
+PALMAS DEL PILAR                                              28 u
 ========================================================================
       2  9789500218078  VOLVER A CREER                           (tiene 8)
-      1  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 9)
       9  9789500210560  VIRGEN DE LUJAN MADRE DE TODOS           (tiene 1)
       9  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 1)
       8  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 2)
@@ -181,9 +179,9 @@ QUILMES CENTRO                                                24 u
       5  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 5)
 
 ========================================================================
-REMEROS (NORDELTA)                                            34 u
+REMEROS (NORDELTA)                                            33 u
 ========================================================================
-      8  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 2)
+      7  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 3)
       9  9789500210560  VIRGEN DE LUJAN MADRE DE TODOS           (tiene 1)
       9  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 1)
       8  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 2)
@@ -206,12 +204,12 @@ SAN MIGUEL                                                    24 u
       1  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 9)
 
 ========================================================================
-SOLAR DE LA ABADIA                                            30 u
+SOLAR DE LA ABADIA                                            31 u
 ========================================================================
       5  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 5)
       9  9789500210560  VIRGEN DE LUJAN MADRE DE TODOS           (tiene 1)
       9  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 1)
-      7  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 3)
+      8  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 2)
 
 ========================================================================
 TORTUGAS OPEN MALL                                            27 u
@@ -242,13 +240,13 @@ VILLA URQUIZA                                                 17 u
       8  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 2)
 
 ########################################################################
-# INTERIOR: 31 locales, 803 u
+# INTERIOR: 31 locales, 791 u
 ########################################################################
 
 ========================================================================
-ALTO COMAHUE                                                  30 u
+ALTO COMAHUE                                                  31 u
 ========================================================================
-      5  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 5)
+      6  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 4)
       9  9789500210560  VIRGEN DE LUJAN MADRE DE TODOS           (tiene 1)
       9  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 1)
       7  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 3)
@@ -401,9 +399,9 @@ NUEVO CENTRO SHOPPING                                         19 u
       1  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 9)
 
 ========================================================================
-PARANA                                                        37 u
+PARANA                                                        36 u
 ========================================================================
-     10  9789500218078  VOLVER A CREER                           (tiene 0)
+      9  9789500218078  VOLVER A CREER                           (tiene 1)
       6  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 4)
       9  9789500210560  VIRGEN DE LUJAN MADRE DE TODOS           (tiene 1)
       9  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 1)
@@ -443,12 +441,12 @@ ROSARIO PORTAL                                                22 u
       7  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 3)
 
 ========================================================================
-SALTA CENTRO                                                  32 u
+SALTA CENTRO                                                  35 u
 ========================================================================
       2  9789500218078  VOLVER A CREER                           (tiene 8)
       6  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 4)
       9  9789500210560  VIRGEN DE LUJAN MADRE DE TODOS           (tiene 1)
-      7  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 3)
+     10  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 0)
       8  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 2)
 
 ========================================================================
@@ -475,12 +473,11 @@ TRELEW                                                        15 u   (local chic
       3  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 2)
 
 ========================================================================
-TUCUMAN PORTAL                                                35 u
+TUCUMAN PORTAL                                                20 u
 ========================================================================
-      8  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 2)
+      1  9789500216685  BIBLIA DE LOS NIÑOS, LA                  (tiene 9)
       9  9789500210560  VIRGEN DE LUJAN MADRE DE TODOS           (tiene 1)
      10  9789500210577  VIRGEN DE LUJAN: LA MADRE DE TODOS (P)   (tiene 0)
-      8  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 2)
 
 ========================================================================
 USHUAIA                                                       26 u
@@ -491,4 +488,4 @@ USHUAIA                                                       26 u
       5  9789500216678  100 HISTORIAS DE LA BIBLIA               (tiene 5)
 
 ========================================================================
-TOTAL 1544 u
+TOTAL 1523 u

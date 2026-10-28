@@ -1,16 +1,16 @@
 ﻿EXHIBICION LIBROS RELIGIOSOS - VISITA DEL PAPA (NOVIEMBRE 2026) - UN SOLO PAEC
 Completar a 10 en todos los locales; a 5 en Patio Bullrich, Bahía Blanca Shopping, Trelew, Ezeiza y Palermo Portal. Ateneo Juramento no va.
-Stock en locales y disponible: SII 27/10 07:01. 5 títulos | 61 locales | 1544 unidades.
+Stock en locales y disponible: SII 28/10 07:00. 5 títulos | 61 locales | 1523 unidades.
 Disponible: alcanza para todo.
 
 ========================================================================
-1. VOLVER A CREER                                          26 u
-   ISBN 9789500218078   ID 748667   en 9 locales   disp 1208
+1. VOLVER A CREER                                          25 u
+   ISBN 9789500218078   ID 748667   en 9 locales   disp 1211
 ========================================================================
       2  BORGES                                   (tiene 8 -> 10)
       1  CALLE 12                                 (tiene 9 -> 10)
       2  PALMAS DEL PILAR                         (tiene 8 -> 10)
-     10  PARANA                                   (tiene 0 -> 10)
+      9  PARANA                                   (tiene 1 -> 10)
       2  RIO CUARTO                               (tiene 8 -> 10)
       1  ROSARIO PORTAL                           (tiene 9 -> 10)
       2  SALTA CENTRO                             (tiene 8 -> 10)
@@ -18,12 +18,11 @@ Disponible: alcanza para todo.
       1  SAN LUIS                                 (tiene 9 -> 10)
 
 ========================================================================
-2. BIBLIA DE LOS NIÑOS, LA                                246 u
-   ISBN 9789500216685   ID 734151   en 52 locales   disp 2181
+2. BIBLIA DE LOS NIÑOS, LA                                229 u
+   ISBN 9789500216685   ID 734151   en 50 locales   disp 2181
 ========================================================================
       3  ABASTO                                   (tiene 7 -> 10)
-      9  AEROPARQUE                               (tiene 1 -> 10)
-      5  ALTO COMAHUE                             (tiene 5 -> 10)
+      6  ALTO COMAHUE                             (tiene 4 -> 10)
       5  ALTO NOA SHOPPING - SALTA                (tiene 5 -> 10)
       4  ALTO PALERMO                             (tiene 6 -> 10)
       7  ALTO ROSARIO                             (tiene 3 -> 10)
@@ -52,14 +51,13 @@ Disponible: alcanza para todo.
       3  MAR DEL PLATA PASEO ALDREY               (tiene 7 -> 10)
       8  MENDOZA PALMARES                         (tiene 2 -> 10)
       8  MENDOZA SHOPPING                         (tiene 2 -> 10)
-      1  PALMAS DEL PILAR                         (tiene 9 -> 10)
       6  PARANA                                   (tiene 4 -> 10)
       7  PASEO ALCORTA                            (tiene 3 -> 10)
       1  PATIO BULLRICH                           (tiene 4 -> 5)
       7  PATIO OLMOS                              (tiene 3 -> 10)
       7  PLAZA OESTE                              (tiene 3 -> 10)
       4  QUILMES CENTRO                           (tiene 6 -> 10)
-      8  REMEROS (NORDELTA)                       (tiene 2 -> 10)
+      7  REMEROS (NORDELTA)                       (tiene 3 -> 10)
       1  RESISTENCIA                              (tiene 9 -> 10)
       5  RIO CUARTO                               (tiene 5 -> 10)
       1  ROSARIO PORTAL                           (tiene 9 -> 10)
@@ -69,7 +67,7 @@ Disponible: alcanza para todo.
       8  SANTA FE Ribera Shopping                 (tiene 2 -> 10)
       5  SOLAR DE LA ABADIA                       (tiene 5 -> 10)
       2  TRELEW                                   (tiene 3 -> 5)
-      8  TUCUMAN PORTAL                           (tiene 2 -> 10)
+      1  TUCUMAN PORTAL                           (tiene 9 -> 10)
       3  USHUAIA                                  (tiene 7 -> 10)
       4  VILLA CRESPO                             (tiene 6 -> 10)
       1  VILLA URQUIZA                            (tiene 9 -> 10)
@@ -141,11 +139,11 @@ Disponible: alcanza para todo.
       8  VILLA URQUIZA                            (tiene 2 -> 10)
 
 ========================================================================
-4. VIRGEN DE LUJAN: LA MADRE DE TODOS (P)                 489 u
+4. VIRGEN DE LUJAN: LA MADRE DE TODOS (P)                 491 u
    ISBN 9789500210577   ID 675903   en 61 locales   disp 2297
 ========================================================================
       9  ABASTO                                   (tiene 1 -> 10)
-     10  AEROPARQUE                               (tiene 0 -> 10)
+      9  AEROPARQUE                               (tiene 1 -> 10)
       9  ALTO COMAHUE                             (tiene 1 -> 10)
       9  ALTO NOA SHOPPING - SALTA                (tiene 1 -> 10)
       9  ALTO PALERMO                             (tiene 1 -> 10)
@@ -192,7 +190,7 @@ Disponible: alcanza para todo.
       9  RESISTENCIA                              (tiene 1 -> 10)
       7  RIO CUARTO                               (tiene 3 -> 10)
       7  ROSARIO PORTAL                           (tiene 3 -> 10)
-      7  SALTA CENTRO                             (tiene 3 -> 10)
+     10  SALTA CENTRO                             (tiene 0 -> 10)
       7  SAN JUSTO                                (tiene 3 -> 10)
       9  SAN LUIS                                 (tiene 1 -> 10)
       9  SAN MIGUEL                               (tiene 1 -> 10)
@@ -207,8 +205,8 @@ Disponible: alcanza para todo.
       8  VILLA URQUIZA                            (tiene 2 -> 10)
 
 ========================================================================
-5. 100 HISTORIAS DE LA BIBLIA                             288 u
-   ISBN 9789500216678   ID 734152   en 52 locales   disp 2249
+5. 100 HISTORIAS DE LA BIBLIA                             283 u
+   ISBN 9789500216678   ID 734152   en 51 locales   disp 2249
 ========================================================================
       6  ABASTO                                   (tiene 4 -> 10)
       9  AEROPARQUE                               (tiene 1 -> 10)
@@ -220,7 +218,7 @@ Disponible: alcanza para todo.
       5  ATENEO FLORIDA 632                       (tiene 5 -> 10)
       6  ATENEO ROSARIO                           (tiene 4 -> 10)
       7  ATENEO TUCUMAN                           (tiene 3 -> 10)
-      6  AVELLANEDA                               (tiene 4 -> 10)
+      8  AVELLANEDA                               (tiene 2 -> 10)
       7  BARILOCHE                                (tiene 3 -> 10)
       5  BORGES                                   (tiene 5 -> 10)
       5  CABALLITO                                (tiene 5 -> 10)
@@ -256,12 +254,11 @@ Disponible: alcanza para todo.
       7  SAN JUSTO                                (tiene 3 -> 10)
       1  SAN MIGUEL                               (tiene 9 -> 10)
       8  SANTA FE Ribera Shopping                 (tiene 2 -> 10)
-      7  SOLAR DE LA ABADIA                       (tiene 3 -> 10)
+      8  SOLAR DE LA ABADIA                       (tiene 2 -> 10)
      10  TORTUGAS OPEN MALL                       (tiene 0 -> 10)
       3  TRELEW                                   (tiene 2 -> 5)
-      8  TUCUMAN PORTAL                           (tiene 2 -> 10)
       6  UNICENTER                                (tiene 4 -> 10)
       5  USHUAIA                                  (tiene 5 -> 10)
 
 ========================================================================
-TOTAL 1544 u
+TOTAL 1523 u
