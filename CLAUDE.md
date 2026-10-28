@@ -643,7 +643,7 @@ sin Juramento; con Grand Splendid y Devoto (61 locales). Primero con el SII 27/1
 07:00** (cuadra DEPOSITO 624.602 y DISPONIBLE 615.656): **1.523 u** (Virgen 495 y 491, 100 historias 283, Biblia 229,
 Volver a creer 25), 11 líneas cambian (entró stock en Tucumán Portal, Aeroparque, Palmas). Sin descontar lo que está en
 camino (repo 27/10 lleva 20 u de estos títulos). Todo con disponible. PAEC único + TXT por título + TXT por sucursal. `historial/2026-10/religiosos_papa_28-10/` (`religiosos.py`).
-Falta: PAEC → planilla de Yamina (una fila por sucursal con el mismo PAEC, como Día de la Madre).
+**PAEC 25-88514** (uno solo), cargado en la planilla de Yamina el 28/10: una fila por sucursal (61) con sus unidades.
 
 ## Recomposición de fondo (19/10/2026, para el lunes antes de las 11)
 
