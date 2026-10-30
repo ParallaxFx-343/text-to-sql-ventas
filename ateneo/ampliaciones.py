@@ -41,7 +41,7 @@ from openpyxl import Workbook, load_workbook
 sys.path.insert(0, str(Path(__file__).parent))
 from isbn import resolver  # noqa: E402
 
-PATRON = re.compile(r'AMPLIACION\s*-\s*(.+?)\s+(\d{4,6})\s+\d{2}-\d{2}-\d{4}', re.I)
+PATRON = re.compile(r'AMPLIA(?:CION|ICON)\s*-\s*(.+?)\s+(\d{4,6})\s+\d{2}-\d{2}-\d{4}', re.I)
 _NS = {'table': 'urn:oasis:names:tc:opendocument:xmlns:table:1.0',
        'office': 'urn:oasis:names:tc:opendocument:xmlns:office:1.0',
        'text': 'urn:oasis:names:tc:opendocument:xmlns:text:1.0'}
@@ -97,9 +97,15 @@ def leer(ruta):
         filas = leer_ods(ruta)
     else:
         filas = pd.read_excel(ruta, sheet_name=0, header=None, dtype=object).values.tolist()
-    cab = [str(c).strip().upper() for c in filas[0]]
+    # el encabezado suele estar en la fila 1, pero a veces viene una fila vacía arriba
+    h = next((i for i, f in enumerate(filas[:5]) if 'AMPLIACION' in [str(c).strip().upper() for c in f]), None)
+    if h is None:
+        cols = [str(c).strip().upper() for c in filas[0]]
+        print(f'*** {base}: no tiene columna AMPLIACION (encabezado {cols}); NO se carga', file=sys.stderr)
+        return []
+    cab = [str(c).strip().upper() for c in filas[h]]
     lineas = []
-    for k, r in enumerate(filas[1:], start=2):
+    for k, r in enumerate(filas[h + 1:], start=h + 2):
         d = dict(zip(cab, r))
         # CODIGO es el ID cuando hay columna ISBN; si no, CODIGO trae el ISBN
         isbn_raw = d.get('ISBN') if 'ISBN' in d else d.get('CODIGO')
@@ -135,7 +141,7 @@ def main():
                     help='archivo que reemplaza al de la misma cuenta en la carpeta')
     args = ap.parse_args()
 
-    rutas = sorted(glob.glob(os.path.join(args.carpeta, 'AMPLIACION*')))
+    rutas = sorted(glob.glob(os.path.join(args.carpeta, 'AMPLIA*')))
     extra = {nombre_archivo(r)[2]: r for r in args.extra}
     rutas = [r for r in rutas if nombre_archivo(r)[2] not in extra] + list(extra.values())
     rutas = [r for r in rutas if nombre_archivo(r)[2] not in args.excluir]

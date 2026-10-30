@@ -347,6 +347,13 @@ su grilla de novedades, que no va.
   se tomó del archivo que Franco mandó aparte (5 líneas, 49 u), no del zip
   (1 línea). Kessler venía marcado "HECHO" y entró igual. En Bahía, HISTORIA
   DE LAS ELECCIONES vino con 9789500206174 (no existe) → 9789500209052.
+- Martirena **noviembre 2026** (wetransfer 29/10, 39 archivos): **38 clientes, 409 líneas, 967 u**
+  (`historial/2026-10/ampliaciones_martirena_noviembre/`, zip `AMPLIACIONES_MARTIRENA_NOVIEMBRE_26.zip`). SII 28/10 +
+  LP oct con novedades; sin maestro. **Suárez 21926 no va**: el archivo es su sábana (SALDO, FECHAULTLIQ), sin columna
+  AMPLIACION (pedido a Franco). Bruno 22444 traía el encabezado en la fila 2 y Boianelli venía como "AMPLIAICON":
+  `ampliaciones.py` ahora busca el encabezado en las primeras 5 filas y acepta el typo. Alfa 21889 tenía Gimnasia
+  mental: enigmas (9789500217897) dos veces x3 idénticas: quedó **una línea de 3** (avisado; si eran 6, cambiar).
+  20 títulos piden más que el disponible (Amigos de la granja 22, Rozas 19, Banderas 17, Stickers…): van igual.
 
 Los clientes mandan un Excel por sucursal y tipo (`PEDIDO_21653_AJAMIL_SUC._CALAFATE.xlsx`,
 `REPO_…`), con el encabezado en la fila 3, 4 o 5 según el archivo.
