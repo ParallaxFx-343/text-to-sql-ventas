@@ -600,8 +600,8 @@ columna 3 = etiqueta de liquidación (ej. `LIQUIDACIONJULIO`).
   y `pypdfium2` para pasar la página a PNG. En LibreOffice falta Calibri, así que
   la letra sale distinta, y los miles aparecen con coma.
 - Si pdfplumber falla con `_cffi_backend`: `pip install --force-reinstall --no-cache-dir cffi`.
-- **No se pueden transcribir audios** (no hay whisper ni ffmpeg): pedirle a
-  Franco el texto.
+- **No se pueden transcribir audios**: desde el 02/11 hay ffmpeg, pero no whisper, y aunque el paquete se baja de
+  PyPI, los modelos no (la red bloquea openaipublic.azureedge.net y huggingface.co, 403). Pedirle a Franco el texto.
 - `/design` (Claude Design) solo lo puede lanzar Franco. No edita Excel: arma
   láminas que se exportan a PDF o PNG.
 - El scratchpad se borra. Lo que tenga que sobrevivir va al repo.
