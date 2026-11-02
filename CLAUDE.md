@@ -666,9 +666,12 @@ música, juguetes, facturas, unidades y visitas por local, mes 24/25/26; Franco 
 del mes completo del año anterior; K = Libros Sorpresa del local, SUMIF sobre la hoja **Sorpresa** = Detalle Venta
 Artículo de los Sorpresa; M = progresión sin Sorpresa; filas 75-83 superficie comparable = sin las bocas nuevas:
 Villa Urquiza, Villa Crespo, Ushuaia, Bendú, San Miguel). Devoto (56), Editorial (4) y ferias no están en Regiones.
-Script `historial/2026-11/progresiones_octubre/progresiones.py`. Arreglos hechos el 02/11: rangos cortos
-('2026'!A2:J75 y Sorpresa!B2:B3040 cortaban datos), pies auxiliares de 2025/2026/Inf por nro. de sucursal (antes filas
-fijas), J75 tenía la Sorpresa fija (−2129) y K80-K83 restaban la Sorpresa de toda la región (con bocas nuevas).
+Script `historial/2026-11/progresiones_octubre/progresiones.py`. **La planilla la usa el jefe de Franco: no cambiar el
+diseño** (formatos, rayado, celdas, etiquetas); sí completar datos y corregir fórmulas. Arreglos del 02/11: rangos cortos
+('2026'!A2:J75 y Sorpresa!B2:B3040 cortaban datos), pies auxiliares de 2025/2026/Inf en las mismas celdas pero
+apuntando a las filas nuevas de la Editorial (4) y las ferias, J75 tenía la Sorpresa fija (−2129) y K80-K83 restaban
+la Sorpresa de toda la región (con bocas nuevas). Control: pie 2025 J80 = C90 de Regiones (21.040), pie 2026 J78 =
+D90 + Devoto (26.315), Inf D77 = F90 (268.197).
 **Octubre 2026** (exports del mes completo): Editorial total librerías 19.790 → 25.453 (+28,6%), comparable +22,5%;
 Libros 253.127 → 297.363 (+17,5%), comparable +11,2%. Sin phantom: las bocas nuevas no traen 2025. Cuadre del export
 2026: regiones + GS 25.453 + canales 666 + Devoto 196 + Editorial(4) 16.247 + ferias 248 = 42.810. **Sorpresa solo

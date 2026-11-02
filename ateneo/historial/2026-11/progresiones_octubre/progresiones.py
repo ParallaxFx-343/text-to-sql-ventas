@@ -1,7 +1,7 @@
 """Progresiones de octubre 2026 sobre la planilla de Franco (Progresiones_Cadena_*.xlsx).
 Reemplaza los datos de las hojas Inf_Progresiones, 2025 y 2026 con los exports del mes completo y extiende los rangos
 de las fórmulas de Regiones (quedaban cortos: '2026'!A2:J75 dejaba afuera filas, Sorpresa!B2:B3040 cortaba el detalle).
-Los totales auxiliares al pie de las hojas de datos se rehacen por número de sucursal (antes apuntaban a filas fijas).
+Los totales auxiliares al pie de las hojas de datos quedan en las mismas celdas, apuntando a las filas nuevas de la Editorial y las ferias.\nNo se cambia el diseño (Franco, 02/11: la usa su jefe).
 La hoja Sorpresa se llena con lo que haya (detalle o, si no hay, totales por local del tablero de Sorpresa).
 Uso: python -P progresiones.py PLANTILLA.xlsx INF.xls VTAS_2025.xlsx VTAS_2026.xlsx SORPRESA.(xlsx|csv) SALIDA.xlsx"""
 import sys, re, pandas as pd
@@ -16,18 +16,27 @@ def limpiar(ws, desde=1):
 # --- 2025 / 2026: export tal cual (encabezado en la fila 1) + totales auxiliares por número de sucursal
 for nombre, f in (('2025', f25), ('2026', f26)):
     ws = wb[nombre]; d = pd.read_excel(f, header=None, engine='calamine')
-    estilo = [ws.cell(2, c)._style for c in range(1, 14)]
+    hasta = max(r for r in range(1, 75) if ws.cell(r, 1).value is not None)   # última fila con datos en la planilla
     limpiar(ws)
     for i, fila in enumerate(d.values.tolist(), 1):
         for j, v in enumerate(fila, 1):
             c = ws.cell(i, j, None if (isinstance(v, float) and pd.isna(v)) else v)
-            if i > 1: c._style = estilo[j - 1]
+            if i > hasta: c._style = ws.cell(i - 2, j)._style   # filas nuevas: siguen el rayado de la planilla
     n = len(d)
-    # pie: total, ferias, Editorial (4) y total de locales = total - ferias - Editorial (igual que antes, sin filas fijas)
-    ws.cell(n + 4, 9, 'Total');                   ws.cell(n + 4, 10, f'=SUM(J2:J{n})')
-    ws.cell(n + 5, 9, 'Ferias (300-305)');        ws.cell(n + 5, 10, f'=SUMIFS(J2:J{n},A2:A{n},">=300",A2:A{n},"<=305")')
-    ws.cell(n + 6, 9, 'Editorial El Ateneo (4)'); ws.cell(n + 6, 10, f'=SUMIF(A2:A{n},4,J2:J{n})')
-    ws.cell(n + 7, 9, 'Locales + canales');       ws.cell(n + 7, 10, f'=J{n+4}-J{n+5}-J{n+6}')
+    # pie auxiliar en las mismas celdas y con el mismo estilo de fórmula que la planilla original,
+    # apuntando a las filas donde quedaron ahora la Editorial (4) y las ferias (300-305)
+    filas = {int(v): i for i, v in enumerate(d[0].tolist(), 1) if str(v).isdigit()}
+    fer = '+'.join(f'J{r}' for r in sorted(filas[k] for k in filas if 300 <= k <= 305)) or '0'
+    ed = filas[4]
+    if nombre == '2025':
+        assert n < 76
+        ws['J76'] = f'=SUM(J2:J{max(72, n)})'; ws['J77'] = '=+J76'; ws['J78'] = f'=+{fer}'
+        ws['J79'] = '=+J77-J78'; ws['J80'] = f'=+J79-J{ed}'
+    else:
+        assert n < 76
+        ws['J76'] = '=SUM(J2:J75)'; ws['J77'] = f'=+{fer}'; ws['J78'] = f'=+J76-J77-J{ed}'
+    if ws.auto_filter.ref:
+        ws.auto_filter.ref = f'A1:M{n}'
 
 # --- Inf_Progresiones: el export no trae el número de sucursal; va en B, como en la planilla
 ws = wb['Inf_Progresiones']; d = pd.read_excel(finf, header=None, engine='calamine')
@@ -44,12 +53,14 @@ for i, fila in enumerate(d.values.tolist(), 1):
     ws.cell(i, 2, int(m.group(1)) if m else None)._style = st_num[0]
     for j, v in enumerate(fila[1:], 3): ws.cell(i, j, v)._style = st_num[min(j - 2, len(st_num) - 1)]
 n = len(d)
-for col in 'DE':   # pie auxiliar como el de la planilla (total, Editorial 4, ferias), por número de sucursal
-    ws[f'{col}{n+4}'] = f'=SUM({col}3:{col}{n})'
-    ws[f'{col}{n+5}'] = f'=SUMIF($B$3:$B${n},4,{col}3:{col}{n})'
-    ws[f'{col}{n+6}'] = f'={col}{n+4}-{col}{n+5}'
-    ws[f'{col}{n+7}'] = f'=SUMIFS({col}3:{col}{n},$B$3:$B${n},">=300",$B$3:$B${n},"<=305")'
-    ws[f'{col}{n+8}'] = f'={col}{n+6}-{col}{n+7}'
+assert n < 73
+filas = {int(ws.cell(r, 2).value): r for r in range(3, n + 1) if ws.cell(r, 2).value is not None}
+for col in 'DE':   # pie auxiliar en las mismas celdas que la planilla (total, Editorial 4, ferias)
+    ws[f'{col}73'] = f'=SUM({col}3:{col}72)'
+    ws[f'{col}74'] = f'=+{col}{filas[4]}'
+    ws[f'{col}75'] = f'=+{col}73-{col}74'
+    ws[f'{col}76'] = '=+' + ('+'.join(f'{col}{r}' for r in sorted(filas[k] for k in filas if 300 <= k <= 305)) or '0')
+    ws[f'{col}77'] = f'=+{col}75-{col}76'
 
 # --- Sorpresa: detalle (hoja Sorpresa con B = nro y M = cantidad) o totales por local
 ws = wb['Sorpresa']; limpiar(ws, 2)
