@@ -657,6 +657,24 @@ Volver a creer 25), 11 líneas cambian (entró stock en Tucumán Portal, Aeropar
 camino (repo 27/10 lleva 20 u de estos títulos). Todo con disponible. PAEC único + TXT por título + TXT por sucursal. `historial/2026-10/religiosos_papa_28-10/` (`religiosos.py`).
 **PAEC 25-88514** (uno solo), cargado en la planilla de Yamina el 28/10: una fila por sucursal (61) con sus unidades.
 
+## Progresiones de venta (planilla de Franco, 02/11/2026: octubre)
+
+Planilla `Progresiones_Cadena_*.xlsx`: hojas **Inf_Progresiones** (export "Inf Progresiones con fechas ing": libros,
+música, juguetes, facturas, unidades y visitas por local, mes 24/25/26; Franco agrega el nro. de sucursal en B),
+**2025** y **2026** (export "Ventas por sucursal y proveedor", Editorial El Ateneo 1044, cantidad en J), **Regiones**
+(fórmulas: Editorial 25/26 y Libros 25/26 por local en las 4 regiones + Grand Splendid; J "Volumen esperado" = Editorial
+del mes completo del año anterior; K = Libros Sorpresa del local, SUMIF sobre la hoja **Sorpresa** = Detalle Venta
+Artículo de los Sorpresa; M = progresión sin Sorpresa; filas 75-83 superficie comparable = sin las bocas nuevas:
+Villa Urquiza, Villa Crespo, Ushuaia, Bendú, San Miguel). Devoto (56), Editorial (4) y ferias no están en Regiones.
+Script `historial/2026-11/progresiones_octubre/progresiones.py`. Arreglos hechos el 02/11: rangos cortos
+('2026'!A2:J75 y Sorpresa!B2:B3040 cortaban datos), pies auxiliares de 2025/2026/Inf por nro. de sucursal (antes filas
+fijas), J75 tenía la Sorpresa fija (−2129) y K80-K83 restaban la Sorpresa de toda la región (con bocas nuevas).
+**Octubre 2026** (exports del mes completo): Editorial total librerías 19.790 → 25.453 (+28,6%), comparable +22,5%;
+Libros 253.127 → 297.363 (+17,5%), comparable +11,2%. Sin phantom: las bocas nuevas no traen 2025. Cuadre del export
+2026: regiones + GS 25.453 + canales 666 + Devoto 196 + Editorial(4) 16.247 + ferias 248 = 42.810. **Sorpresa solo
+01-22/10** (tablero, 3.162 u): falta el Detalle 01-31/10 para cerrar la columna K (con eso, comparable sin Sorpresa
+daba +7,45%, va a bajar).
+
 ## Recomposición de fondo (19/10/2026, para el lunes antes de las 11)
 
 Lista "Recomposición a uno" (516 filas, 514 títulos; GATITO TITO y RANA LILIANA
