@@ -512,6 +512,14 @@ en 2 según el local, no siempre en 1.
   **ningún ID repetido y ninguna columna sin ID** (MIS EXCAVADORAS vino sin
   ID: es 750395).
 
+**Liquidación Cúspide octubre 2026** (nro. 29007, 2.449 u, neto $33.116.975; `historial/2026-11/cuspide_liq_octubre/`):
+facturas 0770-23860 ($32.928.150, 50%) + 23861 ($142.725, 45%: 5 médicos) − NC 2839 (dev. Rutas argentinas $16.450) =
+$33.054.425. **Diferencia $62.550, toda en 6 títulos de saldo** que la LP 4902 tiene a precio simbólico ($300-$750) y
+Cúspide liquidó a su PVP (Secretos de la historia 2, Dormir sin lágrimas, Las raíces del odio, La sirenita, 50 cosas
+cuerpo humano, Testimonios). Cantidades, descuentos y el resto de los precios (incluidos los 5 promo a $12.000 y Vaca va
+a ser hermana a $30.900) coinciden. Cúspide además pide "Crédito adicional 5%" ($3.310.400 = 5% del total); la NC 2840
+BAPRO fue de $442.622,70 (otro concepto).
+
 ### Maestro de clientes (`{fecha}_Maestro_clientes.xls`, viene zipeado)
 Hoja "Informe Stock x ISBN", una fila por **dirección** (9.931 filas, 4.831
 clientes al 21/09/2026): IDCLIENTE, NOMBRE, **NROSECUENCIA**, **TIPO
