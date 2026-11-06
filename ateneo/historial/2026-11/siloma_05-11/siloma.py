@@ -13,8 +13,14 @@ filas, avisos = [], []
 for k, l in enumerate(open(flista, encoding='utf-8'), 1):
     isbn_txt, cod, tit, cant = l.rstrip('\n').split('\t')
     a, ma = resolver(isbn_txt.replace('-', '').strip())
-    i = cod.strip() if cod.strip() not in ('', '-') else a
-    if cod.strip() not in ('', '-') and a != cod.strip():
+    cod = cod.strip()
+    idcod = None
+    if cod.isdigit() and len(cod) <= 7:          # a veces la columna Cód. trae el ID de artículo, no el ISBN
+        idcod, cod = int(cod), '-'
+    i = cod if cod not in ('', '-') else a
+    if idcod and int(i) in by.index and int(by.loc[int(i), 'ID ARTICULO']) != idcod:
+        avisos.append(f'{tit}: Cód. {idcod} pero el ISBN {i} es el ID {int(by.loc[int(i), "ID ARTICULO"])}')
+    if cod not in ('', '-') and a != cod:
         avisos.append(f'{tit}: ISBN {isbn_txt} -> {a} ({ma}) y Cód. {cod}: se usa el Cód.')
     elif ma != 'ya era ISBN-13':
         avisos.append(f'{tit}: ISBN {isbn_txt} -> {a} ({ma})')
