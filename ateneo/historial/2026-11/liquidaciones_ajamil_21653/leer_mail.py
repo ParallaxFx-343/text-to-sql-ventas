@@ -8,7 +8,11 @@ ej = int(re.search(r'Cantidad de ejemplares:\s*(\d+)', b).group(1))
 ped = re.search(r'Pedidos:\s*(.+)', b).group(1).strip()
 fechas = re.search(r'entre fechas:\s*(.+)', b).group(1).strip()
 rows = []
-for l in b.splitlines():
+L = b.splitlines()
+for k in range(len(L) - 1):          # a veces el ISBN queda solo en una línea y el resto de la fila en la siguiente
+    if re.fullmatch(r'\s*[\dXx-]{10,17}\s*', L[k]) and L[k + 1].startswith('\t'):
+        L[k], L[k + 1] = L[k].strip() + L[k + 1], ''
+for l in L:
     p = l.split('\t')
     if len(p) >= 6 and re.fullmatch(r'[\dXx-]{10,17}', p[0].strip()):
         rows.append((p[0].strip(), p[1].strip(), p[2].strip(), p[5].strip()))

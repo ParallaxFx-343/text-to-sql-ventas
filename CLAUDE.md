@@ -575,6 +575,13 @@ extract-msg no instala). Una planilla SILOMA por sucursal, etiqueta `LIQUIDACION
 Madryn PB 28328 41/71, Trelew PB 28327 23/27, Ushuaia PB 28325 17/18 (cuadran con "Cantidad de ejemplares"). El Príncipe
 viene con `9789500286769` y Cód. `A1862R` (código del cliente) → 9789500286763. `historial/2026-11/liquidaciones_ajamil_21653/`.
 
+**Liquidaciones Estación Libro 21195 (Egisti, 06/11/2026, venta 05/10 a 31/10, "SOLO BAJA LP OCTUBRE")**: 9 mails .msg,
+mismo formato que Ajamil (tabla en el cuerpo). 9 planillas SILOMA + zip, `LIQUIDACIONOCTUBRE`, **226 líneas, 292 u**: Pilar PB
+74702 32/38, Nordelta 74703 71/112, San Fernando 74704 30/31, Urquiza 74705 21/27, Adrogué 74706 36/44, Naesqui 74707 8/8,
+Talar Pacheco 74708 5/6, Lomas San Isidro 74709 18/21, Tigre 74710 5/5. En Pilar una fila venía partida (ISBN en una línea, el
+resto en la siguiente): `leer_mail.py` ahora las une. **COLLIVADINO** (Tigre, 9789500259378) no está en el SII pero sí en la
+LP (ID 439030, $77.500): va igual. Los Cód. `A…R`/`A…E` son del cliente. `historial/2026-11/liquidaciones_estacion_libro_21195/`.
+
 ### Carga SILOMA
 Hoja `Hoja1`, datos desde la **fila 6** (filas 1-5 vacías).
 Columna 1 = ISBN como entero con formato de número `0`; columna 2 = cantidad;
