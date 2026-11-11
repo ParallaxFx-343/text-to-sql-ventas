@@ -670,6 +670,7 @@ de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
   Patio Olmos), **390 líneas, 4.883 u**, SII 11/11 07:08 (cuadra DEPOSITO 628.631 / DISPONIBLE 616.443); 317 u sin
   disponible y otros 12 títulos que no alcanzan (Gatito 133 pedidas / 5 disp., Stickers Dinosaurios 126/3, Dino 110/5,
   Stickers Granja 100/2, Liderazgo 73/5, Tao 202/184…). `historial/2026-11/reposicion_12-11/`.
+  **PAEC 25-88585 a 25-88599** (sin el 88589: Ateneo Rosario es 88590), cargados en la planilla de Yamina el 12/11.
 - 15/10: 5 sucursales + **Sugerido Halloween** (13 títulos, a la derecha de la
   planilla, columnas I-M): completar a 10, chicos a 3, sin Juramento, con
   Grand Splendid y Devoto. Todo junto, un PAEC por sucursal (61). Halloween =
