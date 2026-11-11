@@ -662,6 +662,14 @@ de nombres cruzando la columna Stock contra el SII. Scripts y archivos en
   astrológica (33 pedidas, 13 disp.), Teo y Ana (10/3), Hedy (6/3). Trelew y Bahía Blanca Shopping (locales chicos) quedaron en 10, como Palermo el 22/10.
   PAEC 25-88496 a 25-88507 (el 88505 era otro pedido, confirmado por Franco 28/10), cargados en la planilla de Yamina.
   `historial/2026-10/reposicion_27-10/`.
+- **12/11 (Grupo 1)**: la planilla cambió la regla: **puestos 11-40 = completar a 20** (antes a 10); `repo1211_parse.py`
+  lee el objetivo del encabezado. Franco pidió dejar afuera además **6 títulos que van dentro de los Sorpresa**
+  (`excluir_extra_12-11.tsv`: Todo por volver a verte, La mediadora, La mujer poco probable, Mal de muchas, Claroscuro,
+  Mujeres faro); de esos solo aparecía Claroscuro (Abasto, 14 u). 14 sucursales (Unicenter, Dot, Alto Palermo, Caballito,
+  Florida 340, Avellaneda, Alto Rosario, Plaza Oeste, Nuevo Centro, Abasto, Tortugas, Ateneo Rosario, Paseo Alcorta,
+  Patio Olmos), **390 líneas, 4.883 u**, SII 11/11 07:08 (cuadra DEPOSITO 628.631 / DISPONIBLE 616.443); 317 u sin
+  disponible y otros 12 títulos que no alcanzan (Gatito 133 pedidas / 5 disp., Stickers Dinosaurios 126/3, Dino 110/5,
+  Stickers Granja 100/2, Liderazgo 73/5, Tao 202/184…). `historial/2026-11/reposicion_12-11/`.
 - 15/10: 5 sucursales + **Sugerido Halloween** (13 títulos, a la derecha de la
   planilla, columnas I-M): completar a 10, chicos a 3, sin Juramento, con
   Grand Splendid y Devoto. Todo junto, un PAEC por sucursal (61). Halloween =

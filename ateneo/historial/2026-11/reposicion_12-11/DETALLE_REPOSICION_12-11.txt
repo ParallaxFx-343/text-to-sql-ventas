@@ -1,0 +1,469 @@
+﻿REPOSICION 12/11 - UN PAEC POR SUCURSAL
+Puestos 1 a 10: la cantidad exacta de "Ventas". Puestos 11 a 40: lo necesario para completar el stock a 20 (20 - Stock de la planilla).
+Sin Libros Sorpresa, ni los 29 títulos de la lista "Libro sorpresa", ni estos 6: TODO POR VOLVER A VERTE, MEDIADORA: EN CUERPO Y ALMA, LA, MUJER POCO PROBABLE, LA, MAL DE MUCHAS, CLAROSCURO, MUJERES FARO.
+Los títulos sin disponible van igual, marcados [SIN STOCK].
+Con [DISP x PARA y EN TOTAL]: hay disponible pero no alcanza para lo que piden todas las sucursales juntas.
+Disponible según SII 11/11 07:08. Orden de las sucursales: el de los TXT de PAEC.
+
+========================================================================
+ABASTO                                                 293 u  27 títulos  (puestos 1-10: 86 u; 11-40: 207 u)
+   archivo reposicion_ABASTO.csv | sacados 6 Libros Sorpresa (96 u) y 2 de las listas a excluir (QUE SEA MUTUO O NO SEA NADA 1, CLAROSCURO 14) | 5 puestos 11-40 ya tienen 20 o más | sin stock 1 (9 u)
+========================================================================
+     31  9789500218023  TAO TE CHING.  (ED. POCKET)              #1  vendió 31     [DISP 184 PARA 202 EN TOTAL]
+     10  9789500215015  MEDITACIONES                             #5  vendió 10   
+      9  9789500212953  BRILLA                                   #6  vendió 9    
+      9  9789500217675  CUMPLE DE 15                             #7  vendió 9    
+      9  9789500217644  ENREDOS DEL CORAZON                      #8  vendió 9    
+      9  9789500215411  NATURALISTAS                             #9  vendió 9    
+      9  9789500209861  SAGA DE LOS BONAPARTE, LA                #10 vendió 9      [SIN STOCK]
+      9  9789500217682  ANIMALES SALVAJES                        #12 stock 11 -> 20
+     12  9789500216692  CHICAS MUERTAS NO HABLAN, LAS            #13 stock 8 -> 20
+      9  9789500216173  EGRESADOS                                #14 stock 11 -> 20
+      9  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO         #19 stock 11 -> 20
+      8  9789500218276  DECODIFICA TUS VINCULOS                  #20 stock 12 -> 20
+     12  9789500216951  EXPLOREMOS LA CASA                       #21 stock 8 -> 20
+      2  9789500213349  ROMPER EL CICLO                          #23 stock 18 -> 20
+      7  9788466244893  TAROT: CARTAS DE ADIVINACION, SABIDURIA  #24 stock 13 -> 20
+      6  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.  #26 stock 14 -> 20
+     10  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #28 stock 10 -> 20  [DISP 5 PARA 110 EN TOTAL]
+     14  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA        #29 stock 6 -> 20
+     11  9789500215060  TU AMIGO INVISIBLE 2                     #31 stock 9 -> 20
+     15  9789500213790  EMOCIONES DE INTI, LAS                   #32 stock 5 -> 20
+      2  9789500216869  FINANZAS                                 #33 stock 18 -> 20
+     20  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #34 stock 0 -> 20  [DISP 5 PARA 133 EN TOTAL]
+      8  9789500218283  INTI SE COME LAS UÑAS                    #35 stock 12 -> 20
+     18  9789500217507  MANUAL DE VIDA                           #36 stock 2 -> 20
+      7  9789500218290  SUPERCUENTOS DE MIEDO                    #37 stock 13 -> 20
+     16  9789500215343  VOY AL BAÑO - TR                         #39 stock 4 -> 20
+     12  9789500215893  ¡ACA ESTOY! VAQUITA                      #40 stock 8 -> 20
+
+========================================================================
+ALTO PALERMO                                           387 u  29 títulos  (puestos 1-10: 129 u; 11-40: 258 u)
+   archivo reposicion_ALTO_PALERMO.csv | sacados 6 Libros Sorpresa (104 u) | 5 puestos 11-40 ya tienen 20 o más | sin stock 2 (37 u)
+========================================================================
+     26  9789500217682  ANIMALES SALVAJES                        #1  vendió 26   
+     25  9789500218023  TAO TE CHING.  (ED. POCKET)              #2  vendió 25     [DISP 184 PARA 202 EN TOTAL]
+     18  9789500218160  PROMESA DE SANGRE                        #3  vendió 18   
+     17  9789500218047  PRINCIPITO, EL                           #4  vendió 17   
+     15  9788466244893  TAROT: CARTAS DE ADIVINACION, SABIDURIA  #8  vendió 15   
+     14  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS           #9  vendió 14   
+     14  9789500217026  STICKERS MAGICOS DINOSAURIOS             #10 vendió 14     [DISP 3 PARA 126 EN TOTAL]
+     20  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #11 stock 0 -> 20  [DISP 5 PARA 133 EN TOTAL]
+      9  9789500211598  AMANTES DE BUENOS AIRES                  #12 stock 11 -> 20
+      1  9789500217552  MIS AUTOS DE CARRERA                     #14 stock 19 -> 20
+     14  9789500215015  MEDITACIONES                             #17 stock 6 -> 20
+      4  9789500217545  MIS EXCAVADORAS                          #18 stock 16 -> 20
+      7  9789500217675  CUMPLE DE 15                             #19 stock 13 -> 20
+     16  9789500216807  AMIGOS DEL BOSQUE                        #23 stock 4 -> 20
+      3  9789500218276  DECODIFICA TUS VINCULOS                  #24 stock 17 -> 20
+      6  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #25 stock 14 -> 20  [DISP 5 PARA 110 EN TOTAL]
+     20  9789500286763  PRINCIPE, EL                             #27 stock 0 -> 20  [SIN STOCK]
+     20  9789500217033  STICKERS MAGICOS: GRANJA                 #28 stock 0 -> 20  [DISP 2 PARA 100 EN TOTAL]
+      5  9789500217798  VAMOS A APRENDER SUMAS Y RESTAS          #30 stock 15 -> 20
+     17  9789500216814  AMIGOS DE LA GRANJA                      #31 stock 3 -> 20  [SIN STOCK]
+      9  9789500217415  MIRA Y DESCUBRE: EL CUERPO HUMANO        #32 stock 11 -> 20
+     11  9789500217484  PEQUEÑO UNICORNIO QUE PERDIO SU MAGIA, E #33 stock 9 -> 20
+     13  9789500216203  SEÑORA DE LAS INDIAS                     #34 stock 7 -> 20
+     16  9789500213400  TU AMIGO INVISIBLE                       #35 stock 4 -> 20
+     15  9789500217644  ENREDOS DEL CORAZON                      #36 stock 5 -> 20
+     16  9789500209120  GATITO TITO, EL                          #37 stock 4 -> 20
+      8  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL  #38 stock 12 -> 20
+     15  9789500216708  MAGIA DE IVY, LA                         #39 stock 5 -> 20
+     13  9789500217460  VACA VA A SER HERMANA, LA                #40 stock 7 -> 20
+
+========================================================================
+ALTO ROSARIO                                           306 u  28 títulos  (puestos 1-10: 112 u; 11-40: 194 u)
+   archivo reposicion_ALTO_ROSARIO.csv | sacados 6 Libros Sorpresa (100 u) | 6 puestos 11-40 ya tienen 20 o más | sin stock 2 (18 u)
+========================================================================
+     26  9789500218047  PRINCIPITO, EL                           #1  vendió 26   
+     15  9789500218276  DECODIFICA TUS VINCULOS                  #2  vendió 15   
+     14  9789500218153  LIDERAZGO CON PROPOSITO                  #3  vendió 14     [DISP 5 PARA 73 EN TOTAL]
+     12  9789500217682  ANIMALES SALVAJES                        #4  vendió 12   
+     12  9789500286763  PRINCIPE, EL                             #5  vendió 12     [SIN STOCK]
+     11  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #6  vendió 11     [DISP 5 PARA 110 EN TOTAL]
+     11  9789500215015  MEDITACIONES                             #7  vendió 11   
+     11  9789500218146  ROZAS                                    #8  vendió 11   
+      7  9789500218207  BIOPAUSIA. 2DA. EDICION ESPECIAL (TAPA D #11 stock 13 -> 20
+     11  9789500217675  CUMPLE DE 15                             #12 stock 9 -> 20
+      5  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES  #13 stock 15 -> 20
+     10  9789500218252  AUTOESTIMA                               #16 stock 10 -> 20
+      8  9789500218351  DESPIERTA                                #17 stock 12 -> 20
+     16  9789500217033  STICKERS MAGICOS: GRANJA                 #21 stock 4 -> 20  [DISP 2 PARA 100 EN TOTAL]
+     16  9789500217026  STICKERS MAGICOS DINOSAURIOS             #23 stock 4 -> 20  [DISP 3 PARA 126 EN TOTAL]
+     20  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #25 stock 0 -> 20  [DISP 5 PARA 133 EN TOTAL]
+      6  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA        #26 stock 14 -> 20
+     11  9789500216708  MAGIA DE IVY, LA                         #27 stock 9 -> 20
+      4  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL     #29 stock 16 -> 20
+     12  9789500213400  TU AMIGO INVISIBLE                       #31 stock 8 -> 20
+      8  9789500213998  VACA NO SE CALLA, LA - TR                #32 stock 12 -> 20
+      1  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.  #33 stock 19 -> 20
+     10  9789500216494  DE GASTADORA A INVERSORA                 #34 stock 10 -> 20
+      9  9789500216869  FINANZAS                                 #36 stock 11 -> 20
+      8  9789500218283  INTI SE COME LAS UÑAS                    #37 stock 12 -> 20
+     15  9789500216890  INTI Y EL CELULAR                        #38 stock 5 -> 20
+     11  9789500217507  MANUAL DE VIDA                           #39 stock 9 -> 20
+      6  9789500217767  SUPERCUENTOS DE GOL                      #40 stock 14 -> 20  [SIN STOCK]
+
+========================================================================
+ATENEO FLORIDA 340                                     286 u  14 títulos  (puestos 1-10: 197 u; 11-40: 89 u)
+   archivo reposicion_ATENEO_FLORIDA_340.csv | sacados 6 Libros Sorpresa (93 u) | 20 puestos 11-40 ya tienen 20 o más | sin stock 1 (18 u)
+========================================================================
+     92  9789500218047  PRINCIPITO, EL                           #1  vendió 92   
+     43  9789500218160  PROMESA DE SANGRE                        #2  vendió 43   
+     24  9789500218023  TAO TE CHING.  (ED. POCKET)              #3  vendió 24     [DISP 184 PARA 202 EN TOTAL]
+     11  9789500218153  LIDERAZGO CON PROPOSITO                  #5  vendió 11     [DISP 5 PARA 73 EN TOTAL]
+     10  9789500218146  ROZAS                                    #8  vendió 10   
+      9  9789500215015  MEDITACIONES                             #9  vendió 9    
+      8  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #10 vendió 8      [DISP 5 PARA 110 EN TOTAL]
+     18  9789500286763  PRINCIPE, EL                             #13 stock 2 -> 20  [SIN STOCK]
+     17  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #16 stock 3 -> 20  [DISP 5 PARA 133 EN TOTAL]
+     13  9789500215398  CUENTOS DE AMOR PROPIO                   #20 stock 7 -> 20
+     11  9789500216494  DE GASTADORA A INVERSORA                 #28 stock 9 -> 20
+     13  9789500217514  RESETEA TUS INTESTINOS (3ª EDICION)      #31 stock 7 -> 20
+     13  9789500298780  CONSTITUCION NACIONAL                    #35 stock 7 -> 20
+      4  9789500216869  FINANZAS                                 #38 stock 16 -> 20
+
+========================================================================
+ATENEO ROSARIO                                         289 u  28 títulos  (puestos 1-10: 52 u; 11-40: 237 u)
+   archivo reposicion_ATENEO_ROSARIO.csv | sacados 6 Libros Sorpresa (62 u) | 6 puestos 11-40 ya tienen 20 o más | sin stock 3 (47 u)
+========================================================================
+     25  9789500218160  PROMESA DE SANGRE                        #1  vendió 25   
+     10  9789500218146  ROZAS                                    #4  vendió 10   
+      9  9789500215015  MEDITACIONES                             #6  vendió 9    
+      8  9789500218269  SOBREPESO                                #9  vendió 8    
+      5  9789500218276  DECODIFICA TUS VINCULOS                  #14 stock 15 -> 20
+     10  9789500216869  FINANZAS                                 #15 stock 10 -> 20
+     13  9789500286763  PRINCIPE, EL                             #16 stock 7 -> 20  [SIN STOCK]
+     16  9789500216814  AMIGOS DE LA GRANJA                      #18 stock 4 -> 20  [SIN STOCK]
+     12  9789500217675  CUMPLE DE 15                             #19 stock 8 -> 20
+     10  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES  #20 stock 10 -> 20
+     18  9789500216388  METAMORFOSIS, LA                         #21 stock 2 -> 20  [SIN STOCK]
+      8  9789500217415  MIRA Y DESCUBRE: EL CUERPO HUMANO        #22 stock 12 -> 20
+     11  9789500210317  TEO Y ANA INVESTIGAN LA ARGENTINA        #23 stock 9 -> 20
+     10  9789500215909  VENDETE ANTES DE VENDER                  #24 stock 10 -> 20
+     16  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO         #25 stock 4 -> 20
+      1  9789500211598  AMANTES DE BUENOS AIRES                  #26 stock 19 -> 20
+     14  9788466243292  BRUJA MODERNA                            #29 stock 6 -> 20
+      9  9789500217804  CARPINCHOS AVENTUREROS                   #30 stock 11 -> 20
+      6  9789500217361  ¿COMO SE LO DIGO?                        #31 stock 14 -> 20
+      7  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.  #32 stock 13 -> 20
+      4  9789500215398  CUENTOS DE AMOR PROPIO                   #33 stock 16 -> 20
+     11  9789500217644  ENREDOS DEL CORAZON                      #34 stock 9 -> 20
+     17  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #35 stock 3 -> 20  [DISP 5 PARA 133 EN TOTAL]
+      1  9789500218283  INTI SE COME LAS UÑAS                    #36 stock 19 -> 20
+      1  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL  #37 stock 19 -> 20
+      8  9789500217507  MANUAL DE VIDA                           #38 stock 12 -> 20
+     14  9789500216784  MEDIANOCHE DEL ALMA, LA                  #39 stock 6 -> 20
+     15  9789500216722  MEDICI, LOS                              #40 stock 5 -> 20
+
+========================================================================
+AVELLANEDA                                             307 u  30 títulos  (puestos 1-10: 67 u; 11-40: 240 u)
+   archivo reposicion_AVELLANEDA.csv | sacados 6 Libros Sorpresa (91 u) | 4 puestos 11-40 ya tienen 20 o más | sin stock 0 (0 u)
+========================================================================
+     13  9789500217675  CUMPLE DE 15                             #2  vendió 13   
+     12  9789500218160  PROMESA DE SANGRE                        #5  vendió 12   
+      9  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.  #6  vendió 9    
+      9  9789500218283  INTI SE COME LAS UÑAS                    #7  vendió 9    
+      8  9789500217682  ANIMALES SALVAJES                        #8  vendió 8    
+      8  9789500216692  CHICAS MUERTAS NO HABLAN, LAS            #9  vendió 8    
+      8  9789500218153  LIDERAZGO CON PROPOSITO                  #10 vendió 8      [DISP 5 PARA 73 EN TOTAL]
+     16  9789500217026  STICKERS MAGICOS DINOSAURIOS             #11 stock 4 -> 20  [DISP 3 PARA 126 EN TOTAL]
+      6  9789500213400  TU AMIGO INVISIBLE                       #12 stock 14 -> 20
+     17  9789500212731  CUENTOS CORTOS PARA PINTAR               #13 stock 3 -> 20
+      9  9789500216173  EGRESADOS                                #14 stock 11 -> 20
+     16  9789500218146  ROZAS                                    #16 stock 4 -> 20
+     20  9789500217033  STICKERS MAGICOS: GRANJA                 #17 stock 0 -> 20  [DISP 2 PARA 100 EN TOTAL]
+      4  9789500218351  DESPIERTA                                #19 stock 16 -> 20
+      6  9788466244893  TAROT: CARTAS DE ADIVINACION, SABIDURIA  #21 stock 14 -> 20
+     16  9789500216449  APRENDO A LEER LAS PALABRAS              #22 stock 4 -> 20  [DISP 2 PARA 16 EN TOTAL]
+     14  9789500217644  ENREDOS DEL CORAZON                      #23 stock 6 -> 20
+      3  9789500216869  FINANZAS                                 #24 stock 17 -> 20
+     13  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #25 stock 7 -> 20  [DISP 5 PARA 133 EN TOTAL]
+     12  9789500215015  MEDITACIONES                             #26 stock 8 -> 20
+     12  9789500217415  MIRA Y DESCUBRE: EL CUERPO HUMANO        #27 stock 8 -> 20
+     18  9789500216265  VACA DE LA AMISTAD NOS HABLA, LA         #28 stock 2 -> 20
+     14  9789500216593  ANSIEDAD                                 #31 stock 6 -> 20
+      6  9789500218252  AUTOESTIMA                               #32 stock 14 -> 20
+      4  9789500216845  CUENTOS CORTOS DE NAVIDAD                #33 stock 16 -> 20
+      1  9789500218276  DECODIFICA TUS VINCULOS                  #34 stock 19 -> 20
+     12  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #35 stock 8 -> 20  [DISP 5 PARA 110 EN TOTAL]
+      3  9789500217507  MANUAL DE VIDA                           #37 stock 17 -> 20
+     16  9789500214100  VACA SUS MIEDOS ATACA, LA - 2DA. EDICION #39 stock 4 -> 20
+      2  9789500217798  VAMOS A APRENDER SUMAS Y RESTAS          #40 stock 18 -> 20
+
+========================================================================
+CABALLITO                                              315 u  31 títulos  (puestos 1-10: 68 u; 11-40: 247 u)
+   archivo reposicion_CABALLITO.csv | sacados 6 Libros Sorpresa (83 u) | 3 puestos 11-40 ya tienen 20 o más | sin stock 1 (8 u)
+========================================================================
+     28  9789500218047  PRINCIPITO, EL                           #1  vendió 28   
+     18  9789500218023  TAO TE CHING.  (ED. POCKET)              #2  vendió 18     [DISP 184 PARA 202 EN TOTAL]
+      8  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #7  vendió 8      [DISP 5 PARA 133 EN TOTAL]
+      7  9789500217026  STICKERS MAGICOS DINOSAURIOS             #9  vendió 7      [DISP 3 PARA 126 EN TOTAL]
+      7  9789500217033  STICKERS MAGICOS: GRANJA                 #10 vendió 7      [DISP 2 PARA 100 EN TOTAL]
+      4  9789500218276  DECODIFICA TUS VINCULOS                  #11 stock 16 -> 20
+     11  9789500218146  ROZAS                                    #14 stock 9 -> 20
+      2  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.  #15 stock 18 -> 20
+      6  9789500218153  LIDERAZGO CON PROPOSITO                  #16 stock 14 -> 20  [DISP 5 PARA 73 EN TOTAL]
+     12  9789500217415  MIRA Y DESCUBRE: EL CUERPO HUMANO        #17 stock 8 -> 20
+      9  9789500215411  NATURALISTAS                             #18 stock 11 -> 20
+      2  9789500218290  SUPERCUENTOS DE MIEDO                    #19 stock 18 -> 20
+      5  9789500217866  AMARANTIA                                #20 stock 15 -> 20
+     18  9789500216517  BENJAMIN EN EL JARDIN                    #21 stock 2 -> 20
+      9  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #22 stock 11 -> 20  [DISP 5 PARA 110 EN TOTAL]
+     15  9789500213790  EMOCIONES DE INTI, LAS                   #23 stock 5 -> 20
+     14  9789500208291  FRIDA Y DIEGO EN EL PAIS DE LAS CALAVERA #24 stock 6 -> 20
+      2  9789500218269  SOBREPESO                                #26 stock 18 -> 20
+      8  9789500217767  SUPERCUENTOS DE GOL                      #27 stock 12 -> 20  [SIN STOCK]
+     14  9789500215893  ¡ACA ESTOY! VAQUITA                      #28 stock 6 -> 20
+      8  9789500217682  ANIMALES SALVAJES                        #29 stock 12 -> 20
+      6  9789500218252  AUTOESTIMA                               #30 stock 14 -> 20
+      8  9789500216470  BIOPAUSIA                                #31 stock 12 -> 20
+     12  9789500218207  BIOPAUSIA. 2DA. EDICION ESPECIAL (TAPA D #32 stock 8 -> 20
+     14  9789500213233  BITACORA ASTROLOGICA                     #33 stock 6 -> 20  [DISP 6 PARA 36 EN TOTAL]
+     19  9789500215220  CHAU, TETA                               #34 stock 1 -> 20
+      7  9789500218351  DESPIERTA                                #35 stock 13 -> 20
+     11  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA        #37 stock 9 -> 20
+      9  9789500217019  HOLA, BEBE. MI MUNDO                     #38 stock 11 -> 20
+     12  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL  #39 stock 8 -> 20
+     10  9789500217507  MANUAL DE VIDA                           #40 stock 10 -> 20
+
+========================================================================
+DOT BAIRES SHOPPING                                    373 u  30 títulos  (puestos 1-10: 90 u; 11-40: 283 u)
+   archivo reposicion_DOT_BAIRES_SHOPPING.csv | sacados 5 Libros Sorpresa (82 u) | 5 puestos 11-40 ya tienen 20 o más | sin stock 2 (30 u)
+========================================================================
+     27  9789500218047  PRINCIPITO, EL                           #1  vendió 27   
+     20  9789500217682  ANIMALES SALVAJES                        #2  vendió 20   
+     12  9789500215015  MEDITACIONES                             #7  vendió 12   
+     12  9789500213400  TU AMIGO INVISIBLE                       #8  vendió 12   
+     11  9789500217644  ENREDOS DEL CORAZON                      #9  vendió 11   
+      8  9789500217866  AMARANTIA                                #10 vendió 8    
+     18  9789500286763  PRINCIPE, EL                             #11 stock 2 -> 20  [SIN STOCK]
+      6  9788466244893  TAROT: CARTAS DE ADIVINACION, SABIDURIA  #13 stock 14 -> 20
+     15  9789500217675  CUMPLE DE 15                             #14 stock 5 -> 20
+     13  9789500216692  CHICAS MUERTAS NO HABLAN, LAS            #15 stock 7 -> 20
+      7  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #16 stock 13 -> 20  [DISP 5 PARA 110 EN TOTAL]
+     17  9789500212502  ESTAS PARA MAS                           #17 stock 3 -> 20
+     13  9789500209120  GATITO TITO, EL                          #18 stock 7 -> 20
+     14  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA        #19 stock 6 -> 20
+     11  9789500217354  LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL  #21 stock 9 -> 20
+     15  9789500217026  STICKERS MAGICOS DINOSAURIOS             #24 stock 5 -> 20  [DISP 3 PARA 126 EN TOTAL]
+     12  9789500217767  SUPERCUENTOS DE GOL                      #25 stock 8 -> 20  [SIN STOCK]
+     13  9789500215893  ¡ACA ESTOY! VAQUITA                      #27 stock 7 -> 20
+     10  9789500217415  MIRA Y DESCUBRE: EL CUERPO HUMANO        #28 stock 10 -> 20
+     17  9789500217484  PEQUEÑO UNICORNIO QUE PERDIO SU MAGIA, E #29 stock 3 -> 20
+     11  9789500209113  RANA LILIANA, LA                         #30 stock 9 -> 20
+     14  9789500216203  SEÑORA DE LAS INDIAS                     #31 stock 6 -> 20
+     16  9789500215466  SERAS TAN FELIZ COMO INSISTAS            #32 stock 4 -> 20  [DISP 4 PARA 16 EN TOTAL]
+      7  9789500216265  VACA DE LA AMISTAD NOS HABLA, LA         #33 stock 13 -> 20
+     11  9789500215909  VENDETE ANTES DE VENDER                  #34 stock 9 -> 20
+     12  9789500215343  VOY AL BAÑO - TR                         #35 stock 8 -> 20
+      3  9789500217309  AQUI ESTOY! DINOSAURITO                  #36 stock 17 -> 20
+      2  9789500218177  CUENTOS DE AMOR, DE LOCURA Y DE MUERTE.  #37 stock 18 -> 20
+     14  9789500213790  EMOCIONES DE INTI, LAS                   #39 stock 6 -> 20
+     12  9789500216357  QUIEN ESTA AHI? EN LA SELVA              #40 stock 8 -> 20  [DISP 1 PARA 12 EN TOTAL]
+
+========================================================================
+NUEVO CENTRO SHOPPING                                  348 u  29 títulos  (puestos 1-10: 81 u; 11-40: 267 u)
+   archivo reposicion_NUEVO_CENTRO_SHOPPING.csv | sacados 6 Libros Sorpresa (120 u) | 5 puestos 11-40 ya tienen 20 o más | sin stock 1 (11 u)
+========================================================================
+     17  9789500218047  PRINCIPITO, EL                           #4  vendió 17   
+     17  9789500218023  TAO TE CHING.  (ED. POCKET)              #5  vendió 17     [DISP 184 PARA 202 EN TOTAL]
+     14  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA        #6  vendió 14   
+     12  9789500218160  PROMESA DE SANGRE                        #8  vendió 12   
+     11  9789500286763  PRINCIPE, EL                             #9  vendió 11     [SIN STOCK]
+     10  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES  #10 vendió 10   
+     14  9789500217682  ANIMALES SALVAJES                        #11 stock 6 -> 20
+      7  9789500216685  BIBLIA DE LOS NIÑOS, LA                  #12 stock 13 -> 20
+     13  9788466244893  TAROT: CARTAS DE ADIVINACION, SABIDURIA  #13 stock 7 -> 20
+     18  9789500218146  ROZAS                                    #17 stock 2 -> 20
+      9  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #20 stock 11 -> 20  [DISP 5 PARA 110 EN TOTAL]
+      5  9789500218016  EDAD QUE ELEGIMOS, LA                    #21 stock 15 -> 20
+     14  9789500218283  INTI SE COME LAS UÑAS                    #22 stock 6 -> 20
+     10  9789500217446  CASA ABANDONADA, LA                      #25 stock 10 -> 20
+     14  9789500216616  CASA DEL COCTEL ROJO, LA                 #26 stock 6 -> 20
+      7  9789500215398  CUENTOS DE AMOR PROPIO                   #27 stock 13 -> 20
+     14  9789500216494  DE GASTADORA A INVERSORA                 #28 stock 6 -> 20
+      2  9789500218276  DECODIFICA TUS VINCULOS                  #29 stock 18 -> 20
+     18  9789500213790  EMOCIONES DE INTI, LAS                   #30 stock 2 -> 20
+      8  9789500212502  ESTAS PARA MAS                           #31 stock 12 -> 20
+      5  9789500216869  FINANZAS                                 #32 stock 15 -> 20
+     18  9789500217057  GATITO, ¿POR QUE ESTAS ENOJADO?          #33 stock 2 -> 20  [DISP 5 PARA 133 EN TOTAL]
+     11  9789500215015  MEDITACIONES                             #34 stock 9 -> 20
+      2  9789500217552  MIS AUTOS DE CARRERA                     #35 stock 18 -> 20
+     14  9789500216203  SEÑORA DE LAS INDIAS                     #36 stock 6 -> 20
+     11  9789500216678  100 HISTORIAS DE LA BIBLIA               #37 stock 9 -> 20
+     16  9789500217194  ABUELAS                                  #38 stock 4 -> 20
+     18  9789500211598  AMANTES DE BUENOS AIRES                  #39 stock 2 -> 20
+     19  9789500215350  APRENDO A LEER LAS LETRAS                #40 stock 1 -> 20  [DISP 4 PARA 19 EN TOTAL]
+
+========================================================================
+PASEO ALCORTA                                          456 u  34 títulos  (puestos 1-10: 81 u; 11-40: 375 u)
+   archivo reposicion_PASEO_ALCORTA.csv | sacados 5 Libros Sorpresa (74 u) | 1 puestos 11-40 ya tienen 20 o más | sin stock 3 (52 u)
+========================================================================
+     17  9789500218023  TAO TE CHING.  (ED. POCKET)              #1  vendió 17     [DISP 184 PARA 202 EN TOTAL]
+     12  9789500217682  ANIMALES SALVAJES                        #2  vendió 12   
+     10  9789500217026  STICKERS MAGICOS DINOSAURIOS             #3  vendió 10     [DISP 3 PARA 126 EN TOTAL]
+      9  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA        #4  vendió 9    
+      9  9789500218153  LIDERAZGO CON PROPOSITO                  #5  vendió 9      [DISP 5 PARA 73 EN TOTAL]
+      9  9789500216203  SEÑORA DE LAS INDIAS                     #6  vendió 9    
+      8  9789500218146  ROZAS                                    #9  vendió 8    
+      7  9789500212601  DUEÑA DE TU DINERO                       #10 vendió 7    
+     14  9789500216531  MANTOS                                   #12 stock 6 -> 20
+      9  9789500218160  PROMESA DE SANGRE                        #14 stock 11 -> 20
+     15  9789500211598  AMANTES DE BUENOS AIRES                  #15 stock 5 -> 20
+     10  9788466244893  TAROT: CARTAS DE ADIVINACION, SABIDURIA  #17 stock 10 -> 20
+     15  9789500213400  TU AMIGO INVISIBLE                       #18 stock 5 -> 20
+     14  9789500217460  VACA VA A SER HERMANA, LA                #19 stock 6 -> 20
+     10  9789500218252  AUTOESTIMA                               #20 stock 10 -> 20
+     16  9789500209144  BUHO HUGO, EL                            #21 stock 4 -> 20
+     10  9789500216616  CASA DEL COCTEL ROJO, LA                 #22 stock 10 -> 20
+     19  9789500211086  HEDY                                     #23 stock 1 -> 20  [SIN STOCK]
+     12  9789500215015  MEDITACIONES                             #24 stock 8 -> 20
+      8  9789500217408  MIRA Y DESCUBRE: EL ESPACIO              #25 stock 12 -> 20
+     20  9789500215343  VOY AL BAÑO - TR                         #26 stock 0 -> 20
+     14  9789500215893  ¡ACA ESTOY! VAQUITA                      #27 stock 6 -> 20
+     19  9789500299435  CUATRO ESTACIONES EN UN DIA, LAS         #29 stock 1 -> 20
+     18  9789500213790  EMOCIONES DE INTI, LAS                   #30 stock 2 -> 20
+     19  9789500216951  EXPLOREMOS LA CASA                       #31 stock 1 -> 20
+     13  9789500209120  GATITO TITO, EL                          #32 stock 7 -> 20
+     17  9789500216890  INTI Y EL CELULAR                        #33 stock 3 -> 20
+     14  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL     #34 stock 6 -> 20
+     19  9789500216760  PEQUEÑOS PASOS: MI MUNDO                 #35 stock 1 -> 20
+     14  9789500286763  PRINCIPE, EL                             #36 stock 6 -> 20  [SIN STOCK]
+     11  9789500209113  RANA LILIANA, LA                         #37 stock 9 -> 20
+     16  9789500213349  ROMPER EL CICLO                          #38 stock 4 -> 20
+     19  9789500217767  SUPERCUENTOS DE GOL                      #39 stock 1 -> 20  [SIN STOCK]
+     10  9789500217224  VACA NO SE CALLA, LA                     #40 stock 10 -> 20
+
+========================================================================
+PATIO OLMOS                                            393 u  27 títulos  (puestos 1-10: 140 u; 11-40: 253 u)
+   archivo reposicion_PATIO_OLMOS.csv | sacados 6 Libros Sorpresa (121 u) | 7 puestos 11-40 ya tienen 20 o más | sin stock 1 (14 u)
+========================================================================
+     40  9789500218023  TAO TE CHING.  (ED. POCKET)              #1  vendió 40     [DISP 184 PARA 202 EN TOTAL]
+     38  9789500218047  PRINCIPITO, EL                           #2  vendió 38   
+     17  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA        #6  vendió 17   
+     16  9789500217682  ANIMALES SALVAJES                        #7  vendió 16   
+     15  9789500218160  PROMESA DE SANGRE                        #8  vendió 15   
+     14  9789500286763  PRINCIPE, EL                             #10 vendió 14     [SIN STOCK]
+     10  9789500217361  ¿COMO SE LO DIGO?                        #11 stock 10 -> 20
+     16  9789500218146  ROZAS                                    #13 stock 4 -> 20
+     16  9789500215015  MEDITACIONES                             #15 stock 4 -> 20
+      3  9789500298780  CONSTITUCION NACIONAL                    #16 stock 17 -> 20
+     10  9789500217507  MANUAL DE VIDA                           #17 stock 10 -> 20
+     10  9789500217675  CUMPLE DE 15                             #22 stock 10 -> 20
+      4  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #23 stock 16 -> 20  [DISP 5 PARA 110 EN TOTAL]
+     20  9789500217026  STICKERS MAGICOS DINOSAURIOS             #24 stock 0 -> 20  [DISP 3 PARA 126 EN TOTAL]
+     17  9789500217033  STICKERS MAGICOS: GRANJA                 #25 stock 3 -> 20  [DISP 2 PARA 100 EN TOTAL]
+      7  9788466244893  TAROT: CARTAS DE ADIVINACION, SABIDURIA  #26 stock 13 -> 20
+     14  9789500213400  TU AMIGO INVISIBLE                       #27 stock 6 -> 20
+     10  9789500215893  ¡ACA ESTOY! VAQUITA                      #28 stock 10 -> 20
+     13  9789500216685  BIBLIA DE LOS NIÑOS, LA                  #29 stock 7 -> 20
+      2  9789500218207  BIOPAUSIA. 2DA. EDICION ESPECIAL (TAPA D #30 stock 18 -> 20
+     16  9789500216272  DECODIFICA TU VIDA                       #31 stock 4 -> 20
+     12  9789500213387  HACKEA TU MENTE                          #34 stock 8 -> 20
+     18  9789500213622  TEO Y ANA INVESTIGAN LA ARGENTINA - EDIC #36 stock 2 -> 20  [DISP 3 PARA 18 EN TOTAL]
+     15  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO         #37 stock 5 -> 20
+      5  9789500212953  BRILLA                                   #38 stock 15 -> 20
+     18  9789500212731  CUENTOS CORTOS PARA PINTAR               #39 stock 2 -> 20
+     17  9789500210416  CUENTOS CORTOS PARA SOÑAR 2              #40 stock 3 -> 20
+
+========================================================================
+PLAZA OESTE                                            415 u  31 títulos  (puestos 1-10: 107 u; 11-40: 308 u)
+   archivo reposicion_PLAZA_OESTE.csv | sacados 6 Libros Sorpresa (110 u) | 3 puestos 11-40 ya tienen 20 o más | sin stock 1 (13 u)
+========================================================================
+     26  9789500218047  PRINCIPITO, EL                           #1  vendió 26   
+     19  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #4  vendió 19     [DISP 5 PARA 110 EN TOTAL]
+     18  9789500218160  PROMESA DE SANGRE                        #5  vendió 18   
+     16  9789500217880  GIMNASIA MENTAL: JUEGOS DE LOGICA        #6  vendió 16   
+     14  9789500218276  DECODIFICA TUS VINCULOS                  #9  vendió 14   
+     14  9789500218153  LIDERAZGO CON PROPOSITO                  #10 vendió 14     [DISP 5 PARA 73 EN TOTAL]
+     16  9789500217026  STICKERS MAGICOS DINOSAURIOS             #11 stock 4 -> 20  [DISP 3 PARA 126 EN TOTAL]
+      7  9789500213233  BITACORA ASTROLOGICA                     #16 stock 13 -> 20  [DISP 6 PARA 36 EN TOTAL]
+     15  9789500209120  GATITO TITO, EL                          #17 stock 5 -> 20
+     11  9789500217644  ENREDOS DEL CORAZON                      #19 stock 9 -> 20
+     11  9789500215893  ¡ACA ESTOY! VAQUITA                      #20 stock 9 -> 20
+      8  9789500217682  ANIMALES SALVAJES                        #21 stock 12 -> 20
+      7  9789500218207  BIOPAUSIA. 2DA. EDICION ESPECIAL (TAPA D #22 stock 13 -> 20
+     20  9789500218146  ROZAS                                    #23 stock 0 -> 20
+     20  9789500217033  STICKERS MAGICOS: GRANJA                 #24 stock 0 -> 20  [DISP 2 PARA 100 EN TOTAL]
+     11  9789500218351  DESPIERTA                                #25 stock 9 -> 20
+     15  9789500216623  FIESTA DE LOS CARPINCHOS, LA             #26 stock 5 -> 20
+     13  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES  #27 stock 7 -> 20
+     18  9789500216630  MIS AMIGOS LOS CARPINCHOS                #28 stock 2 -> 20
+     14  9789500213516  VIRGINIA WOOLF Y VICTORIA OCAMPO         #29 stock 6 -> 20
+     10  9789500218252  AUTOESTIMA                               #30 stock 10 -> 20
+     20  9789500216517  BENJAMIN EN EL JARDIN                    #31 stock 0 -> 20
+      8  9789500212953  BRILLA                                   #32 stock 12 -> 20
+     10  9789500218344  EMPAPELADO AMARILLO, EL // THE YELLOW WA #33 stock 10 -> 20
+      9  9789500215053  IMPERFECTOS                              #34 stock 11 -> 20
+     11  9789500215015  MEDITACIONES                             #35 stock 9 -> 20
+     11  9789500217552  MIS AUTOS DE CARRERA                     #36 stock 9 -> 20
+      8  9789500215411  NATURALISTAS                             #37 stock 12 -> 20
+     12  9789500209137  PANDA AMANDA, LA                         #38 stock 8 -> 20
+     10  9789500217064  PEQUEÑOS LIBROS - LITTLE BOOKS           #39 stock 10 -> 20
+     13  9789500209861  SAGA DE LOS BONAPARTE, LA                #40 stock 7 -> 20  [SIN STOCK]
+
+========================================================================
+TORTUGAS OPEN MALL                                     370 u  32 títulos  (puestos 1-10: 98 u; 11-40: 272 u)
+   archivo reposicion_TORTUGAS_OPEN_MALL.csv | sacados 6 Libros Sorpresa (87 u) y 1 de las listas a excluir (QUE SEA MUTUO O NO SEA NADA 7) | 1 puestos 11-40 ya tienen 20 o más | sin stock 3 (40 u)
+========================================================================
+     38  9789500218047  PRINCIPITO, EL                           #1  vendió 38   
+     22  9789500218160  PROMESA DE SANGRE                        #2  vendió 22   
+     10  9789500218276  DECODIFICA TUS VINCULOS                  #7  vendió 10   
+     10  9789500215015  MEDITACIONES                             #8  vendió 10   
+      9  9789500216685  BIBLIA DE LOS NIÑOS, LA                  #9  vendió 9    
+      9  9789500286763  PRINCIPE, EL                             #10 vendió 9      [SIN STOCK]
+     15  9789500217040  DINO, ¿POR QUE ESTAS TRISTE?             #11 stock 5 -> 20  [DISP 5 PARA 110 EN TOTAL]
+     14  9789500218146  ROZAS                                    #12 stock 6 -> 20
+     12  9789500217026  STICKERS MAGICOS DINOSAURIOS             #13 stock 8 -> 20  [DISP 3 PARA 126 EN TOTAL]
+      3  9788466244893  TAROT: CARTAS DE ADIVINACION, SABIDURIA  #14 stock 17 -> 20
+      7  9789500218252  AUTOESTIMA                               #15 stock 13 -> 20
+     12  9789500218351  DESPIERTA                                #16 stock 8 -> 20
+      2  9789500215053  IMPERFECTOS                              #17 stock 18 -> 20
+     11  9789500218153  LIDERAZGO CON PROPOSITO                  #18 stock 9 -> 20  [DISP 5 PARA 73 EN TOTAL]
+     10  9789500215077  SE TU PROPIO CEO                         #20 stock 10 -> 20
+     10  9789500216678  100 HISTORIAS DE LA BIBLIA               #21 stock 10 -> 20
+     13  9789500215893  ¡ACA ESTOY! VAQUITA                      #22 stock 7 -> 20
+     10  9789500212953  BRILLA                                   #23 stock 10 -> 20
+      9  9789500217675  CUMPLE DE 15                             #24 stock 11 -> 20
+      2  9789500216173  EGRESADOS                                #25 stock 18 -> 20
+     10  9789500218283  INTI SE COME LAS UÑAS                    #26 stock 10 -> 20
+     15  9789500209137  PANDA AMANDA, LA                         #29 stock 5 -> 20
+     15  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL     #30 stock 5 -> 20
+     15  9789500215527  SEMILLA DEL PECADO, LA                   #31 stock 5 -> 20
+     11  9789500217767  SUPERCUENTOS DE GOL                      #33 stock 9 -> 20  [SIN STOCK]
+     14  9789500216265  VACA DE LA AMISTAD NOS HABLA, LA         #34 stock 6 -> 20
+     12  9789500215343  VOY AL BAÑO - TR                         #35 stock 8 -> 20
+      2  9789500217866  AMARANTIA                                #36 stock 18 -> 20
+      4  9789500217682  ANIMALES SALVAJES                        #37 stock 16 -> 20
+     20  9789500217613  BANDERAS DEL MUNDO                       #38 stock 0 -> 20  [SIN STOCK]
+     15  9789500213233  BITACORA ASTROLOGICA                     #39 stock 5 -> 20  [DISP 6 PARA 36 EN TOTAL]
+      9  9789500209144  BUHO HUGO, EL                            #40 stock 11 -> 20
+
+========================================================================
+UNICENTER                                              345 u  20 títulos  (puestos 1-10: 221 u; 11-40: 124 u)
+   archivo reposicion_UNICENTER.csv | sacados 6 Libros Sorpresa (136 u) | 14 puestos 11-40 ya tienen 20 o más | sin stock 1 (20 u)
+========================================================================
+     61  9789500218047  PRINCIPITO, EL                           #1  vendió 61   
+     33  9789500217675  CUMPLE DE 15                             #2  vendió 33   
+     32  9788466244893  TAROT: CARTAS DE ADIVINACION, SABIDURIA  #3  vendió 32   
+     30  9789500218023  TAO TE CHING.  (ED. POCKET)              #5  vendió 30     [DISP 184 PARA 202 EN TOTAL]
+     25  9789500218160  PROMESA DE SANGRE                        #8  vendió 25   
+     21  9789500218146  ROZAS                                    #9  vendió 21   
+     19  9789500218276  DECODIFICA TUS VINCULOS                  #10 vendió 19   
+      7  9789500213400  TU AMIGO INVISIBLE                       #14 stock 13 -> 20
+      1  9789500217491  PEQUEÑO MONO QUE PERDIO SU MIEDO, EL     #15 stock 19 -> 20
+      6  9789500216173  EGRESADOS                                #17 stock 14 -> 20
+      6  9789500217408  MIRA Y DESCUBRE: EL ESPACIO              #19 stock 14 -> 20
+      8  9789500215527  SEMILLA DEL PECADO, LA                   #22 stock 12 -> 20
+     12  9789500215893  ¡ACA ESTOY! VAQUITA                      #23 stock 8 -> 20
+     15  9789500216517  BENJAMIN EN EL JARDIN                    #24 stock 5 -> 20
+      6  9789500217897  GIMNASIA MENTAL: ENIGMAS Y ASOCIACIONES  #27 stock 14 -> 20
+      7  9789500216470  BIOPAUSIA                                #30 stock 13 -> 20
+     14  9789500212953  BRILLA                                   #31 stock 6 -> 20
+     20  9789500286763  PRINCIPE, EL                             #34 stock 0 -> 20  [SIN STOCK]
+     17  9789500215060  TU AMIGO INVISIBLE 2                     #36 stock 3 -> 20
+      5  9789500217811  CARPINCHOS MAGICOS                       #39 stock 15 -> 20
+
+========================================================================
+TOTAL 14 sucursales | 390 líneas | 4883 u (de esas, 317 sin stock) | Sorpresa sacados: 1359 u
