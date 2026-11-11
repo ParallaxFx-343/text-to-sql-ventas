@@ -569,6 +569,12 @@ $1.100 y $790 sin stock (589472 y 589489, agregados al final). Resultado 1.566. 
 Pista para detectar novedades: los IDs de la LP que el SII todavía no tiene
 son las del mes que viene; las del mes en curso ya tienen stock en el SII.
 
+**Liquidaciones Ajamil 21653 (Boutique Sur), mails de Egisti del 06/11/2026** ("SOLO BAJA LP OCTUBRE", venta 07/10 a
+04/11, baja de consignación sin envío): vienen como .msg **sin adjunto, la tabla está en el cuerpo** (se lee con olefile;
+extract-msg no instala). Una planilla SILOMA por sucursal, etiqueta `LIQUIDACIONOCTUBRE`: Calafate PB 28326 30 líneas 39 u,
+Madryn PB 28328 41/71, Trelew PB 28327 23/27, Ushuaia PB 28325 17/18 (cuadran con "Cantidad de ejemplares"). El Príncipe
+viene con `9789500286769` y Cód. `A1862R` (código del cliente) → 9789500286763. `historial/2026-11/liquidaciones_ajamil_21653/`.
+
 ### Carga SILOMA
 Hoja `Hoja1`, datos desde la **fila 6** (filas 1-5 vacías).
 Columna 1 = ISBN como entero con formato de número `0`; columna 2 = cantidad;

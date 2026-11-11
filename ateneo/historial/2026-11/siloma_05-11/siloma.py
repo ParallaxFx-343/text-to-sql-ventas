@@ -17,6 +17,8 @@ for k, l in enumerate(open(flista, encoding='utf-8'), 1):
     idcod = None
     if cod.isdigit() and len(cod) <= 7:          # a veces la columna Cód. trae el ID de artículo, no el ISBN
         idcod, cod = int(cod), '-'
+    elif cod not in ('', '-') and not (cod.isdigit() and len(cod) == 13):   # código interno del cliente (A1862R...)
+        avisos.append(f'{tit}: Cód. {cod} es un código del cliente, se usa el ISBN'); cod = '-'
     i = cod if cod not in ('', '-') else a
     if idcod and int(i) in by.index and int(by.loc[int(i), 'ID ARTICULO']) != idcod:
         avisos.append(f'{tit}: Cód. {idcod} pero el ISBN {i} es el ID {int(by.loc[int(i), "ID ARTICULO"])}')
