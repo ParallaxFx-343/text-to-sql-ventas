@@ -735,7 +735,8 @@ sucursal, y CSV por sucursal). `historial/2026-10/recomposicion_19-10/`.
 repetidos; al final suma las novedades de noviembre) con el SII 13/11 07:01 (cuadra DEPOSITO 627.539 / DISPONIBLE 616.457).
 Mismas reglas del 19/10 (sin Ezeiza, Patio Bullrich, Trelew, Devoto, Juramento; sin ocultas) y además sin los 6 del 12/11
 (salieron Mediadora, Claroscuro y Todo por volver a verte) y Líderes de hoy (lista de 29). Primero sin Devoto (813 u); Franco:
-**Devoto sí va** → **293 títulos, 58 locales, 954 u** (Devoto 141), todo con disponible; pidió **un CSV por sucursal** (zip). `historial/2026-11/recomposicion_13-11/` (`recomp1311.py`).
+**Devoto sí va** → **293 títulos, 58 locales, 954 u** (Devoto 141), todo con disponible; pidió **un CSV por sucursal** (zip). **PAEC 25-88637 a 25-88696** (sin 88657 ni 88661), cargados en la planilla de
+Yamina el 13/11 (58 filas, 954 u). `historial/2026-11/recomposicion_13-11/` (`recomp1311.py`).
 
 ## Planilla de seguimiento "Cadena Stock 26.27" (obligatoria, 20/10/2026)
 

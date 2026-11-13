@@ -1,0 +1,58 @@
+﻿ABASTO                                                   2 u  2 títulos
+AEROPARQUE                                              30 u  30 títulos
+ALTO COMAHUE                                            50 u  50 títulos
+ALTO NOA SHOPPING - SALTA                                5 u  5 títulos
+ALTO PALERMO                                            13 u  13 títulos
+ALTO ROSARIO                                             8 u  8 títulos
+ATENEO CORDOBA CENTRO                                    3 u  3 títulos
+ATENEO FLORIDA 340                                       2 u  2 títulos
+ATENEO FLORIDA 632                                       3 u  3 títulos
+ATENEO GRAND SPLENDID                                    5 u  5 títulos
+ATENEO LA PLATA                                          2 u  2 títulos
+ATENEO ROSARIO                                           5 u  5 títulos
+ATENEO TUCUMAN                                           3 u  3 títulos
+AVELLANEDA                                              13 u  13 títulos
+BAHIA BLANCA SHOPPING                                   18 u  18 títulos
+BARILOCHE                                                9 u  9 títulos
+BORGES                                                   8 u  8 títulos
+CABALLITO                                                9 u  9 títulos
+CALLE 12                                                10 u  10 títulos
+COMODORO RIVADAVIA                                       9 u  9 títulos
+CORRIENTES SHOPPING                                      9 u  9 títulos
+DEVOTO                                                 141 u  141 títulos
+DOT BAIRES SHOPPING                                     19 u  19 títulos
+FLORES                                                  11 u  11 títulos
+JUJUY                                                    6 u  6 títulos
+LA PLATA                                                 2 u  2 títulos
+LOMAS DE ZAMORA                                          1 u  1 títulos
+MAR DEL PLATA LOS GALLEGOS                             106 u  106 títulos
+MAR DEL PLATA M. BENDU                                   2 u  2 títulos
+MAR DEL PLATA PASEO ALDREY                              68 u  68 títulos
+MENDOZA CENTRO                                           3 u  3 títulos
+MENDOZA PALMARES                                         9 u  9 títulos
+MENDOZA SHOPPING                                         9 u  9 títulos
+NEUQUEN PORTAL PATAGONIA                                11 u  11 títulos
+NUEVO CENTRO SHOPPING                                    3 u  3 títulos
+PALERMO PORTAL                                           2 u  2 títulos
+PALMAS DEL PILAR                                        28 u  28 títulos
+PARANA                                                   7 u  7 títulos
+PASEO ALCORTA                                            4 u  4 títulos
+PATIO OLMOS                                             15 u  15 títulos
+PLAZA OESTE                                             10 u  10 títulos
+QUILMES CENTRO                                           2 u  2 títulos
+REMEROS (NORDELTA)                                       3 u  3 títulos
+RESISTENCIA                                              5 u  5 títulos
+RIO CUARTO                                               4 u  4 títulos
+ROSARIO PORTAL                                           2 u  2 títulos
+SALTA CENTRO                                           114 u  114 títulos
+SAN JUSTO                                                8 u  8 títulos
+SAN LUIS                                                 3 u  3 títulos
+SAN MIGUEL                                               5 u  5 títulos
+SANTA FE Ribera Shopping                                 6 u  6 títulos
+SOLAR DE LA ABADIA                                      19 u  19 títulos
+TORTUGAS OPEN MALL                                      39 u  39 títulos
+TUCUMAN PORTAL                                          58 u  58 títulos
+UNICENTER                                                5 u  5 títulos
+USHUAIA                                                  1 u  1 títulos
+VILLA CRESPO                                             2 u  2 títulos
+VILLA URQUIZA                                            5 u  5 títulos
