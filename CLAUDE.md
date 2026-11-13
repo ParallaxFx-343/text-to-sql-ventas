@@ -731,6 +731,12 @@ contestó, se sacaron y se listaron en `NO_VAN_filas_ocultas.txt`). SII 19/10:
 disponible. Se entregó en los dos formatos (PAEC único + TXT por título y por
 sucursal, y CSV por sucursal). `historial/2026-10/recomposicion_19-10/`.
 
+**Recomposición a uno 13/11/2026**: misma lista actualizada (459 visibles, mismas 38 ocultas, Gatito Tito y Rana Liliana
+repetidos; al final suma las novedades de noviembre) con el SII 13/11 07:01 (cuadra DEPOSITO 627.539 / DISPONIBLE 616.457).
+Mismas reglas del 19/10 (sin Ezeiza, Patio Bullrich, Trelew, Devoto, Juramento; sin ocultas) y además sin los 6 del 12/11
+(salieron Mediadora, Claroscuro y Todo por volver a verte) y Líderes de hoy (lista de 29). **274 títulos, 57 locales, 813 u**,
+todo con disponible. `historial/2026-11/recomposicion_13-11/` (`recomp1311.py`).
+
 ## Planilla de seguimiento "Cadena Stock 26.27" (obligatoria, 20/10/2026)
 
 Hoja **"Reposición x local"**: por grupo y sucursal, una fila por movimiento con
