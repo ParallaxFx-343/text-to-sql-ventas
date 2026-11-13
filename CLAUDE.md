@@ -462,6 +462,16 @@ colores). `historial/2026-10/cuotas_vendedores_noviembre/cuotas_vendedores.py`.
 Franco (22/10): si el nombre no coincide, **manda la grilla** (la cuenta 24000 queda en 0). 24146
 (González Nicolasa Irene, Sálice) corresponde a **Toppano 22487** en la grilla: lo corrige Franco a mano.
 
+**Novedades de diciembre 2026 (13/11)**: Franco mandó las 10 grillas (`… SERVICIO NOVEDADES DICIEMBRE 26.xlsx` + Cúspide) con
+títulos/ISBN vacíos y `Cuotas novedades DICIEMBRE 2026.xlsx` (8 novedades C-J con cuotas, 6 reimpresiones K-P sin cuotas).
+Pidió **solo títulos, ISBN y cuotas** (sin IDs: no los tiene), **respetar los nombres de archivo** (sin guiones bajos) y **no
+tocar los 0 en gris** (fill theme 2, tint −0,25 = clientes que no reciben importados; quedaron en Q-R, las columnas de Sobre
+ruedas de noviembre; si hay que moverlos lo hace él). Novedades en J-Q, reimpresiones en V-AA (títulos en mayúscula, como
+venían en Cuotas); Cúspide: filas 5-12 (A ISBN, C título, BG cuota) y 17-22. `novedades_dic.py` solo escribe en celdas
+vacías. **Santa Fe GRILLA Q13 tenía un 0 sin gris** (resto de la cuota de Sobre ruedas): no se pisó, la cuota de Hagamos el
+desayuno (20) quedó pendiente para Franco. Mi planta de naranja lima (2 ed. escolar) solo tiene cuota de Cúspide (200).
+`historial/2026-11/novedades_diciembre/`.
+
 ### Cúspide — archivo "A PROCESAR"
 
 Hoja `Hoja3`. **Una fila por PEDIDO, no por sucursal**: una misma sucursal puede
