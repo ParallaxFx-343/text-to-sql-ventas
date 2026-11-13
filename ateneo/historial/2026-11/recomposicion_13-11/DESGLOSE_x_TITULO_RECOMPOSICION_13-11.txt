@@ -1,6 +1,6 @@
 ﻿RECOMPOSICION DE FONDO - 13/11/2026 - 1 ejemplar a los locales con stock 0
-Stock y disponible: SII 13/11 07:01. 274 títulos | 57 locales | 813 unidades.
-Excluidos: Ezeiza, Patio Bullrich, Trelew, Devoto y Ateneo Juramento.
+Stock y disponible: SII 13/11 07:01. 293 títulos | 58 locales | 954 unidades.
+Excluidos: Ezeiza, Patio Bullrich, Trelew y Ateneo Juramento (Devoto sí va).
 Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + los 6 del 12/11) y las 38 filas ocultas.
 
 ======================================================================
@@ -18,9 +18,10 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  BAHIA BLANCA SHOPPING
 
 ======================================================================
-3. 400 PREGUNTAS Y RESPUESTAS SOBRE FORMULA 1              1 u
-   ISBN 9789500216180   ID 729380   en 1 locales   disp 1390
+3. 400 PREGUNTAS Y RESPUESTAS SOBRE FORMULA 1              2 u
+   ISBN 9789500216180   ID 729380   en 2 locales   disp 1390
 ======================================================================
+      1  DEVOTO
       1  SALTA CENTRO
 
 ======================================================================
@@ -30,9 +31,10 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  ALTO COMAHUE
 
 ======================================================================
-5. 400 PREGUNTAS Y RESPUESTAS SOBRE LOS JUEGOS OLIMPICO    4 u
-   ISBN 9789500215213   ID 717946   en 4 locales   disp 1431
+5. 400 PREGUNTAS Y RESPUESTAS SOBRE LOS JUEGOS OLIMPICO    5 u
+   ISBN 9789500215213   ID 717946   en 5 locales   disp 1431
 ======================================================================
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  PATIO OLMOS
       1  SALTA CENTRO
@@ -67,23 +69,25 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-10. A PINTAR CON LA VACA PACA                               2 u
-   ISBN 9789500213141   ID 704438   en 2 locales   disp 1972
+10. A PINTAR CON LA VACA PACA                               3 u
+   ISBN 9789500213141   ID 704438   en 3 locales   disp 1972
 ======================================================================
+      1  DEVOTO
       1  PALERMO PORTAL
       1  SALTA CENTRO
 
 ======================================================================
-11. A(R)MAME                                                3 u
-   ISBN 9789500210393   ID 673645   en 3 locales   disp 1106
+11. A(R)MAME                                                4 u
+   ISBN 9789500210393   ID 673645   en 4 locales   disp 1106
 ======================================================================
+      1  DEVOTO
       1  PLAZA OESTE
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-12. ACEITE DE OLIVA ASTUTO, EL                             51 u
-   ISBN 9789500299046   ID 617594   en 51 locales   disp 669
+12. ACEITE DE OLIVA ASTUTO, EL                             52 u
+   ISBN 9789500299046   ID 617594   en 52 locales   disp 669
 ======================================================================
       1  ABASTO
       1  AEROPARQUE
@@ -96,6 +100,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  BORGES
       1  CABALLITO
       1  CALLE 12
+      1  DEVOTO
       1  FLORES
       1  PALERMO PORTAL
       1  PALMAS DEL PILAR
@@ -138,9 +143,10 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  USHUAIA
 
 ======================================================================
-13. ADN DE EMPRENDEDORA                                     1 u
-   ISBN 9789500214247   ID 710538   en 1 locales   disp 195
+13. ADN DE EMPRENDEDORA                                     2 u
+   ISBN 9789500214247   ID 710538   en 2 locales   disp 195
 ======================================================================
+      1  DEVOTO
       1  SOLAR DE LA ABADIA
 
 ======================================================================
@@ -157,10 +163,11 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-16. ALFONSO X                                               6 u
-   ISBN 9789500212335   ID 689370   en 6 locales   disp 1566
+16. ALFONSO X                                               7 u
+   ISBN 9789500212335   ID 689370   en 7 locales   disp 1566
 ======================================================================
       1  AEROPARQUE
+      1  DEVOTO
       1  DOT BAIRES SHOPPING
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
@@ -168,19 +175,27 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-17. AMOR DESPUES DEL DESAMOR, EL                            4 u
-   ISBN 9789500215138   ID 716992   en 4 locales   disp 1729
+17. AMOR DESPUES DEL DESAMOR, EL                            5 u
+   ISBN 9789500215138   ID 716992   en 5 locales   disp 1729
 ======================================================================
       1  AEROPARQUE
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  MENDOZA CENTRO
       1  TUCUMAN PORTAL
 
 ======================================================================
-18. ANATOMIA ODONTOLOGICA - FUNCIONAL Y APLICADA           10 u
-   ISBN 9789500201254   ID 87843   en 10 locales   disp 204
+18. AMOR REAL HUELE A TOSTADAS, EL                          1 u
+   ISBN 9789500213042   ID 698749   en 1 locales   disp 616
+======================================================================
+      1  DEVOTO
+
+======================================================================
+19. ANATOMIA ODONTOLOGICA - FUNCIONAL Y APLICADA           11 u
+   ISBN 9789500201254   ID 87843   en 11 locales   disp 204
 ======================================================================
       1  CALLE 12
+      1  DEVOTO
       1  DOT BAIRES SHOPPING
       1  PALMAS DEL PILAR
       1  SOLAR DE LA ABADIA
@@ -192,54 +207,61 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-19. ANIMALES DE LA GRANJA A OSCURAS                         4 u
-   ISBN 9789500212359   ID 690838   en 4 locales   disp 372
+20. ANIMALES DE LA GRANJA A OSCURAS                         5 u
+   ISBN 9789500212359   ID 690838   en 5 locales   disp 372
 ======================================================================
       1  AEROPARQUE
       1  ALTO PALERMO
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-20. ANIMALES DE LA SELVA A OSCURAS                          3 u
-   ISBN 9789500212076   ID 688424   en 3 locales   disp 1637
+21. ANIMALES DE LA SELVA A OSCURAS                          4 u
+   ISBN 9789500212076   ID 688424   en 4 locales   disp 1637
 ======================================================================
       1  ALTO PALERMO
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-21. ANTES DE ENCONTRARTE                                    2 u
-   ISBN 9789500214513   ID 711847   en 2 locales   disp 760
+22. ANTES DE ENCONTRARTE                                    3 u
+   ISBN 9789500214513   ID 711847   en 3 locales   disp 760
 ======================================================================
       1  AEROPARQUE
+      1  DEVOTO
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-22. ARCHIVO DE SHERLOCK HOLMES, EL                          1 u
-   ISBN 9789500209977   ID 660112   en 1 locales   disp 889
+23. ARCHIVO DE SHERLOCK HOLMES, EL                          2 u
+   ISBN 9789500209977   ID 660112   en 2 locales   disp 889
 ======================================================================
+      1  DEVOTO
       1  TUCUMAN PORTAL
 
 ======================================================================
-23. ARCOIRIS DE EMOCIONES                                   1 u
-   ISBN 9789500210492   ID 674460   en 1 locales   disp 858
+24. ARCOIRIS DE EMOCIONES                                   2 u
+   ISBN 9789500210492   ID 674460   en 2 locales   disp 858
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-24. ARTE EN TIEMPOS DE GUERRA, EL                           4 u
-   ISBN 9789500213974   ID 707942   en 4 locales   disp 2041
+25. ARTE EN TIEMPOS DE GUERRA, EL                           5 u
+   ISBN 9789500213974   ID 707942   en 5 locales   disp 2041
 ======================================================================
+      1  DEVOTO
       1  SAN JUSTO
       1  TORTUGAS OPEN MALL
       1  ALTO COMAHUE
       1  SALTA CENTRO
 
 ======================================================================
-25. ASES DE LA LUFTWAFFE DE LA SEGUNDA GUERRA MUNDIAL       5 u
-   ISBN 9789500209793   ID 655253   en 5 locales   disp 505
+26. ASES DE LA LUFTWAFFE DE LA SEGUNDA GUERRA MUNDIAL       6 u
+   ISBN 9789500209793   ID 655253   en 6 locales   disp 505
 ======================================================================
+      1  DEVOTO
       1  BAHIA BLANCA SHOPPING
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
@@ -247,7 +269,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-26. AUGE Y CAIDA                                            3 u
+27. AUGE Y CAIDA                                            3 u
    ISBN 9789500216456   ID 737882   en 3 locales   disp 994
 ======================================================================
       1  DOT BAIRES SHOPPING
@@ -255,29 +277,31 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-27. AVENTURA EN CASA DE LOS ABUELOS - PREMIO MI PLANTA D    2 u
-   ISBN 9789500213691   ID 705128   en 2 locales   disp 112
+28. AVENTURA EN CASA DE LOS ABUELOS - PREMIO MI PLANTA D    3 u
+   ISBN 9789500213691   ID 705128   en 3 locales   disp 112
 ======================================================================
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-28. AVENTURAS DE SHERLOCK HOLMES, LAS (ED. POCKET)          2 u
+29. AVENTURAS DE SHERLOCK HOLMES, LAS (ED. POCKET)          2 u
    ISBN 9789500217521   ID 743066   en 2 locales   disp 875
 ======================================================================
       1  BORGES
       1  SAN LUIS
 
 ======================================================================
-29. BARBARIE                                                3 u
-   ISBN 9789500214780   ID 713924   en 3 locales   disp 829
+30. BARBARIE                                                4 u
+   ISBN 9789500214780   ID 713924   en 4 locales   disp 829
 ======================================================================
+      1  DEVOTO
       1  DOT BAIRES SHOPPING
       1  BAHIA BLANCA SHOPPING
       1  SALTA CENTRO
 
 ======================================================================
-30. BATALLA FINAL                                           3 u
+31. BATALLA FINAL                                           3 u
    ISBN 9789500215848   ID 725692   en 3 locales   disp 571
 ======================================================================
       1  AEROPARQUE
@@ -285,7 +309,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-31. BEETHOVEN                                               4 u
+32. BEETHOVEN                                               4 u
    ISBN 9789500214971   ID 714587   en 4 locales   disp 2404
 ======================================================================
       1  AEROPARQUE
@@ -294,16 +318,17 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-32. BEMBERG                                                 4 u
-   ISBN 9789500213608   ID 704433   en 4 locales   disp 2016
+33. BEMBERG                                                 5 u
+   ISBN 9789500213608   ID 704433   en 5 locales   disp 2016
 ======================================================================
+      1  DEVOTO
       1  SAN JUSTO
       1  TORTUGAS OPEN MALL
       1  ALTO COMAHUE
       1  SALTA CENTRO
 
 ======================================================================
-33. BENJAMIN EN EL JARDIN                                   3 u
+34. BENJAMIN EN EL JARDIN                                   3 u
    ISBN 9789500216517   ID 740173   en 3 locales   disp 110
 ======================================================================
       1  ATENEO FLORIDA 632
@@ -311,92 +336,103 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  PARANA
 
 ======================================================================
-34. BIEN NUTRIDOS; SUPER GUIA ALIMENTARIA PARA FUTUROS G    3 u
-   ISBN 9789500211819   ID 683962   en 3 locales   disp 1156
+35. BIEN NUTRIDOS; SUPER GUIA ALIMENTARIA PARA FUTUROS G    4 u
+   ISBN 9789500211819   ID 683962   en 4 locales   disp 1156
 ======================================================================
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-35. BORGIA, LOS                                             2 u
-   ISBN 9789500209229   ID 639247   en 2 locales   disp 991
+36. BORGIA, LOS                                             3 u
+   ISBN 9789500209229   ID 639247   en 3 locales   disp 991
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-36. BRAVA                                                   2 u
+37. BRAVA                                                   2 u
    ISBN 9789500217200   ID 740155   en 2 locales   disp 1678
 ======================================================================
       1  SALTA CENTRO
       1  TUCUMAN PORTAL
 
 ======================================================================
-37. BROTA                                                   3 u
-   ISBN 9789500212038   ID 686373   en 3 locales   disp 698
+38. BRILLA                                                  1 u
+   ISBN 9789500212953   ID 697474   en 1 locales   disp 936
 ======================================================================
+      1  DEVOTO
+
+======================================================================
+39. BROTA                                                   4 u
+   ISBN 9789500212038   ID 686373   en 4 locales   disp 698
+======================================================================
+      1  DEVOTO
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-38. BUHO HUGO, EL                                           2 u
+40. BUHO HUGO, EL                                           2 u
    ISBN 9789500209144   ID 645284   en 2 locales   disp 1078
 ======================================================================
       1  MAR DEL PLATA PASEO ALDREY
       1  SALTA CENTRO
 
 ======================================================================
-39. CABALLOS                                                1 u
+41. CABALLOS                                                1 u
    ISBN 9789500215237   ID 717945   en 1 locales   disp 2644
 ======================================================================
       1  MENDOZA SHOPPING
 
 ======================================================================
-40. CALEIDOSCOPIO, EL                                       4 u
-   ISBN 9789500215169   ID 716995   en 4 locales   disp 995
+42. CALEIDOSCOPIO, EL                                       5 u
+   ISBN 9789500215169   ID 716995   en 5 locales   disp 995
 ======================================================================
       1  CABALLITO
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  PATIO OLMOS
       1  TUCUMAN PORTAL
 
 ======================================================================
-41. CAMBIO DE CORAZON                                       1 u
+43. CAMBIO DE CORAZON                                       1 u
    ISBN 9789500215671   ID 722605   en 1 locales   disp 1545
 ======================================================================
       1  DOT BAIRES SHOPPING
 
 ======================================================================
-42. CAZADOR DE NAZIS                                        2 u
+44. CAZADOR DE NAZIS                                        2 u
    ISBN 9789500217538   ID 743063   en 2 locales   disp 715
 ======================================================================
       1  DOT BAIRES SHOPPING
       1  SALTA CENTRO
 
 ======================================================================
-43. CEREBRO Y EL ARTE MODERNO, EL                           2 u
-   ISBN 9789500211918   ID 685397   en 2 locales   disp 846
+45. CEREBRO Y EL ARTE MODERNO, EL                           3 u
+   ISBN 9789500211918   ID 685397   en 3 locales   disp 846
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA PASEO ALDREY
       1  SALTA CENTRO
 
 ======================================================================
-44. CHAU, TETA                                              2 u
+46. CHAU, TETA                                              2 u
    ISBN 9789500215220   ID 717943   en 2 locales   disp 297
 ======================================================================
       1  BORGES
       1  ATENEO TUCUMAN
 
 ======================================================================
-45. CIENCIA NAZI                                            1 u
+47. CIENCIA NAZI                                            1 u
    ISBN 9789500213820   ID 706237   en 1 locales   disp 1221
 ======================================================================
       1  SALTA CENTRO
 
 ======================================================================
-46. CIENCIAS NATURALES: 26 PREGUNTAS Y RESPUESTAS           4 u
+48. CIENCIAS NATURALES: 26 PREGUNTAS Y RESPUESTAS           4 u
    ISBN 9789500213424   ID 703397   en 4 locales   disp 1365
 ======================================================================
       1  PALMAS DEL PILAR
@@ -405,10 +441,11 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-47. CIRUGIA DE MICHANS                                      7 u
-   ISBN 9789500212236   ID 688408   en 7 locales   disp 1525
+49. CIRUGIA DE MICHANS                                      8 u
+   ISBN 9789500212236   ID 688408   en 8 locales   disp 1525
 ======================================================================
       1  CALLE 12
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  SAN MIGUEL
       1  ALTO COMAHUE
@@ -417,7 +454,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-48. CIUDAD DE ANGELES / CITY OF ANGELS                      7 u
+50. CIUDAD DE ANGELES / CITY OF ANGELS                      7 u
    ISBN 9789500212311   ID 689371   en 7 locales   disp 2435
 ======================================================================
       1  PALMAS DEL PILAR
@@ -429,41 +466,43 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-49. CIUDADES DEL FUTURO                                     2 u
-   ISBN 9789500213837   ID 706236   en 2 locales   disp 877
+51. CIUDADES DEL FUTURO                                     3 u
+   ISBN 9789500213837   ID 706236   en 3 locales   disp 877
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA PASEO ALDREY
       1  TUCUMAN PORTAL
 
 ======================================================================
-50. COCINA DE DAKSHA, LA                                    1 u
+52. COCINA DE DAKSHA, LA                                    1 u
    ISBN 9789500211635   ID 682656   en 1 locales   disp 2242
 ======================================================================
       1  SALTA CENTRO
 
 ======================================================================
-51. COCINA DE LAS CUATRO ESTACIONES                         2 u
+53. COCINA DE LAS CUATRO ESTACIONES                         2 u
    ISBN 9789500212878   ID 697475   en 2 locales   disp 2541
 ======================================================================
       1  MAR DEL PLATA PASEO ALDREY
       1  SALTA CENTRO
 
 ======================================================================
-52. COCINA EN FAMILIA                                       2 u
-   ISBN 9789500213899   ID 707253   en 2 locales   disp 2596
+54. COCINA EN FAMILIA                                       3 u
+   ISBN 9789500213899   ID 707253   en 3 locales   disp 2596
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-53. COCINA EXPRES                                           2 u
+55. COCINA EXPRES                                           2 u
    ISBN 9789500215602   ID 722599   en 2 locales   disp 2205
 ======================================================================
       1  SALTA CENTRO
       1  TUCUMAN PORTAL
 
 ======================================================================
-54. COLORES                                                 3 u
+56. COLORES                                                 3 u
    ISBN 9789500211857   ID 684675   en 3 locales   disp 1071
 ======================================================================
       1  BORGES
@@ -471,65 +510,71 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  BARILOCHE
 
 ======================================================================
-55. COMO DUERMEN                                            1 u
-   ISBN 9789500212069   ID 688423   en 1 locales   disp 1714
+57. COMO DUERMEN                                            2 u
+   ISBN 9789500212069   ID 688423   en 2 locales   disp 1714
 ======================================================================
       1  AEROPARQUE
+      1  DEVOTO
 
 ======================================================================
-56. COMO HABLAN                                             3 u
-   ISBN 9789500211895   ID 685399   en 3 locales   disp 1288
+58. COMO HABLAN                                             4 u
+   ISBN 9789500211895   ID 685399   en 4 locales   disp 1288
 ======================================================================
       1  AEROPARQUE
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-57. COMO SE BAÑAN                                           4 u
-   ISBN 9789500212342   ID 690837   en 4 locales   disp 1235
+59. COMO SE BAÑAN                                           5 u
+   ISBN 9789500212342   ID 690837   en 5 locales   disp 1235
 ======================================================================
       1  AEROPARQUE
+      1  DEVOTO
       1  LOMAS DE ZAMORA
       1  BAHIA BLANCA SHOPPING
       1  SALTA CENTRO
 
 ======================================================================
-58. CONOZCAMOS LO NUESTRO / THE GAUCHO¿S HERITAGE           2 u
-   ISBN 9789500211024   ID 678079   en 2 locales   disp 563
+60. CONOZCAMOS LO NUESTRO / THE GAUCHO¿S HERITAGE           3 u
+   ISBN 9789500211024   ID 678079   en 3 locales   disp 563
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-59. CONSIGNAS DIDACTICAS                                    1 u
+61. CONSIGNAS DIDACTICAS                                    1 u
    ISBN 9789500217323   ID 741695   en 1 locales   disp 1154
 ======================================================================
       1  TUCUMAN PORTAL
 
 ======================================================================
-60. CORAZON DE VIDRIO - EDICION ESCOLAR                     2 u
-   ISBN 9789500210690   ID 685398   en 2 locales   disp 730
+62. CORAZON DE VIDRIO - EDICION ESCOLAR                     3 u
+   ISBN 9789500210690   ID 685398   en 3 locales   disp 730
 ======================================================================
+      1  DEVOTO
       1  FLORES
       1  ATENEO TUCUMAN
 
 ======================================================================
-61. CUANTO TE PESA TU PESO                                  4 u
-   ISBN 9789500214278   ID 710537   en 4 locales   disp 1335
+63. CUANTO TE PESA TU PESO                                  5 u
+   ISBN 9789500214278   ID 710537   en 5 locales   disp 1335
 ======================================================================
+      1  DEVOTO
       1  ALTO COMAHUE
       1  CORRIENTES SHOPPING
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-62. CUARTOSCURO                                             1 u
+64. CUARTOSCURO                                             1 u
    ISBN 9789500216746   ID 735113   en 1 locales   disp 1413
 ======================================================================
       1  AEROPARQUE
 
 ======================================================================
-63. CUATRO ESTACIONES EN UN DIA, LAS                        3 u
+65. CUATRO ESTACIONES EN UN DIA, LAS                        3 u
    ISBN 9789500299435   ID 625981   en 3 locales   disp 404
 ======================================================================
       1  PLAZA OESTE
@@ -537,14 +582,15 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-64. CUENTOS CORTOS PARA EL RECREO                           2 u
-   ISBN 9789500216012   ID 727009   en 2 locales   disp 575
+66. CUENTOS CORTOS PARA EL RECREO                           3 u
+   ISBN 9789500216012   ID 727009   en 3 locales   disp 575
 ======================================================================
+      1  DEVOTO
       1  BAHIA BLANCA SHOPPING
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-65. CUENTOS CORTOS PARA PINTAR                              4 u
+67. CUENTOS CORTOS PARA PINTAR                              4 u
    ISBN 9789500212731   ID 694755   en 4 locales   disp 1694
 ======================================================================
       1  ATENEO GRAND SPLENDID
@@ -553,16 +599,17 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-66. CUENTOS CORTOS PARA PINTAR 2                            4 u
-   ISBN 9789500213486   ID 703398   en 4 locales   disp 509
+68. CUENTOS CORTOS PARA PINTAR 2                            5 u
+   ISBN 9789500213486   ID 703398   en 5 locales   disp 509
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA PASEO ALDREY
       1  MENDOZA SHOPPING
       1  SAN LUIS
       1  TUCUMAN PORTAL
 
 ======================================================================
-67. CUENTOS CORTOS PARA SOÑAR                               5 u
+69. CUENTOS CORTOS PARA SOÑAR                               5 u
    ISBN 9789500210157   ID 668113   en 5 locales   disp 1098
 ======================================================================
       1  AEROPARQUE
@@ -572,7 +619,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-68. CUENTOS CORTOS PARA SOÑAR 2                             4 u
+70. CUENTOS CORTOS PARA SOÑAR 2                             4 u
    ISBN 9789500210416   ID 673647   en 4 locales   disp 1997
 ======================================================================
       1  ALTO ROSARIO
@@ -581,20 +628,20 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-69. CUENTOS CORTOS PARA SOÑAR 4                             1 u
+71. CUENTOS CORTOS PARA SOÑAR 4                             1 u
    ISBN 9789500211925   ID 685401   en 1 locales   disp 1593
 ======================================================================
       1  TUCUMAN PORTAL
 
 ======================================================================
-70. CUENTOS CORTOS PARA SOÑAR 5                             2 u
+72. CUENTOS CORTOS PARA SOÑAR 5                             2 u
    ISBN 9789500212489   ID 692882   en 2 locales   disp 2183
 ======================================================================
       1  NEUQUEN PORTAL PATAGONIA
       1  PATIO OLMOS
 
 ======================================================================
-71. CUENTOS CORTOS PARA SOÑAR 6                             4 u
+73. CUENTOS CORTOS PARA SOÑAR 6                             4 u
    ISBN 9789500213189   ID 698861   en 4 locales   disp 1011
 ======================================================================
       1  MENDOZA SHOPPING
@@ -603,24 +650,26 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-72. DALE ALEGRIA A MI CORAZON                               2 u
+74. DALE ALEGRIA A MI CORAZON                               2 u
    ISBN 9789500215800   ID 725161   en 2 locales   disp 1785
 ======================================================================
       1  PATIO OLMOS
       1  SALTA CENTRO
 
 ======================================================================
-73. DE LA TIERRA A LA MESA                                  3 u
-   ISBN 9789500214520   ID 711849   en 3 locales   disp 1440
+75. DE LA TIERRA A LA MESA                                  4 u
+   ISBN 9789500214520   ID 711849   en 4 locales   disp 1440
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
       1  TUCUMAN PORTAL
 
 ======================================================================
-74. DESCONOCIDA BUENOS AIRES HISTORIAS DE FRONTERA          5 u
-   ISBN 9789500210218   ID 670526   en 5 locales   disp 684
+76. DESCONOCIDA BUENOS AIRES HISTORIAS DE FRONTERA          6 u
+   ISBN 9789500210218   ID 670526   en 6 locales   disp 684
 ======================================================================
+      1  DEVOTO
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
@@ -628,7 +677,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-75. DESCONOCIDA BUENOS AIRES. ESCAPADAS SOÑADAS             5 u
+77. DESCONOCIDA BUENOS AIRES. ESCAPADAS SOÑADAS             5 u
    ISBN 9789500211253   ID 679307   en 5 locales   disp 1240
 ======================================================================
       1  ALTO COMAHUE
@@ -638,7 +687,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-76. DESCONOCIDA BUENOS AIRES. HISTORIAS DE FRONTERA         3 u
+78. DESCONOCIDA BUENOS AIRES. HISTORIAS DE FRONTERA         3 u
    ISBN 9789500212120   ID 688421   en 3 locales   disp 1716
 ======================================================================
       1  ALTO COMAHUE
@@ -646,15 +695,23 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-77. DETECTIVES DE MITOS                                     1 u
-   ISBN 9789500212854   ID 696626   en 1 locales   disp 1117
+79. DETECTIVES DE LEYENDAS                                  1 u
+   ISBN 9789500213592   ID 704436   en 1 locales   disp 683
 ======================================================================
+      1  DEVOTO
+
+======================================================================
+80. DETECTIVES DE MITOS                                     2 u
+   ISBN 9789500212854   ID 696626   en 2 locales   disp 1117
+======================================================================
+      1  DEVOTO
       1  MENDOZA PALMARES
 
 ======================================================================
-78. DIARIO DE UN ABUELO SALVAJE                             5 u
-   ISBN 9789500213813   ID 706235   en 5 locales   disp 3022
+81. DIARIO DE UN ABUELO SALVAJE                             6 u
+   ISBN 9789500213813   ID 706235   en 6 locales   disp 3022
 ======================================================================
+      1  DEVOTO
       1  DOT BAIRES SHOPPING
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
@@ -662,51 +719,55 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-79. DICCIONARIO ESPAÑOL-INGLES ENGLISH-SPANISH              2 u
+82. DICCIONARIO ESPAÑOL-INGLES ENGLISH-SPANISH              2 u
    ISBN 9789500253390   ID 392614   en 2 locales   disp 1484
 ======================================================================
       1  ATENEO CORDOBA CENTRO
       1  SALTA CENTRO
 
 ======================================================================
-80. DISCAPACIDAD EN PRIMERA PERSONA                         4 u
-   ISBN 9789500215145   ID 722601   en 4 locales   disp 627
+83. DISCAPACIDAD EN PRIMERA PERSONA                         5 u
+   ISBN 9789500215145   ID 722601   en 5 locales   disp 627
 ======================================================================
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
       1  SALTA CENTRO
 
 ======================================================================
-81. DOLOR DE ESTAR VIVO, EL                                 2 u
-   ISBN 9789500213264   ID 700536   en 2 locales   disp 387
+84. DOLOR DE ESTAR VIVO, EL                                 3 u
+   ISBN 9789500213264   ID 700536   en 3 locales   disp 387
 ======================================================================
+      1  DEVOTO
       1  BARILOCHE
       1  SALTA CENTRO
 
 ======================================================================
-82. DUEÑA DE TU DINERO                                      1 u
-   ISBN 9789500212601   ID 692881   en 1 locales   disp 1458
+85. DUEÑA DE TU DINERO                                      2 u
+   ISBN 9789500212601   ID 692881   en 2 locales   disp 1458
 ======================================================================
+      1  DEVOTO
       1  SOLAR DE LA ABADIA
 
 ======================================================================
-83. EDUCACION EMOCIONAL: 50 PREGUNTAS Y RESPUESTAS          2 u
+86. EDUCACION EMOCIONAL: 50 PREGUNTAS Y RESPUESTAS          2 u
    ISBN 9789500210614   ID 676167   en 2 locales   disp 462
 ======================================================================
       1  VILLA URQUIZA
       1  CORRIENTES SHOPPING
 
 ======================================================================
-84. ENCICLOPEDIA DE MITOLOGIA                               1 u
+87. ENCICLOPEDIA DE MITOLOGIA                               1 u
    ISBN 9789500213127   ID 705129   en 1 locales   disp 3068
 ======================================================================
       1  BAHIA BLANCA SHOPPING
 
 ======================================================================
-85. ENDOCRINOLOGIA -  BASES BIOQUIMICAS                     7 u
-   ISBN 9789500210478   ID 674461   en 7 locales   disp 1333
+88. ENDOCRINOLOGIA -  BASES BIOQUIMICAS                     8 u
+   ISBN 9789500210478   ID 674461   en 8 locales   disp 1333
 ======================================================================
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  SAN JUSTO
       1  SAN MIGUEL
@@ -716,15 +777,28 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-86. ENERGIA SIN LIMITES                                     3 u
-   ISBN 9789500210805   ID 677292   en 3 locales   disp 167
+89. ENERGIA SIN LIMITES                                     4 u
+   ISBN 9789500210805   ID 677292   en 4 locales   disp 167
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
       1  TUCUMAN PORTAL
 
 ======================================================================
-87. ENSEÑANZA VIRTUAL: 27 PREGUNTAS Y RESPUESTAS            4 u
+90. ENIGMAS PARA DESCUBRIR HISTORIA ANTIGUA                 1 u
+   ISBN 9789500215329   ID 725693   en 1 locales   disp 784
+======================================================================
+      1  DEVOTO
+
+======================================================================
+91. ENIGMAS PARA DESCUBRIR HISTORIA MODERNA                 1 u
+   ISBN 9789500215312   ID 725694   en 1 locales   disp 795
+======================================================================
+      1  DEVOTO
+
+======================================================================
+92. ENSEÑANZA VIRTUAL: 27 PREGUNTAS Y RESPUESTAS            4 u
    ISBN 9789500211536   ID 681370   en 4 locales   disp 1073
 ======================================================================
       1  TORTUGAS OPEN MALL
@@ -733,7 +807,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-88. ENSEÑAR A LEER Y ESCRIBIR A ADOLESCENTES: 30 PREGUNT    3 u
+93. ENSEÑAR A LEER Y ESCRIBIR A ADOLESCENTES: 30 PREGUNT    3 u
    ISBN 9789500215473   ID 719964   en 3 locales   disp 681
 ======================================================================
       1  PALMAS DEL PILAR
@@ -741,7 +815,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-89. ES ESTRES O TU TIROIDES?                                3 u
+94. ES ESTRES O TU TIROIDES?                                3 u
    ISBN 9789500212540   ID 691779   en 3 locales   disp 1666
 ======================================================================
       1  SOLAR DE LA ABADIA
@@ -749,13 +823,14 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  RESISTENCIA
 
 ======================================================================
-90. ESTAS PARA MAS (CUADERNO)                               1 u
-   ISBN 9789500215817   ID 725174   en 1 locales   disp 640
+95. ESTAS PARA MAS (CUADERNO)                               2 u
+   ISBN 9789500215817   ID 725174   en 2 locales   disp 640
 ======================================================================
+      1  DEVOTO
       1  UNICENTER
 
 ======================================================================
-91. ESTUDIO EN ESCARLATA                                    5 u
+96. ESTUDIO EN ESCARLATA                                    5 u
    ISBN 9789500213059   ID 698752   en 5 locales   disp 1797
 ======================================================================
       1  UNICENTER
@@ -765,20 +840,21 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  NEUQUEN PORTAL PATAGONIA
 
 ======================================================================
-92. ESTUDIO EN ESCARLATA                                    1 u
+97. ESTUDIO EN ESCARLATA                                    1 u
    ISBN 9789500217347   ID 741702   en 1 locales   disp 2556
 ======================================================================
       1  TUCUMAN PORTAL
 
 ======================================================================
-93. ESTUDIO EN ESCARLATA - LA SEÑAL DE LOS CUATRO           2 u
-   ISBN 9789500209816   ID 655251   en 2 locales   disp 101
+98. ESTUDIO EN ESCARLATA - LA SEÑAL DE LOS CUATRO           3 u
+   ISBN 9789500209816   ID 655251   en 3 locales   disp 101
 ======================================================================
+      1  DEVOTO
       1  PLAZA OESTE
       1  TUCUMAN PORTAL
 
 ======================================================================
-94. EVALUACIONES : 29 PREGUNTAS Y RESPUESTAS                5 u
+99. EVALUACIONES : 29 PREGUNTAS Y RESPUESTAS                5 u
    ISBN 9789500212625   ID 693798   en 5 locales   disp 277
 ======================================================================
       1  ALTO NOA SHOPPING - SALTA
@@ -788,22 +864,23 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  PATIO OLMOS
 
 ======================================================================
-95. EXPLOREMOS LA CASA                                      1 u
+100. EXPLOREMOS LA CASA                                      1 u
    ISBN 9789500216951   ID 742444   en 1 locales   disp 1586
 ======================================================================
       1  TUCUMAN PORTAL
 
 ======================================================================
-96. EXPLOREMOS LA GRANJA                                    2 u
+101. EXPLOREMOS LA GRANJA                                    2 u
    ISBN 9789500216944   ID 742443   en 2 locales   disp 1957
 ======================================================================
       1  SALTA CENTRO
       1  TUCUMAN PORTAL
 
 ======================================================================
-97. FEDERICO GARCIA LORCA                                   6 u
-   ISBN 9789500299855   ID 639248   en 6 locales   disp 850
+102. FEDERICO GARCIA LORCA                                   7 u
+   ISBN 9789500299855   ID 639248   en 7 locales   disp 850
 ======================================================================
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
@@ -812,34 +889,35 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-98. FIBROMIALGIA                                            1 u
+103. FIBROMIALGIA                                            1 u
    ISBN 9789500215794   ID 725156   en 1 locales   disp 2269
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-99. FILOSOFIA COMO NUNCA LA VISTE                           1 u
+104. FILOSOFIA COMO NUNCA LA VISTE                           1 u
    ISBN 9789500216029   ID 727017   en 1 locales   disp 2491
 ======================================================================
       1  REMEROS (NORDELTA)
 
 ======================================================================
-100. FILOSOFIA EN 3 MINUTOS: AMOR                            1 u
+105. FILOSOFIA EN 3 MINUTOS: AMOR                            1 u
    ISBN 9789500217187   ID 740160   en 1 locales   disp 1101
 ======================================================================
       1  SOLAR DE LA ABADIA
 
 ======================================================================
-101. FUNDAMENTOS DE MEDICINA LEGAL DEONTOLOGIA Y BIOETICA    4 u
-   ISBN 9789500209014   ID 594406   en 4 locales   disp 195
+106. FUNDAMENTOS DE MEDICINA LEGAL DEONTOLOGIA Y BIOETICA    5 u
+   ISBN 9789500209014   ID 594406   en 5 locales   disp 195
 ======================================================================
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  ALTO NOA SHOPPING - SALTA
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-102. FUNDAMENTOS DE NUTRICION EN EL DEPORTE                  4 u
+107. FUNDAMENTOS DE NUTRICION EN EL DEPORTE                  4 u
    ISBN 9789500211451   ID 682012   en 4 locales   disp 391
 ======================================================================
       1  DOT BAIRES SHOPPING
@@ -848,7 +926,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  PATIO OLMOS
 
 ======================================================================
-103. FUNDAMENTOS DE NUTRICION NORMAL                         3 u
+108. FUNDAMENTOS DE NUTRICION NORMAL                         3 u
    ISBN 9789500211468   ID 681369   en 3 locales   disp 2448
 ======================================================================
       1  TORTUGAS OPEN MALL
@@ -856,15 +934,17 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-104. FUTBOL, PASION PORTEÑA                                  1 u
-   ISBN 9789500215152   ID 716993   en 1 locales   disp 424
+109. FUTBOL, PASION PORTEÑA                                  2 u
+   ISBN 9789500215152   ID 716993   en 2 locales   disp 424
 ======================================================================
+      1  DEVOTO
       1  SALTA CENTRO
 
 ======================================================================
-105. GARABITO                                                6 u
-   ISBN 9789500259224   ID 452787   en 6 locales   disp 405
+110. GARABITO                                                7 u
+   ISBN 9789500259224   ID 452787   en 7 locales   disp 405
 ======================================================================
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
@@ -873,80 +953,83 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-106. GARDEL . EN IMAGENES - IN PICTURES                      2 u
+111. GARDEL . EN IMAGENES - IN PICTURES                      2 u
    ISBN 9789500212397   ID 690478   en 2 locales   disp 3103
 ======================================================================
       1  PATIO OLMOS
       1  TUCUMAN PORTAL
 
 ======================================================================
-107. GATITO TITO, EL                                         1 u
+112. GATITO TITO, EL                                         1 u
    ISBN 9789500209120   ID 645289   en 1 locales   disp 858
 ======================================================================
       1  SANTA FE Ribera Shopping
 
 ======================================================================
-108. GIMNASIA MENTAL: JUEGOS DE LOGICA                       1 u
+113. GIMNASIA MENTAL: JUEGOS DE LOGICA                       1 u
    ISBN 9789500217880   ID 747600   en 1 locales   disp 1286
 ======================================================================
       1  BAHIA BLANCA SHOPPING
 
 ======================================================================
-109. GRADUATES                                               1 u
+114. GRADUATES                                               1 u
    ISBN 9789500217422   ID 743070   en 1 locales   disp 224
 ======================================================================
       1  TUCUMAN PORTAL
 
 ======================================================================
-110. GRAN GATSBY, EL                                         1 u
+115. GRAN GATSBY, EL                                         1 u
    ISBN 9789500209304   ID 647075   en 1 locales   disp 3187
 ======================================================================
       1  ALTO PALERMO
 
 ======================================================================
-111. GRANDES CARTAS DE AMOR                                  1 u
+116. GRANDES CARTAS DE AMOR                                  1 u
    ISBN 9789500210140   ID 668112   en 1 locales   disp 570
 ======================================================================
       1  AEROPARQUE
 
 ======================================================================
-112. HABITOS PARA TU BIENESTAR                               2 u
-   ISBN 2900507113952   ID 711395   en 2 locales   disp 839
+117. HABITOS PARA TU BIENESTAR                               3 u
+   ISBN 2900507113952   ID 711395   en 3 locales   disp 839
 ======================================================================
       1  ATENEO GRAND SPLENDID
+      1  DEVOTO
       1  PATIO OLMOS
 
 ======================================================================
-113. HABLEMOS DE LOS SECRETOS                                1 u
+118. HABLEMOS DE LOS SECRETOS                                1 u
    ISBN 9789500216302   ID 731834   en 1 locales   disp 428
 ======================================================================
       1  BAHIA BLANCA SHOPPING
 
 ======================================================================
-114. HACKEA TU MENTE                                         1 u
+119. HACKEA TU MENTE                                         1 u
    ISBN 9789500213387   ID 702979   en 1 locales   disp 278
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-115. HAMBRE O GANAS DE COMER?                                3 u
-   ISBN 9789500213943   ID 707943   en 3 locales   disp 2150
+120. HAMBRE O GANAS DE COMER?                                4 u
+   ISBN 9789500213943   ID 707943   en 4 locales   disp 2150
 ======================================================================
+      1  DEVOTO
       1  PASEO ALCORTA
       1  SOLAR DE LA ABADIA
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-116. HIJO DEL CODICE, EL                                     2 u
+121. HIJO DEL CODICE, EL                                     2 u
    ISBN 9789500215480   ID 719961   en 2 locales   disp 1138
 ======================================================================
       1  PALMAS DEL PILAR
       1  BAHIA BLANCA SHOPPING
 
 ======================================================================
-117. HIJOS DE NAZIS                                          5 u
-   ISBN 9789500299497   ID 622048   en 5 locales   disp 134
+122. HIJOS DE NAZIS                                          6 u
+   ISBN 9789500299497   ID 622048   en 6 locales   disp 134
 ======================================================================
+      1  DEVOTO
       1  SAN JUSTO
       1  TORTUGAS OPEN MALL
       1  MAR DEL PLATA LOS GALLEGOS
@@ -954,14 +1037,14 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-118. HISTORIA COMO NUNCA ANTES DE LA HABIAN CONTADO, LA      2 u
+123. HISTORIA COMO NUNCA ANTES DE LA HABIAN CONTADO, LA      2 u
    ISBN 9789500209908   ID 657292   en 2 locales   disp 441
 ======================================================================
       1  AEROPARQUE
       1  BAHIA BLANCA SHOPPING
 
 ======================================================================
-119. HISTORIA DE BELGRANO                                    4 u
+124. HISTORIA DE BELGRANO                                    4 u
    ISBN 9789500207850   ID 576586   en 4 locales   disp 1393
 ======================================================================
       1  CALLE 12
@@ -970,16 +1053,17 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-120. HISTORIA DE LA CONSTRUCCION DE EUROPA DESPUES DE 194    4 u
-   ISBN 9789500213875   ID 707252   en 4 locales   disp 1457
+125. HISTORIA DE LA CONSTRUCCION DE EUROPA DESPUES DE 194    5 u
+   ISBN 9789500213875   ID 707252   en 5 locales   disp 1457
 ======================================================================
+      1  DEVOTO
       1  DOT BAIRES SHOPPING
       1  ALTO COMAHUE
       1  SALTA CENTRO
       1  TUCUMAN PORTAL
 
 ======================================================================
-121. HISTORIA DE SAN MARTIN Y DE LA EMANCIPACION SUDAMERI    3 u
+126. HISTORIA DE SAN MARTIN Y DE LA EMANCIPACION SUDAMERI    3 u
    ISBN 9789500263634   ID 516660   en 3 locales   disp 1772
 ======================================================================
       1  AEROPARQUE
@@ -987,27 +1071,28 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  MENDOZA PALMARES
 
 ======================================================================
-122. HISTORIA ECONOMICA DE LA ARGENTINA                      1 u
+127. HISTORIA ECONOMICA DE LA ARGENTINA                      1 u
    ISBN 9789500285353   ID 647012   en 1 locales   disp 196
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-123. HONGOS                                                  1 u
+128. HONGOS                                                  1 u
    ISBN 9789500214735   ID 713082   en 1 locales   disp 620
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-124. INTELIGENCIA ARTIFICIAL                                 1 u
+129. INTELIGENCIA ARTIFICIAL                                 1 u
    ISBN 9789500216197   ID 729379   en 1 locales   disp 1627
 ======================================================================
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-125. JEFE, EL: MIGUEL MATEOS, LA BIOGRAFIA                   7 u
-   ISBN 9789500214087   ID 709127   en 7 locales   disp 1656
+130. JEFE, EL: MIGUEL MATEOS, LA BIOGRAFIA                   8 u
+   ISBN 9789500214087   ID 709127   en 8 locales   disp 1656
 ======================================================================
+      1  DEVOTO
       1  SOLAR DE LA ABADIA
       1  TORTUGAS OPEN MALL
       1  ALTO COMAHUE
@@ -1017,7 +1102,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-126. LECTURA Y ESCRITURA: 31 PREGUNTAS Y RESPUESTAS          4 u
+131. LECTURA Y ESCRITURA: 31 PREGUNTAS Y RESPUESTAS          4 u
    ISBN 9789500212472   ID 691782   en 4 locales   disp 1028
 ======================================================================
       1  VILLA URQUIZA
@@ -1026,29 +1111,31 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-127. LO QUE NADIE CONTO DE LA TRAGEDIA DE LOS ANDES          2 u
+132. LO QUE NADIE CONTO DE LA TRAGEDIA DE LOS ANDES          2 u
    ISBN 9789500215688   ID 722604   en 2 locales   disp 1974
 ======================================================================
       1  TORTUGAS OPEN MALL
       1  TUCUMAN PORTAL
 
 ======================================================================
-128. LO QUE VA VUELVE                                        1 u
-   ISBN 9789500213202   ID 699695   en 1 locales   disp 856
+133. LO QUE VA VUELVE                                        2 u
+   ISBN 9789500213202   ID 699695   en 2 locales   disp 856
 ======================================================================
+      1  DEVOTO
       1  SALTA CENTRO
 
 ======================================================================
-129. LUCERO Y LAS NUBES                                      4 u
-   ISBN 9789500212823   ID 696627   en 4 locales   disp 864
+134. LUCERO Y LAS NUBES                                      5 u
+   ISBN 9789500212823   ID 696627   en 5 locales   disp 864
 ======================================================================
+      1  DEVOTO
       1  FLORES
       1  PALMAS DEL PILAR
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-130. LUDOPATIA                                               5 u
+135. LUDOPATIA                                               5 u
    ISBN 9789500216487   ID 731829   en 5 locales   disp 2121
 ======================================================================
       1  AEROPARQUE
@@ -1058,57 +1145,68 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-131. MAGO DE LOS LIBROS, EL                                  7 u
-   ISBN 9789500215404   ID 718918   en 7 locales   disp 679
+136. MAGO DE LOS LIBROS, EL                                  8 u
+   ISBN 9789500215404   ID 718918   en 8 locales   disp 679
 ======================================================================
       1  AEROPARQUE
       1  AVELLANEDA
       1  BORGES
       1  CALLE 12
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  BAHIA BLANCA SHOPPING
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-132. MALVINAS                                                2 u
+137. MALVINAS                                                2 u
    ISBN 9789500213523   ID 703396   en 2 locales   disp 678
 ======================================================================
       1  FLORES
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-133. MANTOS                                                  1 u
+138. MANTOS                                                  1 u
    ISBN 9789500216531   ID 732725   en 1 locales   disp 141
 ======================================================================
       1  ALTO PALERMO
 
 ======================================================================
-134. MASCOTAS A OSCURAS                                      4 u
-   ISBN 9789500211901   ID 685400   en 4 locales   disp 1729
+139. MASCOTAS A OSCURAS                                      5 u
+   ISBN 9789500211901   ID 685400   en 5 locales   disp 1729
 ======================================================================
       1  AEROPARQUE
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-135. MATANZA NEGADA: AUTOBIOGRAFIA DE MIS PADRES, LA         3 u
-   ISBN 9789500211734   ID 683318   en 3 locales   disp 2741
+140. MATANZA NEGADA: AUTOBIOGRAFIA DE MIS PADRES, LA         4 u
+   ISBN 9789500211734   ID 683318   en 4 locales   disp 2741
 ======================================================================
+      1  DEVOTO
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-136. ME ABURRO!                                              1 u
-   ISBN 9789500213783   ID 707254   en 1 locales   disp 678
+141. ME ABURRO!                                              2 u
+   ISBN 9789500213783   ID 707254   en 2 locales   disp 678
 ======================================================================
+      1  DEVOTO
       1  ATENEO ROSARIO
 
 ======================================================================
-137. MEJORES CUENTOS DE MISTERIO, LOS                        5 u
-   ISBN 9789500209342   ID 647074   en 5 locales   disp 2711
+142. MEJORES CUENTOS DE AMOR, LOS                            1 u
+   ISBN 9789500209359   ID 647070   en 1 locales   disp 2730
 ======================================================================
+      1  DEVOTO
+
+======================================================================
+143. MEJORES CUENTOS DE MISTERIO, LOS                        6 u
+   ISBN 9789500209342   ID 647074   en 6 locales   disp 2711
+======================================================================
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  BAHIA BLANCA SHOPPING
       1  COMODORO RIVADAVIA
@@ -1116,31 +1214,40 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-138. MEMORIAS DE SHERLOCK HOLMES, LAS - ED. POCKET           2 u
+144. MEJORES CUENTOS FANTASTICOS, LOS                        1 u
+   ISBN 9789500209335   ID 647071   en 1 locales   disp 3531
+======================================================================
+      1  DEVOTO
+
+======================================================================
+145. MEMORIAS DE SHERLOCK HOLMES, LAS - ED. POCKET           2 u
    ISBN 9789500217743   ID 745991   en 2 locales   disp 2111
 ======================================================================
       1  PALMAS DEL PILAR
       1  TUCUMAN PORTAL
 
 ======================================================================
-139. MENA                                                    3 u
-   ISBN 9789500259187   ID 417764   en 3 locales   disp 320
+146. MENA                                                    4 u
+   ISBN 9789500259187   ID 417764   en 4 locales   disp 320
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
       1  TUCUMAN PORTAL
 
 ======================================================================
-140. MESSI, EL GENIO COMPLETO                                2 u
-   ISBN 9789500212205   ID 690469   en 2 locales   disp 1595
+147. MESSI, EL GENIO COMPLETO                                3 u
+   ISBN 9789500212205   ID 690469   en 3 locales   disp 1595
 ======================================================================
       1  ATENEO GRAND SPLENDID
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-141. METODO EFE, EL                                          9 u
-   ISBN 9789500210232   ID 670527   en 9 locales   disp 669
+148. METODO EFE, EL                                         10 u
+   ISBN 9789500210232   ID 670527   en 10 locales   disp 669
 ======================================================================
+      1  DEVOTO
       1  SAN JUSTO
       1  TORTUGAS OPEN MALL
       1  ALTO COMAHUE
@@ -1152,61 +1259,66 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-142. MI AMIGO DEGAS                                          4 u
-   ISBN 9789500298674   ID 609581   en 4 locales   disp 371
+149. MI AMIGO DEGAS                                          5 u
+   ISBN 9789500298674   ID 609581   en 5 locales   disp 371
 ======================================================================
       1  AVELLANEDA
+      1  DEVOTO
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-143. MI AMIGO GAUGUIN                                        3 u
-   ISBN 9789500298681   ID 609580   en 3 locales   disp 751
+150. MI AMIGO GAUGUIN                                        4 u
+   ISBN 9789500298681   ID 609580   en 4 locales   disp 751
 ======================================================================
       1  AVELLANEDA
+      1  DEVOTO
       1  ALTO COMAHUE
       1  SALTA CENTRO
 
 ======================================================================
-144. MI AMIGO MONET                                          2 u
-   ISBN 9789500213493   ID 703457   en 2 locales   disp 756
+151. MI AMIGO MONET                                          3 u
+   ISBN 9789500213493   ID 703457   en 3 locales   disp 756
 ======================================================================
       1  AVELLANEDA
+      1  DEVOTO
       1  SALTA CENTRO
 
 ======================================================================
-145. MI AMIGO VAN GOGH                                       5 u
-   ISBN 9789500213509   ID 703456   en 5 locales   disp 765
+152. MI AMIGO VAN GOGH                                       6 u
+   ISBN 9789500213509   ID 703456   en 6 locales   disp 765
 ======================================================================
       1  AVELLANEDA
       1  BORGES
       1  CALLE 12
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  SALTA CENTRO
 
 ======================================================================
-146. MI PLANTA DE NARANJA LIMA - EDICION ESCOLAR             1 u
+153. MI PLANTA DE NARANJA LIMA - EDICION ESCOLAR             1 u
    ISBN 9789500210362   ID 672057   en 1 locales   disp 35
 ======================================================================
       1  VILLA CRESPO
 
 ======================================================================
-147. MI PLANTA DE NARANJA LIMA - EDICION ESPECIAL            1 u
+154. MI PLANTA DE NARANJA LIMA - EDICION ESPECIAL            1 u
    ISBN 9789500210133   ID 668114   en 1 locales   disp 1404
 ======================================================================
       1  PALMAS DEL PILAR
 
 ======================================================================
-148. MI VIAJE CUADERNO DE BITACORA - 2 TOMOS                 3 u
-   ISBN 9789500208970   ID 598710   en 3 locales   disp 381
+155. MI VIAJE CUADERNO DE BITACORA - 2 TOMOS                 4 u
+   ISBN 9789500208970   ID 598710   en 4 locales   disp 381
 ======================================================================
+      1  DEVOTO
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-149. MINICUENTOS DE PRIMAVERA                                4 u
+156. MINICUENTOS DE PRIMAVERA                                4 u
    ISBN 9789500214056   ID 709131   en 4 locales   disp 1754
 ======================================================================
       1  CALLE 12
@@ -1215,17 +1327,19 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  NUEVO CENTRO SHOPPING
 
 ======================================================================
-150. MINICUENTOS DE VERANO                                   3 u
-   ISBN 9789500214506   ID 711850   en 3 locales   disp 2491
+157. MINICUENTOS DE VERANO                                   4 u
+   ISBN 9789500214506   ID 711850   en 4 locales   disp 2491
 ======================================================================
+      1  DEVOTO
       1  PLAZA OESTE
       1  ALTO COMAHUE
       1  MENDOZA SHOPPING
 
 ======================================================================
-151. MINIMA INTERVENCION                                     8 u
-   ISBN 9789500212465   ID 691776   en 8 locales   disp 1214
+158. MINIMA INTERVENCION                                     9 u
+   ISBN 9789500212465   ID 691776   en 9 locales   disp 1214
 ======================================================================
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  SOLAR DE LA ABADIA
       1  TORTUGAS OPEN MALL
@@ -1236,16 +1350,17 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-152. MIS CUENTOS INOLVIDABLES                                4 u
-   ISBN 9789500210102   ID 666999   en 4 locales   disp 554
+159. MIS CUENTOS INOLVIDABLES                                5 u
+   ISBN 9789500210102   ID 666999   en 5 locales   disp 554
 ======================================================================
       1  AVELLANEDA
       1  CABALLITO
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  ALTO ROSARIO
 
 ======================================================================
-153. MITOLOGIA GRIEGA Y ROMANA                               4 u
+160. MITOLOGIA GRIEGA Y ROMANA                               4 u
    ISBN 9789500209564   ID 647011   en 4 locales   disp 427
 ======================================================================
       1  TORTUGAS OPEN MALL
@@ -1254,18 +1369,20 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-154. MOMENTO EICHMANN, EL                                    4 u
-   ISBN 9789500211000   ID 680641   en 4 locales   disp 1304
+161. MOMENTO EICHMANN, EL                                    5 u
+   ISBN 9789500211000   ID 680641   en 5 locales   disp 1304
 ======================================================================
       1  CALLE 12
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
       1  TUCUMAN PORTAL
 
 ======================================================================
-155. MUERTE DE LOS CESARES, LA                               5 u
-   ISBN 9789500299879   ID 640866   en 5 locales   disp 2216
+162. MUERTE DE LOS CESARES, LA                               6 u
+   ISBN 9789500299879   ID 640866   en 6 locales   disp 2216
 ======================================================================
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  UNICENTER
       1  MAR DEL PLATA LOS GALLEGOS
@@ -1273,17 +1390,18 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-156. MUSICA DE D10S                                          5 u
-   ISBN 9789500215459   ID 719963   en 5 locales   disp 1002
+163. MUSICA DE D10S                                          6 u
+   ISBN 9789500215459   ID 719963   en 6 locales   disp 1002
 ======================================================================
       1  AEROPARQUE
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
       1  SALTA CENTRO
 
 ======================================================================
-157. NACE UN PAPA                                            3 u
+164. NACE UN PAPA                                            3 u
    ISBN 9789500213332   ID 702715   en 3 locales   disp 1829
 ======================================================================
       1  TORTUGAS OPEN MALL
@@ -1291,7 +1409,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  MENDOZA PALMARES
 
 ======================================================================
-158. NADIE TE ENSEÑA                                         5 u
+165. NADIE TE ENSEÑA                                         5 u
    ISBN 9789500212441   ID 690835   en 5 locales   disp 1063
 ======================================================================
       1  AVELLANEDA
@@ -1301,7 +1419,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  PARANA
 
 ======================================================================
-159. NAPOLEON BONAPARTE                                      6 u
+166. NAPOLEON BONAPARTE                                      6 u
    ISBN 9789500208611   ID 596841   en 6 locales   disp 761
 ======================================================================
       1  PLAZA OESTE
@@ -1312,7 +1430,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-160. NAZIS ARGENTINOS                                        3 u
+167. NAZIS ARGENTINOS                                        3 u
    ISBN 9789500214742   ID 713081   en 3 locales   disp 1744
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
@@ -1320,21 +1438,23 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-161. NINA                                                    3 u
-   ISBN 9789500210249   ID 673646   en 3 locales   disp 526
+168. NINA                                                    4 u
+   ISBN 9789500210249   ID 673646   en 4 locales   disp 526
 ======================================================================
       1  CABALLITO
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-162. NO APRENDIMOS NADA                                      1 u
-   ISBN 9789500216005   ID 727019   en 1 locales   disp 2202
+169. NO APRENDIMOS NADA                                      2 u
+   ISBN 9789500216005   ID 727019   en 2 locales   disp 2202
 ======================================================================
+      1  DEVOTO
       1  DOT BAIRES SHOPPING
 
 ======================================================================
-163. NO QUIERO DORMIR                                        4 u
+170. NO QUIERO DORMIR                                        4 u
    ISBN 9789500216210   ID 729378   en 4 locales   disp 312
 ======================================================================
       1  AEROPARQUE
@@ -1343,68 +1463,76 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-164. NO SOY NADA SIN TU AMOR                                 1 u
+171. NO SOY NADA SIN TU AMOR                                 1 u
    ISBN 9789500212144   ID 687544   en 1 locales   disp 651
 ======================================================================
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-165. NUESTRO ARBOL DE JACARANDA                              2 u
-   ISBN 9789500213967   ID 707946   en 2 locales   disp 1748
+172. NUESTRO ARBOL DE JACARANDA                              3 u
+   ISBN 9789500213967   ID 707946   en 3 locales   disp 1748
 ======================================================================
+      1  DEVOTO
       1  ALTO COMAHUE
       1  SALTA CENTRO
 
 ======================================================================
-166. NUEVO LABORATORIO DEL ALMA, EL                          1 u
+173. NUEVO DICCIONARIO ESCOLAR DE LA LENGUA ESPAÑOLA         1 u
+   ISBN 9789500215770   ID 728160   en 1 locales   disp 6636
+======================================================================
+      1  DEVOTO
+
+======================================================================
+174. NUEVO LABORATORIO DEL ALMA, EL                          1 u
    ISBN 9789500216333   ID 730437   en 1 locales   disp 1132
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-167. NUMEROS                                                 1 u
+175. NUMEROS                                                 1 u
    ISBN 9789500215183   ID 720932   en 1 locales   disp 365
 ======================================================================
       1  ATENEO ROSARIO
 
 ======================================================================
-168. NUNCA TE OLVIDE                                         1 u
-   ISBN 9789500213684   ID 705125   en 1 locales   disp 604
+176. NUNCA TE OLVIDE                                         2 u
+   ISBN 9789500213684   ID 705125   en 2 locales   disp 604
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-169. OBESIDAD                                                1 u
+177. OBESIDAD                                                1 u
    ISBN 9789500217262   ID 740759   en 1 locales   disp 209
 ======================================================================
       1  TUCUMAN PORTAL
 
 ======================================================================
-170. PANDA AMANDA, LA                                        1 u
+178. PANDA AMANDA, LA                                        1 u
    ISBN 9789500209137   ID 645286   en 1 locales   disp 1084
 ======================================================================
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-171. PANES Y MASAS                                           1 u
+179. PANES Y MASAS                                           1 u
    ISBN 9789500214216   ID 710539   en 1 locales   disp 413
 ======================================================================
       1  FLORES
 
 ======================================================================
-172. PASEO POR LA GRANJA                                     1 u
+180. PASEO POR LA GRANJA                                     1 u
    ISBN 9789500216258   ID 734398   en 1 locales   disp 1377
 ======================================================================
       1  LA PLATA
 
 ======================================================================
-173. PASEO POR LA PLAYA                                      1 u
+181. PASEO POR LA PLAYA                                      1 u
    ISBN 9789500216241   ID 734399   en 1 locales   disp 1442
 ======================================================================
       1  AVELLANEDA
 
 ======================================================================
-174. PASTELERIA ARGENTINA                                    3 u
+182. PASTELERIA ARGENTINA                                    3 u
    ISBN 9789500213257   ID 700534   en 3 locales   disp 770
 ======================================================================
       1  ALTO COMAHUE
@@ -1412,72 +1540,89 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  JUJUY
 
 ======================================================================
-175. PATAGONIA                                               2 u
+183. PATAGONIA                                               2 u
    ISBN 9789500216883   ID 737014   en 2 locales   disp 359
 ======================================================================
       1  SOLAR DE LA ABADIA
       1  PARANA
 
 ======================================================================
-176. PEDAGOGIAS EMERGENTES: 22 PREGUNTAS Y RESPUESTAS -      1 u
+184. PEDAGOGIAS EMERGENTES: 22 PREGUNTAS Y RESPUESTAS -      1 u
    ISBN 9789500217712   ID 745987   en 1 locales   disp 962
 ======================================================================
       1  PALMAS DEL PILAR
 
 ======================================================================
-177. PEDIATRA AL RESCATE                                     2 u
-   ISBN 9789500214155   ID 709894   en 2 locales   disp 1256
+185. PEDIATRA AL RESCATE                                     3 u
+   ISBN 9789500214155   ID 709894   en 3 locales   disp 1256
 ======================================================================
+      1  DEVOTO
       1  PLAZA OESTE
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-178. PEQUEÑOS PASOS: MI MUNDO                                2 u
+186. PENSAR DE NUEVO                                         1 u
+   ISBN 9789500217385   ID 741692   en 1 locales   disp 670
+======================================================================
+      1  DEVOTO
+
+======================================================================
+187. PEQUEÑOS PASOS: MI MUNDO                                2 u
    ISBN 9789500216760   ID 742446   en 2 locales   disp 895
 ======================================================================
       1  ALTO PALERMO
       1  BORGES
 
 ======================================================================
-179. PEQUEÑOS PASOS: MIS ANIMALES                            2 u
+188. PEQUEÑOS PASOS: MIS ANIMALES                            2 u
    ISBN 9789500216777   ID 742445   en 2 locales   disp 649
 ======================================================================
       1  AEROPARQUE
       1  ALTO PALERMO
 
 ======================================================================
-180. PIDE UN DESEO / MAKE A WISH                             5 u
-   ISBN 9789500212779   ID 695683   en 5 locales   disp 2785
+189. PIDE UN DESEO / MAKE A WISH                             6 u
+   ISBN 9789500212779   ID 695683   en 6 locales   disp 2785
 ======================================================================
       1  ALTO PALERMO
+      1  DEVOTO
       1  FLORES
       1  SAN JUSTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-181. PINTO Y APRENDO CURSIVA                                 2 u
-   ISBN 9789500210508   ID 674459   en 2 locales   disp 198
+190. PINTO Y APRENDO CURSIVA                                 3 u
+   ISBN 9789500210508   ID 674459   en 3 locales   disp 198
 ======================================================================
       1  ALTO PALERMO
+      1  DEVOTO
       1  SALTA CENTRO
 
 ======================================================================
-182. PINTO Y APRENDO FORMAS, OPUESTOS Y MAS                  2 u
-   ISBN 9789500211017   ID 677841   en 2 locales   disp 265
+191. PINTO Y APRENDO FORMAS, OPUESTOS Y MAS                  3 u
+   ISBN 9789500211017   ID 677841   en 3 locales   disp 265
 ======================================================================
       1  ALTO PALERMO
+      1  DEVOTO
       1  SALTA CENTRO
 
 ======================================================================
-183. PONE(TE) PRIMERA                                        2 u
-   ISBN 9789500215589   ID 721546   en 2 locales   disp 676
+192. PINTO Y APRENDO LAS LETRAS                              1 u
+   ISBN 9789500210225   ID 670529   en 1 locales   disp 793
 ======================================================================
+      1  DEVOTO
+
+======================================================================
+193. PONE(TE) PRIMERA                                        3 u
+   ISBN 9789500215589   ID 721546   en 3 locales   disp 676
+======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  MENDOZA PALMARES
 
 ======================================================================
-184. POR QUE A MI?                                           3 u
+194. POR QUE A MI?                                           3 u
    ISBN 9789500216715   ID 734146   en 3 locales   disp 1280
 ======================================================================
       1  PALMAS DEL PILAR
@@ -1485,31 +1630,32 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-185. POR QUE TE QUEDAS?                                      1 u
-   ISBN 9789500216289   ID 729376   en 1 locales   disp 1209
+195. POR QUE TE QUEDAS?                                      2 u
+   ISBN 9789500216289   ID 729376   en 2 locales   disp 1209
 ======================================================================
+      1  DEVOTO
       1  SOLAR DE LA ABADIA
 
 ======================================================================
-186. PREGUNTON. ENCICLOPEDIA DE LA ARGENTINA, EL             1 u
+196. PREGUNTON. ENCICLOPEDIA DE LA ARGENTINA, EL             1 u
    ISBN 9789500216142   ID 728159   en 1 locales   disp 1167
 ======================================================================
       1  TUCUMAN PORTAL
 
 ======================================================================
-187. PREGUNTON. ENCICLOPEDIA DE LOS DINOSAURIOS Y LA PREH    1 u
+197. PREGUNTON. ENCICLOPEDIA DE LOS DINOSAURIOS Y LA PREH    1 u
    ISBN 9789500212670   ID 693799   en 1 locales   disp 3494
 ======================================================================
       1  MENDOZA SHOPPING
 
 ======================================================================
-188. PREGUNTON. ENCICLOPEDIA DEL CUERPO HUMANO, EL           1 u
+198. PREGUNTON. ENCICLOPEDIA DEL CUERPO HUMANO, EL           1 u
    ISBN 9789500213165   ID 699698   en 1 locales   disp 698
 ======================================================================
       1  SALTA CENTRO
 
 ======================================================================
-189. PREGUNTON. ENCICLOPEDIA DEL MUNDO, EL                   5 u
+199. PREGUNTON. ENCICLOPEDIA DEL MUNDO, EL                   5 u
    ISBN 9789500213806   ID 706238   en 5 locales   disp 1182
 ======================================================================
       1  TORTUGAS OPEN MALL
@@ -1519,7 +1665,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  NEUQUEN PORTAL PATAGONIA
 
 ======================================================================
-190. PREGUNTON: ENCICLOPEDIA DEL ESPACIO, EL                 3 u
+200. PREGUNTON: ENCICLOPEDIA DEL ESPACIO, EL                 3 u
    ISBN 9789500209472   ID 686345   en 3 locales   disp 1010
 ======================================================================
       1  MENDOZA SHOPPING
@@ -1527,22 +1673,30 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-191. PUEDO APRENDER A QUERERTE                               1 u
+201. PROFECIA DE ESTAMBUL, LA                                1 u
+   ISBN 9789500212526   ID 692878   en 1 locales   disp 1566
+======================================================================
+      1  DEVOTO
+
+======================================================================
+202. PUEDO APRENDER A QUERERTE                               1 u
    ISBN 9789500215336   ID 717940   en 1 locales   disp 272
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-192. PUENTE DEL REY, EL                                      2 u
-   ISBN 9789500212458   ID 692880   en 2 locales   disp 1869
+203. PUENTE DEL REY, EL                                      3 u
+   ISBN 9789500212458   ID 692880   en 3 locales   disp 1869
 ======================================================================
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-193. QUIMICA BIOLOGICA  - 11ª EDICION                        7 u
-   ISBN 9789500213370   ID 702978   en 7 locales   disp 840
+204. QUIMICA BIOLOGICA  - 11ª EDICION                        8 u
+   ISBN 9789500213370   ID 702978   en 8 locales   disp 840
 ======================================================================
+      1  DEVOTO
       1  SAN MIGUEL
       1  ALTO COMAHUE
       1  JUJUY
@@ -1552,23 +1706,24 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-194. QUISIERA SER                                            5 u
-   ISBN 9789500211369   ID 681102   en 5 locales   disp 1846
+205. QUISIERA SER                                            6 u
+   ISBN 9789500211369   ID 681102   en 6 locales   disp 1846
 ======================================================================
       1  ALTO PALERMO
       1  CABALLITO
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-195. RANA LILIANA, LA                                        1 u
+206. RANA LILIANA, LA                                        1 u
    ISBN 9789500209113   ID 645291   en 1 locales   disp 1042
 ======================================================================
       1  SALTA CENTRO
 
 ======================================================================
-196. REGRESO A MI                                            4 u
+207. REGRESO A MI                                            4 u
    ISBN 9789500212281   ID 689372   en 4 locales   disp 1674
 ======================================================================
       1  TORTUGAS OPEN MALL
@@ -1577,18 +1732,20 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-197. REHABILITACION COGNITIVA                                4 u
-   ISBN 9789500209984   ID 659629   en 4 locales   disp 943
+208. REHABILITACION COGNITIVA                                5 u
+   ISBN 9789500209984   ID 659629   en 5 locales   disp 943
 ======================================================================
+      1  DEVOTO
       1  SOLAR DE LA ABADIA
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
       1  SALTA CENTRO
 
 ======================================================================
-198. REHABILITACION COGNITIVA. CASOS CLINICOS.               6 u
-   ISBN 9789500211475   ID 681368   en 6 locales   disp 536
+209. REHABILITACION COGNITIVA. CASOS CLINICOS.               7 u
+   ISBN 9789500211475   ID 681368   en 7 locales   disp 536
 ======================================================================
+      1  DEVOTO
       1  DOT BAIRES SHOPPING
       1  SAN MIGUEL
       1  TORTUGAS OPEN MALL
@@ -1597,24 +1754,26 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-199. RENATA EN LA GRANJA                                     2 u
+210. RENATA EN LA GRANJA                                     2 u
    ISBN 9789500216524   ID 740175   en 2 locales   disp 266
 ======================================================================
       1  FLORES
       1  PARANA
 
 ======================================================================
-200. REPLICAS                                                3 u
-   ISBN 9789500211383   ID 680634   en 3 locales   disp 1811
+211. REPLICAS                                                4 u
+   ISBN 9789500211383   ID 680634   en 4 locales   disp 1811
 ======================================================================
+      1  DEVOTO
       1  SOLAR DE LA ABADIA
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-201. RESETEA TUS INTESTINOS - EDICION ANIVERSARIO            5 u
-   ISBN 9789500213653   ID 705123   en 5 locales   disp 761
+212. RESETEA TUS INTESTINOS - EDICION ANIVERSARIO            6 u
+   ISBN 9789500213653   ID 705123   en 6 locales   disp 761
 ======================================================================
+      1  DEVOTO
       1  REMEROS (NORDELTA)
       1  ALTO ROSARIO
       1  COMODORO RIVADAVIA
@@ -1622,16 +1781,17 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SANTA FE Ribera Shopping
 
 ======================================================================
-202. RINCONES DE BUENOS AIRES                                2 u
+213. RINCONES DE BUENOS AIRES                                2 u
    ISBN 9789500216364   ID 730438   en 2 locales   disp 1282
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
       1  TUCUMAN PORTAL
 
 ======================================================================
-203. ROBIN WOOD: UNA VIDA DE AVENTURAS                       5 u
-   ISBN 9789500211741   ID 683319   en 5 locales   disp 496
+214. ROBIN WOOD: UNA VIDA DE AVENTURAS                       6 u
+   ISBN 9789500211741   ID 683319   en 6 locales   disp 496
 ======================================================================
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
@@ -1639,16 +1799,17 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-204. ROSINHA MI CANOA - EDICION ESCOLAR                      4 u
-   ISBN 9789500210522   ID 674457   en 4 locales   disp 676
+215. ROSINHA MI CANOA - EDICION ESCOLAR                      5 u
+   ISBN 9789500210522   ID 674457   en 5 locales   disp 676
 ======================================================================
+      1  DEVOTO
       1  FLORES
       1  ALTO NOA SHOPPING - SALTA
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-205. RUTAS ARGENTINAS                                        4 u
+216. RUTAS ARGENTINAS                                        4 u
    ISBN 9789500214490   ID 711848   en 4 locales   disp 1357
 ======================================================================
       1  SOLAR DE LA ABADIA
@@ -1657,9 +1818,10 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-206. SABER ACOMPAÑAR                                         5 u
-   ISBN 9789500211864   ID 684659   en 5 locales   disp 752
+217. SABER ACOMPAÑAR                                         6 u
+   ISBN 9789500211864   ID 684659   en 6 locales   disp 752
 ======================================================================
+      1  DEVOTO
       1  DOT BAIRES SHOPPING
       1  BAHIA BLANCA SHOPPING
       1  MAR DEL PLATA LOS GALLEGOS
@@ -1667,14 +1829,20 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-207. SABUESO DE LOS BASKERVILLE, EL                          2 u
+218. SABUESO DE LOS BASKERVILLE, EL                          1 u
+   ISBN 9789500209922   ID 657294   en 1 locales   disp 919
+======================================================================
+      1  DEVOTO
+
+======================================================================
+219. SABUESO DE LOS BASKERVILLE, EL                          2 u
    ISBN 9789500213882   ID 707248   en 2 locales   disp 3025
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
       1  NEUQUEN PORTAL PATAGONIA
 
 ======================================================================
-208. SAGA DE LOS HABSBURGO, LA                               7 u
+220. SAGA DE LOS HABSBURGO, LA                               7 u
    ISBN 9789500298810   ID 610466   en 7 locales   disp 436
 ======================================================================
       1  BORGES
@@ -1686,14 +1854,20 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-209. SARKANY: MEMORIAS DE UN ZAPATERO                        2 u
+221. SAKURA                                                  1 u
+   ISBN 9789500210027   ID 662546   en 1 locales   disp 164
+======================================================================
+      1  DEVOTO
+
+======================================================================
+222. SARKANY: MEMORIAS DE UN ZAPATERO                        2 u
    ISBN 9789500217286   ID 740757   en 2 locales   disp 1140
 ======================================================================
       1  AEROPARQUE
       1  CORRIENTES SHOPPING
 
 ======================================================================
-210. SECRETO DE COMPOSTELA, EL                               3 u
+223. SECRETO DE COMPOSTELA, EL                               3 u
    ISBN 9789500213585   ID 704434   en 3 locales   disp 1532
 ======================================================================
       1  TORTUGAS OPEN MALL
@@ -1701,7 +1875,7 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  NUEVO CENTRO SHOPPING
 
 ======================================================================
-211. SECUENCIAS DIDACTICAS: 30 PREGUNTAS Y RESPUESTAS        5 u
+224. SECUENCIAS DIDACTICAS: 30 PREGUNTAS Y RESPUESTAS        5 u
    ISBN 9789500211796   ID 683961   en 5 locales   disp 1520
 ======================================================================
       1  ATENEO CORDOBA CENTRO
@@ -1711,13 +1885,14 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-212. SEGUIMOS SIENDO FAMILIA                                 1 u
-   ISBN 9789500215046   ID 715424   en 1 locales   disp 1328
+225. SEGUIMOS SIENDO FAMILIA                                 2 u
+   ISBN 9789500215046   ID 715424   en 2 locales   disp 1328
 ======================================================================
+      1  DEVOTO
       1  SALTA CENTRO
 
 ======================================================================
-213. SEGUNDA GUERRA MUNDIAL, LA                              4 u
+226. SEGUNDA GUERRA MUNDIAL, LA                              4 u
    ISBN 9789500206983   ID 557270   en 4 locales   disp 788
 ======================================================================
       1  MAR DEL PLATA PASEO ALDREY
@@ -1726,9 +1901,10 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-214. SEMIOLOGIA DEL SISTEMA NERVIOSO                         6 u
-   ISBN 9789500207812   ID 575259   en 6 locales   disp 373
+227. SEMIOLOGIA DEL SISTEMA NERVIOSO                         7 u
+   ISBN 9789500207812   ID 575259   en 7 locales   disp 373
 ======================================================================
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  SOLAR DE LA ABADIA
       1  TORTUGAS OPEN MALL
@@ -1737,54 +1913,58 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-215. SEMIOLOGIA DEL SISTEMA NERVIOSO -16ª EDICION            4 u
-   ISBN 9789500214919   ID 720930   en 4 locales   disp 185
+228. SEMIOLOGIA DEL SISTEMA NERVIOSO -16ª EDICION            5 u
+   ISBN 9789500214919   ID 720930   en 5 locales   disp 185
 ======================================================================
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  SOLAR DE LA ABADIA
       1  MAR DEL PLATA LOS GALLEGOS
       1  PATIO OLMOS
 
 ======================================================================
-216. SERAPIO CUMPLE AÑOS                                     1 u
+229. SERAPIO CUMPLE AÑOS                                     1 u
    ISBN 9789500213950   ID 707951   en 1 locales   disp 338
 ======================================================================
       1  AEROPARQUE
 
 ======================================================================
-217. SERAPIO PIERDE UN DIENTE                                2 u
-   ISBN 9789500213158   ID 700558   en 2 locales   disp 498
+230. SERAPIO PIERDE UN DIENTE                                3 u
+   ISBN 9789500213158   ID 700558   en 3 locales   disp 498
 ======================================================================
+      1  DEVOTO
       1  BARILOCHE
       1  SALTA CENTRO
 
 ======================================================================
-218. SERAPIO PIERDE UN DIENTE - 2DA EDICION                  1 u
+231. SERAPIO PIERDE UN DIENTE - 2DA EDICION                  1 u
    ISBN 9789500214070   ID 709126   en 1 locales   disp 1286
 ======================================================================
       1  SALTA CENTRO
 
 ======================================================================
-219. SERAPIO VA A LA ESCUELA                                 2 u
+232. SERAPIO VA A LA ESCUELA                                 2 u
    ISBN 9789500214964   ID 714592   en 2 locales   disp 131
 ======================================================================
       1  AEROPARQUE
       1  BARILOCHE
 
 ======================================================================
-220. SEÑOR DE LOS SUEÑOS, EL                                 5 u
-   ISBN 9789500210201   ID 670528   en 5 locales   disp 895
+233. SEÑOR DE LOS SUEÑOS, EL                                 6 u
+   ISBN 9789500210201   ID 670528   en 6 locales   disp 895
 ======================================================================
       1  ALTO PALERMO
       1  CABALLITO
+      1  DEVOTO
       1  PALMAS DEL PILAR
       1  RESISTENCIA
       1  SALTA CENTRO
 
 ======================================================================
-221. SI PUDIERAS ELEGIR DE QUE MANERA MORIR... ¿QUE HARIA    5 u
-   ISBN 9789500212946   ID 697473   en 5 locales   disp 1865
+234. SI PUDIERAS ELEGIR DE QUE MANERA MORIR... ¿QUE HARIA    6 u
+   ISBN 9789500212946   ID 697473   en 6 locales   disp 1865
 ======================================================================
+      1  DEVOTO
       1  SOLAR DE LA ABADIA
       1  TORTUGAS OPEN MALL
       1  ALTO COMAHUE
@@ -1792,33 +1972,48 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-222. SIGLO DE LOS DICTADORES, EL                             4 u
-   ISBN 9789500210553   ID 677840   en 4 locales   disp 161
+235. SIGLO DE LOS DICTADORES, EL                             5 u
+   ISBN 9789500210553   ID 677840   en 5 locales   disp 161
 ======================================================================
+      1  DEVOTO
       1  JUJUY
       1  MAR DEL PLATA LOS GALLEGOS
       1  RIO CUARTO
       1  SALTA CENTRO
 
 ======================================================================
-223. SOLTAR PARA SER FELIZ. UNA GUIA SIMPLE Y PODEROSA (E    4 u
-   ISBN 9789500212250   ID 688410   en 4 locales   disp 888
+236. SIMALE CUMPLE 70                                        1 u
+   ISBN 9789500214773   ID 714590   en 1 locales   disp 1020
 ======================================================================
+      1  DEVOTO
+
+======================================================================
+237. SIN LIMITES                                             1 u
+   ISBN 9789500215534   ID 721547   en 1 locales   disp 1253
+======================================================================
+      1  DEVOTO
+
+======================================================================
+238. SOLTAR PARA SER FELIZ. UNA GUIA SIMPLE Y PODEROSA (E    5 u
+   ISBN 9789500212250   ID 688410   en 5 locales   disp 888
+======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  ROSARIO PORTAL
       1  SALTA CENTRO
       1  TUCUMAN PORTAL
 
 ======================================================================
-224. SOMOS DIFERENTES                                        1 u
+239. SOMOS DIFERENTES                                        1 u
    ISBN 9789500213417   ID 702981   en 1 locales   disp 2374
 ======================================================================
       1  AEROPARQUE
 
 ======================================================================
-225. SOMOS TODOS PERONISTAS?                                 6 u
-   ISBN 9789500210096   ID 666998   en 6 locales   disp 984
+240. SOMOS TODOS PERONISTAS?                                 7 u
+   ISBN 9789500210096   ID 666998   en 7 locales   disp 984
 ======================================================================
+      1  DEVOTO
       1  SOLAR DE LA ABADIA
       1  TORTUGAS OPEN MALL
       1  ALTO COMAHUE
@@ -1827,48 +2022,50 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-226. SOY DUEÑA DE MI VIDA                                    2 u
-   ISBN 9789500213721   ID 705126   en 2 locales   disp 1132
+241. SOY DUEÑA DE MI VIDA                                    3 u
+   ISBN 9789500213721   ID 705126   en 3 locales   disp 1132
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA PASEO ALDREY
       1  TUCUMAN PORTAL
 
 ======================================================================
-227. SUPER YO!                                               4 u
-   ISBN 9789500214254   ID 710541   en 4 locales   disp 868
+242. SUPER YO!                                               5 u
+   ISBN 9789500214254   ID 710541   en 5 locales   disp 868
 ======================================================================
       1  CABALLITO
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  MAR DEL PLATA PASEO ALDREY
       1  SALTA CENTRO
 
 ======================================================================
-228. SUPERCUENTOS DE GOL                                     1 u
+243. SUPERCUENTOS DE GOL                                     1 u
    ISBN 9789500217767   ID 745992   en 1 locales   disp 10
 ======================================================================
       1  JUJUY
 
 ======================================================================
-229. SUPERHEROES                                             2 u
+244. SUPERHEROES                                             2 u
    ISBN 9789500210461   ID 673648   en 2 locales   disp 977
 ======================================================================
       1  AVELLANEDA
       1  SALTA CENTRO
 
 ======================================================================
-230. TAO TE CHING.  (ED. POCKET)                             1 u
+245. TAO TE CHING.  (ED. POCKET)                             1 u
    ISBN 9789500218023   ID 748668   en 1 locales   disp 69
 ======================================================================
       1  QUILMES CENTRO
 
 ======================================================================
-231. TEIA EN LA PLAZA                                        1 u
+246. TEIA EN LA PLAZA                                        1 u
    ISBN 9789500215022   ID 715425   en 1 locales   disp 568
 ======================================================================
       1  AEROPARQUE
 
 ======================================================================
-232. TEO Y ANA INVESTIGA LOS SERES FANTASTICOS               4 u
+247. TEO Y ANA INVESTIGA LOS SERES FANTASTICOS               4 u
    ISBN 9789500216432   ID 731833   en 4 locales   disp 857
 ======================================================================
       1  ALTO COMAHUE
@@ -1877,13 +2074,13 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-233. TEO Y ANA INVESTIGAN LA ARGENTINA                       1 u
+248. TEO Y ANA INVESTIGAN LA ARGENTINA                       1 u
    ISBN 9789500210317   ID 671443   en 1 locales   disp 67
 ======================================================================
       1  ALTO COMAHUE
 
 ======================================================================
-234. TEO Y ANA INVESTIGAN LOS ANIMALES                       5 u
+249. TEO Y ANA INVESTIGAN LOS ANIMALES                       5 u
    ISBN 9789500211109   ID 678455   en 5 locales   disp 1669
 ======================================================================
       1  ATENEO GRAND SPLENDID
@@ -1893,19 +2090,19 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-235. TEO Y ANA INVESTIGAN LOS DEPORTES                       1 u
+250. TEO Y ANA INVESTIGAN LOS DEPORTES                       1 u
    ISBN 9789500213936   ID 707950   en 1 locales   disp 810
 ======================================================================
       1  SALTA CENTRO
 
 ======================================================================
-236. THE BLOOD WE INHERIT                                    1 u
+251. THE BLOOD WE INHERIT                                    1 u
    ISBN 9789500217316   ID 741697   en 1 locales   disp 774
 ======================================================================
       1  TUCUMAN PORTAL
 
 ======================================================================
-237. THE BOY WHO SURVIVED AUSCHWITZ                          4 u
+252. THE BOY WHO SURVIVED AUSCHWITZ                          4 u
    ISBN 9789500217453   ID 743069   en 4 locales   disp 729
 ======================================================================
       1  CABALLITO
@@ -1914,9 +2111,10 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-238. TOXICOLOGIA                                             6 u
-   ISBN 9789500211628   ID 682655   en 6 locales   disp 1132
+253. TOXICOLOGIA                                             7 u
+   ISBN 9789500211628   ID 682655   en 7 locales   disp 1132
 ======================================================================
+      1  DEVOTO
       1  SAN MIGUEL
       1  TORTUGAS OPEN MALL
       1  ALTO COMAHUE
@@ -1925,59 +2123,68 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-239. ULTIMA GUARIDA DE HITLER, LA                            5 u
-   ISBN 9789500216067   ID 727394   en 5 locales   disp 430
+254. ULTIMA GUARIDA DE HITLER, LA                            6 u
+   ISBN 9789500216067   ID 727394   en 6 locales   disp 430
 ======================================================================
       1  AEROPARQUE
       1  ATENEO FLORIDA 632
       1  CALLE 12
+      1  DEVOTO
       1  COMODORO RIVADAVIA
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-240. ULTIMA GUARIDA DE HITLER, LA  2ª ED. AMPLIADA           2 u
+255. ULTIMA GUARIDA DE HITLER, LA  2ª ED. AMPLIADA           2 u
    ISBN 9789500217248   ID 740162   en 2 locales   disp 454
 ======================================================================
       1  JUJUY
       1  SALTA CENTRO
 
 ======================================================================
-241. UNA COCINA QUE TE CAMBIA LA VIDA                        1 u
-   ISBN 9789500213615   ID 704435   en 1 locales   disp 659
+256. UNA COCINA QUE TE CAMBIA LA VIDA                        2 u
+   ISBN 9789500213615   ID 704435   en 2 locales   disp 659
 ======================================================================
+      1  DEVOTO
       1  SALTA CENTRO
 
 ======================================================================
-242. UNA MUJER CON ALAS                                      2 u
+257. UNA MAMA EN COLORES                                     1 u
+   ISBN 9789500213134   ID 700538   en 1 locales   disp 951
+======================================================================
+      1  DEVOTO
+
+======================================================================
+258. UNA MUJER CON ALAS                                      2 u
    ISBN 9789500211871   ID 685396   en 2 locales   disp 1104
 ======================================================================
       1  BARILOCHE
       1  SALTA CENTRO
 
 ======================================================================
-243. UNA PIZCA DE AMOR                                       2 u
+259. UNA PIZCA DE AMOR                                       2 u
    ISBN 9789500210188   ID 669516   en 2 locales   disp 661
 ======================================================================
       1  FLORES
       1  SALTA CENTRO
 
 ======================================================================
-244. VACA NO SE CALLA, LA                                    1 u
+260. VACA NO SE CALLA, LA                                    1 u
    ISBN 9789500217224   ID 743235   en 1 locales   disp 969
 ======================================================================
       1  SALTA CENTRO
 
 ======================================================================
-245. VACA SE EMPACA, LA                                      1 u
+261. VACA SE EMPACA, LA                                      1 u
    ISBN 9789500213073   ID 699700   en 1 locales   disp 885
 ======================================================================
       1  PALMAS DEL PILAR
 
 ======================================================================
-246. VACA SE EMPACA, LA - 2DA EDICION TR                     6 u
-   ISBN 9789500214117   ID 709130   en 6 locales   disp 1237
+262. VACA SE EMPACA, LA - 2DA EDICION TR                     7 u
+   ISBN 9789500214117   ID 709130   en 7 locales   disp 1237
 ======================================================================
       1  AVELLANEDA
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
       1  ALTO COMAHUE
       1  BARILOCHE
@@ -1985,86 +2192,110 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-247. VACA Y LA ESPINACA, LA - RUSTICA                        1 u
-   ISBN 9789500216166   ID 728158   en 1 locales   disp 1472
+263. VACA SUS MIEDOS ATACA, LA - 2DA. EDICION TR             1 u
+   ISBN 9789500214100   ID 709129   en 1 locales   disp 1394
 ======================================================================
+      1  DEVOTO
+
+======================================================================
+264. VACA Y LA ESPINACA, LA - RUSTICA                        2 u
+   ISBN 9789500216166   ID 728158   en 2 locales   disp 1472
+======================================================================
+      1  DEVOTO
       1  TORTUGAS OPEN MALL
 
 ======================================================================
-248. VACA VA A SER HERMANA, LA                               1 u
+265. VACA VA A SER HERMANA, LA                               1 u
    ISBN 9789500217460   ID 743068   en 1 locales   disp 2705
 ======================================================================
       1  SANTA FE Ribera Shopping
 
 ======================================================================
-249. VAMOS                                                   3 u
-   ISBN 9789500212212   ID 688427   en 3 locales   disp 316
+266. VAMOS                                                   4 u
+   ISBN 9789500212212   ID 688427   en 4 locales   disp 316
 ======================================================================
       1  CABALLITO
+      1  DEVOTO
       1  PASEO ALCORTA
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-250. VAMOS A APRENDER SUMAS Y RESTAS                         1 u
+267. VAMOS A APRENDER SUMAS Y RESTAS                         1 u
    ISBN 9789500217798   ID 751242   en 1 locales   disp 1311
 ======================================================================
       1  RIO CUARTO
 
 ======================================================================
-251. VAMOS A CALENTAR EL SOL - EDICION ESCOLAR               2 u
-   ISBN 9789500210386   ID 672696   en 2 locales   disp 996
+268. VAMOS A CALENTAR EL SOL - EDICION ESCOLAR               3 u
+   ISBN 9789500210386   ID 672696   en 3 locales   disp 996
 ======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  PARANA
 
 ======================================================================
-252. VAMOS A CALENTAR EL SOL - EDICION ESPECIAL              2 u
+269. VAMOS A CALENTAR EL SOL - EDICION ESPECIAL              2 u
    ISBN 9789500210300   ID 671441   en 2 locales   disp 1667
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
       1  NEUQUEN PORTAL PATAGONIA
 
 ======================================================================
-253. VELERO DE CRISTAL, EL - EDICION ESCOLAR                 3 u
-   ISBN 9789500210539   ID 674456   en 3 locales   disp 1164
+270. VELERO DE CRISTAL, EL - EDICION ESCOLAR                 4 u
+   ISBN 9789500210539   ID 674456   en 4 locales   disp 1164
 ======================================================================
+      1  DEVOTO
       1  ALTO NOA SHOPPING - SALTA
       1  PARANA
       1  RESISTENCIA
 
 ======================================================================
-254. VIAJERAS                                                2 u
+271. VIAJERAS                                                2 u
    ISBN 9789500213394   ID 703395   en 2 locales   disp 1606
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
 
 ======================================================================
-255. VIKINGOS, LOS                                           3 u
-   ISBN 9789500209595   ID 649883   en 3 locales   disp 404
+272. VIDA DESPUES DEL RESETEO, LA                            1 u
+   ISBN 9789500213646   ID 705124   en 1 locales   disp 2336
 ======================================================================
+      1  DEVOTO
+
+======================================================================
+273. VIKINGOS, LOS                                           4 u
+   ISBN 9789500209595   ID 649883   en 4 locales   disp 404
+======================================================================
+      1  DEVOTO
       1  MAR DEL PLATA LOS GALLEGOS
       1  MENDOZA CENTRO
       1  SALTA CENTRO
 
 ======================================================================
-256. VIOLENCIA EN LAS ESCUELAS                               2 u
+274. VIOLENCIA EN LAS ESCUELAS                               2 u
    ISBN 9789500217439   ID 743065   en 2 locales   disp 740
 ======================================================================
       1  PALMAS DEL PILAR
       1  SALTA CENTRO
 
 ======================================================================
-257. VIRGEN DE LUJAN MADRE DE TODOS                          1 u
+275. VIRGEN DE LUJAN MADRE DE TODOS                          1 u
    ISBN 9789500210560   ID 675902   en 1 locales   disp 2761
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-258. VIVIR EN EL SONIDO DEL VIENTO                           7 u
-   ISBN 9789500212830   ID 696630   en 7 locales   disp 1609
+276. VIRGINIA WOOLF Y VICTORIA OCAMPO                        1 u
+   ISBN 9789500213516   ID 703702   en 1 locales   disp 428
+======================================================================
+      1  DEVOTO
+
+======================================================================
+277. VIVIR EN EL SONIDO DEL VIENTO                           8 u
+   ISBN 9789500212830   ID 696630   en 8 locales   disp 1609
 ======================================================================
       1  AEROPARQUE
+      1  DEVOTO
       1  DOT BAIRES SHOPPING
       1  SOLAR DE LA ABADIA
       1  ALTO COMAHUE
@@ -2073,39 +2304,40 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  SALTA CENTRO
 
 ======================================================================
-259. VORAGINE, LA                                            1 u
-   ISBN 9789500209298   ID 647068   en 1 locales   disp 1390
+278. VORAGINE, LA                                            2 u
+   ISBN 9789500209298   ID 647068   en 2 locales   disp 1390
 ======================================================================
+      1  DEVOTO
       1  UNICENTER
 
 ======================================================================
-260. VOY A DORMIR EN MI CAMA - TR                            1 u
+279. VOY A DORMIR EN MI CAMA - TR                            1 u
    ISBN 9789500215008   ID 714678   en 1 locales   disp 1351
 ======================================================================
       1  ALTO ROSARIO
 
 ======================================================================
-261. VOY A LA ESCUELA                                        2 u
+280. VOY A LA ESCUELA                                        2 u
    ISBN 9789500217231   ID 740760   en 2 locales   disp 2424
 ======================================================================
       1  COMODORO RIVADAVIA
       1  SALTA CENTRO
 
 ======================================================================
-262. VOY A TENER UN HERMANITO - TR                           2 u
+281. VOY A TENER UN HERMANITO - TR                           2 u
    ISBN 9789500216296   ID 729382   en 2 locales   disp 1364
 ======================================================================
       1  ABASTO
       1  DOT BAIRES SHOPPING
 
 ======================================================================
-263. VOY A TOMAR EN MI TAZA - TR                             1 u
+282. VOY A TOMAR EN MI TAZA - TR                             1 u
    ISBN 9789500214261   ID 710540   en 1 locales   disp 1467
 ======================================================================
       1  SALTA CENTRO
 
 ======================================================================
-264. VOY AL BAÑO - TR                                        3 u
+283. VOY AL BAÑO - TR                                        3 u
    ISBN 9789500215343   ID 717942   en 3 locales   disp 904
 ======================================================================
       1  ATENEO FLORIDA 340
@@ -2113,24 +2345,26 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  BARILOCHE
 
 ======================================================================
-265. VULNERABLE                                              4 u
-   ISBN 9789500211581   ID 682014   en 4 locales   disp 1547
+284. VULNERABLE                                              5 u
+   ISBN 9789500211581   ID 682014   en 5 locales   disp 1547
 ======================================================================
+      1  DEVOTO
       1  ALTO COMAHUE
       1  MAR DEL PLATA LOS GALLEGOS
       1  SALTA CENTRO
       1  TUCUMAN PORTAL
 
 ======================================================================
-266. WATSON & CIA                                            3 u
-   ISBN 9789500210263   ID 671442   en 3 locales   disp 158
+285. WATSON & CIA                                            4 u
+   ISBN 9789500210263   ID 671442   en 4 locales   disp 158
 ======================================================================
+      1  DEVOTO
       1  FLORES
       1  ALTO COMAHUE
       1  TUCUMAN PORTAL
 
 ======================================================================
-267. WATSON & CIA. CODIGO V                                  3 u
+286. WATSON & CIA. CODIGO V                                  3 u
    ISBN 9789500211376   ID 680645   en 3 locales   disp 1540
 ======================================================================
       1  AEROPARQUE
@@ -2138,19 +2372,19 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  TUCUMAN PORTAL
 
 ======================================================================
-268. WATSON & CIA. VIAJE AL MUNDO OCULTO                     1 u
+287. WATSON & CIA. VIAJE AL MUNDO OCULTO                     1 u
    ISBN 9789500214162   ID 709896   en 1 locales   disp 345
 ======================================================================
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-269. WINSTON CHURCHILL                                       1 u
+288. WINSTON CHURCHILL                                       1 u
    ISBN 9789500299503   ID 622049   en 1 locales   disp 286
 ======================================================================
       1  CORRIENTES SHOPPING
 
 ======================================================================
-270. Y AHORA, ¿QUE?                                          5 u
+289. Y AHORA, ¿QUE?                                          5 u
    ISBN 9789500212618   ID 692861   en 5 locales   disp 492
 ======================================================================
       1  AVELLANEDA
@@ -2160,31 +2394,33 @@ Fuera de la lista: los 4 títulos que van en los Libros Sorpresa (lista de 29 + 
       1  MAR DEL PLATA PASEO ALDREY
 
 ======================================================================
-271. YO, DISLEXICA                                           3 u
-   ISBN 9789500215428   ID 718921   en 3 locales   disp 383
+290. YO, DISLEXICA                                           4 u
+   ISBN 9789500215428   ID 718921   en 4 locales   disp 383
 ======================================================================
+      1  DEVOTO
       1  ALTO ROSARIO
       1  MAR DEL PLATA LOS GALLEGOS
       1  TUCUMAN PORTAL
 
 ======================================================================
-272. YOGA FUERA DEL MAT                                      2 u
+291. YOGA FUERA DEL MAT                                      2 u
    ISBN 9789500216609   ID 732724   en 2 locales   disp 595
 ======================================================================
       1  SOLAR DE LA ABADIA
       1  MAR DEL PLATA LOS GALLEGOS
 
 ======================================================================
-273. YOGA PARA SENTIRSE MEJOR                                1 u
-   ISBN 9789500209915   ID 660729   en 1 locales   disp 359
+292. YOGA PARA SENTIRSE MEJOR                                2 u
+   ISBN 9789500209915   ID 660729   en 2 locales   disp 359
 ======================================================================
+      1  DEVOTO
       1  SALTA CENTRO
 
 ======================================================================
-274. ¡ACA ESTOY! VAQUITA                                     1 u
+293. ¡ACA ESTOY! VAQUITA                                     1 u
    ISBN 9789500215893   ID 732486   en 1 locales   disp 522
 ======================================================================
       1  BAHIA BLANCA SHOPPING
 
 ======================================================================
-TOTAL 813 u
+TOTAL 954 u

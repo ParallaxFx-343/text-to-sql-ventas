@@ -1,12 +1,12 @@
 """Recomposicion de fondo 13/11/2026 (misma regla que el 19/10): 1 ejemplar de cada titulo de la lista a los locales
-que tienen 0 (SII), excluyendo Ezeiza, Patio Bullrich, Trelew, Devoto y Juramento.
+que tienen 0 (SII), excluyendo Ezeiza, Patio Bullrich, Trelew y Juramento (13/11: Devoto sí va).
 Fuera: los 29 titulos de la hoja "Libro sorpresa" (pedido aparte) y las filas ocultas de la lista; además los 6 de EXTRA.tsv (los del 12/11, también van en los Sorpresa).
 Uso: python -P recomp1311.py LISTA.xlsx EXCLUIR.xlsx SII.xls config.json amba.txt SALIDA EXTRA.tsv"""
 import sys, json, re, zipfile, pandas as pd
 from pathlib import Path
 from openpyxl import load_workbook
 flista, fex, fsii, fcfg, famba, out, fextra = sys.argv[1:8]; out=Path(out); out.mkdir(parents=True, exist_ok=True)
-EXCL={'EZEIZA','PATIO BULLRICH','TRELEW','DEVOTO','ATENEO JURAMENTO'}
+EXCL={'EZEIZA','PATIO BULLRICH','TRELEW','ATENEO JURAMENTO'}   # 13/11: Devoto SÍ va (Franco)
 pad=json.load(open(fcfg))['orden_paec']+['DEVOTO']; locs=[p for p in pad if p not in EXCL]
 AMBA=open(famba,encoding='utf-8').read().split('\n')
 ws=load_workbook(flista).active
@@ -43,7 +43,7 @@ orden_t=sorted(dem.index,key=lambda i:T(i))
 (out/'PAEC_RECOMPOSICION_13-11.csv').write_bytes(('\r\n'.join(f'{i};{int(dem[i])}' for i in orden_t)+'\r\n').encode())
 cab=['RECOMPOSICION DE FONDO - 13/11/2026 - 1 ejemplar a los locales con stock 0',
      f'Stock y disponible: SII 13/11 07:01. {len(dem)} títulos | {rep.local.nunique()} locales | {len(rep)} unidades.',
-     'Excluidos: Ezeiza, Patio Bullrich, Trelew, Devoto y Ateneo Juramento.',
+     'Excluidos: Ezeiza, Patio Bullrich, Trelew y Ateneo Juramento (Devoto sí va).',
      f'Fuera de la lista: los {len(fuera_sor)} títulos que van en los Libros Sorpresa (lista de 29 + los 6 del 12/11) y las {len(ocultas)} filas ocultas.','']
 if corto: cab.insert(4,'OJO, disponible que no alcanza: '+'; '.join(f'{T(i)} pide {a}, hay {b}' for i,(a,b) in corto.items()))
 L=list(cab)
@@ -68,9 +68,10 @@ M+=['='*70,f'TOTAL {len(rep)} u']
 (out/'DESGLOSE_x_SUCURSAL_RECOMPOSICION_13-11.txt').write_text('\n'.join(M)+'\n',encoding='utf-8-sig')
 with zipfile.ZipFile(out/'recomposicion_13-11_por_sucursal.zip','w') as z:
     for p in files: z.write(p,p.name)
+(out/'PAECS_RECOMPOSICION_13-11.txt').write_text('\n'.join(f'{l}: ' for l in sorted(rep.local.unique()))+'\n',encoding='utf-8-sig')
 for p in files: p.unlink()
 # 3) ocultas (no van) con lo que serian
-O=['FILAS OCULTAS DE LA LISTA (NO SE MANDARON) - por si hay que sumarlas','SII 13/11: locales en 0 (de los 57) y disponible','']
+O=['FILAS OCULTAS DE LA LISTA (NO SE MANDARON) - por si hay que sumarlas','SII 13/11: locales en 0 (de los 58) y disponible','']
 for i,idart,t,r in ocultas:
     c=int((by.loc[i,locs].fillna(0)<=0).sum()) if i in by.index else None
     O.append(f'fila {r:>3}  {i}  {str(t)[:44]:<44}  locales en 0: {c:>3}  disp {int(by.loc[i,"DISPONIBLE"]) if i in by.index else "?"}')
