@@ -592,6 +592,10 @@ Talar Pacheco 74708 5/6, Lomas San Isidro 74709 18/21, Tigre 74710 5/5. En Pilar
 resto en la siguiente): `leer_mail.py` ahora las une. **COLLIVADINO** (Tigre, 9789500259378) no está en el SII pero sí en la
 LP (ID 439030, $77.500): va igual. Los Cód. `A…R`/`A…E` son del cliente. `historial/2026-11/liquidaciones_estacion_libro_21195/`.
 
+**Etiquetas SILOMA**: liquidación general = `LIQUIDACIONOCTUBRE`; **promo Bapro = `LIQPROMOBAPRO OCTUBRE`** (Franco, 17/11, con el
+espacio tal cual lo escribió). Rayuela La Plata 21138 (17/11): general 17 líneas 19 u, Bapro 18 líneas 23 u
+(`historial/2026-11/rayuela_la_plata_21138/`).
+
 ### Carga SILOMA
 Hoja `Hoja1`, datos desde la **fila 6** (filas 1-5 vacías).
 Columna 1 = ISBN como entero con formato de número `0`; columna 2 = cantidad;
