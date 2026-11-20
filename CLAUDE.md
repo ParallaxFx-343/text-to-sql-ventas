@@ -576,6 +576,7 @@ $12.000: 60 Inventos y Guerras de influencia), 33 "Promo Nov-Dic 2026" a $12.000
 opaco $16.000 → $25.000). LP Argentina (844, 4 repetidos) coincide con el resultado; le faltaban a la base 2 de
 $1.100 y $790 sin stock (589472 y 589489, agregados al final). Resultado 1.566. La LP Argentina tiene la columna
 "Novedad/Cambio de precio" con marcas que ya estaban aplicadas en la base (las 9 novedades, 14 promo a $18.900).
+**Diciembre 2026** (`historial/2026-11/lp_diciembre/`, `lp_diciembre.py`, 20/11): base `LP_NOVIEMBRE_CON_NOVEDADES_DIC_26` (1.574 = los 1.566 de nov + las 8 novedades dic 754497-754504, intercaladas por orden alfabético). CAMBIO: 2 líneas (Benjamín y Renata a $20.900), ya aplicadas en la base. LP Argentina (816, 4 repetidos) toda en la base; único precio distinto: **El espejo opaco 678137** (LP Arg $16.000) → Franco: **queda en $25.000**. Resultado idéntico a la base.
 Pista para detectar novedades: los IDs de la LP que el SII todavía no tiene
 son las del mes que viene; las del mes en curso ya tienen stock en el SII.
 
