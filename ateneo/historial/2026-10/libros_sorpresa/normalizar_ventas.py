@@ -20,7 +20,7 @@ out.mkdir(parents=True, exist_ok=True)
 d = pd.read_excel(f_det, engine='calamine', dtype={'ISBN': str})
 s = d[d.Titulo.astype(str).str.startswith('LIBRO SORPRESA')]
 s = s[['Sucursal', 'Fecha', 'Articulo', 'Titulo', 'Cantidad', 'Bruto', 'Total', 'ISBN']]
-assert s.Articulo.nunique() <= 6, sorted(s.Articulo.unique())
+assert s.groupby("Articulo").Titulo.nunique().max() == 1, "un artículo con dos títulos"   # desde nov hay más de 6 títulos
 s.to_excel(out / 'detalle_sorpresa.xlsx', index=False)
 a = pd.read_excel(f_agr, engine='calamine', dtype={'Código / ISBN': str})
 a.to_excel(out / 'agrupadas.xlsx', index=False)

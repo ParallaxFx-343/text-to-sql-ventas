@@ -124,6 +124,8 @@ confirma el sistema. La venta cayó a 35-54 u/día del 19 al 22/10 **por falta d
 1.140 de 1.170, faltan 30. Otras entradas fuera del refuerzo: Grand Splendid +178, Neuquén +71, Alto Comahue +21,
 Tucumán Portal +10, Plaza Oeste +8, Comodoro +3.
 
+**Actualización al 20/11** (Detalle 20/11 09:21, Agrupadas 10:45, SII 20/11 07:00; 20/11 parcial): **4.053 u del 01/10 al 20/11**, 62 de 62 locales, cuadre Agrupadas OK (666 celdas); **01-22/10 idéntico fila por fila a la planilla del 23/10** (3.210 filas, 3.162 u). Del 23/10 al 20/11 solo 891 u: la **colección de octubre está agotada** (quedan 397 u en locales, 363 de Bío). **Colección de noviembre** (IDs 753774-753862, EAN 29001075…, $12.000): 29 títulos en el SII. 15 desde el 06/11 en 60 locales (Superación personal 1-6, Salud 1-2, Infantil 1-7; sin Neuquén Portal Patagonia ni Ushuaia) y 14 desde el 19/11 solo en 8 locales AMBA (Abasto, Alto Palermo, Juramento, Devoto, Dot, Lomas, Paseo Alcorta, Quilmes: Ensayo 1-2, Ficción juvenil/relatos de viaje/terror/thriller, Liderazgo 1-2, Pareja 1-3, Testimonio 1-3). 486 u de la nueva colección; stock 4.536 u. El tablero ahora nombra los títulos solo (`nombre()`), separa colecciones, agrega "Unidades por semana" y mide "le alcanza" por título desde su primera venta (mínimo 7 días; el total, al ritmo de los últimos 7 días). `historial/2026-11/libros_sorpresa_20-11/`.
+
 **Para cargar, Franco va por sucursal**: además del TXT por título (para el
 depósito) entregar el **TXT por sucursal**, con **primero AMBA y después el
 interior**, cada grupo en orden alfabético, y los títulos en el orden del CSV

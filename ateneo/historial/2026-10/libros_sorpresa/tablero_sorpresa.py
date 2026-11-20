@@ -47,8 +47,18 @@ det['local'] = det.Sucursal.str.replace(r'\s*\(\d+\)\s*$', '', regex=True).str.s
 det = det[det.local.isin(padron)].copy()          # solo locales fisicos
 NOMBRES = {'HISTORICA': 'Histórica', 'ROMANTICA': 'Romántica', 'CONTEMPORANEA': 'Contemporánea',
            'MISTERIO': 'Misterio', 'EROTICA': 'Erótica', 'BIO': 'Bío'}
-det['titulo'] = det.Titulo.str.replace('LIBRO SORPRESA ', '', regex=False).str.strip().map(NOMBRES)
-assert det.titulo.notna().all(), 'hay un Libro Sorpresa nuevo sin nombre en NOMBRES'
+ACENTOS = {'SUPERACION': 'Superación', 'FICCION': 'Ficción'}
+def nombre(x):
+    """'LIBRO SORPRESA SUPERACION PERSONAL 1' -> 'Superación personal 1' (los 6 de octubre, como siempre)."""
+    x = str(x).replace('LIBRO SORPRESA ', '').strip()
+    if x in NOMBRES:
+        return NOMBRES[x]
+    w = x.split()
+    return ' '.join([ACENTOS.get(w[0], w[0].capitalize())] + [v.lower() for v in w[1:]])
+ORIG = set(NOMBRES.values())                       # coleccion de octubre (lanzada el 01/10)
+coleccion = lambda tt: 'Octubre' if tt in ORIG else 'Noviembre'
+det['titulo'] = det.Titulo.map(nombre)
+assert det.groupby('titulo').Articulo.nunique().max() == 1, 'dos articulos con el mismo nombre'
 det['dia'] = det.Fecha.dt.date
 
 agr = None
@@ -84,7 +94,9 @@ etq = {x: f'{DIAS_ES[x.weekday()]} {x:%d/%m}' for x in dias}
 tot_u = int(det.Cantidad.sum())
 tot_ars = int(det.Total.sum())
 por_dia = det.groupby('dia').Cantidad.sum().reindex(dias, fill_value=0)
-por_tit = det.groupby('titulo').Cantidad.sum().sort_values(ascending=False)
+por_tit = det.groupby('titulo').Cantidad.sum()
+por_tit = por_tit.loc[sorted(por_tit.index, key=lambda x: (coleccion(x) != 'Octubre', -por_tit[x], x))]   # octubre primero
+lanz = det[det.Cantidad > 0].groupby('titulo').dia.min()          # primera venta de cada titulo en la cadena
 mat = det.pivot_table(index=['nro', 'local'], columns='dia', values='Cantidad',
                       aggfunc='sum', fill_value=0).reindex(columns=dias, fill_value=0)
 mat['Total'] = mat.sum(axis=1)
@@ -115,10 +127,11 @@ if f_sii:
         suc_s = [c for c in cols_s[cols_s.index('CLASIFIC') + 1:] if c in padron]
         assert len(suc_s) == len(padron), f'faltan locales en el SII: {padron - set(suc_s)}'
         s = sii[sii.TITULO.astype(str).str.startswith('LIBRO SORPRESA')].copy()
-        s['titulo'] = s.TITULO.str.replace('LIBRO SORPRESA ', '', regex=False).str.strip().map(NOMBRES)
-        assert s.titulo.notna().all() and s.titulo.is_unique and len(s) == len(NOMBRES)
+        s['titulo'] = s.TITULO.map(nombre)
+        assert s.titulo.is_unique
         st = s.set_index('titulo')[suc_s].fillna(0).astype(int).T   # local x titulo
-        st = st.reindex(columns=list(por_tit.index))
+        sin_v = sorted(set(st.columns) - set(por_tit.index), key=lambda x: (coleccion(x) != 'Octubre', x))
+        st = st.reindex(columns=list(por_tit.index) + sin_v, fill_value=0)   # al final, los que todavia no vendieron
         st['Total'] = st.sum(axis=1)
         return st
 
@@ -134,7 +147,10 @@ if f_sii:
     m_fecha = _re.search(r'(20\d{2})(\d{2})(\d{2})(\d{2})(\d{2})', f_sii.split('/')[-1])
     fecha_sii = f'{m_fecha.group(3)}/{m_fecha.group(2)} {m_fecha.group(4)}:{m_fecha.group(5)}' if m_fecha else 'SII'
     llenos = [x for x in sorted(det.dia.unique()) if x != parcial]   # sin el dia parcial
-    vend_d = det[det.dia.isin(llenos)].groupby('titulo').Cantidad.sum() / len(llenos)
+    dias_t = {x: (ult_completo - lanz[x]).days + 1 for x in lanz.index}      # dias desde que salio cada titulo
+    MIN_DIAS = 7                                          # con menos de una semana de venta el ritmo no dice nada
+    vend_d = det[det.dia.isin(llenos)].groupby('titulo').Cantidad.sum() / pd.Series(dias_t)
+    vend_d = vend_d[[dias_t[x] >= MIN_DIAS for x in vend_d.index]]
     alcanza_tit = {t: (stock[t].sum() / vend_d[t]) for t in por_tit.index if vend_d.get(t, 0) > 0}
 
 # ---------- refuerzo cargado (TXT por sucursal con nros de pedido) ----------
@@ -226,20 +242,36 @@ for i, x in enumerate(dias, start=3):
 fd = 2 + len(dias)
 rs['D1'] = 'Unidades por título'
 rs['D1'].font = Font(bold=True, size=12)
-cab(rs, 2, ['Título', 'Unidades', '% del total', 'Locales'], col0=4)
+cab(rs, 2, ['Título', 'Unidades', '% del total', 'Locales', 'Colección', 'Primera venta'], col0=4)
 for i, (t, u) in enumerate(por_tit.items(), start=3):
     rs.cell(i, 4, t); rs.cell(i, 5, int(u))
     rs.cell(i, 6, u / tot_u).number_format = '0%'
     rs.cell(i, 7, int(det[(det.titulo == t) & (det.Cantidad > 0)].local.nunique()))
+    rs.cell(i, 8, coleccion(t)); rs.cell(i, 9, lanz.get(t)).number_format = 'DD/MM'
 ft = 2 + len(por_tit)
-rs['I1'] = 'Top 15 locales'
-rs['I1'].font = Font(bold=True, size=12)
-cab(rs, 2, ['Local', 'Unidades'], col0=9)
+rs['K1'] = 'Top 15 locales'
+rs['K1'].font = Font(bold=True, size=12)
+cab(rs, 2, ['Local', 'Unidades'], col0=11)
 top = mat.Total.head(15)[::-1]                      # al reves: la barra mas larga arriba
 for i, ((n, loc), u) in enumerate(top.items(), start=3):
-    rs.cell(i, 9, loc.title()); rs.cell(i, 10, int(u))
+    rs.cell(i, 11, loc.title()); rs.cell(i, 12, int(u))
 fl = 2 + len(top)
-for c, w in zip('ABCDEFGHIJ', (16, 10, 3, 16, 10, 11, 9, 3, 30, 10)):
+# por semana y coleccion (lunes a domingo)
+det['semana'] = [x - pd.Timedelta(days=x.weekday()) for x in pd.to_datetime(det.dia)]
+sem = det.pivot_table(index='semana', columns=det.titulo.map(coleccion), values='Cantidad', aggfunc='sum', fill_value=0)
+sem = sem.reindex(columns=['Octubre', 'Noviembre'], fill_value=0)
+rs['N1'] = 'Unidades por semana (lun a dom)'
+rs['N1'].font = Font(bold=True, size=12)
+cab(rs, 2, ['Semana', 'Colección octubre', 'Colección noviembre', 'Total'], col0=14)
+for i, (w, row) in enumerate(sem.iterrows(), start=3):
+    ini = max(w, pd.Timestamp(dias[0])); fin = min(w + pd.Timedelta(days=6), pd.Timestamp(ult))
+    rs.cell(i, 14, f'{ini:%d/%m} al {fin:%d/%m}' + (' (parcial)' if fin.date() == ult and (parcial is not None or fin.weekday() != 6) else ''))
+    rs.cell(i, 15, int(row.Octubre)); rs.cell(i, 16, int(row.Noviembre)); rs.cell(i, 17, int(row.sum()))
+fs = 2 + len(sem)
+rs.column_dimensions['N'].width = 22
+for c in 'OPQ':
+    rs.column_dimensions[c].width = 12
+for c, w in zip('ABCDEFGHIJKL', (16, 10, 3, 24, 10, 11, 9, 11, 12, 3, 30, 10)):
     rs.column_dimensions[c].width = w
 
 # ---------- hoja Tablero ----------
@@ -247,7 +279,7 @@ tb = wb.create_sheet('Tablero', 0)
 tb.sheet_view.showGridLines = False
 for c in range(1, 17):
     tb.column_dimensions[L(c)].width = 10.5
-for r in range(1, 70):
+for r in range(1, 80):
     for c in range(1, 17):
         tb.cell(r, c).fill = PatternFill('solid', fgColor=FONDO)
 tb.merge_cells('A1:P1')
@@ -263,11 +295,15 @@ tb['A2'].font = Font(size=10, color=TINTA2)
 tb.row_dimensions[1].height = 30
 
 mejor = por_dia[por_dia.index != parcial].idxmax()
+nov_t = [x for x in por_tit.index if coleccion(x) == 'Noviembre']
+u_nov = int(por_tit[nov_t].sum()); n_nov = int((por_tit[nov_t] > 0).sum()); d_nov = min(lanz[x] for x in nov_t)
+u_oct = int(por_tit[[x for x in por_tit.index if coleccion(x) == 'Octubre']].sum())
 kpis = [
     ('Unidades netas', f'{tot_u:,}'.replace(',', '.'), f'{len(devol)} devoluciones ya restadas'),
     ('Facturación', '$ ' + f'{tot_ars:,}'.replace(',', '.'), f'a $ {int(det.Total.sum() / tot_u):,} c/u'.replace(',', '.')),
     ('Locales con venta', f'{n_locales} de {n_padron}', f'{len(sin_venta)} sin venta (ver hoja)'),
-    ('Mejor día', f'{etq[mejor]}', f'{int(por_dia[mejor])} u · {por_dia[mejor] / tot_u:.0%} del total'),
+    ('Colección noviembre', f'{u_nov:,}'.replace(',', '.') + ' u',
+     f'{n_nov} títulos con venta desde el {d_nov:%d/%m}'),
     (('Le queda en los locales', f'{int(stock.Total.sum()):,}'.replace(',', '.') + ' u',
       f'SII {fecha_sii} · ver hoja Le quedan x título') if stock is not None else
      ('Promedio por local', f'{tot_u / n_locales:.1f}'.replace('.', ','), 'unidades en el período')),
@@ -314,16 +350,24 @@ if parcial is not None:
     p = DataPoint(idx=len(dias) - 1)                # el dia parcial en gris
     p.graphicalProperties = GraphicalProperties(solidFill=GRIS)
     c1.series[0].dPt.append(p)
+if len(dias) > 20:
+    c1.dataLabels = None                            # con muchos dias las etiquetas se pisan
 tb.add_chart(c1, 'A8')
-c2 = barras('Unidades por título', Reference(rs, min_col=4, min_row=3, max_row=ft),
-            Reference(rs, min_col=5, min_row=3, max_row=ft))
+c2 = barras('Unidades por semana', Reference(rs, min_col=14, min_row=3, max_row=fs),
+            Reference(rs, min_col=17, min_row=3, max_row=fs))
 tb.add_chart(c2, 'I8')
-c3 = barras('Top 15 locales (unidades)', Reference(rs, min_col=9, min_row=3, max_row=fl),
-            Reference(rs, min_col=10, min_row=3, max_row=fl), horizontal=True, ancho=31, alto=10)
+c3 = barras('Top 15 locales (unidades)', Reference(rs, min_col=11, min_row=3, max_row=fl),
+            Reference(rs, min_col=12, min_row=3, max_row=fl), horizontal=True, ancho=15, alto=15)
 tb.add_chart(c3, 'A24')
+c4 = barras('Unidades por título (primero la colección de octubre)', Reference(rs, min_col=4, min_row=3, max_row=ft),
+            Reference(rs, min_col=5, min_row=3, max_row=ft), horizontal=True, ancho=15, alto=15)
+c4.y_axis.delete = True
+c4.x_axis.tickLblSkip = 1
+c4.x_axis.scaling.orientation = 'maxMin'            # el primero arriba
+tb.add_chart(c4, 'I24')
 
 # lectura
-r0 = 45
+r0 = 54
 tb.cell(r0, 1, 'Lo que muestran los datos').font = Font(bold=True, size=13, color=TINTA)
 arranque = primera.value_counts().sort_index()
 lideres = por_tit.head(2)
@@ -339,10 +383,13 @@ def dos_semanas(ll):
             + f', contra {por_dia[[x for x in ll if x.weekday() != 5]].mean():.0f} u de promedio el resto de los días.')
 
 
+po = por_tit[[x for x in por_tit.index if coleccion(x) == 'Octubre']].sort_values(ascending=False)
+pn = por_tit[nov_t].sort_values(ascending=False)
 lineas = [
-    f'{lideres.index[0]} ({int(lideres.iloc[0])} u, {lideres.iloc[0] / tot_u:.0%}) y {lideres.index[1]} '
-    f'({int(lideres.iloc[1])} u) son los más vendidos; Bío quedó muy abajo ({int(bio)} u, vendido en '
-    f'{det[(det.titulo == "Bío") & (det.Cantidad > 0)].local.nunique()} de {n_locales} locales).',
+    f'Colección de octubre (6 títulos, desde el 01/10): ' + f'{u_oct:,}'.replace(',', '.') + ' u; '
+    + ', '.join(f'{x} {int(v)}' for x, v in po.items()) + '. '
+    + f'Colección de noviembre ({n_nov} títulos con venta, desde el {d_nov:%d/%m}): ' + f'{u_nov:,}'.replace(',', '.') + ' u'
+    + '; los que más venden: ' + ', '.join(f'{x} {int(v)}' for x, v in pn.head(5).items()) + '.',
     (f'El pico fue el {etq[mejor]} con {int(por_dia[mejor])} u ({por_dia[mejor] / tot_u:.0%} de todo lo vendido); '
      'después: ' + ', '.join(f'{etq[x]} {int(por_dia[x])} u' for x in dias if mejor < x and x != parcial) +
      '. Con tan pocos días todavía no se puede hablar de tendencia.') if len(dias) - 1 < 10 else
@@ -357,24 +404,39 @@ if stock is None:
         'vendieron otros títulos de la Editorial según Ventas Agrupadas, así que conviene confirmar si les llegaron. '
         'A Devoto la repo se le pasó recién el 05/10.')
 else:
+    tc_all = [c for c in stock.columns if c != 'Total']
     cero = [s for s in sin_venta if stock.loc[s, 'Total'] == 0]
     con = [s for s in sin_venta if stock.loc[s, 'Total'] > 0]
     orden = sorted(alcanza_tit.items(), key=lambda x: x[1])
     sabados = [x for x in llenos if x.weekday() == 5]
     lineas.append(
-        f'Lo que le queda a los locales (SII {fecha_sii}), al ritmo promedio del {llenos[0]:%d/%m} al '
-        f'{llenos[-1]:%d/%m}, alcanza para: '
+        f'Lo que le queda a los locales (SII {fecha_sii}), al ritmo de cada título desde su primera venta '
+        f'(hasta el {llenos[-1]:%d/%m}; sin los que tienen menos de {MIN_DIAS} días de venta), alcanza para: '
         + ', '.join(f'{t} {d:.1f} días'.replace('.', ',') for t, d in orden[:3])
         + f'; {orden[-1][0]}, en cambio, tiene para {orden[-1][1]:.0f} días.'
         + (f' Un sábado se vende {por_dia[sabados].mean() / por_dia[llenos].mean():.1f}'.replace('.', ',')
            + ' veces el promedio diario, así que un fin de semana consume bastante más.' if sabados else ''))
+    so = [x for x in tc_all if coleccion(x) == 'Octubre']; sn = [x for x in tc_all if coleccion(x) == 'Noviembre']
+    m_ = lambda n: f'{int(n):,}'.replace(',', '.')
+    nuevos_n = [x for x in sn if x not in lanz.index or (ult_completo - lanz[x]).days + 1 < MIN_DIAS]
+    locs_n = lambda x: int((stock[x] > 0).sum())
+    lineas.append(
+        f'Stock en locales (SII {fecha_sii}): la colección de octubre está casi agotada, quedan {m_(stock[so].sum().sum())} u '
+        f'(' + ', '.join(f'{x} {m_(stock[x].sum())}' for x in so) + '). '
+        f'De la de noviembre hay {m_(stock[sn].sum().sum())} u de {len(sn)} títulos. '
+        + (f'{len(nuevos_n)} títulos ({", ".join(nuevos_n)}) están solo en '
+           f'{max(locs_n(x) for x in nuevos_n)} locales y empezaron a venderse el '
+           f'{min((lanz[x] for x in nuevos_n if x in lanz.index), default=ult):%d/%m}: todavía no hay ritmo para medirlos. '
+           if nuevos_n else '')
+        + ('Sin stock de la colección de noviembre: ' + ', '.join(l.title() for l in stock.index if stock.loc[l, sn].sum() == 0) + '.'
+           if any(stock.loc[l, sn].sum() == 0 for l in stock.index) else ''))
     partes = []
     if cero:
         partes.append(', '.join(s.title() for s in cero) + ' no tienen stock de Sorpresa')
     if con:
         partes.append(', '.join(f'{s.title()} ({int(stock.loc[s, "Total"])} u)' for s in con)
                       + (' tiene stock y no vendió' if len(con) == 1 else ' tienen stock y no vendieron')
-                      + (' (a Devoto la repo se le pasó el 05/10)' if 'DEVOTO' in con else ''))
+                      )
     if partes:
         lineas.append('Sin ninguna venta en todo el período: ' + '; '.join(partes) + '.')
 if ref is not None:
@@ -410,7 +472,7 @@ for i, t in enumerate(lineas):
     c = tb.cell(r0 + 1 + i, 1, '•  ' + t)
     c.font = Font(size=10.5, color=TINTA)
     c.alignment = Alignment(wrap_text=True, vertical='top')
-    tb.row_dimensions[r0 + 1 + i].height = 30
+    tb.row_dimensions[r0 + 1 + i].height = 30 if len(t) < 230 else 45
 
 # ---------- hoja Local x dia ----------
 ld = wb.create_sheet('Local x día', 1)
@@ -499,8 +561,6 @@ cab(sv, 1, ['Local físico', '¿Tiene ventas de otros títulos de la Editorial e
 for i, s in enumerate(sin_venta, start=2):
     sv.cell(i, 1, s).border = caja
     txt = ('Sí' if s in otra_editorial else 'No') if otra_editorial is not None else 's/d (no se pasó Ventas Agrupadas)'
-    if s == 'DEVOTO':
-        txt += ' (la repo de Sorpresa se pasó el 05/10)'
     sv.cell(i, 2, txt).border = caja
     if stock is not None:
         c = sv.cell(i, 3, int(stock.loc[s, 'Total'])); c.border = caja
@@ -518,39 +578,43 @@ sv.column_dimensions['F'].width = 14
 
 # ---------- hoja Stock x titulo ----------
 if stock is not None:
+    tc_s = [c for c in stock.columns if c != 'Total']   # tambien los que todavia no vendieron
     sk = wb.create_sheet('Le quedan x título', 3)
     sk.freeze_panes = 'C3'
     sk['A1'] = (f'Stock de cada local en el SII del {fecha_sii}, por título · mismo orden que Local x día; '
-                'al final los locales sin venta · abajo, el total de la cadena y para cuántos días alcanza')
+                'al final los locales sin venta · abajo, el total de la cadena y para cuántos días alcanza: por título, '
+                'al ritmo desde su primera venta; el total, al ritmo de los últimos 7 días completos')
     sk['A1'].font = Font(italic=True, size=9, color=TINTA2)
-    cab(sk, 2, ['Nro', 'Local'] + tit_cols + ['Total'])
+    cab(sk, 2, ['Nro', 'Local'] + tc_s + ['Total'])
     filas = [(n, loc) for n, loc in mat.index] + [('', s) for s in sin_venta]
     for i, (n, loc) in enumerate(filas, start=3):
-        for j, v in enumerate([n, loc] + [int(stock.loc[loc, t]) for t in tit_cols]
+        for j, v in enumerate([n, loc] + [int(stock.loc[loc, t]) for t in tc_s]
                               + [int(stock.loc[loc, 'Total'])], start=1):
             c = sk.cell(i, j, v); c.border = caja
             c.alignment = Alignment(horizontal='left' if j == 2 else 'center')
-        sk.cell(i, 3 + len(tit_cols)).font = Font(bold=True)
+        sk.cell(i, 3 + len(tc_s)).font = Font(bold=True)
     uf3 = 2 + len(filas)
-    calor(sk, f'C3:{L(2 + len(tit_cols))}{uf3}')
+    calor(sk, f'C3:{L(2 + len(tc_s))}{uf3}')
     dias_llenos = [x for x in dias if x != parcial]
     vend = det[det.dia.isin(dias_llenos)].groupby('titulo').Cantidad.sum()
-    resumen = [('Le queda en la cadena', [int(stock[t].sum()) for t in tit_cols] + [int(stock.Total.sum())], '#,##0'),
-               (f'Vendido {dias_llenos[0]:%d/%m} al {dias_llenos[-1]:%d/%m}',
-                [int(vend.get(t, 0)) for t in tit_cols] + [int(vend.sum())], '#,##0'),
-               ('Vendido por día (promedio)', [round(vend.get(t, 0) / len(dias_llenos), 1) for t in tit_cols]
-                + [round(vend.sum() / len(dias_llenos), 1)], '0.0'),
-               ('Le alcanza (días)', [round(stock[t].sum() / (vend.get(t, 0) / len(dias_llenos)), 1)
-                                      if vend.get(t, 0) else None for t in tit_cols]
-                + [round(stock.Total.sum() / (vend.sum() / len(dias_llenos)), 1)], '0.0')]
+    ritmo_t = [vend_d.get(t, 0) for t in tc_s]
+    ult7 = dias_llenos[-7:]                               # total: al ritmo de los ultimos 7 dias completos
+    ritmo_tot = det[det.dia.isin(ult7)].Cantidad.sum() / len(ult7)
+    resumen = [('Le queda en la cadena', [int(stock[t].sum()) for t in tc_s] + [int(stock.Total.sum())], '#,##0'),
+               (f'Vendido hasta el {dias_llenos[-1]:%d/%m}',
+                [int(vend.get(t, 0)) for t in tc_s] + [int(vend.sum())], '#,##0'),
+               ('Desde (primera venta)', [lanz[t] if t in lanz.index else None for t in tc_s] + [None], 'DD/MM'),
+               (f'Vendido por día desde que salió (con {MIN_DIAS}+ días)', [round(r, 1) if r else None for r in ritmo_t] + [round(ritmo_tot, 1)], '0.0'),
+               ('Le alcanza (días)', [round(stock[t].sum() / r, 1) if r > 0 else None for t, r in zip(tc_s, ritmo_t)]
+                + [round(stock.Total.sum() / ritmo_tot, 1)], '0.0')]
     if ref is not None:
-        por_dia_t = [vend.get(t, 0) / len(dias_llenos) for t in tit_cols] + [vend.sum() / len(dias_llenos)]
-        resumen += [('Refuerzo 07/10', [int(ref_full[t].sum()) for t in tit_cols] + [int(ref_full.Total.sum())], '#,##0'),
-                    ('Falta llegar', [int(pend[t].sum()) for t in tit_cols] + [int(pend.Total.sum())], '#,##0'),
-                    ('Le quedan + lo que falta', [int(con_ref[t].sum()) for t in tit_cols] + [int(con_ref.Total.sum())], '#,##0'),
+        por_dia_t = [vend.get(t, 0) / len(dias_llenos) for t in tc_s] + [vend.sum() / len(dias_llenos)]
+        resumen += [('Refuerzo 07/10', [int(ref_full[t].sum()) for t in tc_s] + [int(ref_full.Total.sum())], '#,##0'),
+                    ('Falta llegar', [int(pend[t].sum()) for t in tc_s] + [int(pend.Total.sum())], '#,##0'),
+                    ('Le quedan + lo que falta', [int(con_ref[t].sum()) for t in tc_s] + [int(con_ref.Total.sum())], '#,##0'),
                     ('Le alcanza con eso (días)',
                      [round(v / d, 1) if d else None for v, d in
-                      zip([con_ref[t].sum() for t in tit_cols] + [con_ref.Total.sum()], por_dia_t)], '0.0')]
+                      zip([con_ref[t].sum() for t in tc_s] + [con_ref.Total.sum()], por_dia_t)], '0.0')]
     for k, (lab, vals, fmt) in enumerate(resumen):
         r = uf3 + 2 + k
         sk.cell(r, 2, lab).font = Font(bold=True)
@@ -558,22 +622,22 @@ if stock is not None:
             c = sk.cell(r, j, v); c.font = Font(bold=True); c.border = caja
             c.number_format = fmt; c.alignment = Alignment(horizontal='center')
     from openpyxl.formatting.rule import CellIsRule
-    sk.conditional_formatting.add(f'C{uf3 + 5}:{L(3 + len(tit_cols))}{uf3 + 5}', CellIsRule(
+    sk.conditional_formatting.add(f'C{uf3 + 6}:{L(3 + len(tc_s))}{uf3 + 6}', CellIsRule(
         operator='lessThanOrEqual', formula=['3'], fill=PatternFill('solid', fgColor='F8D7D7'),
         font=Font(bold=True, color='9C1C1C')))
     if ref is not None:
-        sk.conditional_formatting.add(f'C{uf3 + 9}:{L(3 + len(tit_cols))}{uf3 + 9}', CellIsRule(
+        sk.conditional_formatting.add(f'C{uf3 + 9}:{L(3 + len(tc_s))}{uf3 + 9}', CellIsRule(
             operator='lessThanOrEqual', formula=['3'], fill=PatternFill('solid', fgColor='F8D7D7'),
             font=Font(bold=True, color='9C1C1C')))
-    for c, w in zip(range(1, len(tit_cols) + 4), [6, 30] + [13] * len(tit_cols) + [8]):
+    for c, w in zip(range(1, len(tc_s) + 4), [6, 30] + [13] * len(tc_s) + [8]):
         sk.column_dimensions[L(c)].width = w
     sk.column_dimensions['B'].width = 32 if ref is not None else 30
     sk.page_setup.orientation = 'landscape'
     sk.sheet_properties.pageSetUpPr.fitToPage = True
     sk.page_setup.fitToWidth = 1
     sk.page_setup.fitToHeight = 0
-    cob_tit = dict(zip(tit_cols, resumen[3][1][:-1]))
-    cob_tot = resumen[3][1][-1]
+    cob_tit = dict(zip(tc_s, resumen[4][1][:-1]))
+    cob_tot = resumen[4][1][-1]
 
 # ---------- hoja Refuerzo ----------
 if ref is not None:
@@ -639,7 +703,7 @@ for ws, alto in ((tb, 1), (ld, 0), (lt, 0)):
     ws.sheet_properties.pageSetUpPr.fitToPage = True
     ws.page_setup.fitToWidth = 1
     ws.page_setup.fitToHeight = alto
-tb.print_area = f'A1:P{max(50, r0 + len(lineas))}'
+tb.print_area = f'A1:P{r0 + 1 + len(lineas)}'
 for nombre in ('Local x día', 'Local x título', 'Le quedan x título'):
     if nombre in wb.sheetnames:
         wb[nombre].print_title_rows = '2:2'     # encabezado en cada pagina impresa
