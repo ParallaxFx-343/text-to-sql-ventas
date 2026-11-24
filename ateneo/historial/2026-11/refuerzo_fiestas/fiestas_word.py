@@ -52,24 +52,33 @@ for zona in ('AMBA', 'INTERIOR'):
 c = t.add_row().cells; c[1].text = 'TOTAL'; c[2].text = str(len(rep)); c[3].text = f'{int(rep.cant.sum()):,}'.replace(',', '.')
 for cell in c: 
     for r in cell.paragraphs[0].runs: r.bold = True
+from docx.enum.section import WD_SECTION
+st.paragraph_format.space_after = Pt(0); st.paragraph_format.space_before = Pt(0)
+ns = doc.add_section(WD_SECTION.NEW_PAGE)                     # desglose a dos columnas
+cols = ns._sectPr.xpath('./w:cols')
+c0 = cols[0] if cols else OxmlElement('w:cols')
+c0.set(qn('w:num'), '2'); c0.set(qn('w:space'), '340')
+if not cols: ns._sectPr.append(c0)
+def chico(cell, txt, bold=False, center=False):
+    cell.text = ''; p = cell.paragraphs[0]; r = p.add_run(txt); r.font.size = Pt(6.5); r.bold = bold
+    p.paragraph_format.space_after = Pt(0)
+    if center: p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+W = (0.7, 2.05, 4.65, 1.3)
 for zona, zl in orden_loc:
-    doc.add_page_break()
-    doc.add_heading(f'{zona}: {len(zl)} locales · {int(rep[rep.local.isin(zl)].cant.sum()):,} u'.replace(',', '.'), 1)
-    for k, l in enumerate(zl):
-        if k: doc.add_page_break()
+    hz = doc.add_paragraph(); r = hz.add_run(f'{zona}: {len(zl)} locales · {int(rep[rep.local.isin(zl)].cant.sum()):,} u'.replace(',', '.'))
+    r.bold = True; r.font.size = Pt(11); r.font.color.rgb = RGBColor(0x1F, 0x4E, 0x78); hz.paragraph_format.space_before = Pt(4)
+    for l in zl:
         sub = rep[rep.local == l].copy(); sub['o'] = sub.isbn.map(pos); sub = sub.sort_values('o')
-        doc.add_heading(f'{l} · {int(sub.cant.sum()):,} u · {len(sub)} títulos'.replace(',', '.'), 2)
-        tb = doc.add_table(rows=1, cols=6); tb.style = 'Table Grid'
-        for cc, txt in zip(tb.rows[0].cells, ('Cant.', 'ISBN', 'ID', 'Título', 'Tiene', 'Completa a')):
-            cc.text = txt; cc.paragraphs[0].runs[0].bold = True; sombra(cc, 'D9E2F3')
+        hp = doc.add_paragraph(); hp.paragraph_format.space_before = Pt(6); hp.paragraph_format.keep_with_next = True
+        r = hp.add_run(f'{l} · {int(sub.cant.sum()):,} u · {len(sub)} títulos'.replace(',', '.')); r.bold = True; r.font.size = Pt(9)
+        tb = doc.add_table(rows=1, cols=4); tb.style = 'Table Grid'; tb.autofit = False
+        for cc, txt in zip(tb.rows[0].cells, ('U.', 'ISBN', 'Título', 'Tiene→a')):
+            chico(cc, txt, bold=True, center=True); sombra(cc, 'D9E2F3')
         rep_header(tb.rows[0])
         for _, x in sub.iterrows():
             i = int(x.isbn); c = tb.add_row().cells
-            c[0].text = str(int(x.cant)); c[1].text = str(i); c[2].text = str(int(by.loc[i, 'ID ARTICULO']))
-            c[3].text = str(by.loc[i, 'TITULO']) + (' *' if i in corto else ''); c[4].text = str(int(x.stock)); c[5].text = str(int(x.objetivo))
-            for j in (0, 4, 5): c[j].paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
-        tb.autofit = False
-        W = (1.3, 3.0, 1.6, 9.5, 1.2, 2.0)
+            chico(c[0], str(int(x.cant)), center=True); chico(c[1], str(i))
+            chico(c[2], str(by.loc[i, 'TITULO'])[:30] + (' *' if i in corto else '')); chico(c[3], f'{int(x.stock)}→{int(x.objetivo)}', center=True)
         for j, w in enumerate(W): tb.columns[j].width = Cm(w)
         for row in tb.rows:
             for j, w in enumerate(W): row.cells[j].width = Cm(w)
