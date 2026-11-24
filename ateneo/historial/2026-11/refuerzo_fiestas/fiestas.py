@@ -48,7 +48,8 @@ cab = [f'ROTULAR COMO: "{rot}"', f'REFUERZO FIESTAS - UN SOLO PAEC',
        'Completar a 5 / 10 / 20 / 30 / 40 según la planilla. No van: Grand Splendid, Unicenter, Bahía Blanca Shopping, Ezeiza, '
        'Patio Bullrich, Patio Olmos, Paseo Alcorta, Palermo Portal, Ushuaia y Trelew.',
        f'Stock en locales y disponible: {etq}. {len(orden)} títulos | {rep.local.nunique()} locales | {int(rep.cant.sum())} unidades.',
-       ('Disponible: alcanza para todo.' if not corto else f'OJO: {len(corto)} títulos piden más que el disponible (marcados con *).'), '']
+       ('Disponible: alcanza para todo.' if not corto else f'OJO: {len(corto)} títulos piden más que el disponible (marcados con *); se cargan igual (Franco 24/11):'), '']
+cab[-1:-1] = [f'   * {t[:45]:<45} pide {a:>4}  disp {b:>4}' for _, t, a, b in sorted(corto, key=lambda x: x[3] - x[2])]
 L = list(cab)
 for k, i in enumerate(orden, 1):
     r = rep[rep.isbn == i].sort_values('local')
@@ -64,7 +65,7 @@ for zona in ('AMBA', 'INTERIOR'):
     for l in zl:
         sub = rep[rep.local == l].set_index('isbn'); sub = sub.loc[[i for i in orden if i in sub.index]]
         M += ['=' * 72, f'{l:<58}{int(sub.cant.sum()):>6} u', '=' * 72]
-        M += [f'   {int(x.cant):>4}  {i}  {T(i)[:40]:<40} (tiene {int(x.stock)} -> {int(x.objetivo)})' for i, x in sub.iterrows()] + ['']
+        M += [f'   {int(x.cant):>4}  {i}  {T(i)[:40]:<40} (tiene {int(x.stock)} -> {int(x.objetivo)})' + ('  *' if DISP(i) < dem[i] else '') for i, x in sub.iterrows()] + ['']
 M += ['=' * 72, f'TOTAL {int(rep.cant.sum())} u']
 (out / f'DESGLOSE_x_SUCURSAL_{tag}.txt').write_text('\n'.join(M) + '\n', encoding='utf-8-sig')
 u = rep.groupby('local').cant.sum()

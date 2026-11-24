@@ -704,6 +704,10 @@ Volver a creer 25), 11 líneas cambian (entró stock en Tucumán Portal, Aeropar
 camino (repo 27/10 lleva 20 u de estos títulos). Todo con disponible. PAEC único + TXT por título + TXT por sucursal. `historial/2026-10/religiosos_papa_28-10/` (`religiosos.py`).
 **PAEC 25-88514** (uno solo), cargado en la planilla de Yamina el 28/10: una fila por sucursal (61) con sus unidades.
 
+## Refuerzo fiestas (24/11/2026, un solo PAEC, rótulo "Refuerzos fiestas")
+
+Planilla `REfu_navidad.xlsx` (hoja "Para navidad"): marca por título en L (a 10), M (a 20), N (a 5) u O ("Completar a 30/40"); 189 títulos, ninguna fila oculta con marca. Van todas las librerías salvo Grand Splendid, Unicenter, Bahía Blanca Shopping, Ezeiza, Patio Bullrich, Patio Olmos, Paseo Alcorta, Palermo Portal, Ushuaia y Trelew (52 locales, con Juramento y Devoto). El mail decía "Refuerzos fiestas" y el Excel "Refuerzo navideño": Franco eligió **"Refuerzos fiestas"**. SII 24/11 07:02 (cuadra DEPOSITO 622.877 / DISPONIBLE 612.785): **186 títulos, 52 locales, 41.991 u** (AMBA 19.862, interior 22.129). 14 títulos piden más que el disponible (faltan 2.915 u; Supercuentos de gol y El arte de la guerra en 0): **se cargan igual, marcados con *** (Franco). `historial/2026-11/refuerzo_fiestas/` (`fiestas.py`).
+
 ## Progresiones de venta (planilla de Franco, 02/11/2026: octubre)
 
 Planilla `Progresiones_Cadena_*.xlsx`: hojas **Inf_Progresiones** (export "Inf Progresiones con fechas ing": libros,

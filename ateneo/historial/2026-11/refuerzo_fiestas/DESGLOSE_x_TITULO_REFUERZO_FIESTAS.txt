@@ -2,7 +2,21 @@
 REFUERZO FIESTAS - UN SOLO PAEC
 Completar a 5 / 10 / 20 / 30 / 40 según la planilla. No van: Grand Splendid, Unicenter, Bahía Blanca Shopping, Ezeiza, Patio Bullrich, Patio Olmos, Paseo Alcorta, Palermo Portal, Ushuaia y Trelew.
 Stock en locales y disponible: SII 24/11 07:02. 186 títulos | 52 locales | 41991 unidades.
-OJO: 14 títulos piden más que el disponible (marcados con *).
+OJO: 14 títulos piden más que el disponible (marcados con *); se cargan igual (Franco 24/11):
+   * LIBRO MAGICO DE LOS NIÑOS VALIENTES, EL       pide  803  disp   38
+   * AMANTES DE BUENOS AIRES                       pide  597  disp   94
+   * DE GASTADORA A INVERSORA                      pide  571  disp  151
+   * ENREDOS DEL CORAZON                           pide  484  disp  230
+   * MANTOS                                        pide  328  disp  112
+   * TAO TE CHING.  (ED. POCKET)                   pide  171  disp   15
+   * ADN DE EMPRENDEDORA                           pide  349  disp  194
+   * EGRESADOS                                     pide  527  disp  391
+   * ROZAS                                         pide  290  disp  166
+   * SUPERCUENTOS DE GOL                           pide   80  disp    0
+   * ARTE DE LA GUERRA, EL                         pide   64  disp    0
+   * CUENTOS DE AMOR PROPIO 2                      pide  450  disp  422
+   * MITOLOGIA GRIEGA Y ROMANA                     pide  439  disp  426
+   * PRINCIPE, EL                                  pide  888  disp  887
 
 ========================================================================
 1. MANTOS                                               328 u  *
