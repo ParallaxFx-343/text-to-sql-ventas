@@ -1,4 +1,4 @@
-"""Refuerzo fiestas (pedido del 24/11/2026). UN SOLO PAEC, rótulo en el TXT.
+"""Refuerzo fiestas (pedido del 24/11/2026; rehecho el 26/11 con la planilla corregida). DOS PAEC: AMBA e interior, rótulo en el TXT.
 Planilla REfu_navidad.xlsx: por título, una 'x' en L (completar a 10), M (a 20), N (a 5), o en O el texto 'Completar a 30/40'.
 Van todas las librerías salvo Grand Splendid, Unicenter, Bahía Blanca Shopping, Ezeiza, Patio Bullrich, Patio Olmos,
 Paseo Alcorta, Palermo Portal, Ushuaia y Trelew (seguimiento específico). Stock en locales y disponible: SII.
@@ -43,30 +43,36 @@ T = lambda i: str(by.loc[i, 'TITULO']); ID = lambda i: int(by.loc[i, 'ID ARTICUL
 OBJ = {i: o for i, _, o, _ in TIT}
 orden = [i for i, *_ in TIT if i in dem.index]
 corto = [(i, T(i), int(dem[i]), DISP(i)) for i in orden if DISP(i) < dem[i]]
-(out / f'PAEC_{tag}.csv').write_bytes(('\r\n'.join(f'{i};{int(dem[i])}' for i in orden) + '\r\n').encode())
-cab = [f'ROTULAR COMO: "{rot}"', f'REFUERZO FIESTAS - UN SOLO PAEC',
+ZONA = lambda l: 'AMBA' if l in AMBA else 'INTERIOR'
+rep['zona'] = rep.local.map(ZONA)
+cab = [f'ROTULAR COMO: "{rot}"', f'REFUERZO FIESTAS - DOS PAEC: AMBA E INTERIOR',
        'Completar a 5 / 10 / 20 / 30 / 40 según la planilla. No van: Grand Splendid, Unicenter, Bahía Blanca Shopping, Ezeiza, '
        'Patio Bullrich, Patio Olmos, Paseo Alcorta, Palermo Portal, Ushuaia y Trelew.',
-       f'Stock en locales y disponible: {etq}. {len(orden)} títulos | {rep.local.nunique()} locales | {int(rep.cant.sum())} unidades.',
-       ('Disponible: alcanza para todo.' if not corto else f'OJO: {len(corto)} títulos piden más que el disponible (marcados con *); se cargan igual (Franco 24/11):'), '']
+       f'Stock en locales y disponible: {etq}. {len(orden)} títulos | {rep.local.nunique()} locales | {int(rep.cant.sum())} unidades '
+       f'(AMBA {int(rep[rep.zona == "AMBA"].cant.sum())}, interior {int(rep[rep.zona == "INTERIOR"].cant.sum())}).',
+       ('Disponible: alcanza para todo.' if not corto else f'OJO: {len(corto)} títulos piden más que el disponible entre los dos PAEC (marcados con *); se cargan igual (Franco 24/11):'), '']
 cab[-1:-1] = [f'   * {t[:45]:<45} pide {a:>4}  disp {b:>4}' for _, t, a, b in sorted(corto, key=lambda x: x[3] - x[2])]
-L = list(cab)
-for k, i in enumerate(orden, 1):
-    r = rep[rep.isbn == i].sort_values('local')
-    L += ['=' * 72, f'{k}. {T(i)[:50]:<50}{int(dem[i]):>6} u' + ('  *' if DISP(i) < dem[i] else ''),
-          f'   ISBN {i}   ID {ID(i)}   a {OBJ[i]}   en {len(r)} locales   disp {DISP(i)}', '=' * 72]
-    L += [f'   {c:>4}  {l:<40} (tiene {st} -> {o})' for l, st, o, c in zip(r.local, r.stock, r.objetivo, r.cant)] + ['']
-L += ['=' * 72, f'TOTAL {int(rep.cant.sum())} u']
-(out / f'DESGLOSE_x_TITULO_{tag}.txt').write_text('\n'.join(L) + '\n', encoding='utf-8-sig')
-M = list(cab); M[1] += ' - POR SUCURSAL (primero AMBA, después interior)'
+M = list(cab); M[1] += ' - POR SUCURSAL'
 for zona in ('AMBA', 'INTERIOR'):
-    zl = sorted(l for l in rep.local.unique() if (l in AMBA) == (zona == 'AMBA'))
-    M += ['#' * 72, f'# {zona}: {len(zl)} locales, {int(rep[rep.local.isin(zl)].cant.sum())} u', '#' * 72, '']
+    rz = rep[rep.zona == zona]; dz = rz.groupby('isbn', sort=False).cant.sum(); oz = [i for i in orden if i in dz.index]
+    (out / f'PAEC_{tag}_{zona}.csv').write_bytes(('\r\n'.join(f'{i};{int(dz[i])}' for i in oz) + '\r\n').encode())
+    L = list(cab); L[1] += f' - PAEC {zona} - POR TÍTULO'
+    L.insert(4, f'ESTE PAEC ({zona}): {len(oz)} títulos | {rz.local.nunique()} locales | {int(rz.cant.sum())} unidades.')
+    for k, i in enumerate(oz, 1):
+        r = rz[rz.isbn == i].sort_values('local')
+        L += ['=' * 72, f'{k}. {T(i)[:50]:<50}{int(dz[i]):>6} u' + ('  *' if DISP(i) < dem[i] else ''),
+              f'   ISBN {i}   ID {ID(i)}   a {OBJ[i]}   en {len(r)} locales   disp {DISP(i)} (total 2 PAEC {int(dem[i])})', '=' * 72]
+        L += [f'   {c:>4}  {l:<40} (tiene {st} -> {o})' for l, st, o, c in zip(r.local, r.stock, r.objetivo, r.cant)] + ['']
+    L += ['=' * 72, f'TOTAL PAEC {zona} {int(rz.cant.sum())} u']
+    (out / f'DESGLOSE_x_TITULO_{tag}_{zona}.txt').write_text('\n'.join(L) + '\n', encoding='utf-8-sig')
+    zl = sorted(rz.local.unique())
+    M += ['#' * 72, f'# PAEC {zona}: {len(zl)} locales, {len(oz)} títulos, {int(rz.cant.sum())} u  (CSV PAEC_{tag}_{zona}.csv)', '#' * 72, '']
     for l in zl:
-        sub = rep[rep.local == l].set_index('isbn'); sub = sub.loc[[i for i in orden if i in sub.index]]
+        sub = rz[rz.local == l].set_index('isbn'); sub = sub.loc[[i for i in orden if i in sub.index]]
         M += ['=' * 72, f'{l:<58}{int(sub.cant.sum()):>6} u', '=' * 72]
         M += [f'   {int(x.cant):>4}  {i}  {T(i)[:40]:<40} (tiene {int(x.stock)} -> {int(x.objetivo)})' + ('  *' if DISP(i) < dem[i] else '') for i, x in sub.iterrows()] + ['']
-M += ['=' * 72, f'TOTAL {int(rep.cant.sum())} u']
+    M += ['=' * 72, f'TOTAL PAEC {zona} {int(rz.cant.sum())} u', '']
+M += ['=' * 72, f'TOTAL LOS DOS PAEC {int(rep.cant.sum())} u']
 (out / f'DESGLOSE_x_SUCURSAL_{tag}.txt').write_text('\n'.join(M) + '\n', encoding='utf-8-sig')
 u = rep.groupby('local').cant.sum()
 (out / f'UNIDADES_x_SUCURSAL_{tag}.txt').write_text('\n'.join(f'{l}\t{int(u[l])}' for l in pad if l in u.index) + '\n', encoding='utf-8-sig')
