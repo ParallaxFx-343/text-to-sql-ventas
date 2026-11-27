@@ -150,6 +150,8 @@ def main():
                     help='archivo que reemplaza al de la misma cuenta en la carpeta')
     ap.add_argument('--col-cant', action='append', default=[],
                     help='CUENTA=COLUMNA: la cantidad viene en otra columna (Roza 21257 dic 2026: VENTAS)')
+    ap.add_argument('--sumar-repetidos', action='store_true',
+                    help='ISBN repetido en un archivo: una línea con la suma (Franco, dic 2026)')
     args = ap.parse_args()
     colcant = {int(k): v.upper() for k, v in (x.split('=') for x in args.col_cant)}
 
@@ -206,6 +208,11 @@ def main():
             if l.isbn in sistema and a_int(l.id) != sistema[l.isbn][0]:
                 problemas.append(f"{l.archivo} fila {l.fila}: CODIGO {a_int(l.id)} pero el ISBN "
                                  f"{l.isbn} es el ID {sistema[l.isbn][0]} ({sistema[l.isbn][1]})")
+    if args.sumar_repetidos:
+        for (a, i), g in df[df.duplicated(['archivo', 'isbn'], keep=False)].groupby(['archivo', 'isbn']):
+            avisos.append(f"{a} filas {', '.join(str(f) for f in g.fila)}: ISBN {i} ({g.titulo.iloc[0]}) repetido {list(g.q.astype(int))}: queda UNA línea de {int(g.q.sum())} (suma)")
+        df['q'] = df.groupby(['archivo', 'isbn']).q.transform('sum')
+        df = df[~df.duplicated(['archivo', 'isbn'])].copy()
     # repetidos: si la cantidad es la misma va una sola línea (criterio Alfa nov 2026, avisado); si difiere, problema
     for (a, i), g in df[df.duplicated(['archivo', 'isbn'], keep=False)].groupby(['archivo', 'isbn']):
         filas = ', '.join(str(f) for f in g.fila)

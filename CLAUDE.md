@@ -356,6 +356,13 @@ su grilla de novedades, que no va.
   `ampliaciones.py` ahora busca el encabezado en las primeras 5 filas y acepta el typo. Alfa 21889 tenía Gimnasia
   mental: enigmas (9789500217897) dos veces x3 idénticas: quedó **una línea de 3** (avisado; si eran 6, cambiar).
   20 títulos piden más que el disponible (Amigos de la granja 22, Rozas 19, Banderas 17, Stickers…): van igual.
+- Martirena **diciembre 2026** (wetransfer 26/11, 47 ampliaciones): **46 clientes, 1.375 líneas, 4.396 u** (`historial/2026-11/ampliaciones_martirena_diciembre/`,
+  zip `AMPLIACIONES_MARTIRENA_DICIEMBRE_26.zip`; SII 26/11 + LP Argentina dic; sin maestro). Formatos nuevos que `ampliaciones.py` ahora lee:
+  Agencia Sur sobre la LP de noviembre (I.S.B.N./I.D./AMPLIACIÓN, ceros afuera), rankings "RKN OCT2026" con `Código / ISBN` + CANTIDAD (clientes
+  nuevos Homero Manzi 24155, La Cueva 24157, La Gruta 24153 —idénticos—, Majluf 22088, Pimpollo 23991), nombre con "INFORME" (Schapira).
+  **Franco (27/11): ISBN repetido en un archivo → se SUMA** (`--sumar-repetidos`; reemplaza el criterio "una línea" de Alfa nov);
+  **Roza 21257 va con la columna VENTAS** (`--col-cant 21257=VENTAS`, 150 u). **De Belaustegui 22182 afuera**: sábana + ranking top 100 sin
+  ninguna cantidad (Franco le pregunta a Martirena). En algunos rankings CODIGO trae el puesto (1-100), no el ID: la carga va por ISBN.
 
 Los clientes mandan un Excel por sucursal y tipo (`PEDIDO_21653_AJAMIL_SUC._CALAFATE.xlsx`,
 `REPO_…`), con el encabezado en la fila 3, 4 o 5 según el archivo.
