@@ -434,6 +434,16 @@ Hoja2 auxiliar vieja (maestro contra clientes) que no se procesa.
 - Revisados en octubre 2026: Sálice (celda vacía en Rayuela Salta; 24146 no
   está en el maestro del 21/09) y Rodríguez (sin problemas, 27 clientes).
 
+**Modelo vigente (Egisti, noviembre 2026; `historial/2026-11/egisti_diciembre/a_procesar.py`)**: el A PROCESAR es la grilla del
+vendedor con una hoja **`Hoja4` adelante** (activa): fila 1 `IdCliente, DirEnt, tipocomer, DirTrans, Trans Retira, Observacion , Lista Precio,
+(vacía)` + IDs desde la I (novedades y reimpresiones seguidas, sin columnas vacías); una fila por fila de cliente de la Hoja1 (sin RAZON
+SOCIAL), Observacion = la de la Hoja1 (sucursales de Unishop, La Plata…), DirTrans/Trans Retira los de la grilla (1 o 2), cantidades vacías
+= 0. Los IDs también van en la fila 5 de la Hoja1. **Lista de precios: noviembre 4922, diciembre 4962** (Franco 27/11).
+**Egisti diciembre (27/11)**: 60 filas, 14 IDs, **1.925 u**, lista 4962; clientes y DirEnt idénticos al A PROCESAR de noviembre (la Hoja2
+del archivo es un extracto incompleto del maestro: no sirve para validar DirEnt). Franco: **Mi planta de naranja lima escolar 220 u van**
+(no tiene cuota de vendedor), **Perritos (213 vs cuota 230) y Vini (246 vs 230) quedan como los cargó Egisti**. Ajamil 21653: 4 REPO por
+sucursal (28 u, sin PEDIDO, nada que unir), solo Hoja1.
+
 ### Servicio de Novedades — planilla de Cuotas
 
 Archivo aparte, un vendedor por fila:
