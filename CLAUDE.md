@@ -471,7 +471,7 @@ importados a medias. **Fucito diciembre (27/11)**: general 46 filas 1.920 u; Que
 287 u (la carga tiene 5 de Hagamos el desayuno en 5 sucursales donde la GRILLA dice 0: la cuota pendiente de Q13). En el general: **Gatti
 11368 DirEnt 3 = "NO USAR" Lavalle 1280 con 20/10 u** (ENTR válida: 4 Tucumán 1514); Malba 11111 DirEnt 2 y Nativa 11440 DirEnt 2 "NO USAR"
 pero en 0; grises de importados en Hagamos el desayuno (10 clientes): Patria Grande 10807 (Lola 5) y Las mil y una hojas 10809 (Lola 3)
-quedaron a medias. `historial/2026-11/fucito_diciembre/`.
+quedaron a medias. **Franco corrigió solo Gatti** (→ DirEnt 4); Malba/Nativa en 0 y los importados de 10807/10809 quedan como están. `historial/2026-11/fucito_diciembre/`.
 
 ### Servicio de Novedades — planilla de Cuotas
 
