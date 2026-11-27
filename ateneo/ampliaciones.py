@@ -41,7 +41,15 @@ from openpyxl import Workbook, load_workbook
 sys.path.insert(0, str(Path(__file__).parent))
 from isbn import resolver  # noqa: E402
 
-PATRON = re.compile(r'AMPLIA(?:CION|ICON)\s*-\s*(.+?)\s+(\d{4,6})\s+\d{2}-\d{2}-\d{4}', re.I)
+PATRON = re.compile(r'AMPLIA(?:CION|ICON)\s*-\s*(.+?)\s+(\d{4,6})\s+(?:[A-Z]+\s+)?\d{2}-\d{2}-\d{4}', re.I)
+# encabezados que llegan con otros nombres (dic 2026: LP con I.S.B.N./I.D./AMPLIACIÓN, ranking con 'Código / ISBN' y CANTIDAD)
+SINONIMO = {'I.S.B.N.': 'ISBN', 'CODIGO / ISBN': 'ISBN', 'I.D.': 'CODIGO', 'T I T U L O': 'TITULO', 'AMPLIAICON': 'AMPLIACION',
+            'CANTIDAD': 'AMPLIACION'}
+
+
+def col(c):
+    c = unicodedata.normalize('NFKD', str(c).strip().upper()).encode('ascii', 'ignore').decode()
+    return SINONIMO.get(c, c)
 _NS = {'table': 'urn:oasis:names:tc:opendocument:xmlns:table:1.0',
        'office': 'urn:oasis:names:tc:opendocument:xmlns:office:1.0',
        'text': 'urn:oasis:names:tc:opendocument:xmlns:text:1.0'}
@@ -91,25 +99,26 @@ def nombre_archivo(ruta):
     return base, m.group(1).strip(), int(m.group(2))
 
 
-def leer(ruta):
+def leer(ruta, col_cant=None):
     base, cliente, cuenta = nombre_archivo(ruta)
     if ruta.lower().endswith('.ods'):
         filas = leer_ods(ruta)
     else:
         filas = pd.read_excel(ruta, sheet_name=0, header=None, dtype=object).values.tolist()
     # el encabezado suele estar en la fila 1, pero a veces viene una fila vacía arriba
-    h = next((i for i, f in enumerate(filas[:5]) if 'AMPLIACION' in [str(c).strip().upper() for c in f]), None)
+    cc = col_cant or 'AMPLIACION'
+    h = next((i for i, f in enumerate(filas[:5]) if cc in [col(c) for c in f]), None)
     if h is None:
         cols = [str(c).strip().upper() for c in filas[0]]
         print(f'*** {base}: no tiene columna AMPLIACION (encabezado {cols}); NO se carga', file=sys.stderr)
         return []
-    cab = [str(c).strip().upper() for c in filas[h]]
+    cab = [col(c) for c in filas[h]]
     lineas = []
     for k, r in enumerate(filas[h + 1:], start=h + 2):
         d = dict(zip(cab, r))
         # CODIGO es el ID cuando hay columna ISBN; si no, CODIGO trae el ISBN
         isbn_raw = d.get('ISBN') if 'ISBN' in d else d.get('CODIGO')
-        cant = d.get('AMPLIACION')
+        cant = d.get(cc)
         if vacio(isbn_raw) and vacio(cant):
             continue  # filas de relleno (cuenta y cliente sin titulo)
         lineas.append({'archivo': base, 'cliente': cliente, 'cuenta': cuenta, 'fila': k,
@@ -139,7 +148,10 @@ def main():
     ap.add_argument('--excluir', action='append', default=[], type=int, help='cuenta a dejar afuera')
     ap.add_argument('--extra', action='append', default=[],
                     help='archivo que reemplaza al de la misma cuenta en la carpeta')
+    ap.add_argument('--col-cant', action='append', default=[],
+                    help='CUENTA=COLUMNA: la cantidad viene en otra columna (Roza 21257 dic 2026: VENTAS)')
     args = ap.parse_args()
+    colcant = {int(k): v.upper() for k, v in (x.split('=') for x in args.col_cant)}
 
     rutas = sorted(glob.glob(os.path.join(args.carpeta, 'AMPLIA*')))
     extra = {nombre_archivo(r)[2]: r for r in args.extra}
@@ -149,8 +161,13 @@ def main():
     for c, r in extra.items():
         avisos.append(f'cuenta {c}: se usa {Path(r).name} en lugar del de la carpeta')
 
-    df = pd.DataFrame([l for r in rutas for l in leer(r)])
+    for c, v in colcant.items():
+        avisos.append(f'cuenta {c}: la cantidad se toma de la columna {v}')
+    df = pd.DataFrame([l for r in rutas for l in leer(r, colcant.get(nombre_archivo(r)[2]))])
     df['q'] = df.cant.map(lambda v: pd.to_numeric(v, errors='coerce'))
+    for _, l in df[df.q == 0].iterrows():
+        avisos.append(f"{l.archivo} fila {l.fila}: cantidad 0 ({l.titulo}); no se carga")
+    df = df[df.q != 0].copy()
     for _, l in df[df.q.isna() | (df.q <= 0) | (df.q != df.q.round())].iterrows():
         problemas.append(f"{l.archivo} fila {l.fila}: cantidad {l.cant!r}")
 
@@ -189,8 +206,14 @@ def main():
             if l.isbn in sistema and a_int(l.id) != sistema[l.isbn][0]:
                 problemas.append(f"{l.archivo} fila {l.fila}: CODIGO {a_int(l.id)} pero el ISBN "
                                  f"{l.isbn} es el ID {sistema[l.isbn][0]} ({sistema[l.isbn][1]})")
-    for _, l in df[df.duplicated(['archivo', 'isbn'], keep=False)].iterrows():
-        problemas.append(f"{l.archivo} fila {l.fila}: ISBN {l.isbn} repetido en el archivo")
+    # repetidos: si la cantidad es la misma va una sola línea (criterio Alfa nov 2026, avisado); si difiere, problema
+    for (a, i), g in df[df.duplicated(['archivo', 'isbn'], keep=False)].groupby(['archivo', 'isbn']):
+        filas = ', '.join(str(f) for f in g.fila)
+        if g.q.nunique() == 1:
+            avisos.append(f"{a} filas {filas}: ISBN {i} ({g.titulo.iloc[0]}) repetido con {int(g.q.iloc[0])} u: queda UNA línea de {int(g.q.iloc[0])}")
+        else:
+            problemas.append(f"{a} filas {filas}: ISBN {i} repetido con cantidades distintas {list(g.q)}")
+    df = df[~(df.duplicated(['archivo', 'isbn']) & df.groupby(['archivo', 'isbn']).q.transform('nunique').eq(1))].copy()
     for _, l in df[df.cuenta_dentro.map(a_int).notna()
                    & (df.cuenta_dentro.map(a_int) != df.cuenta)].iterrows():
         avisos.append(f"{l.archivo} fila {l.fila}: la columna CUENTA dice {l.cuenta_dentro!r} "
