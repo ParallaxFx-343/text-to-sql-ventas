@@ -460,7 +460,9 @@ correctos por ISBN, lista 4962, ninguna celda vacía, todas las DirEnt `ENTR` ac
 La Hoja1 tiene 4942 en Lista Precio (no se procesa). `historial/2026-11/navarro_diciembre/`.
 **Martirena diciembre (27/11, armado por Franco, hoja `Hoja3`)**: 58 clientes, IDs y cantidades OK, sin vacíos, lista 4962. Problemas:
 **Homero Manzi 24155** (Barreto Fernando Horacio, alta 04/11) solo tiene dirección FACT (seq 1) en el maestro del 23/11, ninguna ENTR, y la
-Hoja3 dice DirEnt 2 / la Hoja1 1; **La Cueva 24157 no está en el maestro del 23/11** (DirEnt 4). Ningún cliente sin importados (Navarro
+Hoja3 dice DirEnt 2 / la Hoja1 1; **La Cueva 24157 no está en el maestro del 23/11** (DirEnt 4). Franco (27/11): Manzi está bien (chequeado por afuera); La Cueva es
+Hernán Alonso Ramos, que pasó a Martirena. En el maestro del 23/11 es la cuenta **11442** (Fucito), con DirEnt 4 = Calle 2 Nº 1010 Santa Teresita
+(ENTR; la 2 y la 3 dicen "NO USAR"): el 4 de la grilla sale de esa cuenta; con la 24157 nueva el número de dirección puede ser otro. Ningún cliente sin importados (Navarro
 tenía 6). Repartido por encima de la cuota (Cuaderno 152/120, Vini 150/120, Perritos 145/120, importados 150/110). `historial/2026-11/martirena_diciembre/`.
 
 ### Servicio de Novedades — planilla de Cuotas
