@@ -458,6 +458,10 @@ sucursal (28 u, sin PEDIDO, nada que unir), solo Hoja1.
 **Navarro diciembre (27/11, armado por Franco, hoja de carga `Hoja3`)**: revisado contra la Hoja1 y el maestro del 23/11: 45 clientes, 14 IDs
 correctos por ISBN, lista 4962, ninguna celda vacía, todas las DirEnt `ENTR` activas de Navarro. 6 clientes sin importados (0 en los 4).
 La Hoja1 tiene 4942 en Lista Precio (no se procesa). `historial/2026-11/navarro_diciembre/`.
+**Martirena diciembre (27/11, armado por Franco, hoja `Hoja3`)**: 58 clientes, IDs y cantidades OK, sin vacíos, lista 4962. Problemas:
+**Homero Manzi 24155** (Barreto Fernando Horacio, alta 04/11) solo tiene dirección FACT (seq 1) en el maestro del 23/11, ninguna ENTR, y la
+Hoja3 dice DirEnt 2 / la Hoja1 1; **La Cueva 24157 no está en el maestro del 23/11** (DirEnt 4). Ningún cliente sin importados (Navarro
+tenía 6). Repartido por encima de la cuota (Cuaderno 152/120, Vini 150/120, Perritos 145/120, importados 150/110). `historial/2026-11/martirena_diciembre/`.
 
 ### Servicio de Novedades — planilla de Cuotas
 
