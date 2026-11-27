@@ -72,7 +72,9 @@ if f_agr != '-':
 
     # cuadre por dos caminos: detalle vs agrupadas, local x articulo
     a = sor.groupby(['Código Sucursal', 'ID ARTICULO']).Cantidad.sum()
-    d = det.groupby(['nro', 'Articulo']).Cantidad.sum()
+    # CUADRE_DESDE=aaaa-mm-dd: Agrupadas cubre solo desde esa fecha (27/11: Detalle nuevo desde el 01/11, octubre sale de la planilla anterior)
+    _cd = __import__('os').environ.get('CUADRE_DESDE')
+    d = (det[det.Fecha >= pd.Timestamp(_cd)] if _cd else det).groupby(['nro', 'Articulo']).Cantidad.sum()
     a.index.names = d.index.names = ['s', 'a']
     cuadre = pd.concat([a, d], axis=1).fillna(0)
     dif_c = cuadre[cuadre.iloc[:, 0] != cuadre.iloc[:, 1]]
@@ -289,6 +291,7 @@ tb.merge_cells('A2:P2')
 tb['A2'] = (f'Solo locales físicos · del {dias[0]:%d/%m} al {ult:%d/%m/%Y} · '
             + (f'el {ult:%d/%m} es parcial (el reporte se sacó ese mismo día) · ' if parcial is not None else f'datos completos hasta el {ult:%d/%m} · ')
             + (('fuente: Detalle Venta Artículo, cuadrado contra Ventas Proveedor Agrupadas'
+               + (f' desde el {pd.Timestamp(_cd):%d/%m}' if _cd else '')
                + (f' (Agrupadas trae {extra_agr} u más: se sacó después, son ventas del {(ult if parcial is not None else pd.Timestamp(_exp).date()):%d/%m})' if extra_agr else ''))
               if agr is not None else 'fuente: Detalle Venta Artículo (sin Ventas Agrupadas para cuadrar)'))
 tb['A2'].font = Font(size=10, color=TINTA2)
