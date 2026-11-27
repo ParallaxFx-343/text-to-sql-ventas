@@ -438,7 +438,9 @@ Hoja2 auxiliar vieja (maestro contra clientes) que no se procesa.
 vendedor con una hoja **`Hoja4` adelante** (activa): fila 1 `IdCliente, DirEnt, tipocomer, DirTrans, Trans Retira, Observacion , Lista Precio,
 (vacía)` + IDs desde la I (novedades y reimpresiones seguidas, sin columnas vacías); una fila por fila de cliente de la Hoja1 (sin RAZON
 SOCIAL), Observacion = la de la Hoja1 (sucursales de Unishop, La Plata…), DirTrans/Trans Retira los de la grilla (1 o 2), cantidades vacías
-= 0. Los IDs también van en la fila 5 de la Hoja1. **Lista de precios: noviembre 4922, diciembre 4962** (Franco 27/11).
+= 0. Los IDs también van en la fila 5 de la Hoja1. **Respetar el diseño de la Hoja4 del modelo** (Franco 27/11: colores, negrita, bordes): `a_procesar.py … MODELO.xlsx` copia el formato
+celda por celda (bloque A-H azul, novedades verde, reimpresiones naranja, bordes de cierre en la última columna/fila); los grises de "no
+reciben importados" quedan donde están en la Hoja1 de la grilla. **Lista de precios: noviembre 4922, diciembre 4962** (Franco 27/11).
 **Egisti diciembre (27/11)**: 60 filas, 14 IDs, **1.925 u**, lista 4962; clientes y DirEnt idénticos al A PROCESAR de noviembre (la Hoja2
 del archivo es un extracto incompleto del maestro: no sirve para validar DirEnt). Franco: **Mi planta de naranja lima escolar 220 u van**
 (no tiene cuota de vendedor), **Perritos (213 vs cuota 230) y Vini (246 vs 230) quedan como los cargó Egisti**. Ajamil 21653: 4 REPO por
