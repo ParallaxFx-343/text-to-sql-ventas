@@ -564,6 +564,14 @@ cuerpo humano, Testimonios). Cantidades, descuentos y el resto de los precios (i
 a ser hermana a $30.900) coinciden. Cúspide además pide "Crédito adicional 5%" ($3.310.400 = 5% del total); la NC 2840
 BAPRO fue de $442.622,70 (otro concepto).
 
+**Diciembre 2026 (27/11)**: `historial/2026-11/cuspide_diciembre/cuspide_a_procesar.py GRILLA MODELO LISTA SALIDA` arma la Hoja1 (adelante,
+activa) desde la grilla de Cúspide con el A PROCESAR del mes anterior como modelo: DirTrans/Trans Retira de cada local salen del modelo,
+**Castelar no trae número en la fila 2 → DirEnt 163 propio** (no se redirige; así fue en noviembre), Luján 39 / Gral. Rodríguez 140 /
+Berazategui 144 → 149 y pedido texto; vacíos y ' ' → 0; formato copiado atributo por atributo (amarillo en las 3 redirigidas). Probado:
+regenerar noviembre desde su grilla da la Hoja1 real idéntica (valores y formato). Resultado: **53 locales (sin Pacheco 156), 106 IDs,
+2.830 u, lista 4962**; todas las DirEnt `ENTR` en el maestro del 23/11. La grilla traía **IDs repetidos: Animales salvajes 751243 (filas
+27 y 80, 4 locales con cantidad en las dos) y Mitología 647011 (58 y 71, Depósito)** → una columna con la suma (si no, ORA-00001).
+
 ### Maestro de clientes (`{fecha}_Maestro_clientes.xls`, viene zipeado)
 Hoja "Informe Stock x ISBN", una fila por **dirección** (9.931 filas, 4.831
 clientes al 21/09/2026): IDCLIENTE, NOMBRE, **NROSECUENCIA**, **TIPO
