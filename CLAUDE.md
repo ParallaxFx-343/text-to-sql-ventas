@@ -465,6 +465,14 @@ Hernán Alonso Ramos, que pasó a Martirena. En el maestro del 23/11 es la cuent
 (ENTR; la 2 y la 3 dicen "NO USAR"): el 4 de la grilla sale de esa cuenta; con la 24157 nueva el número de dirección puede ser otro. **Franco: era la 2** → DirEnt 2 en Hoja3 y Hoja1. Ningún cliente sin importados (Navarro
 tenía 6). Repartido por encima de la cuota (Cuaderno 152/120, Vini 150/120, Perritos 145/120, importados 150/110). `historial/2026-11/martirena_diciembre/`.
 
+**Validador genérico** `ateneo/valida_a_procesar.py ARCHIVO LP_ARG SII MAESTRO LISTA [IMPORTADOS]` (hoja de carga = la primera, grilla = la
+que tiene NOVEDADES en J1): IDs por ISBN, carga vs grilla celda por celda, vacíos/texto, lista, DirEnt `ENTR` y que no diga "NO USAR",
+importados a medias. **Fucito diciembre (27/11)**: general 46 filas 1.920 u; Queleer 13 filas 519 u (= cuotas, sin problemas); Santa Fe 6 filas
+287 u (la carga tiene 5 de Hagamos el desayuno en 5 sucursales donde la GRILLA dice 0: la cuota pendiente de Q13). En el general: **Gatti
+11368 DirEnt 3 = "NO USAR" Lavalle 1280 con 20/10 u** (ENTR válida: 4 Tucumán 1514); Malba 11111 DirEnt 2 y Nativa 11440 DirEnt 2 "NO USAR"
+pero en 0; grises de importados en Hagamos el desayuno (10 clientes): Patria Grande 10807 (Lola 5) y Las mil y una hojas 10809 (Lola 3)
+quedaron a medias. `historial/2026-11/fucito_diciembre/`.
+
 ### Servicio de Novedades — planilla de Cuotas
 
 Archivo aparte, un vendedor por fila:
