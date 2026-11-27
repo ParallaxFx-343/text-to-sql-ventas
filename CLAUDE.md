@@ -440,7 +440,9 @@ vendedor con una hoja **`Hoja4` adelante** (activa): fila 1 `IdCliente, DirEnt, 
 SOCIAL), Observacion = la de la Hoja1 (sucursales de Unishop, La Plata…), DirTrans/Trans Retira los de la grilla (1 o 2), cantidades vacías
 = 0. Los IDs también van en la fila 5 de la Hoja1. **Respetar el diseño de la Hoja4 del modelo** (Franco 27/11: colores, negrita, bordes): `a_procesar.py … MODELO.xlsx` copia el formato
 celda por celda (bloque A-H azul, novedades verde, reimpresiones naranja, bordes de cierre en la última columna/fila); los grises de "no
-reciben importados" quedan donde están en la Hoja1 de la grilla. **Lista de precios: noviembre 4922, diciembre 4962** (Franco 27/11).
+reciben importados" quedan donde están en la Hoja1 de la grilla. **Importados de diciembre: Lola entre amapolas, Mateo en el paseo,
+Hagamos un pastel y Hagamos el desayuno** (754503/04/02/01): el cliente con gris en uno va en 0 y en gris en los 4, en Hoja1 y Hoja4 (9 clientes,
+−89 u → **1.836 u**; argumento IMPORTADOS de `a_procesar.py`). **Lista de precios: noviembre 4922, diciembre 4962** (Franco 27/11).
 **Egisti diciembre (27/11)**: 60 filas, 14 IDs, **1.925 u**, lista 4962; clientes y DirEnt idénticos al A PROCESAR de noviembre (la Hoja2
 del archivo es un extracto incompleto del maestro: no sirve para validar DirEnt). Franco: **Mi planta de naranja lima escolar 220 u van**
 (no tiene cuota de vendedor), **Perritos (213 vs cuota 230) y Vini (246 vs 230) quedan como los cargó Egisti**. Ajamil 21653: 4 REPO por
